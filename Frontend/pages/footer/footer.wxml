@@ -1,0 +1,22 @@
+<view class="footer">
+  <view id = "fengti" class="fengti" bindtap="select">
+    <image  class="fengti-image" src="{{fengti}}"></image>
+    <text class="footer-text fengti-text">蜂体</text>
+  </view>
+  <view id = "activity" class="activity" bindtap="select">
+    <image  class="activity-image" src="{{activity}}"></image>
+    <text class="footer-text activity-text">活动</text>
+  </view>
+  <view id = "plus"class="plus">
+    <view class="circle"></view>
+    <view class="plus-label">+</view>
+  </view>
+  <view id = "garden" class="garden" bindtap="select">
+    <image class="garden-image" src="{{garden}}"></image>
+    <text class="footer-text garden-text">后花园</text>
+  </view>
+  <view id = "mine" class="mine" bindtap="select">
+    <image class="mine-image" src="{{mine}}"></image>
+    <text class="footer-text mine-text">我的</text>
+  </view>
+</view>

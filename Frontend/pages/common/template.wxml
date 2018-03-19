@@ -1,0 +1,18 @@
+
+<template name="registration_member">
+  <view class="cls_reg_member_info" >
+     
+      <image class="cls_reg_member_photo" src="{{param.user_photo_src}}" mode="aspectFill"> </image>
+      <text class="cls_reg_member_name">{{param.reg_member_name}}</text>
+      <text class="cls_reg_member_phone_number">{{param.reg_member_phone_number}}</text>
+      <text class="cls_join_play_member">{{param.join_play_member}}</text>
+      
+      <view  wx:if="{{reg_pay_method == 1}}">
+        <text class="cls_reg_pay_method" style='color:#E6B53C'>{{paramitem.reg_pay_method_online}}</text>
+      </view>
+      <view wx:else>
+        <text class="cls_reg_pay_method" style='color:#E65A3C'>{{param.reg_pay_method_offline}}</text>
+      </view>
+  </view>
+  <view class="cls_empty_line"/>
+</template>

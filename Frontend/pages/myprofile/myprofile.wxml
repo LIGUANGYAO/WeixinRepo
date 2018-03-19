@@ -1,0 +1,46 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+      <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}"></image>
+      <view class="userinfo-nickname"><label>我的</label>
+      <image class="vip-symbol" src="../../image/VIP@2x.png"></image>
+      </view>
+  </view>
+  <view id = "about-my-bee" class="list" bindtap='whichpress'>
+    <view class="list-item" url="../booking/booking">
+      <image class="setting-icon1" src="../../image/my_bee@2x.png"></image>
+      <label class="list-item-label">我的蜂约</label>
+      <view class="symbol">></view>
+    </view>
+    <view id="my-event" class="list-item" bindtap='whichpress'>
+      <image class="setting-icon2" src="../../image/my_flag@2x.png"></image>
+      <label class="list-item-label">我的活动</label>
+      <view class="symbol">></view>
+    </view>
+    <view id="my-purse" class="list-item" bindtap='whichpress'>
+      <image class="setting-icon3" src="../../image/my_wallet@2x.png"></image>
+      <label class="list-item-label">我的钱包</label>
+      <view class="symbol">></view>
+    </view>
+    <view id="my-membership" class="list-item" bindtap='whichpress'>
+      <image class="setting-icon4" src="../../image/my_vip@2x.png"></image>
+      <label class="list-item-label">我的会员</label>
+      <view class="symbol">></view>
+    </view>
+    <view id="my-focus" class="list-item" bindtap='whichpress'>
+      <image class="setting-icon5" src="../../image/my_attention@2x.png"></image>
+      <label class="list-item-label">我的关注</label>
+      <view class="symbol">></view>
+    </view>
+    <view id = "auth" class="list-item" bindtap='whichpress'>
+      <image class="setting-icon6" src="../../image/my_document@2x.png"></image>
+      <label class="list-item-label">身份认证</label>
+      <view class="symbol">></view>
+    </view>
+    <view id = "delivery-address" class="list-item" bindtap='whichpress'>
+      <image class="setting-icon7" src="../../image/my_address@2x.png"></image>
+      <label class="list-item-label">收货地址管理</label>
+      <view class="symbol">></view>
+    </view>
+  </view>
+</view>

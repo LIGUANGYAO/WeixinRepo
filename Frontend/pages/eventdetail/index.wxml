@@ -1,0 +1,45 @@
+<!-- User Activity Detail Viewer -->
+<view class="container">
+  <view class="personal-img-wrapper">
+    <image class="personal-event-img" src="../../image/temp.jpg" />
+  </view>
+  <view class="event-info">
+    <view class="event-type-info">
+      <text class="event-type">足球比赛</text>
+      <text class="event-status">已取消</text>
+    </view>
+    <view class='detail-info'>
+      <image src='../../image/my_bee_category@2x.png'></image>
+      <text>足球asdfasdfasdf</text>
+      <image src='../../image/my_bee_number@2x.png'></image>
+      <text>asdfasdf</text>
+      <image src='../../image/my_bee_m@2x.png'></image>
+      <text>足球</text>
+      <image src='../../image/good_s@2x.png'></image>
+    </view>
+    <view style='width:100%; height:42rpx'>
+      <text style='float:right; margin-right:49rpx;font-size: 22rpx;color: #472E00;'>200</text>
+    </view>
+    <view class="temp-fonts">asdfasdf</view>
+    <view class="temp-fonts">asdfasdf</view>
+  </view>
+  <view class='place-info'>
+    <view class='place-info-view'>
+      <text class='place-info-text'>场馆名称：北京大学体育馆</text>
+    </view>
+    <view class='place-info-view'>
+      <text class='place-info-text'>馆主姓名：郭德纲</text>
+    </view>
+    <view class='place-info-view'>
+      <text class='place-info-text'>人数上限：不超过15人</text>
+    </view>
+  </view>
+  <view class='introduce'>
+    <view class='introduce-view'>
+      <text class='introduce-border'>活动简介</text>
+    </view>
+    <view style='width: 100%;'>
+      <view class='introduce-detail'> zvzxcvzxcvzxvzxcvzxcvasdfasdfasdfsadfzxcvasdf</view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,98 @@
+.footer{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 98rpx;
+  background-color: white;
+  border-top-style: solid;
+  border-top-width: 2rpx;
+  border-top-color: gainsboro; 
+}
+
+.footer-text{
+  position: absolute;
+  bottom: 7rpx;
+  font-size: 22rpx;
+  font-family: PingFangSC-Regular;
+}
+
+.fengti-text{
+  left:53rpx;
+}
+
+.activity-text{
+  left: 203rpx;
+}
+
+.garden-text{
+  right:193rpx;
+}
+
+.mine-text{
+  right: 53rpx;
+}
+
+.activity-image{
+  position: absolute;
+  left: 204rpx;
+  top: 14rpx;
+  width: 42rpx;
+  height: 42rpx;
+}
+
+.fengti-image{
+  position: absolute;
+  left: 53rpx;
+  top: 13rpx;
+  width: 44rpx;
+  height: 44rpx;
+}
+
+.garden-image{
+  position: absolute;
+  right: 207rpx;
+  top: 14rpx;
+  width: 36rpx;
+  height: 42.6rpx;
+}
+
+.mine-image{
+  position: absolute;
+  right: 56rpx;
+  top: 14rpx;
+  width: 38rpx;
+  height: 43rpx;
+}
+
+.plus{
+  position: absolute;
+  left: 309rpx;
+  bottom: 35rpx;
+  width: 132rpx;
+  height: 132rpx;
+  border-radius: 50%;
+  background-color: white;
+  border-top-style: solid;
+  border-top-width: 3rpx;
+  border-top-color: gainsboro;
+}
+
+.circle{
+  position:absolute;
+  left: 16.2rpx;
+  top: 16.2rpx;
+  width: 98.2rpx;
+  height: 98.2rpx;
+  border-radius: 50%;
+  background-image: linear-gradient(-201deg, #F4DA6D 0%, #E8BB44 100%);
+}
+
+.plus-label{
+  position:absolute;
+  left: 32rpx;
+  width: 48.6rpx;
+  height: 48.6rpx;
+  color: white;
+  font-size: 91rpx;
+}

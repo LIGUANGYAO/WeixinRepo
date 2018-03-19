@@ -1,0 +1,40 @@
+<!--pages/booking/booking.wxml-->
+<view class="container">
+  <view class="tab">
+    <view class="tab-bar">
+      <view id = "btn1" class="tab-item tab-item1 {{active1}}" bindtap='selectTab'><label class="tab-label">进行中</label></view>
+      <view id = "btn2" class="tab-item tab-item2 {{active2}}" bindtap='selectTab'><label class="tab-label">已完成</label></view>
+      <view id = "btn3" class="tab-item tab-item3 {{active3}}" bindtap='selectTab'><label class="tab-label">已取消</label></view>
+    </view>
+  </view>
+  <scroll-view class="activities">
+    <view class="activity">
+      <view class="activity-bar">
+        <label class="activity-no">订单编号：215155121545</label>
+        <label class="activity-status">进行中</label>
+      </view>
+      <view class="activity-detail">
+        <image class="activity-picture" src=""></image>
+        <view class="activity-name">
+          足球比赛
+          <view class="activity-role">
+            <label class="activity-role-text">个人</label>
+          </view>
+        </view>
+        <view class="activity-content">
+          <image class="activity-type" src="../../image/my_bee_category@2x.png"></image>
+          <label class="activity-type-label">足球</label>
+          <image class="activity-limit" src="../../image/my_bee_number@2x.png"></image>
+          <label class="activity-limit-label">20人</label>
+          <image class="activity-cost" src="../../image/my_bee_m@2x.png"></image>
+          <label class="activity-cost-label">20元/人</label>
+        </view>
+        <label class="activity-time">时间 | 2018-03-02 13：10</label>
+        <label class="activity-address">地址 | 北京大学体育馆23号足球长</label>
+      </view>
+      <view class="activity-button">
+        <label class="activity-button-label" id="1" bindtap="cancel">取消蜂约</label>
+      </view>
+    </view>
+  </scroll-view>
+</view>
