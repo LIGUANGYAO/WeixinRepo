@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<import src="../common/template.wxml"/>
+
+<view>
+  <view class="cls_title">
+    <text class="cls_all_reg_members">报名成员（{{param.all_reg_members}}人)</text>
+  </view>
+  <template is="registration_member" data="{{param}}"/>
+</view>

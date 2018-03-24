@@ -1,0 +1,18 @@
+<!--index.wxml-->
+
+<view>
+  <view class="cls_my_wallet_title">
+    <text class="cls_my_wallet_title_txt">账户余额</text>
+    <text class="cls_my_account_balance">¥{{account_balance}}</text>
+  </view>
+
+  <view class="cls_my_withdrawal">
+    <text class="cls_my_withdrawal_text">提现</text>
+    <image class="cls_my_withdrawal_next_img" src="{{image_withdrawal_next_src}}" mode="aspectFill"> </image>
+  </view>
+
+  <view class="cls_my_transaction_details">
+    <text class="cls_my_transaction_details_text">交易明细</text>
+    <image class="cls_my_withdrawal_next_img" src="{{image_withdrawal_next_src}}" mode="aspectFill"> </image>
+  </view>
+</view>

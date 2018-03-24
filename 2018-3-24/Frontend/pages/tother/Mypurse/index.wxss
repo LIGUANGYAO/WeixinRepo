@@ -1,0 +1,85 @@
+/**index.wxss**/
+
+.cls_my_wallet_title{
+  position:absolute; 
+  left: 0rpx; 
+  top: 0rpx; 
+  width: 100%; 
+  height: 251rpx;
+  background-color:#E6B53C;
+}
+
+.cls_my_wallet_title_txt{
+  position:absolute; 
+  left: 0rpx; 
+  top: 69rpx; 
+  width: 100%; 
+  height: auto;
+  text-align: center;
+  font-size: 30rpx;
+  color:#FFFFFF;
+}
+
+.cls_my_account_balance{
+ position:absolute; 
+  left: 0; 
+  top: 123rpx; 
+  width: 100%; 
+  height: auto;
+  font-size: 60rpx;
+  text-align: center;
+  font-family:  PingFangSC-Semibold;
+  color:#FFFFFF;
+ }
+
+.cls_my_withdrawal {
+  position:absolute;
+  left:0rpx;
+  top: 251rpx;
+  width:100%;
+  height:90rpx;
+  border-bottom-style: solid;
+  border-bottom-width: 1rpx;
+  border-bottom-color: #D8D8D8;
+}
+
+.cls_my_withdrawal_text {
+  position:absolute;
+  left:0rpx;
+  top: 24rpx;
+  width:auto;
+  height: auto;
+  text-indent: 32rpx;
+  font-family:  PingFangSC-Regular;
+  font-size: 30rpx;
+}
+
+.cls_my_transaction_details {
+  position:absolute;
+  left:0rpx;
+  top: 340rpx;
+  width:100%;
+  height:90rpx;
+  border-bottom-style: solid;
+  border-bottom-width: 1rpx;
+  border-bottom-color: #D8D8D8;
+}
+
+.cls_my_transaction_details_text {
+  position:absolute;
+  left:0rpx;
+  top: 24rpx;
+  width:auto;
+  height: auto;
+  text-indent: 32rpx;
+  font-family:  PingFangSC-Regular;
+  font-size: 30rpx;
+}
+
+.cls_my_withdrawal_next_img{
+  position:absolute;
+  right:30rpx; 
+  top:31rpx; 
+  width: 17rpx; 
+  height: 28rpx;
+}

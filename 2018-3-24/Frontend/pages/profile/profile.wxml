@@ -1,0 +1,74 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatar}}"></image>
+    <view class="userinfo-nickname">
+      <label>{{userInfo.nickname}}</label>
+      <image wx:if="{{userInfo.isVIP}}" class="vip-symbol" src="../../image/VIP@2x.png"></image>
+    </view>
+  </view>
+  <view class="list">
+    <view id="about_my_bee" class="list-item" bindtap='whichpress'>
+      <image class="setting-icon1" src="../../image/my_bee@2x.png"></image>
+      <label class="list-item-label">我的蜂约</label>
+      <image class="symbol" src='../../image/next@2x.png'></image>
+    </view>
+    <view id="my_event" class="list-item" bindtap='whichpress'>
+      <image class="setting-icon2" src="../../image/my_flag@2x.png"></image>
+      <label class="list-item-label">我的活动</label>
+      <image class="symbol" src='../../image/next@2x.png'></image>
+    </view>
+    <view id="my_purse" class="list-item" bindtap='whichpress'>
+      <image class="setting-icon3" src="../../image/my_wallet@2x.png"></image>
+      <label class="list-item-label">我的钱包</label>
+      <image class="symbol" src='../../image/next@2x.png'></image>
+    </view>
+    <view id="my_membership" class="list-item" bindtap='whichpress'>
+      <image class="setting-icon4" src="../../image/my_vip@2x.png"></image>
+      <label class="list-item-label">我的会员</label>
+      <image class="symbol" src='../../image/next@2x.png'></image>
+    </view>
+    <view id="my_focus" class="list-item" bindtap='whichpress'>
+      <image class="setting-icon5" src="../../image/my_attention@2x.png"></image>
+      <label class="list-item-label">我的关注</label>
+      <image class="symbol" src='../../image/next@2x.png'></image>
+    </view>
+    <view id="auth_me" class="list-item" bindtap='whichpress'>
+      <image class="setting-icon6" src="../../image/my_Document@2x.png"></image>
+      <label class="list-item-label">身份认证</label>
+      <image class="symbol" src='../../image/next@2x.png'></image>
+    </view>
+    <view id="delivery_address" class="list-item" bindtap='whichpress'>
+      <image class="setting-icon7" src="../../image/my_address@2x.png"></image>
+      <label class="list-item-label">收货地址管理</label>
+      <image class="symbol" src='../../image/next@2x.png'></image>
+    </view>
+    <view wx:if="{{userInfo.userStatus == 2}}"id="about_stadium" class="list-item" bindtap='whichpress'>
+      <image class="setting-icon7" src="../../image/star_s@2x.png"></image>
+      <label class="list-item-label">场馆资料</label>
+      <image class="symbol" src='../../image/next@2x.png'></image>
+    </view>
+  </view>
+  <view class="footer">
+    <view id="index" class="footer-fengti" bindtap="select">
+      <image class="footer-fengti-image" src="{{fengti[selected[0]]}}"></image>
+      <text class="footer-text footer-fengti-text">蜂体</text>
+    </view>
+    <view id="activity" class="footer-activity" bindtap="select">
+      <image class="footer-activity-image" src="{{activity[selected[1]]}}"></image>
+      <text class="footer-text footer-activity-text">活动</text>
+    </view>
+    <view id="plus" class="footer-plus">
+      <view class="footer-circle"></view>
+      <view class="footer-plus-label">+</view>
+    </view>
+    <view id="backyard" class="footer-garden" bindtap="select">
+      <image class="footer-garden-image" src="{{garden[selected[2]]}}"></image>
+      <text class="footer-text footer-garden-text">后花园</text>
+    </view>
+    <view id="profile" class="footer-mine" bindtap="select">
+      <image class="footer-mine-image" src="{{mine[selected[3]]}}"></image>
+      <text class="footer-text footer-mine-text">我的</text>
+    </view>
+  </view>
+</view>

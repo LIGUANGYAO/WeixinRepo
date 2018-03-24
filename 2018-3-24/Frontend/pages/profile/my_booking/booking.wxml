@@ -1,0 +1,28 @@
+<!--pages/booking/booking.wxml-->
+<import src="../template/booking_template.wxml" />
+
+<view class="container">
+
+  <view class="tab">
+    <view class="tab-bar">
+      <view id="btn1" class="tab-item tab-item1 {{active1}}" bindtap='selectTab'>
+        <label class="tab-label">进行中</label>
+      </view>
+      <view id="btn2" class="tab-item tab-item2 {{active2}}" bindtap='selectTab'>
+        <label class="tab-label">已完成</label>
+      </view>
+      <view id="btn3" class="tab-item tab-item3 {{active3}}" bindtap='selectTab'>
+        <label class="tab-label">已取消</label>
+      </view>
+    </view>
+  </view>
+  <scroll-view class="activities">
+    <view wx:for="{{array}}">
+      <template is="act-template" data="{{item}}" />
+      <view wx:if="{{(selectedtab != 'canceled')&(item.iscomment != 1)}}" class="btn-view">
+        <button wx:if="{{selectedtab == 'booked'}}" id="{{item.phonenumber}}" class="activity-button" bindtap='btn_remove_booking'> 取消蜂约 </button>
+          <button wx:if="{{(selectedtab == 'finished')}}" id="{{item.phonenumber}}" class="activity-button" bindtap='btn_write_comment'> 评价 </button>
+      </view>
+    </view>
+  </scroll-view>
+</view>

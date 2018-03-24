@@ -1,0 +1,9 @@
+<view class="reg_cls_user_comment_info" bindtap="btn_Clicked_Focus">
+  <image class="reg_cls_user_photo" src="../../../image/Home_s@2x.png" mode="aspectFill"> </image>
+  <view>
+    <text class="reg_cls_user_name">郭德纲刚</text>
+  </view>
+  <text class="reg_member_place">线上支付</text>
+  <text class="reg_cls_comment_number">13456767847</text>
+  <button class="reg_cls_clear_btn">取消关注</button>
+</view>

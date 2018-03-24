@@ -1,0 +1,293 @@
+/* pages/booking/booking.wxss */
+.activity{
+  position: absolute;
+  width: 100%;
+  background-color: #F4F4F4;
+  color: #333333; 
+}
+
+.activity-bar{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 88rpx;
+  background-color: white;
+}
+
+.activity-no{
+  position: absolute;
+  left: 30rpx;
+  top: 23rpx;
+  font-size: 30rpx;
+  color: #333333;
+}
+
+.activity-status{
+  position:absolute;
+  right:30rpx;
+  top: 23rpx;
+  font-size: 30rpx;
+  font-family: "PingFangSC-Semibold";
+}
+
+.activity-detail{
+  position:absolute;
+  left: 0rpx;
+  top: 108rpx;
+  width:100%;
+  height: 141rpx;
+  background-color: white;
+}
+
+.activity-picture{
+  position:absolute;
+  left: 30rpx;
+  top: 21rpx;
+  width:100rpx;
+  height: 100rpx;
+}
+
+.activity-name{
+  position: absolute;
+  left:150rpx;
+  top: 21rpx;
+}
+
+.activity-name-label{
+  position: absolute;
+  left: 0rpx;
+  top: 0rpx;
+  font-size: 32rpx;
+  font-family: "PingFangSC-Semibold";
+}
+
+.activity-role{
+  position: absolute;
+  left: 210rpx;
+  top: 6rpx;
+  width: 76rpx;
+  height: 43rpx;
+  border-radius: 10rpx;
+  border-color:  #E6B53C;
+  border-style: solid;
+  border-width: 3rpx;
+  text-align: center;
+}
+
+.activity-role-text{
+  position: absolute;
+  left: 13rpx;
+  top: 5rpx;
+  font-size: 24rpx;
+  font-family: "PingFangSC-Regular";
+  color: #E6B53C;
+}
+
+.activity-content{
+  position: absolute;
+  left: 150rpx;
+  top: 88rpx;
+  height: 32rpx;
+}
+.activity-type{
+  position:absolute;
+  left:0rpx;
+  top:0rpx;
+  width: 32rpx;
+  height: 32rpx;
+}
+
+.activity-type-label{
+  position:absolute;
+  left: 41rpx;
+  top: 0rpx;
+  width: 60rpx;
+  font-size: 26rpx;
+  font-family: "PingFangSC-Regular";
+}
+
+.activity-limit{
+  position:absolute;
+  left: 140rpx;
+  width: 34rpx;
+  height: 34rpx;
+}
+
+.activity-limit-label{
+  position:absolute;
+  left: 180rpx;
+  top: 0;
+  width: 90rpx;
+  font-size: 26rpx;
+  font-family: "PingFangSC-Regular";
+}
+
+.activity-cost{
+  position:absolute;
+  padding-left: 280rpx;
+  width: 32rpx;
+  height: 36rpx;
+}
+
+.activity-cost-label{
+  position:absolute;
+  left: 320rpx;
+  top: 0;
+  width: 120rpx;
+  font-size: 26rpx;
+  font-family: "PingFangSC-Regular";
+}
+
+.activity-time{
+  position: absolute;
+  left: 0rpx;
+  top: 249rpx;
+  width: 100%;
+  height: 88rpx;
+  background-color: white;
+}
+
+.activity-time-label{
+  position: absolute;
+  left: 30rpx;
+  top: 23rpx;
+  font-size: 30rpx;
+  font-family: "PingFangSC-Regular";
+}
+
+.activity-address{
+  position:absolute;
+  left: 0;
+  top: 337rpx;
+  width: 100%;
+  height: 88rpx;
+  background-color: white;
+}
+
+.activity-address-label{
+  position: absolute;
+  left: 30rpx;
+  top: 23rpx;
+  font-size: 30rpx;
+  font-family: "PingFangSC-Regular";
+}
+
+.personal-data{
+  position: absolute;
+  top: 445rpx;
+  left: 0rpx;
+  width: 100%;
+  height: 88rpx;
+  background-color: white;
+}
+
+.personal-data-title{
+  border-left: 7rpx solid #E6B53C;
+  padding-left: 12rpx;
+  position: absolute;
+  left: 50rpx;
+  top: 23rpx;
+  width:123rpx;
+  font-size: 30rpx;
+  font-family: PingFangSC-Semibold
+}
+
+.personal-name{
+  position: absolute;
+  top: 533rpx;
+  left: 0rpx;
+  width: 100%;
+  height: 88rpx;
+  background-color: white;
+}
+
+.personal-phone{
+  position: absolute;
+  top: 621rpx;
+  left: 0rpx;
+  width: 100%;
+  height: 88rpx;
+  background-color: white;
+}
+
+.personal-name-label{
+  position: absolute;
+  left: 50rpx;
+  top: 23rpx;
+  font-size: 30rpx;
+  font-family: PingFangSC-Semibold
+}
+
+.personal-phone-label{
+  position: absolute;
+  left: 50rpx;
+  top: 23rpx;
+  font-size: 30rpx;
+  font-family: PingFangSC-Semibold
+}
+
+.cancel-button{
+  position:fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 98rpx;
+  background-color: #E6B53C;
+  color: white;
+} 
+
+.button-label{
+  position:absolute;
+  left: 308rpx;
+  top: 27rpx;
+  font-size: 32rpx;
+  font-family: PingFangSC-Semibold;
+}
+.introduce{
+  position: absolute;
+  top: 709rpx;
+  margin-top: 20rpx;
+  width: 100%;
+  background-color: white;
+}
+.introduce-view{
+  font-size: 30rpx;
+  padding-top: 23rpx;
+  height: 88rpx;
+  margin-left: 50rpx;
+}
+.introduce-border{
+  
+  border-left: 7rpx solid #E6B53C;
+  padding-left: 12rpx;
+}
+
+.cls_score_title_bar
+{
+  width: 100%;
+  height: 88rpx;
+  background-color: white;
+}
+.cls_score_title{
+  font-size: 30rpx;
+  margin-left:  50rpx;
+}
+.cls-score-star-view1
+{
+  display: inline;
+}
+.cls-score-star-view2
+{
+  display: inline;
+}
+.cls_score_star {
+  width: 36rpx;
+  height: 36rpx;
+}
+
+.introduce-detail{
+  background-color: white;
+  word-break: break-all;
+  padding: 19rpx 30rpx 31rpx 37rpx; 
+}
