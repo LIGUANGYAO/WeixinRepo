@@ -1,7 +1,0 @@
-<!--index.wxml-->
-
-<view style='background-color:white'>
-  <image class="clas_img_cancel_success" src="{{image_cancel_success_src}}" mode="aspectFill"> </image>
-  <text class="cls_cancel_success_txt">{{cancel_sucess_text}}</text>
-  <text class="cls_return_button">返回</text>
-</view>
