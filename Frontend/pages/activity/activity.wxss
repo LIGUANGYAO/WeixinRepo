@@ -1,1 +1,324 @@
-@import "../footer/footer.wxss"
+.container {
+  background-color: white;
+}
+
+.tab {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100rpx;
+  background-color: white;
+}
+
+.tab-bar {
+  position: absolute;
+  top: 18rpx;
+  left: 123rpx;
+  width: 508rpx;
+  height: 64rpx;
+  border-radius: 15rpx;
+  border: solid 3rpx #e6b53c;
+  font-size: 28rpx;
+  color: #e6b53c;
+  font-family: PingFangSC-Semibold;
+  letter-spacing: 1.8rpx;
+}
+
+.tab-item {
+  position: absolute;
+  width: 254rpx;
+  height: 64rpx;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.tab-item1 {
+  left: 0;
+  top: 0;
+  border-bottom-left-radius: 3rpx;
+  border-top-left-radius: 3rpx;
+}
+
+.tab-item2 {
+  left: 254rpx;
+  top: 0;
+  border-color: #e6b53c;
+  border-left-width: 3rpx;
+  border-left-style: solid;
+}
+
+.active {
+  background-color: #e6b53c;
+  color: white;
+}
+
+.tab-label1 {
+  position: absolute;
+  left: 67rpx;
+  top: 12rpx;
+}
+
+.tab-detail-open {
+  position: absolute;
+  left: 675rpx;
+  top: 30rpx;
+  width: 45rpx;
+  height: 38rpx;
+}
+
+.tab-label2 {
+  position: absolute;
+  left: 34rpx;
+  top: 12rpx;
+}
+
+.activities {
+  position: absolute;
+  left: 0;
+  top: 100rpx;
+  width: 100%;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.activity-button {
+  size: default;
+  float: right;
+  margin-right: 30rpx;
+  margin-top: 14rpx;
+  width: 150rpx;
+  height: 67rpx;
+  background-color: #e6b53c;
+  border-radius: 10rpx;
+  font-size: 26rpx;
+  font-family: "PingFangSC-Semibold";
+  color: white;
+}
+
+.modal-mask {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #000;
+  opacity: 0.2;
+  overflow: hidden;
+  z-index: 9000;
+  color: #fff;
+}
+
+.modal-dialog {
+  position: absolute;
+  left: 200rpx;
+  width: calc(100% - 200rpx);
+  height: 100%;
+  overflow: hidden;
+  z-index: 9999;
+  background: white;
+}
+
+.modal-title {
+  width: 100%;
+  height: 280rpx;
+  border-bottom: 3rpx solid #f4f4f4;
+}
+
+.modal-title-image {
+  display: inline-block;
+}
+
+.modal-title-image {
+  position: absolute;
+  left: 30rpx;
+  top: 33rpx;
+  width: 45rpx;
+  height: 38rpx;
+}
+
+.modal-title-text {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  padding-top: 31rpx;
+  padding-left: 194rpx;
+  font-family: PingFangSC-Semibold;
+  font-size: 30rpx;
+  color: #333;
+  letter-spacing: 1.93rpx;
+}
+
+.modal-text-select {
+  position: absolute;
+  left: 30rpx;
+  top: 120rpx;
+  font-family: PingFangSC-Regular;
+  font-size: 26rpx;
+  color: #333;
+  letter-spacing: 1.67rpx;
+}
+
+.modal-tab-bar {
+  position: absolute;
+  top: 185rpx;
+  left: 28rpx;
+  width: 498rpx;
+  height: 64rpx;
+  border-radius: 15rpx;
+  border: solid 3rpx #e6b53c;
+  font-size: 28rpx;
+  color: #e6b53c;
+  font-family: PingFangSC-Semibold;
+  letter-spacing: 1.8rpx;
+}
+
+.modal-tab-item {
+  position: absolute;
+  width: 249rpx;
+  height: 64rpx;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.modal-tab-item1 {
+  left: 0;
+  top: 0;
+  border-bottom-left-radius: 3rpx;
+  border-top-left-radius: 3rpx;
+}
+
+.modal-tab-item2 {
+  left: 245rpx;
+  top: 0;
+  border-color: #e6b53c;
+  border-left-width: 3rpx;
+  border-left-style: solid;
+}
+
+.modal-active {
+  background-color: #e6b53c;
+  color: white;
+}
+
+.modal-tab-label1 {
+  position: absolute;
+  left: 80rpx;
+  top: 12rpx;
+}
+
+.modal-tab-label2 {
+  position: absolute;
+  left: 95rpx;
+  top: 12rpx;
+}
+
+.modal-selkind {
+  width: 100%;
+  padding-left: 30rpx;
+}
+
+.modal-selkind-text {
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  color: #333;
+  letter-spacing: 1.8rpx;
+}
+
+.modal-kind-view {
+  width: 100%;
+  height: 200rpx;
+}
+
+.modal-kind-btn {
+  display: inline-block;
+  width: 140rpx;
+  height: 54rpx;
+  line-height: 54rpx;
+  margin-right: 28rpx;
+  margin-top: 20rpx;
+  background: #e8e8e8;
+  border-radius: 10rpx;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  color: #333;
+  letter-spacing: 1.8rpx;
+}
+
+.modal-actual-time {
+  position: absolute;
+  top: 910rpx;
+  left: 30rpx;
+  width: 100%;
+  height: 80rpx;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  color: #333;
+  letter-spacing: 1.8rpx;
+}
+
+.modal-start-time {
+  position: absolute;
+  background-color: #e8e8e8;
+  border-radius: 10rpx;
+  width: 200rpx;
+  height: 54rpx;
+  top: 990rpx;
+  left: 37rpx;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  line-height: 54rpx;
+  color: #333;
+  letter-spacing: 1.8rpx;
+}
+
+.modal-end-time {
+  position: absolute;
+  width: 200rpx;
+  height: 54rpx;
+  top: 990rpx;
+  left: 313rpx;
+  line-height: 54rpx;
+  background-color: #e8e8e8;
+  border-radius: 10rpx;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  color: #333;
+  letter-spacing: 1.8rpx;
+}
+
+.model-time-symbol {
+  position: absolute;
+  top: 1016rpx;
+  left: 254rpx;
+  width: 40rpx;
+  height: 3rpx;
+  background-color: #e8e8e8;
+}
+
+.modal-cancel {
+  position: fixed;
+  left: 200rpx;
+  bottom: 0rpx;
+  width: 275rpx;
+  height: 98rpx;
+  background-color: #fff;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  color: #333;
+  letter-spacing: 1.8rpx;
+}
+
+.modal-ok {
+  position: fixed;
+  bottom: 0rpx;
+  left: 475rpx;
+  width: 275rpx;
+  height: 98rpx;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  color: white;
+  letter-spacing: 1.8rpx;
+  background-color: #e6b53c;
+}
+@import "template/template.wxss"

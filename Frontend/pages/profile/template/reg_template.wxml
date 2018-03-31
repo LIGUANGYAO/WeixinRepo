@@ -1,18 +1,13 @@
-<template name="registerd_member">
-  <view class="reg_member_view">
-    <view class="reg_cls_title">
-      <text class="reg_cls_all_comments">全部评论（10人)</text>
+<template name="registeration_member">
+  <view class="reg_cls_user_comment_info">
+    <image class="reg_cls_user_photo" src="{{item.avatar}}" mode="aspectFill"> </image>
+    <view>
+      <text class="reg_cls_user_name">{{item.name}}</text>
+      <text class="reg_member_status">线下支付</text>
     </view>
-    <view class="reg_cls_user_comment_info">
-      <image class="reg_cls_user_photo" src="../../../image/Home_s@2x.png" mode="aspectFill"> </image>
-      <view>
-        <text class="reg_cls_user_name">郭德纲刚</text>
-        <text class="reg_member_status">线上支付</text>
-      </view>
-      <view class='reg_member_detail'>
-        <text class="reg_cls_comment_number">13456767847</text>
-        <text class="reg_cls_comment_content">共5人，合计100元</text>
-      </view>
+    <view class='reg_member_detail'>
+      <text class="reg_cls_comment_number">{{item.phone}}</text>
+      <text class="reg_cls_comment_content">共{{item.reg_num}}人，合计{{item.cost*item.reg_num}}元</text>
     </view>
   </view>
 </template>

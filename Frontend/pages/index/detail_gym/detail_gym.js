@@ -9,6 +9,18 @@ Page({
       "event_total": 10
     },
     images: [],
+    starparam: {
+      stars: [0, 1, 2, 3, 4],
+
+      srcImage_0: '../../../image/star-0.png',
+      srcImage_1: '../../../image/star-1.png',
+      srcImage_2: '../../../image/star-2.png',
+      srcImage_3: '../../../image/star-3.png',
+      srcImage_4: '../../../image/star-4.png',
+
+      score: 4.3,
+      srcImage: '',
+    }
   },
   onLoad: function (options) {
     this.setData({ param: this.data.param })
@@ -19,12 +31,12 @@ Page({
   },
   click_detail_event: function () {
     wx.navigateTo({
-      url: '../detail_event/detail_event',
+      url: '../detail_event/detail_event?stadium='+this.data.gym_info.gym_name,
     })
   },
   on_Clicked_Comment: function () {
     wx.navigateTo({
-      url: '../detail_event/detail_event',
+      url: '../../other/comment/comment',
     })
   }
 })  

@@ -122,5 +122,3 @@
   width: 39.1rpx;
   height: 33rpx;
 }
-
-@import "../footer/footer.wxss"

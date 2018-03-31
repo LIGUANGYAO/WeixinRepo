@@ -38,6 +38,14 @@
   width: auto;
 }
 
+.rating-star-text {
+  margin-left: 20rpx;
+  font-family: PingFangSC-Regular;
+  font-size: 26rpx;
+  color: #333;
+  letter-spacing: 0.56rpx;
+}
+
 .focus-count-comment {
   float: right;
   margin-right: 20rpx;
@@ -76,7 +84,6 @@
   color: #333;
   letter-spacing: 0.64rpx;
 }
-
 .comment-gym-text {
   margin-left: 30rpx;
   margin-top: 20rpx;

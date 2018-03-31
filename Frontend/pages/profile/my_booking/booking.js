@@ -5,9 +5,9 @@ Page({
    * 页面的初始数据
    */
   data: {
-    myObj1: [{ "phonenumber": 17642518820, "status": "进行中", "kind": "football", "user": "user", "match": "football", "membernum": "5", "cost": 12, "date": "2018", "place": "bejing", "iscomment": 0}],
-    myObj2: [{ "phonenumber": 17642518820, "status": "asdf", "kind": "football", "user": "user", "match": "football", "membernum": "5", "cost": 12, "date": "2018", "place": "bejing", "iscomment": 1}],
-    myObj3: [{ "phonenumber": 17642518820, "status": "qwer", "kind": "football", "user": "user", "match": "football", "membernum": "5", "cost": 12, "date": "2018", "place": "bejing", "iscomment": 0}],
+    myObj1: [{ "phonenumber": 17642518820, "status": "进行中", "kind": "football", "user": "user", "match": "football", "membernum": "5", "cost": 12, "date": "2018", "place": "bejing", "iscomment": 0,"role": 0}],
+    myObj2: [{ "phonenumber": 17642518820, "status": "asdf", "kind": "football", "user": "user", "match": "football", "membernum": "5", "cost": 12, "date": "2018", "place": "bejing", "iscomment": 0, "role": 0}],
+    myObj3: [{ "phonenumber": 17642518820, "status": "qwer", "kind": "football", "user": "user", "match": "football", "membernum": "5", "cost": 12, "date": "2018", "place": "bejing", "iscomment": 0, "role": 0}],
     active1: "active",
     active2: "",
     active3: "",
@@ -72,7 +72,7 @@ Page({
   btn_write_comment: function(event)
   {
     wx.navigateTo({
-      url: '../../evaluation/evaluation',
+      url: '../../other/evaluation/evaluation',
     })
   }
 })

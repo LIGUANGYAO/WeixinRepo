@@ -1,32 +1,80 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
     "pages/index/detail_gym/detail_gym",
     "pages/index/detail_event/detail_event",
     "pages/index/personal_input/personal_input",
+    "pages/index/search/search",
     "pages/logs/logs",
     "pages/profile/profile",
     "pages/profile/my_booking/booking",
     "pages/profile/my_booking/booking_detail",
     "pages/profile/final_cancel/final_cancel",
     "pages/profile/my_activity/my_activity",
-    "pages/evaluation/evaluation",
     "pages/profile/my_activity/eventdetail",
+    "pages/profile/my_activity/showmember",
     "pages/profile/my_purse/my_purse",
     "pages/profile/my_purse/trans_detail/trans_detail",
     "pages/profile/my_purse/add_New_Account/add_New_Account",
     "pages/profile/my_membership/my_membership",
     "pages/profile/my_focus/my_focus",
-    "pages/profile/my_focus/detail_gym",
-    "pages/profile/my_focus/detail_event",
-    "pages/profile/my_focus/personal_input",
+    "pages/profile/auth/auth",
+    "pages/profile/delivery/delivery",
+    "pages/profile/delivery/editdelivery",
+    "pages/profile/register_stadium/register_stadium",
     "pages/activity/activity",
-    "pages/backyard/backyard"
+    "pages/activity/detail_event/detail_event",
+    "pages/activity/personal_input/personal_input",
+    "pages/backyard/backyard",
+    "pages/backyard/mainbeeshop/mainbeeshop",
+    "pages/backyard/product_detail/product_detail",
+    "pages/backyard/product_order/product_order",
+    "pages/backyard/transaction/transaction",
+    "pages/backyard/transaction_detail/transaction_detail",
+    "pages/other/evaluation/evaluation",
+    "pages/other/comment/comment",
+    "pages/other/create_event/create_event"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#222222",
     "navigationBarTitleText": "蜂体",
-    "navigationBarTextStyle":"white"
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#888888",
+    "selectedColor": "#472E00",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "蜂体",
+        "iconPath": "image/Home_n@2x.png",
+        "selectedIconPath": "image/Home_s@2x.png"
+      },
+      {
+        "pagePath": "pages/activity/activity",
+        "text": "活动",
+        "iconPath": "image/activity_n@2x.png",
+        "selectedIconPath": "image/activity_s@2x.png"
+      },
+      {
+        "pagePath":"pages/other/create_event/create_event",
+        "iconPath": "image/add@2x.png",
+        "selectedIconPath": "image/add@2x.png"
+      },
+      {
+        "pagePath": "pages/backyard/backyard",
+        "text": "后花园",
+        "iconPath": "image/garden_n@2x.png",
+        "selectedIconPath": "image/garden_s@2x.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我的",
+        "iconPath": "image/my_n@2x.png",
+        "selectedIconPath": "image/my_s@2x.png"
+      }
+    ]
   }
 }

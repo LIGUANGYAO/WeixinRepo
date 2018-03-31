@@ -1,4 +1,4 @@
-<template name="registration_member">
+<template name="registerd_member">
   <!--index.wxml-->
   <view class="cls_user_comment_info">
     <image class="cls_user_photo" src="{{param.user_photo_src}}" mode="aspectFill"> </image>

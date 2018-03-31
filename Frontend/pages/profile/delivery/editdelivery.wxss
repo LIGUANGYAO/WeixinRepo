@@ -1,0 +1,114 @@
+.container {
+  background-color: white;
+}
+
+.postname-view {
+  width: 100%;
+  height: 62rpx;
+  padding-top: 23rpx;
+  border-bottom: solid 3rpx #f4f4f4;
+  font-family: PingFangSC-Regular;
+  font-size: 30rpx;
+  color: #333;
+  letter-spacing: 0.64rpx;
+}
+
+.postname-text {
+  margin-left: 30rpx;
+}
+
+.postname-input {
+  margin-left: 30rpx;
+  display: inline-block;
+}
+
+.phonenumber-view {
+  width: 100%;
+  height: 62rpx;
+  padding-top: 23rpx;
+  border-bottom: solid 3rpx #f4f4f4;
+  font-family: PingFangSC-Regular;
+  font-size: 30rpx;
+  color: #333;
+  letter-spacing: 0.64rpx;
+}
+
+.phonenumber-text {
+  margin-left: 30rpx;
+}
+
+.phonenumber-input {
+  margin-left: 30rpx;
+  display: inline-block;
+}
+
+.address-view {
+  width: 100%;
+  height: 62rpx;
+  padding-top: 23rpx;
+  border-bottom: solid 3rpx #f4f4f4;
+  font-family: PingFangSC-Regular;
+  font-size: 30rpx;
+  color: #333;
+  letter-spacing: 0.64rpx;
+}
+
+.address-text {
+  margin-left: 30rpx;
+}
+
+.address-input {
+  margin-left: 30rpx;
+  display: inline-block;
+}
+
+.address-image {
+  float: right;
+  padding-top: 10rpx;
+  margin-right: 30rpx;
+  width: 15rpx;
+  height: 26rpx;
+}
+
+.detail-address {
+  width: calc(100%-30rpx);
+  height: 85rpx;
+  padding-left: 30rpx;
+  font-family: PingFangSC-Regular;
+  font-size: 30rpx;
+  color: #888;
+  letter-spacing: 0.64rpx;
+  border-bottom: solid 3rpx #f4f4f4;
+}
+
+.mail-view {
+  width: calc(100% - 30rpx);
+  height: 62rpx;
+  padding-top: 23rpx;
+  border-bottom: solid 3rpx #f4f4f4;
+  font-family: PingFangSC-Regular;
+  font-size: 30rpx;
+  color: #333;
+  letter-spacing: 0.64rpx;
+}
+
+.mail-text {
+  margin-left: 30rpx;
+}
+
+.mail-input {
+  margin-left: 30rpx;
+  display: inline-block;
+}
+
+.submit_btn {
+  width: 100%;
+  height: 98rpx;
+  position: fixed;
+  bottom: 0rpx;
+  background-color: #e6b53c;
+  font-family: PingFangSC-Semibold;
+  font-size: 32rpx;
+  color: #fff;
+  letter-spacing: 1.54rpx;
+}

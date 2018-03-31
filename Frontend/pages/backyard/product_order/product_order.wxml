@@ -1,0 +1,35 @@
+<view class='container'>
+  <view class='postman-data-view'>
+    <image class='postman-pos-image' src='../../../image/garden_dw@2x.png'></image>
+    <view class='postman-address-view'>
+      <text class='postman-name-text'>收货人：刘德华</text>
+      <text class='postman-number-text'>13868686886</text>
+      <view class='postman-address-text'>
+        收货地址：北京市昌平区霍营黄金旧干线二期93号 楼一单元666
+      </view>
+    </view>
+    <image class='postman-all-image' src='../../../image/next@2x.png'></image>
+  </view>
+  <view class='product-statemen-view'>
+    <view class='product-statement-text'>
+      <text>商品清单</text>
+    </view>
+    <view class='product-statement-detail'>
+      <image class="product-data-image" src='../../../image/temp.jpg'></image>
+      <view class='product-data-detail'>
+        <text class='product-data-name'>高科技手电筒</text>
+        <text class='product-data-beecost'>23456ml蜂蜜</text>
+      </view>
+      <text class='product-order-count'>x1</text>
+    </view>
+    <view class='product-total-cost'>共计1件商品，需
+      <text class='product-real-cost'>23456</text>ml蜂蜜</view>
+  </view>
+  <view class='product-comment-view'>
+    <text class='product-comment-text'>留言：</text>
+    <textarea class='product-comment-textarea' placeholder='请输入留言，不超过100字'></textarea>
+    <image class='product-alert-image' src='../../../image/garden_zy@2x.png'></image>
+    <text class='product-alert-text'>商品兑换后，不接受退换货。</text>
+  </view>
+  <button class='btn_submit'>确认兑换</button>
+</view>

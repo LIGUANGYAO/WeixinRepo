@@ -1,0 +1,98 @@
+/* pages/other/create_event/create_event.wxss */
+
+.create-event-container {
+  width: 100%;
+  background-color: white;
+}
+
+.event-view {
+  padding-left: 30rpx;
+  line-height: 88rpx;
+  font-family: PingFangSC-Regular;
+  font-size: 30rpx;
+  color: #333;
+  letter-spacing: 0.64rpx;
+  border-bottom: solid 3rpx #f4f4f4;
+}
+
+.event-input {
+  display: inline-block;
+  margin-left: 10rpx;
+}
+
+.event-next-image {
+  float: right;
+  margin-right: 30rpx;
+  width: 15rpx;
+  height: 26rpx;
+  padding-top: 32rpx;
+}
+
+.event-right-text {
+  float: right;
+  margin-right: 30rpx;
+}
+
+.event-selimage-view {
+  height: 310rpx;
+  line-height: 88rpx;
+  font-family: PingFangSC-Regular;
+  font-size: 30rpx;
+  color: #333;
+  letter-spacing: 2.08rpx;
+  padding-left: 30rpx;
+  border-bottom: solid 3rpx #f4f4f4;
+}
+
+.event-selimage-image {
+  display: block;
+  width: 330rpx;
+  height: 207rpx;
+}
+
+.event-comment-view {
+  height: 386rpx;
+  line-height: 88rpx;
+  font-family: PingFangSC-Regular;
+  font-size: 30rpx;
+  color: #333;
+  letter-spacing: 0.64rpx;
+  padding-left: 30rpx;
+  border-bottom: solid 3rpx #f4f4f4;
+}
+
+.event-comment-textarea {
+  width: 690rpx;
+  height: 226rpx;
+  background: #f2f2f2;
+  border-radius: 8rpx;
+  font-family: PingFangSC-Regular;
+  font-size: 30rpx;
+  color: #888;
+  letter-spacing: 1.04rpx;
+  padding-bottom: 32rpx;
+  line-height: 50rpx;
+}
+
+.event-private-group {
+  display: inline-block;
+}
+
+.event-private-group radio {
+  margin-left: 40rpx;
+}
+
+.btn_submit {
+  width: 100%;
+  height: 98rpx;
+  line-height: 98rpx;
+  background-color: #e6b53c;
+  font-family: PingFangSC-Semibold;
+  font-size: 32rpx;
+  color: #fff;
+  letter-spacing: 1.54rpx;
+}
+
+.event-add-radiogroup radio {
+  margin-left: 40rpx;
+}

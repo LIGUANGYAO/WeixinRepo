@@ -7,10 +7,11 @@ Page({
    */
   data: {
     userInfo: {},
-    place_Name:"北京大学体育馆",
-    is_vip:1,
-    term_date:"2018-3-31",
-    cost:20
+    mn_ismember: 0,
+    place_Name: "北京大学体育馆",
+    is_vip: 1,
+    term_date: "2018-3-31",
+    cost: 20
   },
 
   /**
@@ -21,6 +22,7 @@ Page({
     if (this.data.userInfo.avatar == '../../image/temp.jpg')
       this.data.userInfo.avatar = '../' + this.data.userInfo.avatar
     this.setData({ userInfo: app.globalData.userInfo })
+    this.setData({ mn_ismember: this.data.mn_ismember })
   },
 
   /**

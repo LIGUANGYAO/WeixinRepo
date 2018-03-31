@@ -97,3 +97,10 @@
   color: white;
   font-size: 91rpx;
 }
+.footer-plus-image{
+  position: absolute;
+  left: 331rpx;
+  bottom: 14rpx;
+  width: 88rpx;
+  height: 74rpx;
+}

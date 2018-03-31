@@ -1,0 +1,24 @@
+<view class='container'>
+  <image class="product-image" src='../../../image/temp.jpg'></image>
+  <view class='product-detail'>
+    <view class='product-name'>
+      <text>家用小轿车</text>
+    </view>
+    <view class='prodcut-cost'>
+      <image class="product-cost-image" src='../../../image/garden_fm@2x.png'></image>
+      <view class='product-cost-text'>
+        <text>23456ml兑换</text>
+      </view>
+      <text class='product-type'>库存35</text>
+    </view>
+  </view>
+  <view class='product-explain'>
+    <view class='product-explain-header'>
+      <text>商品介绍</text>
+    </view>
+    <view class='product-explain-view'>
+      玩的很愉快玩的很愉快玩的很愉快玩的很愉快玩的 很愉快玩的很愉快玩的很愉快玩的很愉快玩的很愉 快玩的很愉快玩的很愉快
+    </view>
+  </view>
+  <button bindtap="On_click_order" class='btn_submit'>立即兑换</button>
+</view>

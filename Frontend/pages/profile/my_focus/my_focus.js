@@ -5,7 +5,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    dataarray: [],
+    dataarray1: [{ avatar: "../../../image/Home_s@2x.png", cityname: "郭德纲刚", placename: "线上支付", phone:"13456767847"}]
   },
 
   /**
@@ -66,7 +67,7 @@ Page({
   btn_Clicked_Focus: function()
   {
     wx.navigateTo({
-      url: 'detail_gym',
+      url: '../../index/detail_gym/detail_gym',
       success: function(res) {},
       fail: function(res) {},
       complete: function(res) {},

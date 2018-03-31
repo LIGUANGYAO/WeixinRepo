@@ -1,0 +1,14 @@
+<!--index.wxml-->
+
+<import src="wxSearch/wxSearch.wxml" />
+
+<view class="wxSearch-section">
+  <view class="wxSearch-pancel">
+    <view class="weui-search-bar__box">
+      <input Confirm-type="Search" bindtab="wxSearchTap" bindinput="wxSearchInput" bindfocus="wxSerchFocus" value="{{wxSearchData.value}}" bindblur="wxSearchBlur" bindconfirm="wxSearchFn" class="wxSearch-input" placeholder="输入地址" />
+      <icon class="weui-icon-search_in-box" bindtap="wxSearchFn" type="search" size="30"></icon>
+    </view>
+    <button class="wxSearch-button" bindtap="wxSearchCancel" plain="true">取消</button>
+  </view>
+</view>
+<template is="wxSearch" data="{{wxSearchData}}" />

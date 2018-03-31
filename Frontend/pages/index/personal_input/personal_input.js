@@ -1,30 +1,58 @@
-//index.js
-/*
-개인이 자기가 현재 예약한 경기에 대한 페지로서 우선 우의 경기그림과 
-경기상태와
-장사, 경기에 대한 소개에 대한 정보를 받아야 한다.
-*/
-//获取应用实例
 const app = getApp()
 
 Page({
   data: {
-    tempData: { "ground_image": "../../../image/temp.jpg", "act_type": "football", "act_status": "running", "favourite": 200, "act_name": "soccer", "member_count": 10, "cost": 10, "act_date": "2018.3", "address": "asdfasdf", "ground_name": "asdf", "ground_owner": "avnd", "max_member": 10, "act_intro": "asdf" },
+    eventData: { "ground_image": "", "act_type": "", "act_status": "", "favourite": 0, "act_name": "", "member_count": 0, "cost": 0, "act_date": " ", "address": "", "ground_name": "", "ground_owner": "", "max_member": 0, "act_intro": "" },
     param: {
-      user_photo_src: '../../../image/temp.jpg',
-      img_black_start_src: '../../../image/star_n@2x.png',
-      img_yellow_start_src: '../../../image/star_s@2x.png',
-      star_img_position: 25,
-      count_yellowStar: 3,
-      comment_time: "2017-12-22 11:29",
-      comment_user_name: "布拉德皮蛋",
-      comment_content: "这里是一条评论这里是一条评论。",
-      comment_user_number: 10,
-    }
+      user_avatar: "../../../image/temp.jpg",
+      nickname: "ttt",
+    },
+    realname:"",
+    phonenumber:0,
+    memcount:0,
+    totalcost:0,
   },
-  onLoad: function()
+  onLoad: function(res)
   {
-    var image_array = ["../../../image/temp.jpg", "../../../image/Home_s@3x.png", "../../../image/my_attention@3x.png", "../../../image/my_s@3x.png"]
-    this.setData({image_array: image_array})
+    this.setData({ eventData: app.globalData.eventData})
+    this.data.user_avatar = '../'+app.globalData.userInfo.avatar
+    this.data.nickname = app.globalData.userInfo.nickname
+    this.setData({ user_avatar: this.data.user_avatar})
+    this.setData({ nickname: this.data.nickname })
+    this.setData({eventData: this.data.eventData})
+  },
+  on_Input_Realname: function(event)
+  {
+    this.setData({realname: event.detail.value});
+  },
+  on_Input_Phonenumber: function(event)
+  {
+    this.setData({ phonenumber: event.detail.value });
+  },
+  on_Input_Memcount: function (event) {
+    this.setData({ memcount: event.detail.value });
+    this.setData({ total_cost: event.detail.value * this.data.eventData.cost})
+  },
+  on_Btn_OK: function()
+  {
+    var x = 0
+    if (this.data.realname.length > 4 || this.data.realname.length == 0 )
+    {
+      x++
+      this.setData({val_realname: "error"})
+    }
+    if (this.data.phonenumber.toString().length > 11 || this.data.phonenumber.toString().length == 1)
+    {
+      x++
+      this.setData({ val_phonenumber: "error" })
+    }
+    if (this.data.memcount > (this.data.eventData.max_member - this.data.eventData.member_count) || this.data.memcount == 0) 
+    {
+      x++
+      this.setData({ val_memcount: "error" })
+    }
+    if(x == 0)
+    {
+    }
   }
 })

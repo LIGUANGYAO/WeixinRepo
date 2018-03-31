@@ -1,26 +1,51 @@
 <!--index.wxml-->
+<import src="template/template.wxml" />
 <view class="container">
-  <text>activity</text>
-  <view class="footer">
-    <view id="index" class="footer-fengti" bindtap="select">
-      <image class="footer-fengti-image" src="{{fengti[selected[0]]}}"></image>
-      <text class="footer-text footer-fengti-text">蜂体</text>
+  <view class="tab">
+    <view class="tab-bar">
+      <view id="tab-btn1" class="tab-item tab-item1 {{active1}}" bindtap='selectTab'>
+        <label class="tab-label1">热门活动</label>
+      </view>
+      <view id="tab-btn2" class="tab-item tab-item2 {{active2}}" bindtap='selectTab'>
+        <label class="tab-label2">关注场馆活动</label>
+      </view>
     </view>
-    <view id="activity" class="footer-activity" bindtap="select">
-      <image class="footer-activity-image" src="{{activity[selected[1]]}}"></image>
-      <text class="footer-text footer-activity-text">活动</text>
+    <image class='tab-detail-open' bindtap="On_click_modal_open"src='../../image/filter@2x.png'></image>
+  </view>
+  <scroll-view class="activities">
+    <view wx:for="{{array}}">
+      <template is="act-template" data="{{item}}" />
     </view>
-    <view id="plus" class="footer-plus">
-      <view class="footer-circle"></view>
-      <view class="footer-plus-label">+</view>
+  </scroll-view>
+
+  <view class="modal-mask" bindtap="hideModal" catchtouchmove="preventTouchMove" wx:if="{{showModal}}"></view>
+  <view class="modal-dialog" wx:if="{{showModal}}">
+    <view class='modal-title'>
+      <image bindtap='On_click_hide' class='modal-title-image' src='../../image/filter@2x.png'></image>
+      <view class='modal-title-text'>筛选</view>
+      <text class='modal-text-select'>请选择发起类型</text>
+      <view class="modal-tab-bar">
+        <view id="modla-btn1" class="modal-tab-item modal-tab-item1 {{modal_active1}}" bindtap='On_click_modaltab'>
+          <label class="modal-tab-label1">场馆主</label>
+        </view>
+        <view id="modal-btn2" class="modal-tab-item modal-tab-item2 {{modal_active2}}" bindtap='On_click_modaltab'>
+          <label class="modal-tab-label2">个人</label>
+        </view>
+      </view>
     </view>
-    <view id="backyard" class="footer-garden" bindtap="select">
-      <image class="footer-garden-image" src="{{garden[selected[2]]}}"></image>
-      <text class="footer-text footer-garden-text">后花园</text>
-    </view>
-    <view id="profile" class="footer-mine" bindtap="select">
-      <image class="footer-mine-image" src="{{mine[selected[3]]}}"></image>
-      <text class="footer-text footer-mine-text">我的</text>
+    <view class='modal-selkind'>
+      <text class='modal-selkind-text'>活动类型</text>
+      <view class="modal-kind-view">
+        <button class='modal-kind-btn' wx:for="{{sport_kind_text}}">{{item}}</button>
+      </view>
+      <view class='modal-actual-time'>活动时间</view>
+      <view class='modal-date'>
+        <button class='modal-start-time'>开始时间</button>
+        <text class='model-time-symbol'></text>
+        <button class='modal-end-time'>结束时间</button>
+      </view>
+      <button class='modal-cancel'>取消</button>
+      <button class='modal-ok'>确定</button>
     </view>
   </view>
 </view>

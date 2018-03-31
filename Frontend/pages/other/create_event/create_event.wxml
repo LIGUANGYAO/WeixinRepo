@@ -1,0 +1,62 @@
+<view class="container">
+  <view class='create-event-container'>
+    <view class='event-view'>
+      <text>活动名称:</text>
+      <input class='event-input' placeholder='请输入活动名称'></input>
+    </view>
+    <view class='event-view'>
+      <text>活动类型:</text>
+      <input class='event-input' placeholder='请选择'></input>
+      <image class='event-next-image' src='../../../image/next@2x.png'></image>
+    </view>
+    <view class='event-view'>
+      <text>开始时间:</text>
+      <input class='event-input' placeholder='请选择'></input>
+      <image class='event-next-image' src='../../../image/next@2x.png'></image>
+    </view>
+    <view class='event-view'>
+      <text>结束时间:</text>
+      <input class='event-input' placeholder='请选择'></input>
+      <image class='event-next-image' src='../../../image/next@2x.png'></image>
+    </view>
+    <view class='event-view'>
+      <text>活动地址:</text>
+      <input class='event-input' placeholder='选择省/市/县'></input>
+      <image class='event-next-image' src='../../../image/next@2x.png'></image>
+    </view>
+    <view class='event-view'>
+      <input class='event-input' placeholder='请输入详细地址'></input>
+    </view>
+    <view class='event-view'>
+      <text>人数上限:</text>
+      <text class='event-right-text'>人</text>
+    </view>
+    <view class='event-view'>
+      <text>活动封面:</text>
+      <text class='event-right-text'>元/人</text>
+    </view>
+    <view class='event-selimage-view'>
+      <text>活动简介:</text>
+      <image class='event-selimage-image' src='../../../image/fengm@3x.png'></image>
+    </view>
+    <view class='event-comment-view'>
+      <text>活动简介:</text>
+      <textarea class='event-comment-textarea' maxlength='100' placeholder='请输入活动简介，不超过100字'></textarea>
+    </view>
+    <view class='event-view'>
+      <text>是否公开:</text>
+      <radio-group class="event-private-group" bindchange="radioChange">
+        <radio value='1' checked>公开创建</radio>
+        <radio value='0'>公开创建</radio>
+      </radio-group>
+    </view>
+    <view class='event-view'>
+      <text>活动结束后是否在地图上生成能量:</text>
+      <radio-group class="event-add-radiogroup" bindchange="radioChange1">
+        <radio value='1' checked>是(需花费500ml蜂蜜)</radio>
+        <radio value='0'>否</radio>
+      </radio-group>
+    </view>
+  </view>
+  <button class='btn_submit'>创建活动</button>
+</view>

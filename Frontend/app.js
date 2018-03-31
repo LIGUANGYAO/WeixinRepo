@@ -2,11 +2,87 @@
 App({
   globalData: {
     userInfo: {
-      'nickname':'WeiXin',
-      'avatar':'',
-      'userStatus':0,
-      'isVIP':0
+      'nickname': 'WeiXin',
+      'avatar': '',
+      'user_id': 0,
+      'name': '',
+      'phone': '',
+      'honey': 0,
+      'state': 0,
+      'forbidden': 0,
+      'isVIP': 0,
+      eventData: { "ground_image": "", "act_type": "", "act_status": "", "favourite": 0, "act_name": "", "member_count": 0, "cost": 0, "act_date": " ", "address": "", "ground_name": "", "ground_owner": "", "max_member": 0, "act_intro": "" },
     },
+    eventState: ["进行中", "已完成", "已取消"],
+    userRole: ['无', '场馆主', '个人'],
+    eventType: ['足球', '篮球', '排球', '毛球', '乒乓球', '台球', '网球', '保龄球', '健身馆', '家', '游泳', '射击', '跆拳道', '休闭', '滑冰', '滑雪', '涌动装备', '其他'],
+    memberState: ['使用中', '已过期'],
+    exchangeState: ['代发货', '代收货', '交易成功'],
+    bindingState: ['提现中', '提现成功', '提现失败'],
+    mainURL: 'http://192.168.31.231/Backend/',
+    smsURL: 'http://192.168.31.231/sms/',
+    uploadURL: 'http://192.168.31.231/Backend/uploads/'
     //current_select:"fengti"
+  },
+  onLaunch: function () {
+    var _this = this;
+    wx.login({
+      success: function () {
+        wx.getUserInfo({
+          success: function (res) {
+            var info = _this.globalData.userInfo;
+            info.nickname = res.userInfo.nickName;
+            info.avatar = res.userInfo.avatarUrl;
+            if (info.avatar == '') {
+              info.avatar = '../../image/user-unlogin.png'
+            }
+            wx.request({
+              url: _this.globalData.mainURL + 'api/getUserState',
+              data: {
+                'nickname': _this.globalData.userInfo.nickname
+              },
+              method: 'POST',
+              header: {
+                'content-type': 'application/json'
+              },
+              success: function (res) {
+                if (res.data.status == false) {
+                  wx.request({
+                    method: 'POST',
+                    header: {
+                      'content-type': 'application/json'
+                    },
+                    url: _this.globalData.mainURL + 'api/addNewUser',
+                    data: {
+                      'nickname': _this.globalData.userInfo.nickname,
+                      'avatar': _this.globalData.userInfo.avatar
+                    },
+                    success: function (res) {
+                      var info = res.data.result;
+                      var info = _this.globalData.userInfo;
+                      info.user_id = res.data.result;
+                    }
+                  })
+                }
+                else {
+                  var info = _this.globalData.userInfo;
+                  info.user_id = res.data.result[0].no;
+                  info.phone = res.data.result[0].phone;
+                  info.state = res.data.result[0].state;
+                  info.forbidden = res.data.result[0].forbidden;
+                  info.honey = res.data.result[0].honey;
+                  info.role = res.data.result[0].role;
+                  if (res.data.member.length != 0 && res.data.member[0] != 0)
+                    info.isVIP = 1;
+                }
+              },
+              fail: function () {
+
+              }
+            })
+          }
+        });
+      }
+    })
   }
 })

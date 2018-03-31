@@ -1,0 +1,48 @@
+<view class='container'>
+  <view class="product-order-number">
+    <text class="product-order-no">订单编号：</text>
+    <text>123456789</text>
+    <text class="product-order-status">待发货</text>
+  </view>
+  <view class='postman-data-view'>
+    <image class='postman-pos-image' src='../../../image/garden_dw@2x.png'></image>
+    <view class='postman-address-view'>
+      <text class='postman-name-text'>收货人：刘德华</text>
+      <text class='postman-number-text'>13868686886</text>
+      <view class='postman-address-text'>
+        收货地址：北京市昌平区霍营黄金旧干线二期93号 楼一单元666
+      </view>
+    </view>
+  </view>
+  <view class="product">
+    <view class="product-bar">
+      <text class='product-descript'>商品清单</text>
+    </view>
+    <view class="product-detail">
+      <image class="product-picture" src="../../../image/temp.jpg"></image>
+      <view class='product-name-view'>
+        <text class='product-name-text'>asdf</text>
+      </view>
+      <view class="product-content">
+        <text class='product-content-text'>asdf</text>
+      </view>
+      <text class='product-count'>x1</text>
+    </view>
+    <view class="product-total-cost">共计1件商品，需
+      <text>23456ml</text>蜂蜜</view>
+  </view>
+  <view class='product-comment-view'>
+    <view class='product-comment-title'>留言：</view>
+    <view class='product-comment-text'>我还能写多少字呢？我还能写多少字呢？我还能写多少字呢？我还能写多少字呢？我还能写多少字呢？我还能写多少字呢？</view>
+  </view>
+  <view class='product-delivery-time'>
+    <view>兑换时间：2018-02-03 13:00:00</view>
+    <view>发货时间：2018-02-03 13:00:00</view>
+    <view>收货时间：2018-02-03 13:00:00</view>
+  </view>
+  <view class='product-delivery-data'>
+    <view>物流名称：韵达快递</view>
+    <view>物流编号：4325738272748392748394</view>
+  </view>
+  <button class='btn_submit'>确认收货</button>
+</view>

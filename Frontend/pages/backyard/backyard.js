@@ -4,17 +4,23 @@ const app = getApp()
 
 Page({
   data: {
-    activity: ["../../image/activity_n@2x.png", "../../image/activity_s@2x.png"],
-    fengti: ["../../image/Home_n@2x.png", "../../image/Home_s@2x.png"],
-    garden: ["../../image/garden_n@2x.png", "../../image/garden_s@2x.png"],
-    mine: ["../../image/my_n@2x.png", "../../image/my_s@2x.png"],
-    selected: [0, 0, 1, 0]
+    avatar: "../../image/temp.jpg",
+    item: { x: 0, y: 0, honey: 0},
+    honeybox_array: [{ x: 0, y: 0, honey: 0 }, { x: 9, y: 3, honey: 0 }]
   },
   onLoad: function () {
+    this.setData({ avatar: app.globalData.userInfo.avatar })
   },
-  select: function (event) {
+  On_click_beeshop: function()
+  {
     wx.navigateTo({
-      url: "../" + event.currentTarget.id +'/'+event.currentTarget.id,
+      url: 'mainbeeshop/mainbeeshop',
+    })
+  },
+  On_click_beelist: function()
+  {
+    wx.navigateTo({
+      url: 'transaction/transaction',
     })
   }
 })

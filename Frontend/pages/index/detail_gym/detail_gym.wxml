@@ -1,4 +1,5 @@
 <import src="../../profile/template/stadium_template.wxml" />
+<import src="startemplate.wxml" />
 <view class='container'>
   <swiper class="swiper_box" indicator-dots="true" autoplay="true" interval="3000" duration="300">
     <block wx:for="{{images}}">
@@ -11,14 +12,19 @@
     <view class="focus-event-place-info">
       <text class="focus-event-place">{{gym_info.gym_name}}</text>
     </view>
-    <view bindtap="on_Clicked_Comment" class='focus-event-rating'>
-      <text class='focus-count-comment'>{{gym_info.gym_comment}}条评论>></text>
+    <view class='focus-event-rating'>
+      <view wx:for="{{starparam.stars}}" style='display: inline;'>
+        <image class="star-image" style="margin-left: 10rpx; width:26rpx; height:26rpx " src="{{item-(starparam.score-1) <= 0 ? starparam.srcImage_4 : (item-(starparam.score-1) >= 1 ? starparam.srcImage_0 :(item-(starparam.score-1) < 0.5 ? starparam.srcImage_3 : (item-(starparam.score-1) == 0.5 ? starparam.srcImage_2 : starparam.srcImage_1)))}}">
+        </image>
+      </view>
+      <text class='rating-star-text'>4.3分</text>
+      <text bindtap="on_Clicked_Comment" class='focus-count-comment'>{{gym_info.gym_comment}}条评论>></text>
     </view>
     <view class="focus-event-date">时间 |{{gym_info.event_date}}</view>
     <view class="focus-event-place-detail">地址 |{{gym_info.detail_place}}</view>
   </view>
   <view class='comment-gym'>
-    <view class='comment-gym-label'>场馆介绍</view>
+    <view class='comment-gym-label'><text>场馆介绍</text></view>
     <view class='comment-gym-text'>{{gym_info.gym_intro}}</view>
   </view>
 

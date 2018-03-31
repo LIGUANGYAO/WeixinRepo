@@ -1,0 +1,21 @@
+<view class='container'>
+  <view class="product">
+    <view class="product-bar">
+      <text class="product-no">订单编号：</text>
+      <text>123456789</text>
+      <text class="product-status">待发货</text>
+    </view>
+    <view class="product-detail">
+      <image class="product-picture" src="../../../image/temp.jpg"></image>
+      <view class='product-name-view'>
+        <text class='product-name-text'>asdf</text>
+      </view>
+      <view class="product-content">
+        <text class='product-content-text'>asdf</text>
+      </view>
+      <text class='product-count'>x1</text>
+    </view>
+    <view class="product-total-cost">共计1件商品，需
+      <text>23456ml</text>蜂蜜</view>
+  </view>
+</view>
