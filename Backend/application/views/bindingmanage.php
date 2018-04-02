@@ -34,7 +34,7 @@
                                 </select>
                             </div>
                         </div>
-                        <div class="col-xs-12 col-sm-6 form-inline">
+                        <div class="col-xs-12 col-sm-4 form-inline">
                             <div class="form-group area-search-control-view">
                                 <button class="btn btn-primary searchList"
                                         onclick="">查询

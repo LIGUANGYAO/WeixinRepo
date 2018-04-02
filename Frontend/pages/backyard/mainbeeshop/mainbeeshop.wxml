@@ -3,19 +3,21 @@
   <view class='current-total-honey'>
     <image class='current-honey-image' src='../../../image/garden_fm@2x.png'></image>
     <view class='current-honey-text'>
-      <text>蜂蜜量：23456ml</text>
+      <text>蜂蜜量：{{total_honey}}ml</text>
     </view>
   </view>
   <view class='product-header-text'>
     <text>精选商品</text>
   </view>
-  <view bindtap="On_click_product" class='product-list-view' wx:for="{{[1, 2, 3, 4, 5, 6, 7, 8, 9]}}">
-    <image class='product-list-image' src='../../../image/temp.jpg'></image>
-    <text class='product-list-text'>家用航母</text>
-    <view class='product-list-image-footer'>
-      <image class='prduct-list-honeyimage' src='../../../image/garden_fm@2x.png'></image>
-      <text class='product-list-honeytext'>23456ml兑换</text>
+  <view class='product-list-view' wx:for="{{product_array}}">
+    <view id="{{item.id}}" bindtap="On_click_product">
+      <image class='product-list-image' src='{{upload_url + item.avatar}}'></image>
+      <text class='product-list-text'>{{item.name}}</text>
+      <view class='product-list-image-footer'>
+        <image class='prduct-list-honeyimage' src='../../../image/garden_fm@2x.png'></image>
+        <text class='product-list-honeytext'>{{item.cost}}ml兑换</text>
+      </view>
     </view>
   </view>
-  
+
 </view>

@@ -1,14 +1,14 @@
 <!--index.wxml-->
 
 <view>
-  <view class="cls_bind_bank_card_info">
+  <view class="cls_bind_bank_card_info" wx:for="{{payment}}">
     <view class="cls_cost_m">
-      <text class="cls_user_active_state_txt">{{active_state}}</text>
-      <text class="cls_user_active_pay_amount_txt">+¥{{active_pay_amount}}</text>
+      <text class="cls_user_active_state_txt">{{item.title}}</text>
+      <text class="cls_user_active_pay_amount_txt" style="color:{{(item.minus==0)?'':'#E66E3C'}}">{{(item.minus==0)?'+':'-'}}¥{{item.amount}}</text>
     </view>
     <view class='cls_cost_detail'>
-      <text class="cls_user_active_date_txt">{{active_date}}</text>
-      <text class="cls_user_active_pay_state_txt">{{active_pay_state}}</text>
+      <text class="cls_user_active_date_txt">{{item.submit_time}}</text>
+      <text class="cls_user_active_pay_state_txt">{{item.status}}</text>
     </view>
   </view>
 </view>

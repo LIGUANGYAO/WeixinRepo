@@ -57,13 +57,16 @@ class boss_model extends CI_Model
      * @param number $bossId : This is boss id
      * @return array $result :  information of the site
      */
-    function getSiteDetail($bossId)
+    function getSiteDetail($bossId, $userId)
     {
-        $this->db->select("boss.site_address, boss.site_name, boss.site_introduction, boss.site_service,user.phone");
+        $this->db->select("boss.site_address, boss.site_name, boss.site_introduction, boss.site_service,user.phone, boss.boss_id");
         $this->db->select("avg(rating.point) as point, count(rating.id) as rating_amount");
+        $this->db->select("(count(favourite.no)>0) as fav_state");
         $this->db->from("boss");
         $this->db->join("user", "user.no = boss.boss_id");
-        $this->db->join("rating", "rating.boss_id = boss.boss_id");
+        $this->db->join("event", 'event.organizer_id = boss.boss_id','left');
+        $this->db->join("rating", "rating.event_id = event.id",'left');
+        $this->db->join("favourite","favourite.boss_id = boss.boss_id and favourite.user_id =".$userId, "left");
         $this->db->where("boss.boss_id", $bossId);
         $query = $this->db->get();
         return $query->result();
@@ -107,12 +110,12 @@ class boss_model extends CI_Model
      */
     function getSiteStatus($bossId)
     {
-        $this->db->select("site_icon");
+        $this->db->select("site_icon, site_introduction, site_service");
         $this->db->from("boss");
         $this->db->where("boss_id", $bossId);
         $query = $this->db->get();
         $result = $query->result();
-        return (count($result)>0)?true:false;
+        return $result;
     }
 
     /**
@@ -129,39 +132,67 @@ class boss_model extends CI_Model
         return (count($result)>0)?true:false;
     }
 
-    function addSitePicture($bossId, $picture)
+    /**
+     * This function is used to edit information of the site
+     * @param number $bossId : This is boss id
+     * @param array $info: This is the array of information 
+     * @return boolean $result : status of inputing information
+     */
+    function editSiteInfo($bossId, $info)
     {
-        $info['boss_id'] = $bossId;
-        for($index = 0 ; $index < count($picture); $index++)
-        {
-            $info['pic_index'] = $index;
-            $info['picture'] = $picture[$index];
-            $this->db->insert('site_picture', $info);
-        }
-        $result = $this->db->affected_rows();
+        $this->db->trans_start();
+        $this->db->where("boss_id", $bossId);
+        $this->db->update("boss", $info);
+        $result = $this->deleteSitePicture($bossId);
+        $this->db->trans_complete();
+        //$result = $this->db->affected_rows();
         return (count($result)>0)?true:false;
     }
 
     /**
-     * This function is used to change the pictures of the site
+     * This function is used to delete all pictures of site
+     * @param number $bossId : This is boss id 
+     * @return boolean $result : status of delete
+     */
+    function deleteSitePicture($bossId)
+    {
+        $this->db->where("boss_id", $bossId);
+        $result = $this->db->delete("site_picture");
+        return $result;
+    }
+
+    /**
+     * This function is used to edit information of the site
      * @param number $bossId : This is boss id
-     * @param array $picture: This is the array of pictures
+     * @param string $picture: This is the filename of picture 
      * @return boolean $result : status of inputing information
      */
     function addSitePicture($bossId, $picture)
     {
-        $this->db->where("boss_id", $bossId);
-        $this->db->delete("site_picture");
-        $this->db->affected_rows();
+        $this->db->trans_start();
         $info['boss_id'] = $bossId;
-        for($index = 0 ; $index < count($picture); $index++)
-        {
-            $info['pic_index'] = $index;
-            $info['picture'] = $picture[$index];
-            $this->db->insert('site_picture', $info);
-        }
+        $info['picture'] = $picture;
+        $this->db->insert('site_picture', $info);
+        $this->db->trans_complete();
         $result = $this->db->affected_rows();
-        return (count($result)>0)?true:false;
+        return ($result>0)?true:false;
+    }
+
+    /**
+     * This function is used to get the sites in 5km from current user
+     * @param float $longitude : This is longitude of current user
+     * @param float $latitude: This is latitude of the current user
+     * @return array $result : information of sites found
+     */
+    function getSiteByDistance($longitude, $latitude)
+    {
+        $this->db->select("boss_id, longitude, latitude, site_icon");
+        $this->db->from("boss");
+        $this->db->where("( 6371 * acos( cos( radians($latitude) ) * cos( radians( latitude) ) 
+   * cos( radians(longitude) - radians($longitude)) + sin(radians($latitude)) 
+   * sin( radians(latitude))))<=5000");
+        $query = $this->db->get();
+        return $query->result();
     }
 }
 

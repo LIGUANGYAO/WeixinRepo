@@ -17,14 +17,12 @@
     </view>
   </view>
   <scroll-view class="activities">
-    <view wx:for="{{array}}">
-      <template is="act-template" data="{{item}}" />
-      <view wx:if="{{selectedtab == 'booked'}}" class="btn-view">
-        <button id="{{item.phonenumber}}" class="activity-button" bindtap='btn_remove_booking'> 取消蜂约 </button>
-      </view>
-      <template is="act-template" data="{{item}}" />
-      <view wx:if="{{selectedtab == 'booked'}}" class="btn-view">
-        <button id="{{item.phonenumber}}" class="activity-button" bindtap='btn_remove_booking'> 取消蜂约 </button>
+    <view wx:for="{{events}}" wx:item="item" wx:key="index">
+      <view wx:if="{{item.state == selected_state}}">
+        <template is="act-template" data="{{item, userRole, eventType, eventState}}" />
+        <view wx:if="{{item.state == 0}}" class="btn-view">
+          <button  id="{{index}}" class="activity-button" bindtap='btn_remove_booking'> 取消活动 </button>
+        </view>
       </view>
     </view>
   </scroll-view>

@@ -2,24 +2,46 @@ const app = getApp()
 
 Page({
   data: {
-    eventData: { "ground_image": "", "act_type": "", "act_status": "", "favourite": 0, "act_name": "", "member_count": 0, "cost": 0, "act_date": " ", "address": "", "ground_name": "", "ground_owner": "", "max_member": 0, "act_intro": "" },
-    param: {
-      user_avatar: "../../../image/temp.jpg",
-      nickname: "ttt",
-    },
+    nickname:"",
+    avatar: "",
+    event:[],
     realname:"",
     phonenumber:0,
     memcount:0,
     totalcost:0,
+    id: 0,
   },
-  onLoad: function(res)
+  onLoad: function(param)
   {
-    this.setData({ eventData: app.globalData.eventData})
-    this.data.user_avatar = '../'+app.globalData.userInfo.avatar
-    this.data.nickname = app.globalData.userInfo.nickname
-    this.setData({ user_avatar: this.data.user_avatar})
-    this.setData({ nickname: this.data.nickname })
-    this.setData({eventData: this.data.eventData})
+    var that = this;
+    that.setData({
+      nickname: app.globalData.userInfo.nickname,
+      avatar: app.globalData.userInfo.avatar
+    })
+    var id = param.id;
+    wx.request({
+      url: app.globalData.mainURL + 'api/getEventDetail',
+      method: 'POST',
+      header:{
+        'content-type': 'application/json'
+      },
+      data:{
+        'event_id': id,
+        'user_id': app.globalData.userInfo.user_id
+      },
+      success:function(res){
+        console.log(res);
+        var event_buf = res.data.result[0]
+        var time = event_buf.start_time.split(':');
+        event_buf.start_time = time[0] + ':' + time[1];
+        time = event_buf.end_time.split(':');
+        event_buf.end_time = time[0] + ':' + time[1];
+        that.setData({
+          event: event_buf,
+          id: id
+        });
+      }
+    })
   },
   on_Input_Realname: function(event)
   {
@@ -44,6 +66,7 @@ Page({
     if (this.data.phonenumber.toString().length > 11 || this.data.phonenumber.toString().length == 1)
     {
       x++
+      console.log(this.data.phonenumber.toString().length)
       this.setData({ val_phonenumber: "error" })
     }
     if (this.data.memcount > (this.data.eventData.max_member - this.data.eventData.member_count) || this.data.memcount == 0) 
@@ -53,6 +76,7 @@ Page({
     }
     if(x == 0)
     {
+      console.log("OK")
     }
   }
 })

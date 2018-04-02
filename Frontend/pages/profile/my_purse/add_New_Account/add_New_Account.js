@@ -9,7 +9,8 @@ Page({
     cardnum: 0,
     idnumber:0,
     phonenumber:"",
-    bankname:""
+    bankname:"",
+    error: ""
    },
   input_Realname:function(e)
   {
@@ -29,30 +30,57 @@ Page({
   },
   on_Clicked_OK: function()
   {
+    var that = this;
      var x=0
-     if(this.data.realname.length > 5 || this.data.realname.length == 1)
+     if(this.data.realname.length > 5 || this.data.realname.length < 1)
      {
-       x ++
-       this.setData({ms_namemsg: "error"})
-     }
-     if (this.data.cardnum.toString().length > 21 || this.data.cardnum.toString().length < 16)
-     {
-       x ++
-       this.setData({ms_cardmsg: "error"})
-     }
-     if (this.data.phonenumber.length != 11) {
        x++
-       this.setData({ ms_phonemsg: "error" })
+       that.setData({ error: "注：银行卡只支持一次绑定，绑定成功后不能修改，请注意填写正确信息！" })
+     }
+     if (that.data.cardnum.toString().length > 21 || that.data.cardnum.toString().length < 16)
+     {
+       x++
+       that.setData({ error: "注：银行卡只支持一次绑定，绑定成功后不能修改，请注意填写正确信息！" })
+     }
+     if (that.data.phonenumber.length != 11) {
+       x++
+       that.setData({ error: "注：银行卡只支持一次绑定，绑定成功后不能修改，请注意填写正确信息！" })
      }
 
-     if (this.data.bankname.length != 10) {
+     if (that.data.bankname.length != 10) {
        x++
-       this.setData({ ms_banknamemsg: "error" })
+       that.setData({ error: "注：银行卡只支持一次绑定，绑定成功后不能修改，请注意填写正确信息！" })
      }
      if(x == 0)
      {
-       wx.navigateTo({
-         url: '../my_purse',
+       this.setData({ error: "" })
+        wx.request({
+          url: app.globalData.mainURL + 'api/addBindingInfo',
+          method: 'POST',
+          header:{
+            'content-type': 'application/json'
+          },
+          data:{
+            user_id: app.globalData.userInfo.user_id,
+            receiver: that.data.realname,
+            credit_no: that.data.cardnum,
+            id_no: that.data.idnumber,
+            bank_phone: that.data.phonenumber,
+            bank: that.data.bankname
+          },
+          success: function(res)
+          {
+            wx.redirectTo({
+              url: '../my_purse',
+            })
+          }
+        })
+     }
+     else{
+       wx.showToast({
+         title: that.data.error,
+         icon: 'none',
+         duration: 1000
        })
      }
   }

@@ -40,41 +40,5 @@
     "navigationBarBackgroundColor": "#222222",
     "navigationBarTitleText": "蜂体",
     "navigationBarTextStyle": "white"
-  },
-  "tabBar": {
-    "color": "#888888",
-    "selectedColor": "#472E00",
-    "backgroundColor": "#FFFFFF",
-    "list": [
-      {
-        "pagePath": "pages/index/index",
-        "text": "蜂体",
-        "iconPath": "image/Home_n@2x.png",
-        "selectedIconPath": "image/Home_s@2x.png"
-      },
-      {
-        "pagePath": "pages/activity/activity",
-        "text": "活动",
-        "iconPath": "image/activity_n@2x.png",
-        "selectedIconPath": "image/activity_s@2x.png"
-      },
-      {
-        "pagePath":"pages/other/create_event/create_event",
-        "iconPath": "image/add@2x.png",
-        "selectedIconPath": "image/add@2x.png"
-      },
-      {
-        "pagePath": "pages/backyard/backyard",
-        "text": "后花园",
-        "iconPath": "image/garden_n@2x.png",
-        "selectedIconPath": "image/garden_s@2x.png"
-      },
-      {
-        "pagePath": "pages/profile/profile",
-        "text": "我的",
-        "iconPath": "image/my_n@2x.png",
-        "selectedIconPath": "image/my_s@2x.png"
-      }
-    ]
   }
 }

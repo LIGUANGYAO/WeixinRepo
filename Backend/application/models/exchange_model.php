@@ -122,6 +122,52 @@ class exchange_model extends CI_Model
         return $result;
     }
 
+    /**
+     * This function is used to add exchange
+     *@param array $info: this is the information of exchange
+     * @return number $count : This is row count
+     */
+    function addExchange($info)
+    {
+        $this->db->insert("exchange", $info);
+        $result = $this->db->affected_rows();
+        return $result;
+    }
+
+    /**
+     * This function is used to get all information of exchange
+     *@param number $userId: this is the id of current user
+     * @return array $result : This is information array of exchange found
+     */
+    function getExchange($userId)
+    {
+        $this->db->select("exchange.no, exchange.state");
+        $this->db->select("goods.avatar, goods.cost, goods.name");
+        $this->db->from("exchange, goods");
+        $this->db->where("exchange.user_id", $userId);
+        $this->db->where("goods.id = exchange.good_id");
+        $result = $this->db->get()->result();
+        return $result;
+    }
+
+    /**
+     * This function is used to get detail information of exchange
+     *@param array $exchangeId: this is the id of exchange
+     * @return array $result : This is information of exchange
+     */
+    function getExchangeDetail($exchangeId, $userId)
+    {
+        $this->db->select("exchange.*");
+        $this->db->select("goods.avatar, goods.cost, goods.name");
+        $this->db->select("accept_address.name as address_name, accept_address.phone, accept_address.address");
+        $this->db->from("exchange, goods, accept_address");
+        $this->db->where("exchange.no", $exchangeId);
+        $this->db->where("goods.id = exchange.good_id");
+        $this->db->where("accept_address.user_id", $userId);
+        $this->db->where("accept_address.state", 1);
+        $result = $this->db->get()->result();
+        return $result;
+    }
 }
 
 /* End of file exchange_model.php */

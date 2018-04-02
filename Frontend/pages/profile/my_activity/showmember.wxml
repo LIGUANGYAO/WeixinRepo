@@ -1,18 +1,18 @@
 <view>
   <view class="reg_member_view">
     <view class="reg_cls_title">
-      <text class="reg_cls_all_comments">全部评论（10人)</text>
+      <text class="reg_cls_all_comments">全部评论（{{booking.length}}人)</text>
     </view>
   </view>
-  <view class="reg_cls_user_comment_info">
-    <image class="reg_cls_user_photo" src="../../../image/Home_s@2x.png" mode="aspectFill"> </image>
-    <view>
-      <text class="reg_cls_user_name">asdf</text>
-      <text class="reg_member_status">asdf</text>
+    <view class="reg_cls_user_comment_info" wx:for="{{booking}}" wx:item="item" wx:key="index">
+      <image class="reg_cls_user_photo" src="{{item.avatar}}" mode="aspectFill"> </image>
+      <view>
+        <text class="reg_cls_user_name">{{item.name}}</text>
+        <text class="reg_member_status">线下支付</text>
+      </view>
+      <view class='reg_member_detail'>
+        <text class="reg_cls_comment_number">{{item.phone}}</text>
+        <text class="reg_cls_comment_content">共{{item.reg_num}}人，合计{{item.cost*item.reg_num}}元</text>
+      </view>
     </view>
-    <view class='reg_member_detail'>
-      <text class="reg_cls_comment_number">asdf</text>
-      <text class="reg_cls_comment_content">共12人，合计12元</text>
-    </view>
-  </view>
 </view>

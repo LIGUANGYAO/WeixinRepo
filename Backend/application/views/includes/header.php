@@ -1,26 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset=UTF-8>
+    <meta charset="UTF-8">
     <title><?php echo $pageTitle; ?></title>
-    <link rel="shortcut icon" href="<?php echo base_url(); ?>assets/images/logo.png" type="image/x-icon"/>
+    <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon"/>
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
     <!-- Bootstrap 3.3.4 -->
     <link href="<?php echo base_url(); ?>assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
     <!-- FontAwesome 4.3.0 -->
     <link href="<?php echo base_url(); ?>assets/font-awesome/css/font-awesome.min.css" rel="stylesheet"
           type="text/css"/>
-    <!-- Ionicons 2.0.0 -->
-<!--    <link href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css"/>-->
-    <!-- Theme style -->
+    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/plugins/iCheck/all.css">
+    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/plugins/colorpicker/bootstrap-colorpicker.min.css">
+    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/plugins/timepicker/bootstrap-timepicker.min.css">
+    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/plugins/datetimepicker/bootstrap-datetimepicker.css">
+
+    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/plugins/select2/select2.min.css">
     <link href="<?php echo base_url(); ?>assets/dist/css/AdminLTE.min.css" rel="stylesheet" type="text/css"/>
     <link href="<?php echo base_url(); ?>assets/plugins/datepicker/bootstrap-datepicker3.min.css" rel="stylesheet"
           type="text/css"/>
-
-    <!-- AdminLTE Skins. Choose a skin from the css/skins 
+    <!-- AdminLTE Skins. Choose a skin from the css/skins
          folder instead of downloading all of them to reduce the load. -->
     <link href="<?php echo base_url(); ?>assets/dist/css/skins/_all-skins.css" rel="stylesheet" type="text/css"/>
-    <link href="<?php echo base_url(); ?>assets/plugins/select2/select2.css" rel="stylesheet" type="text/css"/>
     <link href="<?php echo base_url(); ?>assets/dist/css/custom.css" rel="stylesheet" type="text/css"/>
 
     <style>
@@ -30,19 +31,10 @@
         }
     </style>
     <!-- jQuery 2.1.4 -->
-
     <script src="<?php echo base_url(); ?>assets/js/jQuery-2.1.4.min.js"></script>
     <script src="<?php echo base_url(); ?>assets/bootstrap/js/bootstrap.min.js"></script>
-    <script type="text/javascript">
-        var baseURL = "<?php echo base_url(); ?>";
-    </script>
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+
 </head>
 <body id="main_page_body" class="skin-blue sidebar-mini">
 <div>
@@ -160,7 +152,7 @@
                 </li>
                 <li class="treeview"
                     style="<?php echo(($menu_acc != '') ? ($menu_acc->p_80 == '1' ? '' : 'display:none;') : 'display:none'); ?>">
-                    <a href="<?php echo base_url(); ?>ratingmanage">
+                    <a href="<?php echo base_url(); ?>rating">
                         <i class="fa fa-files-o"></i>
                         <span>评论管理</span>
                     </a>
@@ -178,7 +170,7 @@
                     <li class="treeview">
                         <a href="<?php echo base_url(); ?>userListing">
                             <i class="fa fa-laptop"></i>
-                            <span class="pull-right-container">系统管理
+                            <span class="pull-left-container">系统管理
                                 <i class="fa fa-angle-left pull-right"></i>
                             </span>
                         </a>
@@ -209,7 +201,7 @@
                 </li>
                 <li class="treeview"
                     style="<?php echo(($menu_acc != '') ? ($menu_acc->p_120 == '1' ? '' : 'display:none;') : 'display:none'); ?>">
-                    <a href="<?php echo base_url(); ?>news">
+                    <a href="<?php echo base_url(); ?>alarm">
                         <i class="fa fa-book"></i>
                         <span>系统信息</span>
                     </a>

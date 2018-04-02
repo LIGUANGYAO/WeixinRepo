@@ -32,18 +32,20 @@ class usermanage extends BaseController
     /**
      * This function is used to load the user list
      */
-    function userCollectListing($searchType = null, $searchName = '', $searchRole = 10, $searchStatus = 10, $searchForbidden = 10)
+    function userCollectListing($searchType = null, $searchName = '', $searchRole = 10, $searchStatus = 10, $searchForbidden = 10, $fromTime = "", $toTime = "")
     {
         $this->global['pageTitle'] = '用户管理';
         if ($searchName == 'ALL') $searchName = '';
-        $count = $this->user_model->userListingCount($searchType, $searchName, $searchRole, $searchStatus, $searchForbidden);
+        $count = $this->user_model->userListingCount($searchType, $searchName, $searchRole, $searchStatus, $searchForbidden, $fromTime, $toTime);
         $returns = $this->paginationCompress("usermanage/", $count, 10);
-         $data['userList'] = $this->user_model->userListing($searchType, $searchName, $searchRole, $searchStatus, $searchForbidden, $returns['page'], $returns['segment']);
+         $data['userList'] = $this->user_model->userListing($searchType, $searchName, $searchRole, $searchStatus, $searchForbidden, $fromTime, $toTime, $returns['page'], $returns['segment']);
         $this->global['searchStatus'] = $searchType;
         $this->global['searchText'] = $searchName;
         $this->global['searchRole'] = $searchRole;
         $this->global['searchState'] = $searchStatus;
         $this->global['searchForbidden'] = $searchForbidden;
+        $this->global['fromTime'] = $fromTime;
+        $this->global['toTime'] = $toTime;
         $this->global['pageType'] = 'user';
         $this->loadViews("usermanage", $this->global, $data, NULL);
     }
@@ -58,7 +60,9 @@ class usermanage extends BaseController
         $searchRole = $this->input->post('searchRole');
         $searchState = $this->input->post('searchState');
         $searchForbidden = $this->input->post('searchForbidden');
-        $this->userCollectListing($searchType, $searchName, $searchRole, $searchState, $searchForbidden);
+        $fromTime = $this->input->post('fromTime');
+        $toTime = $this->input->post('toTime');
+        $this->userCollectListing($searchType, $searchName, $searchRole, $searchState, $searchForbidden, $fromTime, $toTime);
     }
 
     /**
@@ -134,6 +138,11 @@ class usermanage extends BaseController
     function showUserDetail($userId)
     {
         $data['userDetail'] = $this->user_model->getUserDetailById($userId);
+        $data['exchange'] = $this->user_model->getExchangeHoneyWasteById($userId);
+        $userRole = $this->user_model->getRoleById($userId);
+        if($userRole->role == 2){
+            $data['event'] = $this->user_model->getEventHoneyWasteById($userId);
+        }
         $this->global['pageTitle'] = '用户详情';
         $this->loadViews("userdetail", $this->global, $data, NULL);
     }

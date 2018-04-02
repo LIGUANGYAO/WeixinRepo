@@ -1,14 +1,14 @@
 var app = getApp()
 Page({
   data: {
-    param: [{ "phonenumber": 17642518820, "status": "进行中", "kind": "football", "user": "user", "match": "football", "membernum": "5", "cost": 12, "date": "2018", "place": "bejing", "iscomment": 0 }],
-    gym_info: {
-      "gym_name": "北京大学体育馆", "gym_point": 4.3, "gym_comment": 200, "event_date": "2018-02-22 13:00",
-      "detail_place": "北京大学体育馆23号足球场", "gym_intro": "",
-      "gym_service": "玩的很愉快玩的很愉快玩的很愉快玩的很愉快玩的很愉快玩的很愉快玩的很愉快玩的很愉快玩的很愉快玩的很愉快玩的很愉快",
-      "event_total": 10
-    },
-    images: [],
+    site:[],
+    event:[],
+    isFavourite:false,
+    pictures:[],
+    eventType: [],
+    userRole: [],
+    eventState: [],
+    favourite_image: ['../../../image/good_n@2x.png','../../../image/good_s@2x.png'],
     starparam: {
       stars: [0, 1, 2, 3, 4],
 
@@ -23,20 +23,94 @@ Page({
     }
   },
   onLoad: function (options) {
-    this.setData({ param: this.data.param })
-    // set swiper image
     this.setData({
-      images: ["../../../image/temp.jpg", "../../../image/my_bee@3x.png", "../../../image/success@3x.png"]
+      eventType: app.globalData.eventType,
+      userRole: app.globalData.userRole,
+      bookingState: app.globalData.eventState
+    });
+    var id = options.id;
+    console.log(id);
+    var that = this;
+    wx.request({
+      url: app.globalData.mainURL + 'api/getSiteDetail',
+      header: {
+        'content-type': 'application/json'
+      },
+      method: 'POST',
+      data: {
+        'boss_id': id,
+        'user_id': app.globalData.userInfo.user_id
+      },
+      success: function(res){
+        console.log(res);
+        if(res.data.status){
+          var site_buf = res.data.site[0];
+          if(site_buf!=null)
+          {
+            if(site_buf.point==null) site_buf.point = 0;
+            if(site_buf.fav_state==null) site_buf.fav_state = 0;
+            var star = that.data.starparam;
+            star.score = site_buf.point*1;
+            that.setData({
+              starparam: star,
+            })
+          }
+          var picture = res.data.picture;
+          var images= [];
+          if(picture.length!=0)
+          {
+            for(var index=0;index<picture.length;index++){
+              images[index] = app.globalData.uploadURL + picture[index].picture
+            }
+          }
+          var event_buf = res.data.event;
+          var is_favourite = res.data.isFavourite;
+          for (var index = 0; index < event_buf.length; index++){
+            event_buf[index].avatar = app.globalData.uploadURL + event_buf[index].avatar
+            if(event_buf[index].register_num==null){
+              event_buf[index].register_num=0;
+            }
+          }
+          that.setData({
+            site: site_buf,
+            pictures: images,
+            isFavourite: is_favourite,
+            event: event_buf
+          })
+        }
+      }
+    })
+    // set swiper image
+  },
+  click_detail_event: function (event) {
+    wx.navigateTo({
+      url: '../detail_event/detail_event?id='+event.currentTarget.id,
     })
   },
-  click_detail_event: function () {
+  on_Clicked_Comment: function (event) {
     wx.navigateTo({
-      url: '../detail_event/detail_event?stadium='+this.data.gym_info.gym_name,
+      url: '../../other/comment/comment?id=' + event.currentTarget.id+'&kind=site',
     })
   },
-  on_Clicked_Comment: function () {
-    wx.navigateTo({
-      url: '../../other/comment/comment',
+  on_click_favourite: function(){
+    var site_buf = this.data.site
+    site_buf.fav_state = (site_buf.fav_state+1)%2;
+    this.setData({
+      site: site_buf
+    })
+    var that = this;
+    wx.request({
+      url: app.globalData.mainURL + 'api/cancelFavouriteSite',
+      method: 'POST',
+      header:{
+        'content-type': 'application/json'
+      },
+      data:{
+        'user_id': app.globalData.userInfo.user_id,
+        'boss_id': that.data.site.boss_id
+      },
+      success: function(res){
+      }
     })
   }
 })  

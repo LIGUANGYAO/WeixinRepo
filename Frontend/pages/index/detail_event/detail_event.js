@@ -4,47 +4,109 @@ const app = getApp()
 
 Page({
   data: {
-    eventData: { "ground_image": "../../../image/temp.jpg", "act_type": "足球比赛", "act_status": "进行中", "favourite": 200, "act_name": "足球", "member_count": 10, "cost": 20, "act_date": " 2018-02-22 13:00", "address": "北京大学体育馆23号足球场", "ground_name": "北京大学体育馆", "ground_owner": "郭德纲", "max_member": 15, "act_intro": "玩的很愉快玩的很愉快玩的很愉快玩的很愉快玩的" },
-    is_disabled: false,
-    favor_src: "../../../image/good_n@2x.png",
-    favour_num: 0
+    events:[],
+    booking: [],
+    eventType: [],
+    userRole: [],
+    eventState: [],
+    is_full: false,
+    is_registered: false,
+    register_amount: 0,
+    btn_text:'立即参加'
   },
   onLoad: function (option) {
-    var image_array = ["../../../image/temp.jpg", "../../../image/Home_s@3x.png", "../../../image/my_attention@3x.png", "../../../image/my_s@3x.png"]
-    this.setData({ image_array: image_array })
-
-    this.data.favour_num = this.data.eventData.favourite
-    this.setData({ favour_num: this.data.favour_num})
-    if (this.data.eventData.act_status == "已取消")
-    {
-      this.setData({ btn_text: "已取消"})
-      this.setData({ is_disabled: true})
-    }
-    else if(this.data.eventData.max_member == this.data.eventData.mebmer_count)
-    {
-      this.setData({ btn_text: "人数已满" })
-      this.setData({ is_disabled: true })
-    }
-    else {
-      this.setData({ btn_text: "立即参加" })
-      this.setData({ is_disabled: false })
-    }
+    this.setData({
+      userInfo: app.globalData.userInfo,
+      eventType: app.globalData.eventType,
+      userRole: app.globalData.userRole,
+      eventState: app.globalData.eventState
+    });
+    var id = option.id;
+    var that = this;
+    this.setData({
+      userInfo: app.globalData.userInfo,
+      eventType: app.globalData.eventType,
+      userRole: app.globalData.userRole,
+      eventState: app.globalData.eventState
+    });
+    var that = this;
+    var id = option.id;
+    wx.request({
+      url: app.globalData.mainURL + 'api/getEventDetail',
+      method: 'POST',
+      header: {
+        'content-type': 'application/json'
+      },
+      data: {
+        'event_id': id,
+        'user_id': app.globalData.userInfo.user_id
+      },
+      success: function (res) {
+        console.log(res);
+        var books = res.data.booking;
+        var registered_num = 0;
+        for (var index = 0; index < books.length; index++) {
+          books[index].avatar = app.globalData.uploadURL + books[index].avatar
+          if(books[index].name = app.globalData.userInfo.name){
+            that.setData({
+              is_registered: true
+            })
+          }
+          registered_num += 1*books[index].reg_num;
+        }
+        that.setData({
+          register_amount: registered_num
+        })
+        that.setData({
+          booking: books,
+        })
+        var event_buf = res.data.result[0];
+        event_buf.pic = app.globalData.uploadURL + event_buf.pic;
+        if (event_buf.favourite_num == null) {
+          event_buf.favourite_num = 0;
+        }
+        if(registered_num==event_buf.limit){
+          that.setData({
+            is_full: true,
+            btn_text:'人数已满'
+          })
+        }
+        if(that.data.is_registered == true)
+        {
+          that.setData({
+            btn_text:'已报名'
+          })
+        }
+        if(event_buf.state == 2){
+          that.setData({
+            btn_text: '已取消'
+          })
+        }
+        var time = event_buf.start_time.split(':');
+        event_buf.start_time = time[0] + ':' + time[1];
+        time = event_buf.end_time.split(':');
+        event_buf.end_time = time[0] + ':' + time[1];
+        that.setData({
+          event: event_buf,
+          id: id
+        });
+      }
+    })
     //code for liseter paticipate
   },
 
-  btn_Clicked_Personal_Input: function () {
-    app.globalData.eventData = this.data.eventData
+  btn_Clicked_Personal_Input: function (event) {
     wx.navigateTo({
-      url: '../personal_input/personal_input',
+      url: '../personal_input/personal_input?id='+event.currentTarget.id,
       success: function (res) { },
       fail: function (res) { },
       complete: function (res) { },
     })
   },
 
-  btn_Clicked_Gym_Info: function () {
+  btn_Clicked_Gym_Info: function (event) {
     wx.navigateTo({
-      url: '../detail_gym/detail_gym',
+      url: '../detail_gym/detail_gym?id='+ event.currentTarget.id,
       success: function (res) { },
       fail: function (res) { },
       complete: function (res) { },

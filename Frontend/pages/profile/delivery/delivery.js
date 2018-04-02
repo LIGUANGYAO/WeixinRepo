@@ -29,10 +29,12 @@ Page({
         'user_id': app.globalData.userInfo.user_id
       },
       success: function (res) {
-        console.log(res.data.result)
-        that.setData({
-          address: res.data.result
-        });
+        console.log(res);
+        if(res.data.result!=null){
+          that.setData({
+            address: res.data.result
+          });
+        }
       },
       fail: function (res) {
       }
@@ -40,8 +42,9 @@ Page({
   },
   checkMainAddress:function(event){
     var that = this;
-    var id = event.target.id;
-    var address_buf = that.data.address;
+    console.log(event.target);
+    var id=event.target.id;
+    var address_buf=that.data.address;
     var no = address_buf[id].no;
     wx.request({
       url:app.globalData.mainURL+"api/checkAcceptAddress",
@@ -56,9 +59,9 @@ Page({
       success:function(res){
       }
     })
-    for(var index = 0; index<address_buf.length; index++)
+    for(var index=0; index<address_buf.length; index++)
     {
-      if(index == id) 
+      if(index==id) 
       {
         address_buf[index].state = 1
       }
@@ -71,61 +74,14 @@ Page({
       address:address_buf
     })
   },
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-    
-  },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
   
-  },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-  
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-  
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-  
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-  
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-  
-  },
   on_click_edit: function(e)
   {
     var id = e.target.id;
     var address = this.data.address[id]
     wx.navigateTo({
       url: 'editdelivery?no='+address.no+'&name='+address.name+'&phone='
-      +address.phone+'&address='+address.address+'&email='+address.email,
+      + address.phone + '&detail_address=' + address.detail_address + '&province=' + address.province + '&city=' + address.city + '&area=' + address.area +'&email='+address.email,
     })
   },
   on_click_delete: function(e)

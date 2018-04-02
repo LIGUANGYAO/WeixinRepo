@@ -7,10 +7,64 @@ Page({
     img_black_start_src: '../../../image/star_n@2x.png',
     img_yellow_start_src: '../../../image/star_s@2x.png',
     star_img_position: 25,
-    comment_array: [{ "user_photo_src": "../../../image/temp.jpg", "comment_user_name": "布拉德皮蛋","comment_time": "2017-12-22 11:29", "comment_content": "这里是一条评论这里是一条评论。", "count_yellowStar": 3}],
-    comment_user_number: 3
+    rating:[],
+    method: 'event'
   },
-  onLoad:function()
+  onLoad:function(param)
   {
+    var that = this;
+    var id = param.id;
+    var kind = param.kind;
+    if(kind=='event'){
+      wx.request({
+        url: app.globalData.mainURL + 'api/getRatingByEvent',
+        method: 'POST',
+        header:{
+          'content-type': 'application/json'
+        },
+        data:{
+          'event_id': id
+        },
+        success: function(res){
+          console.log(id);
+          console.log(res);
+          var ratings = res.data.result;
+          if(ratings!=null){
+            for(var index=0; index<ratings.length; index++){
+              ratings[index].avatar = app.globalData.uploadURL + ratings[index].avatar;
+            }
+            that.setData({
+              rating: ratings,
+              method: kind
+            })
+          }
+        }
+      })
+    }
+    else{
+      wx.request({
+        url: app.globalData.mainURL + 'api/getRatingBySite',
+        method: 'POST',
+        header: {
+          'content-type': 'application/json'
+        },
+        data: {
+          'boss_id': id
+        },
+        success: function (res) {
+          var ratings = res.data.result;
+          if(ratings!=null){
+            for (var index = 0; index < ratings.length; index++) {
+              ratings[index].avatar = app.globalData.uploadURL + ratings[index].avatar;
+            }
+            that.setData({
+              rating: ratings,
+              method: kind
+            })
+            console.log(ratings);
+          }
+        }
+      })
+    }
   }
 })

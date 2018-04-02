@@ -45,18 +45,14 @@
 }
 
 .activity-content {
-  line-height: 37rpx;
+  height: 36rpx;
   font-size: 26rpx;
-  margin-top: 19rpx;
   margin-left: 120rpx;
   font-family: "PingFangSC-Regular";
 }
 
 .activity-content image {
-  vertical-align: middle;
-}
-.activity-content text{
-  margin-left: 9rpx;
+  vertical-align: bottom;
 }
 
 .activity-type {

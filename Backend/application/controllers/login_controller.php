@@ -39,13 +39,11 @@ class login_controller extends CI_Controller
             $this->load->view('login');
         } else {
             if ($roleId == '1')
-                redirect('/userListing');
+                redirect('/usermanage');
             else
-                redirect('/qrmanage');
+                redirect('/dashboard');
         }
     }
-
-
     /**
      * This function used to logged in user
      */
@@ -78,14 +76,14 @@ class login_controller extends CI_Controller
 
                     $this->session->set_userdata($sessionArray);
                     if ($res->roleId == '1')
-                        redirect('/userListing');
+                        redirect('/usermanage');
                     else
-                        redirect('/qrmanage');
+                        redirect('/dashboard');
                 }
             } else {
                 $this->session->set_flashdata('error', '帐户或密码不匹配。');
 
-                redirect('/loginMe');
+                redirect('/login');
             }
         }
     }

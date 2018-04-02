@@ -105,6 +105,7 @@
   top: 495rpx;
   right: 50rpx;
   font-size: 22rpx;
+  text-align: center;
   color: #472e00;
 }
 
@@ -118,7 +119,7 @@
 .place-info {
   margin-top: 20rpx;
   padding-top: 20rpx;
-  height: 264rpx;
+  height: auto;
   width: 100%;
   background-color: white;
 }
@@ -165,10 +166,7 @@
   width: 100%;
   height: auto;
 }
-.reg_cls_all_comments{
-    border-left: 6rpx solid #e6b53c;
-  padding-left: 12rpx;
-}
+
 .view_more_detail_booking {
   padding-top: 10rpx;
   font-family: PingFangSC-Semibold;
@@ -194,4 +192,9 @@
   letter-spacing: 0.56px;
   float: right;
   margin-right: 17rpx;
+}
+
+.reg_cls_all_comments{
+    border-left: 6rpx solid #e6b53c;
+  padding-left: 12rpx;
 }

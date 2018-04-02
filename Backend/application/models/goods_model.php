@@ -27,6 +27,35 @@ class goods_model extends CI_Model
     }
 
     /**
+     * This function is used to get the goods information
+     * @param number $goodsId : This is goods id
+     */
+    function getGoodsList()
+    {
+        $this->db->select("avatar, name, cost, id");
+        $this->db->from("goods");
+        $this->db->where("state", 1);
+        $this->db->where("isDeleted", 0);
+        $query = $this->db->get();
+        return $query->result();
+    }
+
+    /**
+     * This function is used to get the good information
+     * @param number $goodsId : This is goods id
+     */
+    function getGoodDetail($goodId)
+    {
+        $this->db->select("avatar, name, cost, id, amount, comment");
+        $this->db->from("goods");
+        $this->db->where("state", 1);
+        $this->db->where("isDeleted", 0);
+        $this->db->where("id", $goodId);
+        $query = $this->db->get();
+        return $query->result();
+    }
+
+    /**
      * This function is used to get the amount of goods
      * @param array $goodId : This is goodId
      * @param number $goodsId : This is goods id

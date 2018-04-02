@@ -4,6 +4,7 @@
         <h1>
             用户列表
         </h1>
+        <input id="pageTitle" value="<?php echo $pageTitle ?>" type="hidden">
     </section>
     <section class="content" style="min-height: 800px;">
         <div class="container">
@@ -18,7 +19,7 @@
                                     <option value="2"<?php if ($searchStatus == 2) echo ' selected'; ?>>手机号码</option>
                                 </select>
                             </div>
-                            <div class="input-group">
+                            <div class="form-group">
                                 <input type="text" id="searchName" name="searchName"
                                        value="<?php echo $searchText == 'all' ? '' : $searchText; ?>"
                                        class="form-control"/>
@@ -57,24 +58,23 @@
                         <div class="col-xs-12 col-sm-6 form-inline" style="margin-top: 10px;">
                             <div class="form-group">
                                 <span> 认证时间 </span>
-                                <input id="start_time" class="datepicker-inline form-control" size="16" type="text" value="" readonly="">
+                                <input id="fromTime" name="fromTime" class="datepicker-inline form-control" size="16" type="text" value="<?php echo $fromTime;?>" readonly="">
 
                                 <span> 至 </span>
-                                <input id="end_time" class="datepicker-inline form-control" size="16" type="text" value="" readonly="">
+                                <input id="toTime" name="toTime" class="datepicker-inline form-control" size="16" type="text" value="<?php echo $toTime;?>" readonly="">
                             </div>
                         </div>
-                        <div class="col-xs-12 col-sm-1 form-inline" style="margin-top: 10px;">
-                            <div class="form-group area-search-control-view">
-                                <button class="btn btn-primary searchList"
-                                        onclick="searchArea('<?php echo base_url(); ?>');">导出
-                                </button>
+                        <div class="col-xs-12 col-sm-3 form-inline">
+                            <div class="form-group area-search-control-view" style="margin-top:8px">
+                                <input type="button" class="btn btn-primary searchList"
+                                        onclick="exportTable()" value="导出">
+                                </input>
                             </div>
                         </div>
-                        <div class="col-xs-12 col-sm-1 form-inline" style="margin-top: 10px;">
-                            <div class="form-group area-search-control-view">
-                                <button class="btn btn-primary searchList"
-                                        onclick="searchArea('<?php echo base_url(); ?>');">查询
-                                </button>
+                        <div class="col-xs-12 col-sm-1 form-inline">
+                            <div class="form-group area-search-control-view" style="margin-top:8px">
+                                <input type="submit" class="btn btn-primary searchList" value="查询">
+                                </input>
                             </div>
                         </div>
                     </form>
@@ -109,7 +109,7 @@
                                 ?>
                                 <tr>
                                     <td><?php echo $i; ?></td>
-                                    <td><?php echo $i; ?></td>
+                                    <td><image src="<?php echo base_url().'uploads/'.$record->avatar; ?>" style="width:50px; height:50px; border-radius:50%;"/></td>
                                     <td><?php echo $record->nickname; ?></td>
                                     <td><?php echo $record->name; ?></td>
                                     <td><?php echo $record->phone; ?></td>
@@ -139,26 +139,26 @@
                     </table>
                     <div class="form-group">
                         <div id="custom-confirm-delete-view" style="display:none;">
-                            <div class="form-group">
-                                <label id="userAction"></label>
-                            </div>
-                            <div class="form-group">
-                                <button class="btn btn-default" onclick="$('#custom-confirm-delete-view').hide();">取消</button>
-                                <button class="btn btn-primary" onclick="changeForbidden('<?php echo base_url(); ?>');">确定</button>
-                                <div id="userId" style="display: none;"></div>
-                            </div>
+                                <div class="form-group">
+                                    <label id="userAction"></label>
+                                </div>
+                                <div class="form-group">
+                                    <button class="btn btn-default" onclick="$('#custom-confirm-delete-view').hide();">取消</button>
+                                    <button class="btn btn-primary" onclick="changeForbidden('<?php echo base_url(); ?>');">确定</button>
+                                    <div id="userId" style="display: none;"></div>
+                                </div>
                         </div>
                         <div id="custom-generate-auth-view" style="display:none;">
-                            <div class="form-group">
-                                <label id="name"></label>
-                            </div>
-                            <div class="form-group">
-                                <label id="phone"></label>
-                            </div>
-                            <div class="form-group">
-                                <button class="btn btn-default" onclick="changeState(2,'<?php echo base_url();?>')">通过</button>
-                                <button class="btn btn-primary" onclick="changeState(3,'<?php echo base_url();?>')">不通过</button>
-                            </div>
+                                <div class="form-group">
+                                    <label id="name"></label>
+                                </div>
+                                <div class="form-group">
+                                    <label id="phone"></label>
+                                </div>
+                                <div class="form-group">
+                                    <button class="btn btn-default" onclick="changeState(2,'<?php echo base_url();?>')">通过</button>
+                                    <button class="btn btn-primary" onclick="changeState(3,'<?php echo base_url();?>')">不通过</button>
+                                </div>
                         </div>
                     </div>
                     <div class="clearfix"><?php echo $this->pagination->create_links(); ?>

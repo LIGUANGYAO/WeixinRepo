@@ -65,13 +65,27 @@
             ?>
             <div id="tip" class="row custom-info-row">
                 <label class="col-sm-2"> 评分:</label>
-                <label class="col-sm-4" id="forbidden"><?php echo $rating[0]->point; ?></label>
+                <?php
+                    $index=0;
+                    if($rating!=null){
+                        for(; $index<$rating[0]->point;$index++){
+                ?>
+                <image src="<?php echo base_url().'assets/images/star_full.png';?>" style="width:20px;height:20px;"/>
+                <?php
+                        }
+                    }
+                    for(;$index<5;$index++){
+                ?>
+                <image src="<?php echo base_url().'assets/images/star_blank.png';?>" style="width:20px;height:20px;"/>
+                <?php
+                    }
+                ?>
             </div>
             <div class="row custom-info-row">
                 <label class="col-sm-2">内容:</label>
             </div>
             <div class="row custom-info-row">
-                <label class="col-sm-2"><?php echo $rating[0]->comment;?></label>
+                <label class="col-sm-2"><?php if($rating!=null) echo $rating[0]->comment;?></label>
             </div>
            <?php
                 }

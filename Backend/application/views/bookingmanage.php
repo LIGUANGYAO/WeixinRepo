@@ -4,6 +4,7 @@
         <h1>
             蜂约订单
         </h1>
+        <input id="pageTitle" value="<?php echo $pageTitle ?>" type="hidden">
     </section>
     <section class="content" style="min-height: 800px;">
         <div class="container">
@@ -25,7 +26,7 @@
                                        class="form-control"/>
                             </div>
                         </div>
-                        <div class="col-xs-2 col-sm-2 form-inline">
+                        <div class="col-xs-2 col-sm-1 form-inline">
                             <div class="form-group">
                                 <select class="form-control" id="searchType" name="searchType">
                                     <option value="100"<?php if ($searchType == 100) echo ' selected'; ?>>活动类型</option>
@@ -39,7 +40,7 @@
                                 </select>
                             </div>
                         </div>
-                        <div class="col-xs-2 col-sm-2 form-inline">
+                        <div class="col-xs-2 col-sm-1 form-inline">
                             <div class="form-group">
                                 <select class="form-control" id="searchState" name="searchState">
                                     <option value="10"<?php if ($searchState == 10) echo ' selected'; ?>>活动状态</option>
@@ -49,7 +50,7 @@
                                 </select>
                             </div>
                         </div>
-                        <div class="col-xs-2 col-sm-2 form-inline">
+                        <div class="col-xs-2 col-sm-1 form-inline">
                             <div class="form-group">
                                 <select class="form-control" id="searchPay" name="searchPay">
                                     <option value="10"<?php if ($searchPay == 10) echo ' selected'; ?>>支付方式</option>
@@ -58,18 +59,17 @@
                                 </select>
                             </div>
                         </div>
-                        <div class="col-xs-1 col-sm-1 form-inline">
+                        <div class="col-xs-12 col-sm-1 form-inline">
                             <div class="form-group area-search-control-view">
-                                <button class="btn btn-primary searchList"
-                                        onclick="searchArea('<?php echo base_url(); ?>');">导出                     <!--  -->
-                                </button>
+                                <input type="button" class="btn btn-primary searchList"
+                                        onclick="exportTable()" value="导出">
+                                </input>
                             </div>
                         </div>
-                        <div class="col-xs-1 col-sm-1 form-inline">
+                        <div class="col-xs-12 col-sm-1 form-inline">
                             <div class="form-group area-search-control-view">
-                                <button class="btn btn-primary searchList"
-                                        onclick="searchArea('<?php echo base_url(); ?>');">查询
-                                </button>
+                                <input type="submit" class="btn btn-primary searchList" value="查询">
+                                </input>
                             </div>
                         </div>
                     </form>

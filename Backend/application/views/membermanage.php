@@ -2,15 +2,16 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
         <h1>
-            用户列表
+            兑换订单列表
         </h1>
+        <input id="pageTitle" value="<?php echo $pageTitle ?>" type="hidden">
     </section>
     <section class="content" style="min-height: 800px;">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
                     <form action="<?php echo base_url(); ?>memberListingByFilter" method="POST" id="searchList">
-                        <div class="col-xs-12 col-sm-3 form-inline">
+                        <div class="col-xs-12 col-sm-5 form-inline">
                             <div class="form-group">
                                 <select class="form-control" id="searchStatus" name="searchStatus">
                                     <option value="0"<?php if ($searchStatus == 0) echo ' selected'; ?>>订单编号</option>
@@ -24,7 +25,7 @@
                                        class="form-control"/>
                             </div>
                         </div>
-                        <div class="col-xs-12 col-sm-1 form-inline">
+                        <div class="col-xs-12 col-sm-2 form-inline">
                             <div class="form-group">
                                 <select class="form-control" id="searchState" name="searchState">
                                     <option value="10"<?php if ($searchState == 10) echo ' selected'; ?>>认证状态</option>
@@ -35,25 +36,24 @@
                         </div>
                         <div class="col-xs-12 col-sm-1 form-inline">
                             <div class="form-group area-search-control-view">
-                                <button class="btn btn-primary searchList"
-                                        onclick="exportTable();">导出
-                                </button>
+                                <input type="button" class="btn btn-primary searchList"
+                                        onclick="exportTable()" value="导出">
+                                </input>
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-1 form-inline">
                             <div class="form-group area-search-control-view">
-                                <button class="btn btn-primary searchList"
-                                        onclick="searchArea('<?php echo base_url(); ?>');">查询
-                                </button>
+                                <input type="submit" class="btn btn-primary searchList" value="查询">
+                                </input>
                             </div>
                         </div>
                     </form>
                 </div>
             </div>
             <div class="container">
-                <div class="row">
-                    <table class="table area-result-view table-bordered table-hover">
-                        <thead>
+                <div class="row table-responsive">
+                    <table id="contentInfo_tbl" class="table area-result-view table-bordered table-hover">
+                        <thead id="header_tbl">
                         <tr style="background-color: lightslategrey;">
                             <th width="">订单编号</th>
                             <th>姓名</th>
@@ -64,7 +64,7 @@
                             <th>提交时间</th>
                         </tr>
                         </thead>
-                        <tbody>
+                        <tbody id="content_tbl">
                        <?php
                         if (!empty($memberList)) {
                             $i = 0;
@@ -85,13 +85,9 @@
                         ?>
                         </tbody>
                     </table>
-                    <div class="clearfix">
-                       <?php echo $this->pagination->create_links(); ?>
-                    </div>
                 </div>
             </div>
         </div>
     </section>
 </div>
 <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/common.js" charset="utf-8"></script>
-</script>

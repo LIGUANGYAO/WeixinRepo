@@ -30,12 +30,17 @@
                                 </select>
                             </div>
                         </div>
-                        <div class="col-xs-12 col-sm-6 form-inline">
+                        <div class="col-xs-12 col-sm-3 form-inline">
                             <div class="form-group area-search-control-view">
                                 <button class="btn btn-primary searchList"
                                         onclick="">查询
                                 </button>
                             </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-2 form-inline">
+                            <a class="btn btn-primary" href="<?php echo base_url(); ?>goodAdd">
+                                新增
+                            </a>
                         </div>
                     </form>
                 </div>

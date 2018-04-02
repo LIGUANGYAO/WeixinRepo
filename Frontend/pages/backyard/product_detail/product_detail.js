@@ -1,18 +1,37 @@
 // pages/backyard/product_detail/product_detail.js
+var app = getApp()
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-  
+    id:0
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-  
+    var that = this
+    console.log(options.id)
+    this.setData({ upload_url: app.globalData.uploadURL })
+    wx.request({
+      url: app.globalData.mainURL + 'api/getGoodDetail',
+      data: {
+        id: options.id
+      },
+      method: 'POST',
+      header: {
+        'content-type': 'application/json'
+      },
+      success: function (res) {
+        that.data.id = res.data.result[0].id
+        that.setData({product: res.data.result[0]})
+      },
+      fail: function () {
+      }
+    })
   },
 
   /**
@@ -65,8 +84,9 @@ Page({
   },
   On_click_order:function()
   {
+    var that = this
     wx.navigateTo({
-      url: '../product_order/product_order',
+      url: '../product_order/product_order?id='+ that.data.id,
     })
   }
 })

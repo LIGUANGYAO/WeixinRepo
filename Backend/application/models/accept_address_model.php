@@ -2,32 +2,14 @@
 
 class accept_address_model extends CI_Model
 {
-    /**
-    *This is function to check existing with new address
-    */
-    function checkExisting($info)
-    {
-        $this->db->select("no");
-        $this->db->from("accept_address");
-        $this->db->where("address", $info->{'address'});
-        $this->db->where("user_id", $info->{'user_id'});
-        $query = $this->db->get();
-        $result = $query->result();
-        return (count($result)>0)?false:true;
-    }
 
     /**
     *This is function to add addresses where user can accept the goods paid
     */
     function addAddressByUser($info)
     {
-        if($this->checkExisting($info)){
-            $this->db->insert("accept_address", $info);
-            return true;
-        }
-        else{
-            return false;
-        }
+        $this->db->insert("accept_address", $info);
+        return true;
     }
 
     /**
@@ -35,8 +17,12 @@ class accept_address_model extends CI_Model
     */
     function getAddressByUser($userId)
     {
-        $this->db->select("*");
+        $this->db->select("accept_address.name, accept_address.phone, accept_address.email, accept_address.no, accept_address.state, accept_address.detail_address");
+        $this->db->select("provinces.province, cities.city, areas.area");
         $this->db->from("accept_address");
+        $this->db->join("provinces","provinces.id = accept_address.province");
+        $this->db->join("cities","cities.id = accept_address.city");
+        $this->db->join("areas","areas.id = accept_address.area");
         $this->db->where("user_id", $userId);
         $query = $this->db->get();
         return $query->result();
@@ -47,15 +33,9 @@ class accept_address_model extends CI_Model
     */
     function changeAddressById($addressId, $info)
     {
-        if($this->checkExisting($info)){
-            $this->db->where("no", $addressId);
-            $this->db->update("accept_address", $info);
-            return true;
-        }
-        else
-        {
-            return false;
-        }
+        $this->db->where("no", $addressId);
+        $this->db->update("accept_address", $info);
+        return true;
     }
 
     /**
@@ -76,11 +56,34 @@ class accept_address_model extends CI_Model
     /**
     *This is function to delete address by id
     */
-    function deleteAddressById($addressId)
+    function deleteAddressById($addressId, $userId)
     {
+        $query = $this->db->query("select state from accept_address where no=".$addressId);
+        $result = $query->result();
+        $checked = $result[0]->state;
         $this->db->where("no", $addressId);
         $this->db->delete("accept_address");
-        return $this->db->affected_rows();
+        if($checked == 1){
+            $this->db->query("update accept_address set state=1 where user_id=".$userId." limit 1");
+        }
+        $this->db->select("*");
+        $this->db->from("accept_address");
+        $this->db->where('user_id', $userId);
+        $query = $this->db->get();
+        return $query->result();
+    }
+
+    /**
+    *This is function to get main receiver address by user_id
+    */
+    function getMainAddress($userId)
+    {
+        $this->db->select("name, phone, address");
+        $this->db->from("accept_address");
+        $this->db->where('user_id', $userId);
+        $this->db->where('state', 1);
+        $query = $this->db->get();
+        return $query->result();
     }
 
 }

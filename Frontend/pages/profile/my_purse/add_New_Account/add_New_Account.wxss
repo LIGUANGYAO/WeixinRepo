@@ -1,7 +1,7 @@
 /**index.wxss**/
 
 .cls_cardholder_name{
-  position:absolute; 
+  position: absolute;
   left: 0rpx; 
   top: 0rpx; 
   width: 100%; 

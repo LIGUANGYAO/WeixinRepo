@@ -6,7 +6,7 @@
   <image wx:if="{{mn_ismember}}" class='user-is-vip' src='../../../image/card_vip@2x.png'></image>
   <text wx:if="{{mn_ismember}}" class='user-info-term'>到期时间:{{term_date}}</text>
   <text class='user-info-cost'>会员资费：{{cost}}元/月</text>
-  <text class='user-info-ok' bindtap='btn_Clicked_Cost'>立即续费</text>
+  <text class='user-info-ok' bindtap='pay'>立即续费</text>
 </view>
 <view class="member-treatment">
   <view class='alert-text'>会员福利：</view>

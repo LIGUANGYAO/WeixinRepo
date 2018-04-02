@@ -7,7 +7,7 @@ class user_model extends CI_Model
      * @param string $searchText : This is optional search text
      * @return number $count : This is row count
      */
-    function userListingCount($searchStatus = null , $searchText = '', $searchRole , $searchState , $searchForbidden)
+    function userListingCount($searchStatus = null , $searchText = '', $searchRole , $searchState , $searchForbidden, $fromTime, $toTime)
     {
         $this->db->select('*');
         $this->db->from('user');
@@ -32,6 +32,12 @@ class user_model extends CI_Model
         if($searchForbidden != 10){
             $this->db->like('forbidden', $searchForbidden);
         }
+        if($fromTime!=''){
+            $this->db->where("date(reg_time) >= date('".$fromTime."')");
+        }
+        if($toTime!=''){
+            $this->db->where("date(reg_time) <= date('".$toTime."')");
+        }
         $query = $this->db->get();
 
         return count($query->result());
@@ -44,7 +50,7 @@ class user_model extends CI_Model
      * @param number $segment : This is pagination limit
      * @return array $result : This is result
      */
-    function userListing($searchStatus = null, $searchText = '', $searchRole, $searchState, $searchForbidden, $page, $segment)
+    function userListing($searchStatus = null, $searchText = '', $searchRole, $searchState, $searchForbidden, $fromTime, $toTime, $page, $segment)
     {
         $this->db->select('*');
         $this->db->from('user');
@@ -69,6 +75,12 @@ class user_model extends CI_Model
         if($searchForbidden != 10){
             $this->db->where('forbidden', $searchForbidden);
         }
+        if($fromTime!=''){
+            $this->db->where("date(reg_time) >= date('".$fromTime."')");
+        }
+        if($toTime!=''){
+            $this->db->where("date(reg_time) <= date('".$toTime."')");
+        }
         $this->db->order_by('reg_time');
         $this->db->limit($page, $segment);
         $query = $this->db->get();
@@ -91,10 +103,56 @@ class user_model extends CI_Model
         if($result[0]->role == 1)
         {
             $query = $this->db->query("select user.avatar, user.nickname, user.name, user.phone, user.honey, user.state, user.role, user.forbidden,
-                boss.allow_pic, boss.id_pic1, boss.id_pic2, boss.id_no, boss.site_name, boss.site_address 
-                from user, boss where user.no = boss.boss_id and user.no = ".$userId.";");
-            $result = $query->result();
+                boss.allow_pic, boss.id_pic1, boss.id_pic2, boss.id_no, boss.site_name, provinces.province,cities.city,areas.area,boss.detail_address 
+                from user, boss, provinces, cities, areas where boss.province=provinces.id and boss.city=cities.id and areas.id=boss.area and user.no = boss.boss_id and user.no = ".$userId.";");
         }
+        else if($result[0]->role==0){
+            $query = $this->db->query("select user.avatar, user.nickname, user.state, user.role, user.forbidden,user.honey 
+                from user where user.no = ".$userId.";");
+        }
+        else{
+            $query = $this->db->query("select user.avatar, user.nickname, user.name, user.phone, user.honey, user.state, user.role, user.forbidden
+                from user where user.no = ".$userId.";");
+        }
+        $result = $query->result();
+        return $result;
+    }
+
+    /**
+     * This function is used to get honey waste detail by exchange
+     * @param {number} $userId : This is user id
+     * @return {mixed} $result : This is searched result
+     */
+    function getExchangeHoneyWasteById($userId)
+    {
+        $this->db->select("*");
+        $this->db->from("user");
+        $this->db->where("no", $userId);
+        $query = $this->db->get();
+        $result = $query->result();
+        $query = $this->db->query("select goods.cost, exchange.submit_time , exchange.no
+                from exchange, goods 
+                where exchange.user_id=".$userId." and exchange.good_id=goods.id;");
+        $result = $query->result();
+        return $result;
+    }
+
+    /**
+     * This function is used to get honey waste detail by event
+     * @param {number} $userId : This is user id
+     * @return {mixed} $result : This is searched result
+     */
+    function getEventHoneyWasteById($userId)
+    {
+        $this->db->select("*");
+        $this->db->from("user");
+        $this->db->where("no", $userId);
+        $query = $this->db->get();
+        $result = $query->result();
+        $query = $this->db->query("select rule.value, event.reg_time, event.id as no
+                from event, rule
+                where event.organizer_id=".$userId." and event.additional=1 and rule.no=9;");
+        $result = $query->result();
         return $result;
     }
 
@@ -205,51 +263,13 @@ class user_model extends CI_Model
     }
 
     /**
-     * This function is used to match users password for change password
-     * @param number $userId : This is user id
-     */
-    function matchOldPassword($userId, $oldPassword)
-    {
-        $this->db->select('userId, password');
-        $this->db->where('userId', $userId);
-        $this->db->where('isDeleted', 0);
-        $query = $this->db->get('user');
-
-        $user = $query->result();
-
-        if (!empty($user)) {
-            if (verifyHashedPassword($oldPassword, $user[0]->password)) {
-                return $user;
-            } else {
-                return NULL;
-            }
-        } else {
-            return NULL;
-        }
-    }
-
-    /**
-     * This function is used to change users password
-     * @param number $userId : This is user id
-     * @param array $userInfo : This is user updation info
-     */
-    function changePassword($userId, $userInfo)
-    {
-        $this->db->where('userId', $userId);
-        $this->db->where('isDeleted', 0);
-        $this->db->update('user', $userInfo);
-
-        return $this->db->affected_rows();
-    }
-
-    /**
      * This function is used to add unsigned new user
      * @param array $userInfo : This is user info including nickname and avatarURL
      */
     function addNewUser($userInfo)
     {
-        $this->db->insert("user", $userInfo);
-        return true;
+        $result = $this->db->insert("user", $userInfo);
+        return $this->db->insert_id();
     }
 
     /**
@@ -263,7 +283,7 @@ class user_model extends CI_Model
         $this->db->from("user");
         $this->db->where("nickname", $nickname);
         $query = $this->db->get();
-        return $query->result_array();
+        return $query->result();
     }
 
     /**
@@ -273,8 +293,8 @@ class user_model extends CI_Model
      */
     function getFavouriteSite($userId)
     {
-        $this->db->select("site_name, site_address");
-        $this->db->select("user.phone");
+        $this->db->select("boss.site_name, boss.site_address, boss.boss_id");
+        $this->db->select("user.phone, user.avatar");
         $this->db->from("favourite");
         $this->db->join("boss", "boss.boss_id = favourite.boss_id");
         $this->db->join("user", "favourite.boss_id = user.no");
@@ -284,19 +304,54 @@ class user_model extends CI_Model
     }
 
     /**
+    *This function is user to delete site from user's favourite
+    *@param number $user_id: this is id of user
+    * @param number $boss_id: this is id of site 
+    */
+    function cancelFavouriteSite($userId, $bossId)
+    {
+        $this->db->where('user_id', $userId);
+        $this->db->where('boss_id', $bossId);
+        $this->db->delete('favourite');
+        return true;
+    }
+
+
+    /**
      * This function is used to register user
      * @param string $nickname : This is nickname of user
      *@return array $result: this is the array of information
      */
-    function registerUser($nickname, $userInfo, $bossInfo)
+    function addAllowPic($user_id, $userInfo)
     {
-        $this->db->where("nickname", $nickname);
+        $this->db->where("boss_id", $user_id);
+        $this->db->update("boss", $userInfo);
+        $query = $this->db->affected_rows();
+        return $query;
+    }
+
+    /**
+     * This function is used to add license image of boss
+     * @param string $nickname : This is nickname of user
+     *@return array $result: this is the array of information
+     */
+    function addIDPic($user_id, $userInfo)
+    {
+        $this->db->where("boss_id", $user_id);
+        $this->db->update("boss", $userInfo);
+        $query = $this->db->affected_rows();
+        return $query;
+    }
+    
+    /**
+     * This function is used to add back image of id
+     * @param string $nickname : This is nickname of user
+     *@return array $result: this is the array of information
+     */
+    function registerUser($user_id, $userInfo)
+    {
+        $this->db->where("no", $user_id);
         $this->db->update("user", $userInfo);
-        if($userInfo['role']==1){
-            $user_id = $this->db->query("select no from user where nickname='".$nickname."';")->result();
-            $bossInfo['boss_id'] = $user_id[0]->no;
-            $this->db->insert("boss", $bossInfo);
-        }
         $query = $this->db->affected_rows();
         return $query;
     }

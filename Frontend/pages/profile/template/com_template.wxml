@@ -1,19 +1,19 @@
 <template name="registerd_member">
   <!--index.wxml-->
   <view class="cls_user_comment_info">
-    <image class="cls_user_photo" src="{{param.user_photo_src}}" mode="aspectFill"> </image>
+    <image class="cls_user_photo" src="{{item.avatar}}" mode="aspectFill"> </image>
     <view>
-      <text class="cls_user_name">{{param.comment_user_name}}</text>
-      <view class="stars" wx:for="{{[1, 2, 3, 4, 5]}}">
-        <view wx:if="{{item >= param.count_yellowStar}}">
-          <image class="cls_user_comment_star" bindtap="substractStar" src="{{param.img_yellow_start_src}}" mode="aspectFill" style='right:{{param.star_img_position + index*37}}rpx' />
+      <text class="cls_user_name">{{item.name}}</text>
+      <view class="stars" wx:for="{{[1, 2, 3, 4, 5]}}" wx:item="num" wx:key="index">
+        <view wx:if="{{index >= (4-item.point)}}">
+          <image class="cls_user_comment_star" bindtap="substractStar" src="{{img_yellow_star_src}}" mode="aspectFill" style='right:{{star_img_position + index*37}}rpx' />
         </view>
         <view wx:else>
-          <image class="cls_user_comment_star" bindtap="additionStar" src="{{param.img_black_start_src}}" mode="aspectFill" style='right:{{param.star_img_position + index*37}}rpx' />
+          <image class="cls_user_comment_star" bindtap="additionStar" src="{{img_black_star_src}}" mode="aspectFill" style='right:{{star_img_position + index*37}}rpx' />
         </view>
       </view>
     </view>
-    <text class="cls_comment_date">{{param.comment_time}}</text>
-    <text class="cls_comment_content">{{param.comment_content}}</text>
+    <text class="cls_comment_date">{{item.submit_time}}</text>
+    <text class="cls_comment_content">{{item.comment}}</text>
   </view>
 </template>

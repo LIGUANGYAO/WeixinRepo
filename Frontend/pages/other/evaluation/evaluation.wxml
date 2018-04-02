@@ -15,5 +15,5 @@
   <textarea bindinput="bindInputText" class="cls_score_text_area" placeholder="入你的评价…" maxlength='200' />
 
   <text class="cls_text_count">{{text_count}}/200</text>
-  <button class="btn_add_comment">发表评价</button>
+  <button class="btn_add_comment" bindtap="btn_submit">发表评价</button>
 </view>

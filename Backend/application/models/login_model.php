@@ -20,7 +20,7 @@ class login_model extends CI_Model
         $user = $query->result();
         
         if(!empty($user)){
-            if($password==$user[0]->password){
+            if(md5($password) == $user[0]->password){
                 return $user;
             } else {
                 return NULL;
@@ -102,7 +102,7 @@ class login_model extends CI_Model
     {
         $this->db->where('email', $email);
         $this->db->where('isDeleted', 0);
-        $this->db->update('user', array('password'=>getHashedPassword($password)));
+        $this->db->update('user', array('password'=> md5($password)));
         $this->db->delete('tbl_reset_password', array('email'=>$email));
     }
 }

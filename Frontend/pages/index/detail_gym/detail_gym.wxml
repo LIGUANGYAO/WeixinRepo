@@ -2,7 +2,7 @@
 <import src="startemplate.wxml" />
 <view class='container'>
   <swiper class="swiper_box" indicator-dots="true" autoplay="true" interval="3000" duration="300">
-    <block wx:for="{{images}}">
+    <block wx:for="{{pictures}}" wx:key="pic">
       <swiper-item>
         <image src="{{item}}" class="slide-image" />
       </swiper-item>
@@ -10,33 +10,34 @@
   </swiper>
   <view class="focus-event-info">
     <view class="focus-event-place-info">
-      <text class="focus-event-place">{{gym_info.gym_name}}</text>
+      <text class="focus-event-place">{{site.site_name}}</text>
     </view>
     <view class='focus-event-rating'>
-      <view wx:for="{{starparam.stars}}" style='display: inline;'>
+      <view wx:for="{{starparam.stars}}" style='display: inline;' wx:key="star">
         <image class="star-image" style="margin-left: 10rpx; width:26rpx; height:26rpx " src="{{item-(starparam.score-1) <= 0 ? starparam.srcImage_4 : (item-(starparam.score-1) >= 1 ? starparam.srcImage_0 :(item-(starparam.score-1) < 0.5 ? starparam.srcImage_3 : (item-(starparam.score-1) == 0.5 ? starparam.srcImage_2 : starparam.srcImage_1)))}}">
         </image>
       </view>
-      <text class='rating-star-text'>4.3分</text>
-      <text bindtap="on_Clicked_Comment" class='focus-count-comment'>{{gym_info.gym_comment}}条评论>></text>
+      <text class='rating-star-text'>{{starparam.score}}分</text>
+      <text bindtap="on_Clicked_Comment" id="{{site.boss_id}}" class='focus-count-comment'>{{site.rating_amount}}条评论>></text>
     </view>
-    <view class="focus-event-date">时间 |{{gym_info.event_date}}</view>
-    <view class="focus-event-place-detail">地址 |{{gym_info.detail_place}}</view>
+    <view class="focus-event-date">电话 |{{site.phone}}</view>
+    <view class="focus-event-place-detail">地址 |{{site.site_address}}</view>
+    <image class="focus-event-favor" bindtap="on_click_favourite" src='{{favourite_image[site.fav_state]}}'></image>
   </view>
   <view class='comment-gym'>
     <view class='comment-gym-label'><text>场馆介绍</text></view>
-    <view class='comment-gym-text'>{{gym_info.gym_intro}}</view>
+    <view class='comment-gym-text'>{{site.site_introduction}}</view>
   </view>
 
   <view class='comment-service'>
     <view class='comment-service-label'>服务介绍</view>
-    <view class='comment-service-text'>{{gym_info.gym_service}}</view>
+    <view class='comment-service-text'>{{site.site_service}}</view>
   </view>
 
   <view class='gym_events'>
-    <view class='gym-events-label'>场馆活动（共{{gym_info.event_total}}场）</view>
-    <view wx:for="{{param}}">
-      <template is="stadium-template" data="{{item}}" />
+    <view class='gym-events-label'>场馆活动（共{{event.length}}场）</view>
+    <view wx:for="{{event}}" wx:key="event_index">
+      <template is="stadium-template" data="{{item, eventType, userRole, eventState}}" />
     </view>
   </view>
 </view>

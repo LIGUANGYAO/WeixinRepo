@@ -8,7 +8,7 @@
     <section class="content">
         <div class="container">
             <div class="row custom-info-row">
-                <img class="col-sm-4" id="avatar" src="<?php echo $eventDetail[0]->pic;?>"/>
+                <img class="col-sm-4" id="avatar" src="<?php echo base_url()."uploads/".$eventDetail[0]->pic;?>"/>
             </div>
             <div class="row custom-info-row">
                 <label class="col-sm-2">活动名称:</label>
@@ -99,11 +99,11 @@
 
             <div class="row custom-info-row">
                 <label class="col-sm-2">点赞数:</label>
-                <label class="col-sm-4" id="nickname"><?php echo $eventDetail[0]->rating; ?></label>
+                <label class="col-sm-4" id="nickname"><?php echo $favourite_amount; ?></label>
             </div>
             <div class="row custom-info-row">
                 <label class="col-sm-2">报名人数:</label>
-                <label class="col-sm-4" id="nickname"> <?php echo (count($booking)>0)?$booking_amount[0]->amount."人":"无"; ?></label>
+                <label class="col-sm-4" id="nickname"> <?php echo ($booking[0]->register_num!=null)?$booking[0]->register_num."人":"无"; ?></label>
             </div>
             <div class="row custom-info-row">
                 <div class="col-sm-4">
@@ -123,8 +123,8 @@
                                 foreach($booking as $booking_element)
                                 {
                                     echo "<tr>";
-                                    echo "<td>".$booking_element->avatar."</td>";
-                                    echo "<td>".$booking_element->nickname."</td>";
+                                    echo "<td><image src='".base_url()."uploads/".$booking_element->avatar."' style='width:50px;height:50px;border-radius:50%;'/></td>";
+                                    echo "<td>".$booking_element->name."</td>";
                                     echo "<td>".$booking_element->phone."</td>";
                                     echo "<td>".$booking_element->reg_num."</td>";
                                     echo "<td>".$booking_element->pay_type."</td>";

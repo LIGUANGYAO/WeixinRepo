@@ -4,37 +4,51 @@
 
 <view class="container">
   <view class="personal-img-wrapper">
-    <image class="personal-event-img" src="{{tempData['ground_image']}}" />
+    <image class="personal-event-img" src="{{event.pic}}" />
   </view>
   <view class="event-info">
     <view class="event-type-info">
-      <text class="event-type">{{tempData['act_type']}}</text>
-      <text class="event-status">{{tempData['act_status']}}</text>
+      <text class="event-type">{{event.eventName}}</text>
+      <text class="event-status">{{eventState[event.state]}}</text>
     </view>
     <view class='detail-info'>
       <image src='../../../image/my_bee_category@2x.png'></image>
-      <text>{{tempData['act_name']}}</text>
+      <text>{{eventType[event.type]}}</text>
       <image src='../../../image/my_bee_number@2x.png'></image>
-      <text>{{tempData['member_count']}}人</text>
-      <image src='../../../image/my_bee_m@2x.png'></image>
-      <text>{{tempData['cost']}}元/人</text>
-      <image src='../../../image/good_s@2x.png'></image>
+      <text>{{register_num}}人</text>
+      <block wx:if="{{event.role==1}}" style="display:inline-block;">
+        <image src='../../../image/my_bee_m@2x.png'></image>
+        <text>{{event.cost}}元/人</text>
+      </block>
+      <block wx:if="{{event.rating>0}}">
+        <image src='../../../image/good_s@2x.png' bindtap="on_click_like"></image>
+      </block>
+      <block wx:else>
+        <image src='../../../image/good_n@2x.png' bindtap="on_click_like"></image>
+      </block>
     </view>
     <view class="act_date">
-      <view>时间 | {{tempData['act_date']}}</view>
-      <text class="act_favour" style=''>{{tempData['favourite']}}</text>
+      <view>时间 | {{event.start_time}}</view>
+      <text class="act_favour" style=''>{{event.rating}}</text>
     </view>
-    <view class="temp-fonts">地址 |{{tempData['ground_name']}}</view>
+    <view class="temp-fonts">地址 |{{event.address1+event.address2+event.address3+event.address4}}</view>
   </view>
   <view class='place-info'>
+    <block wx:if="{{event.role==1}}">
     <view class='place-info-view'>
-      <text class='place-info-text'>场馆名称：{{tempData['ground_name']}}</text>
+      <text class='place-info-text'>场馆名称：{{event.site_name}}</text>
     </view>
     <view class='place-info-view'>
-      <text class='place-info-text'>馆主姓名：{{tempData['owner']}}</text>
+      <text class='place-info-text'>馆主姓名：{{event.name}}</text>
     </view>
+    </block>
+    <block wx:else>
     <view class='place-info-view'>
-      <text class='place-info-text'>人数上限：不超过{{tempData['max_member']}}人</text>
+      <text class='place-info-text'>发起人：{{event.name}}</text>
+    </view>
+    </block>
+    <view class='place-info-view'>
+      <text class='place-info-text'>人数上限：不超过{{event.limit}}人</text>
     </view>
   </view>
   <view class='introduce'>
@@ -42,25 +56,31 @@
       <text class='introduce-border'>活动简介</text>
     </view>
     <view style='width: 100%;'>
-      <view class='introduce-detail'>{{tempData['act_intro']}}</view>
+      <view class='introduce-detail'>{{event.comment}}</view>
     </view>
   </view>
-  <view wx:if="{{currentstatus != 3}}" class="booking_detail">
+  <view wx:if="{{event.state != 2}}" class="booking_detail">
     <view class="reg_member_view">
       <view class="reg_cls_title">
-        <text class="reg_cls_all_comments">全部评论（10人)</text>
-        <text class="view_more_detail_booking">查看更多》</text>
+        <text class="reg_cls_all_comments">报名成员（{{register_num}}人)</text>
+        <block wx:if="{{booking.length>0}}">
+          <text class="view_more_detail_booking" bindtap="on_click_booking">查看更多》</text>
+        </block>
       </view>
     </view>
-    <template is="registeration_member" data="{{param1}}" />
-    <template is="registeration_member" data="{{param1}}" />
+    <block wx:for="{{booking}}" wx:item="item" wx:key="index">
+      <template is="registeration_member" data="{{item}}" />
+    </block>
   </view>
-  <view wx:if="{{currentstatus == 2}}" class="member_detail">
+  <view wx:if="{{event.state == 1 && event.role==1}}" class="member_detail">
     <view class="cls_title">
-      <text class="cls_all_comments">全部评论（{{param.comment_user_number}}人)</text>
-      <text class="view_more_detail">查看更多》</text>
+      <text class="cls_all_comments">评论（{{rating.length}}人)</text>
+      <block wx:if="{{rating.length>0}}">
+        <text class="view_more_detail" bindtap="on_click_rating">查看更多》</text>
+      </block>
     </view>
-    <template is="registerd_member" data="{{param}}" />
-    <template is="registerd_member" data="{{param}}" />
+    <block wx:for="{{rating}}" wx:item="item" wx:key="index">
+      <template is="registerd_member" data="{{item, img_black_star_src, img_yellow_star_src, star_img_position}}" />
+    </block>
   </view>
 </view>

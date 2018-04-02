@@ -10,7 +10,6 @@ Page({
     favour_num: 0
   },
   onLoad: function (option) {
-    //console.log(option.stadium);
     var image_array = ["../../../image/temp.jpg", "../../../image/Home_s@3x.png", "../../../image/my_attention@3x.png", "../../../image/my_s@3x.png"]
     this.setData({ image_array: image_array })
 

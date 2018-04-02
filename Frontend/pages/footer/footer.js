@@ -38,13 +38,7 @@ Page({
       })
     }
   },
-  getUserInfo: function(e) {
-    app.globalData.userInfo = e.detail.userInfo
-    this.setData({
-      userInfo: e.detail.userInfo,
-      hasUserInfo: true
-    })
-  },
   select: function(num){
-  }
+  },
+  
 })

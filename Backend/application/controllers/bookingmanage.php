@@ -19,6 +19,7 @@ class bookingmanage extends BaseController
         parent::__construct();
         $this->load->model('booking_model');
         $this->load->model('event_model');
+        $this->load->model('rating_model');
         $this->isLoggedIn();
     }
 
@@ -35,7 +36,7 @@ class bookingmanage extends BaseController
      */
     function bookingCollectListing($searchStatus = null, $searchName = '', $searchType = 100,  $searchState = 10, $searchPay = 10)
     {
-        $this->global['pageTitle'] = "蜂约管理";
+        $this->global['pageTitle'] = "蜂约订单";
         if ($searchName == 'ALL') $searchName = '';
         $count = $this->booking_model->bookingListingCount($searchStatus, $searchName, $searchType, $searchState, $searchPay);
         $returns = $this->paginationCompress("bookingmanage/", $count, 10);
@@ -87,6 +88,9 @@ class bookingmanage extends BaseController
         $data['bookingDetail'] = $this->booking_model->getBookingById($bookingId);
         $eventId = $this->booking_model->getEventId($bookingId);
         $data['eventDetail'] = $this->event_model->getEventById($eventId->event_id);
+        $boss = $this->event_model->getOrganizerId($eventId->event_id);
+        $user = $this->booking_model->getUserId($bookingId);
+        $data['rating'] = $this->rating_model->getRatingContentById($user->user_id, $boss[0]->organizer_id);
         $this->global['pageTitle'] = '活动详情';
         $this->loadViews("bookingdetail", $this->global, $data, NULL);
     }

@@ -3,31 +3,33 @@
   <view style='width:100%'>
     <view class="activity">
       <view class="activity-bar">
-        <label class="activity-no">订单编号：215155121545</label>
-        <label class="activity-status">进行中</label>
+        <label class="activity-no">订单编号：{{booking.id}}</label>
+        <label class="activity-status">{{bookingState[booking.state]}}</label>
       </view>
       <view class="activity-detail">
-        <image class="activity-picture" src=""></image>
+        <image class="activity-picture" src="{{booking.avatar}}"></image>
         <view class="activity-name">
-          足球比赛
+          {{booking.name}}
           <view class="activity-role">
-            <label class="activity-role-text">个人</label>
+            <label class="activity-role-text">{{userRole[booking.role]}}</label>
           </view>
         </view>
         <view class="activity-content">
           <image class="activity-type" src="../../../image/my_bee_category@2x.png"></image>
-          <label class="activity-type-label">足球</label>
+          <label class="activity-type-label">{{eventType[booking.type]}}</label>
           <image class="activity-limit" src="../../../image/my_bee_number@2x.png"></image>
-          <label class="activity-limit-label">20人</label>
-          <image class="activity-cost" src="../../../image/my_bee_m@2x.png"></image>
-          <label class="activity-cost-label">20元/人</label>
+          <label class="activity-limit-label">{{register_num}}人</label>
+          <block wx:if="{{booking.role==1}}" style="display: inline-block">
+            <image class="activity-cost" src="../../../image/my_bee_m@2x.png"></image>
+            <text class="activity-cost-text">{{booking.cost}}元/人</text>
+          </block>
         </view>
       </view>
       <view class="activity-time">
-        <label class="activity-time-label">时间 | 2018-03-02 13：10</label>
+        <label class="activity-time-label">时间 | {{booking.start_time}}</label>
       </view>
       <view class="activity-address">
-        <label class="activity-address-label">地址 | 北京大学体育馆23号足球长</label>
+        <label class="activity-address-label">地址 | {{booking.address1+booking.address2+booking.address3+booking.address4}}</label>
       </view>
     </view>
   </view>
@@ -36,20 +38,20 @@
       <label class="personal-data-title">个人信息</label>
     </view>
     <view class="personal-name">
-      <label class="personal-name-label">真实姓名: 朴</label>
+      <label class="personal-name-label">真实姓名: {{booking.userName}}</label>
     </view>
     <view class="personal-phone">
-      <label class="personal-phone-label">联系方式：154155121202</label>
+      <label class="personal-phone-label">联系方式：{{booking.phone}}</label>
     </view>
   </view>
-  <view class='introduce'>
+  <view class='introduce' wx:if="{{(booking.state==1) && (rating.length>0)}}">
     <view class='introduce-view'>
-      <text class='introduce-border'>活动简介</text>
+      <text class='introduce-border'>我的评价</text>
     </view>
     <view class="cls_score_title_bar">
       <text class="cls_score_title">评分：</text>
       <view class = "cls-score-star-view1" wx:for="{{[1, 2, 3, 4, 5]}}">
-        <view class = "cls-score-star-view2" wx:if="{{item <= count_yellowStar}}">
+        <view class = "cls-score-star-view2" wx:if="{{item <= rating[0].point}}">
           <image class="cls_score_star" src="{{img_yellow_start_src}}"/>
         </view>
         <view class = "cls-score-star-view2" wx:else>
@@ -58,10 +60,17 @@
       </view>
     </view>
     <view style='width: 100%; height:380rpx'>
-      <view class='introduce-detail'> zvzxcvzxcvzxvzxcvzxcvasdfasdfasdfsadfzxcvasdf</view>
+      <view class='introduce-detail'>{{ rating[0].comment}}</view>
     </view>
   </view>
-  <view class="cancel-button" bindtap='final_cancel'>
-    <label class="button-label">取消蜂约</label>
-  </view>
+  <block wx:if="{{booking.state==0}}">
+    <view class="cancel-button" bindtap='final_cancel'>
+      <label class="button-label">取消蜂约</label>
+    </view>
+  </block>
+  <block wx:if="{{(booking.state==1) && (rating.length==0)}}">
+    <view class="cancel-button" id="{{booking.id}}" bindtap='btn_write_comment'>
+      <label class="button-label">评价</label>
+    </view>
+  </block>
 </view>

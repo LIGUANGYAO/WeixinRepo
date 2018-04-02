@@ -89,17 +89,19 @@ class eventmanage extends BaseController
 
         $userId = $this->event_model->getOrganizerId($eventId);
         $this->load->model('user_model');
-        $userRole = $this->user_model->getRoleById($userId->organizer_id);
+        $userRole = $this->user_model->getRoleById($userId[0]->organizer_id);
         if($userRole->role == 2){
             $this->load->model('member_state_model');
-            $data['member_state'] = $this->member_state_model->getStateById($userId->organizer_id);
+            $data['member_state'] = $this->member_state_model->getStateById($userId[0]->organizer_id);
         }
         $this->load->model('booking_model');
-        $data['booking'] = $this->booking_model->getBookingById($userId->organizer_id, $eventId);
-        $data['booking_amount'] = $this->booking_model->getTotalByUserEvent($userId->organizer_id, $eventId);
+        $data['booking'] = $this->booking_model->getBookingDetailByEvent($eventId);
+        $favourite = $this->db->query("select count(no) as favourite_amount from favourite_event where event_id=".$eventId)->result();
+        $data['favourite_amount'] =  $favourite[0]->favourite_amount;
         $this->global['pageTitle'] = '活动详情';
         $this->loadViews("eventdetail", $this->global, $data, NULL);
     }
+    
     function pageNotFound()
     {
         $this->global['pageTitle'] = '蜂体 : 404 - Page Not Found';

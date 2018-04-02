@@ -200,7 +200,7 @@ $(function () {
   $("#loading-example").boxRefresh({
     source: "ajax/dashboard-boxrefresh-demo.php",
     onLoadDone: function (box) {
-      var bar = new Morris.Bar({
+      bar = new Morris.Bar({
         element: 'bar-chart',
         resize: true,
         data: [

@@ -32,6 +32,16 @@ class systemmanage extends BaseController
     }
 
     /**
+     *This function is user to load the dashboard page for normal users
+     */
+    function dashboard()
+    {
+        $this->global['Title'] = "欢迎光临";
+        $this->loadViews('dashboard', $this->global, NULL, NULL);
+    }
+
+
+    /**
      * This function is used to load the admin list
      */
     function userListing()
@@ -55,7 +65,7 @@ class systemmanage extends BaseController
                 ->userListing($searchText, $searchStatus, $returns["page"], $returns["segment"]);
 
             $this->global['pageTitle'] = '人员管理';
-            $this->global['pageType'] = 'user';
+            $this->global['pageType'] = 'admin';
             $data['searchText'] = $searchText;
             $data['searchStatus'] = $searchStatus;
 
@@ -146,7 +156,7 @@ class systemmanage extends BaseController
                 $this->global['roleId'] = $roleId;
                 $this->addNew();
             } else {
-                $userInfo = array('email' => $email, 'password' => getHashedPassword($password), 'roleId' => $roleId, 'name' => $name,
+                $userInfo = array('email' => $email, 'password' => md5($password), 'roleId' => $roleId, 'name' => $name,
                     'createdBy' => $this->vendorId, 'createdDtm' => date('Y-m-d H:i:s'));
 
                 $result = $this->admin_model->addNewUser($userInfo);
@@ -271,7 +281,7 @@ class systemmanage extends BaseController
                     $userInfo = array('email' => $email, 'roleId' => $roleId, 'name' => $name,
                         'mobile' => $mobile, 'updatedBy' => $this->vendorId, 'updatedDtm' => date('Y-m-d H:i:s'));
                 } else {
-                    $userInfo = array('email' => $email, 'password' => getHashedPassword($password), 'roleId' => $roleId,
+                    $userInfo = array('email' => $email, 'password' => md5($password), 'roleId' => $roleId,
                         'name' => ucwords($name), 'updatedBy' => $this->vendorId,
                         'updatedDtm' => date('Y-m-d H:i:s'));
                 }
@@ -381,7 +391,7 @@ class systemmanage extends BaseController
                 $this->session->set_flashdata('nomatch', '您的旧密码不正确.');
                 redirect('loadChangePass');
             } else {
-                $usersData = array('password' => getHashedPassword($newPassword), 'updatedBy' => $this->vendorId,
+                $usersData = array('password' => md5($newPassword), 'updatedBy' => $this->vendorId,
                     'updatedDtm' => date('Y-m-d H:i:s'));
 
                 $result = $this->admin_model->changePassword($this->vendorId, $usersData);
@@ -410,7 +420,7 @@ class systemmanage extends BaseController
 
         //$resultPas = $this->admin_model->matchOldPassword($id, $password);
 
-        $usersData = array('password' => getHashedPassword($password), 'updatedBy' => $this->vendorId,
+        $usersData = array('password' => md5($password), 'updatedBy' => $this->vendorId,
             'updatedDtm' => date('Y-m-d H:i:s'));
 
         $result = $this->admin_model->changePassword($id, $usersData);

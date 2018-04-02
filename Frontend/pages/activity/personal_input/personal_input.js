@@ -44,7 +44,6 @@ Page({
     if (this.data.phonenumber.toString().length > 11 || this.data.phonenumber.toString().length == 1)
     {
       x++
-      console.log(this.data.phonenumber.toString().length)
       this.setData({ val_phonenumber: "error" })
     }
     if (this.data.memcount > (this.data.eventData.max_member - this.data.eventData.member_count) || this.data.memcount == 0) 
@@ -54,7 +53,6 @@ Page({
     }
     if(x == 0)
     {
-      console.log("OK")
     }
   }
 })

@@ -109,12 +109,14 @@
   position: absolute;
   top: 507rpx;
   right: 50rpx;
+  width: 42rpx;
   font-size: 22rpx;
   color: #472e00;
   font-family: PingFangSC-Regular;
   font-size: 22rpx;
   color: #472e00;
   letter-spacing: 0.47rpx;
+  text-align: center;
 }
 
 .temp-fonts {
@@ -256,4 +258,12 @@
   background-color: #e6b53c;
   font-size: 34rpx;
   color: white;
+}
+.btn-personal-participate{
+  width: 100%;
+  height: 98rpx;
+  background-color: #e6b53c;
+  font-size: 34rpx;
+  color: white;
+  line-height: 98rpx;
 }

@@ -10,7 +10,7 @@
             <div class="row">
                 <div class="col-xs-12">
                     <form action="<?php echo base_url(); ?>eventListingByFilter" method="POST" id="searchList">
-                        <div class="col-xs-2 col-sm-5 form-inline">
+                        <div class="col-xs-2 col-sm-4 form-inline">
                             <div class="form-group">
                                 <select class="form-control" id="searchStatus" name="searchStatus">
                                     <option value="0"<?php if ($searchStatus == 0) echo ' selected'; ?>>活动名称</option>
@@ -24,7 +24,7 @@
                                        class="form-control"/>
                             </div>
                         </div>
-                        <div class="col-xs-2 col-sm-2 form-inline">
+                        <div class="col-xs-2 col-sm-1 form-inline">
                             <div class="form-group">
                                 <select class="form-control" id="searchType" name="searchType">
                                     <option value="100"<?php if ($searchType == 100) echo ' selected'; ?>>活动类型</option>
@@ -40,7 +40,7 @@
                                 </select>
                             </div>
                         </div>
-                        <div class="col-xs-2 col-sm-2 form-inline">
+                        <div class="col-xs-2 col-sm-1 form-inline">
                             <div class="form-group">
                                 <select class="form-control" id="searchRole" name="searchRole">
                                     <option value="10"<?php if ($searchRole == 10) echo ' selected'; ?>>角色类型</option>
@@ -49,7 +49,7 @@
                                 </select>
                             </div>
                         </div>
-                        <div class="col-xs-2 col-sm-2 form-inline">
+                        <div class="col-xs-2 col-sm-1 form-inline">
                             <div class="form-group">
                                 <select class="form-control" id="searchState" name="searchState">
                                     <option value="10"<?php if ($searchState == 10) echo ' selected'; ?>>活动状态</option>
@@ -59,7 +59,7 @@
                                 </select>
                             </div>
                         </div>
-                        <div class="col-xs-1 col-sm-1 form-inline">
+                        <div class="col-xs-1 col-sm-3 form-inline">
                             <div class="form-group area-search-control-view">
                                 <button class="btn btn-primary searchList"
                                         onclick="searchArea('<?php echo base_url(); ?>');">查询
@@ -88,8 +88,8 @@
                        <?php
                         if (!empty($eventList)) {
                             $i = 0;
-                            $userRole = ['', '场馆主', '个人'];
-                            $userState = ['进行中', '已进行', '已取消'];
+                            $eventRole = ['', '场馆主', '个人'];
+                            $eventState = ['进行中', '已进行', '已取消'];
                             foreach ($eventList as $record) {
                                 $i++;
                                 ?>
@@ -98,8 +98,8 @@
                                     <td><?php echo $eventType[$record->type]->name; ?></td>
                                     <td><?php echo $record->nickname; ?></td>
                                     <td><?php echo $record->phone; ?></td>
-                                    <td><?php echo $userRole[$record->role]; ?></td>
-                                    <td><?php echo $userState[$record->state]; ?></td>
+                                    <td><?php echo $eventRole[$record->role]; ?></td>
+                                    <td><?php echo $eventState[$record->state]; ?></td>
                                     <td><?php echo $record->reg_time; ?></td>
                                     <td class="text-center">
                                         <a href="<?php echo base_url().'eventDetail/'.$record->id; ?>">

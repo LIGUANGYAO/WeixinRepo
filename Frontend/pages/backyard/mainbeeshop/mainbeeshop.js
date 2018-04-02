@@ -1,4 +1,5 @@
 // pages/backyard/mainbeeshop/mainbeeshop.js
+const app = getApp()
 Page({
 
   /**
@@ -12,7 +13,24 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-  
+    var that = this
+    this.setData({ total_honey: app.globalData.total_honey })
+    this.setData({ upload_url: app.globalData.uploadURL})
+    wx.request({
+      url: app.globalData.mainURL + 'api/getGoodsList',
+      data: {
+      },
+      method: 'POST',
+      header: {
+        'content-type': 'application/json'
+      },
+      success: function (res) {
+        that.setData({product_array: res.data.result})
+      },
+      fail: function () {
+
+      }
+    })
   },
 
   /**
@@ -63,10 +81,10 @@ Page({
   onShareAppMessage: function () {
   
   },
-  On_click_product: function()
+  On_click_product: function(query)
   {
     wx.navigateTo({
-      url: '../product_detail/product_detail',
+      url: '../product_detail/product_detail?id=' + query.currentTarget.id,
     })
   }
 })

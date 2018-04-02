@@ -13,14 +13,14 @@
         <div class="container">
             <div class="row custom-info-row">
                 <label class="col-sm-2">头像:</label>
-                <label class="col-sm-4" id="avatar"></label>
+                <image src="<?php echo base_url().'uploads/'.$userDetail[0]->avatar; ?>" style="width:80px; height:80px; border-radius:50%;"/>
             </div>
             <div class="row custom-info-row">
                 <label class="col-sm-2">昵称:</label>
                 <label class="col-sm-4" id="nickname"><?php echo $userDetail[0]->nickname; ?></label>
             </div>
            <?php
-                if($userDetail[0]->role == 2){
+                if($userDetail[0]->role == 2  && $userDetail[0]->state == 2){
             ?>
             <div class="row custom-info-row">
                 <label class="col-sm-2">真实姓名:</label>
@@ -34,7 +34,7 @@
                 }
             ?>
            <?php
-                if($userDetail[0]->role == 1){
+                if($userDetail[0]->role == 1 && $userDetail[0]->state == 2){
             ?>
             <div class="row custom-info-row">
                 <label class="col-sm-2">场馆名称:</label>
@@ -108,15 +108,38 @@
                 <div class="col-sm-4">
                     <table class="table table-bordered area-result-view">
                         <thead>
-                        <tr style="background-color: lightslategrey;">
-                            <th>用途</th>
-                            <th>消耗蜂蜜</th>
-                            <th>使用时间</th>
-                            <th>操作</th>
-                        </tr>
+                            <tr style="background-color: lightslategrey;">
+                                <th>用途</th>
+                                <th>消耗蜂蜜</th>
+                                <th>使用时间</th>
+                                <th>操作</th>
+                            </tr>
                         </thead>
                         <tbody id="content_tbl">
-                       
+                            <?php 
+                                foreach($exchange as $element){
+                            ?>
+                            <tr>
+                                <td>商城兑换</td>
+                                <td><?php echo $element->cost;?></td>
+                                <td><?php echo $element->submit_time;?></td>
+                                <td><a href="<?php echo base_url().'exchangeDetail/'.$element->no;?>">查看兑换</a></td>
+                            </tr>
+                            <?php 
+                                }
+                                if($userDetail[0]->role == 2){
+                                    foreach($event as $element){
+                            ?>
+                            <tr>
+                                <td>创建活动</td>
+                                <td><?php echo $element->value;?></td>
+                                <td><?php echo $element->reg_time;?></td>
+                                <td><a href="<?php echo base_url().'eventDetail/'.$element->no;?>">查看后动</a></td>
+                            </tr>
+                            <?php
+                                    }
+                                }
+                            ?>
                         </tbody>
                     </table>
                     <div class="clearfix"></div>

@@ -148,7 +148,6 @@ function wxSearchAddHisKey(that) {
     var text = that.data.wxSearchData.value;
     if(typeof(text) == "undefined" || text.length == 0){return;}
     var value = wx.getStorageSync('wxSearchHisKeys');
-    console.log(value)
     // 여기에 통신부분 삽입할것
     // 검색성공이면 아래부분 통과하고 그렇지 않은 경우 패스
 
@@ -225,9 +224,6 @@ function wxGoNextPage(e, that) {
     txtBackground: bgColor
 
   });
-
-  //console.log(e)
-  console.log(bgColor)
 }
 
 module.exports = {

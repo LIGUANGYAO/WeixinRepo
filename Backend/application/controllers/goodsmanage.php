@@ -70,25 +70,6 @@ class goodsmanage extends BaseController
         }
     }
 
-    /**
-     * This function is used to show the detail of goods with goodsId
-     */
-    function showGoodsDetail($goodsId)
-    {
-        $data['goodsDetail'] = $this->goods_model->getgoodsDetailById($goodsId);
-        $this->global['pageTitle'] = '提现详情';
-        $this->loadViews("goodsdetail", $this->global, $data, NULL);
-    }
-
-    /**
-    * This function is used to change the state of the good
-    */
-    function goodsShowConfirm($goodsId)
-    {
-        $data['goodsDetail'] = $this->goods_model->getgoodsDetailById($goodsId);
-        $this->global['pageTitle'] = '打款';
-        $this->loadViews("goodsconfirm", $this->global, $data, NULL);
-    }
 
     /**
     * This function is used to show the confirm of the goods
@@ -125,6 +106,15 @@ class goodsmanage extends BaseController
             $this->session->set_flashdata('error', '删除失败.');
             echo(json_encode(array('status' => FALSE)));
         }
+    }
+
+     /**
+    * This function is used to add good
+    */
+    function goodAdd()
+    {
+        $this->global['pageTitle'] = '新增商品';
+        $this->loadViews("goodsadd", $this->global, NULL, NULL);
     }
 
     function pageNotFound()

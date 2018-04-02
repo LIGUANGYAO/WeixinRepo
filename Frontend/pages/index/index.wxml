@@ -3,4 +3,5 @@
   <view class="map_container">
     <map class="bee-map" id="map" longitude="{{current_longitude}}" latitude="{{current_latitude}}" scale="13" show-location="true" bindmarkertap="makertap" circles='{{circle}}'></map>
   </view>
+<include src="../footer/footer"/>
 </view>

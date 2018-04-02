@@ -4,25 +4,85 @@ const app = getApp()
 
 Page({
   data: {
-    currentstatus: 2,
-    tempData: { "ground_image":"../../../image/temp.jpg","act_type": "football", "act_status":"running","favourite": 200, "act_name": "soccer", "member_count":10, "cost": 10,"act_date":"2018.3","address":"asdfasdf" ,"ground_name":"asdf", "ground_owner":"avnd", "max_member": 10, "act_intro":"asdf"},
-    param: {
-      user_photo_src: '../../../image/temp.jpg',
-      img_black_start_src: '../../../image/star_n@2x.png',
-      img_yellow_start_src: '../../../image/star_s@2x.png',
-      star_img_position: 25,
-      count_yellowStar: 3,
-      comment_time: "2017-12-22 11:29",
-      comment_user_name: "布拉德皮蛋",
-      comment_content: "这里是一条评论这里是一条评论。",
-      comment_user_number: 10
-    },
-    param1:{
-      name: "郭德纲刚",
-      costway: "线上支付",
-      phonenumber:"13456767847",
-      membercount: 5,
-      total: 100
-    }
+    img_black_star_src: '../../../image/star_n@2x.png',
+    img_yellow_star_src: '../../../image/star_s@2x.png',
+    star_img_position: 25,
+    id:0,
+    event:[],
+    booking:[],
+    rating: [],
+    userInfo: [],
+    eventType: [],
+    userRole: [],
+    eventState: [],
+    register_num: 0
   },
+  onLoad: function(param)
+  {
+    this.setData({
+      userInfo: app.globalData.userInfo,
+      eventType: app.globalData.eventType,
+      userRole: app.globalData.userRole,
+      eventState: app.globalData.eventState
+    });
+    var that = this;
+    var id = param.id;
+    wx.request({
+      url: app.globalData.mainURL + 'api/getEventDetail',
+      method: 'POST',
+      header:{
+        'content-type': 'application/json'
+      },
+      data:{
+        'event_id': id,
+        'user_id': app.globalData.userInfo.user_id
+      },
+      success: function (res) {
+        console.log(res);
+        var books = res.data.booking;
+        for (var index = 0; index < books.length; index++) {
+          books[index].avatar = app.globalData.uploadURL + books[index].avatar
+        }
+        var rating_buf = res.data.rating
+        for(var index = 0; index < rating_buf.length; index++){
+          rating_buf[index].avatar = app.globalData.uploadURL + rating_buf[index].avatar
+        }
+        that.setData({
+          booking: books,
+          rating: rating_buf
+        })
+        var event_buf = res.data.result[0];
+        event_buf.pic = app.globalData.uploadURL + event_buf.pic;
+        if(event_buf.favourite_num==null){
+          event_buf.favourite_num = 0;
+        }
+        var register = res.data.register_num[0].register_num;
+        if(register==null){
+          register=0;
+        }
+        var time = event_buf.start_time.split(':');
+        event_buf.start_time = time[0]+':'+time[1];
+        console.log(event_buf);
+        that.setData({
+          event: event_buf,
+          id: id,
+          register_num: register
+        });
+      }
+    })
+  },
+  on_click_booking: function()
+  {
+    var that = this;
+    wx.navigateTo({
+      url: 'showmember?id='+this.data.id,
+    })
+  },
+  on_click_rating: function()
+  {
+    var that = this;
+    wx.navigateTo({
+      url: '../../other/comment/comment?id='+that.data.id+'&kind=event',
+    })
+  }
 })

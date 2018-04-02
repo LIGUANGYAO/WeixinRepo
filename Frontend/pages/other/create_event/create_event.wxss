@@ -28,8 +28,9 @@
   padding-top: 32rpx;
 }
 
-.event-right-text {
+.event-left-text {
   float: right;
+  text-align: right;
   margin-right: 30rpx;
 }
 
@@ -95,4 +96,36 @@
 
 .event-add-radiogroup radio {
   margin-left: 40rpx;
+}
+
+
+.picker-view {
+  width: calc(100 - 30rpx);
+  height: 200px;
+  background-color: white;
+  margin-left: 30rpx;
+  margin-top: 50rpx;
+  text-align: center;
+}
+
+.picker-column {
+  font-family: PingFangSC-Regular;
+  line-height: 50px;
+}
+
+
+.display_show{
+    display: block;
+    border: 1px solid;    
+    border-color: beige;
+    padding: 10px;
+}
+.display_none{
+    display: none;
+}
+
+
+.stadiumaddress-input {
+  margin-left: 30rpx;
+  display: inline-block;
 }

@@ -4,15 +4,87 @@ const app = getApp()
 
 Page({
   data: {
+    activity: ["../../image/activity_n@2x.png", "../../image/activity_s@2x.png"],
+    fengti: ["../../image/Home_n@2x.png", "../../image/Home_s@2x.png"],
+    garden: ["../../image/garden_n@2x.png", "../../image/garden_s@2x.png"],
+    mine: ["../../image/my_n@2x.png", "../../image/my_s@2x.png"],
     sport_kind_text: ["足球", "篮球", "排球", "羽毛球", "乒乓球", "台球", "网球", "保龄球", "健身馆", "瑜伽", "游泳", "射击射箭", "跆拳道", "滑冰", "滑雪", "休闲桌游", "运动装备", "其他"],
+    selected: [0, 1, 0, 0],
     active1: "active",
     active2: "",
     modal_active1: "active",
     modal_active2: "",
     array: [{ "phonenumber": 17642518820, "status": "进行中", "kind": "football", "user": "user", "match": "football", "membernum": "5", "cost": 12, "date": "2018", "place": "bejing", "iscomment": 0, "favourite": 200 }],
     showModal: 0,
+    active1: "active",
+    active2: "",
+    active3: "",
+    bookingArray: new Array(),
+    selectedtab: "booked",
+    events: [],
+    selected_state: 0,
+    userInfo: [],
+    eventType: [],
+    userRole: [],
+    eventState: []
   },
   onLoad: function () {
+    this.setData({
+      userInfo: app.globalData.userInfo,
+      eventType: app.globalData.eventType,
+      userRole: app.globalData.userRole,
+      eventState: app.globalData.eventState
+    });
+    var that = this;
+    //http://restapi.amap.com/v3/geocode/regeo?key=Your key&location=116.481488,39.990464&poitype=&radius=&extensions=all&batch=false&roadlevel=0
+    wx.getLocation({
+      success: function(res) {
+        var longitude = res.longitude;
+        var latitude = res.latitude;
+        var url = 'http://restapi.amap.com/v3/geocode/regeo?key=8eb63e36d0b6d7d29a392503a4a80f6c&location=' + longitude + ',' + latitude + '&poitype=&radius=&extensions=all&batch=false&roadlevel=0';
+        console.log(url);
+        wx.request({
+          url: url,
+          success:function(res)
+          {
+            console.log(res);
+            var province = res.data.regeocode.addressComponent.province
+            wx.request({
+              url: app.globalData.mainURL + 'api/getEventsByProvince',
+              method: 'POST',
+              header: {
+                'content-type': 'application/json'
+              },
+              data: {
+                province: province
+              },
+              success: function (res) {
+                console.log(res);
+                var event_buf = res.data.result;
+                if (event_buf != null) {
+                  for (var index = 0; index < event_buf.length; index++) {
+                    event_buf[index].avatar = app.globalData.uploadURL + event_buf[index].avatar;
+                    var time = event_buf[index].start_time.split(':');
+                    event_buf[index].start_time = time[0] + ':' + time[1];
+                    if (event_buf[index].register_num == null) {
+                      event_buf[index].register_num = 0;
+                    }
+                  }
+                  that.setData({
+                    events: event_buf,
+                  })
+                }
+              }
+            })
+          }
+        })
+      },
+    })
+  },
+  select: function (event) {
+    wx.redirectTo({
+      url: "../" + event.currentTarget.id + '/' + event.currentTarget.id,
+    })
   },
   On_click_favourite: function (e) {
 
@@ -41,5 +113,10 @@ Page({
   {
     this.data.showModal = 0;
     this.setData({ showModal: 0})
-  }
+  },
+  click_detail_event: function (event) {
+    wx.navigateTo({
+      url: '../index/detail_event/detail_event?id=' + event.currentTarget.id,
+    })
+  },
 })

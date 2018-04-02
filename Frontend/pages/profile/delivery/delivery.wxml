@@ -1,27 +1,25 @@
 <!--pages/profile/delivery/delivery.wxml-->
 <view class='containter'>
-  <view wx:for="{{address}}" wx:for-item="receiver" wx:key="index">
-    <view class='postman'>
-      <view class='postman-info'>
-        <view class='postman-text'>
-          <text class='postman-name'>{{receiver.name}}</text>
-          <text class='postman-phonenumber'>{{receiver.phone}}</text>
+    <view wx:for="{{address}}" wx:for-item="receiver" wx:key="index">
+      <view class='postman'>
+        <view class='postman-info'>
+          <view class='postman-text'>
+            <text class='postman-name'>{{receiver.name}}</text>
+            <text class='postman-phonenumber'>{{receiver.phone}}</text>
+          </view>
+          <text class='postman-address'>{{receiver.province+receiver.city+receiver.area+receiver.detail_address}}</text>
         </view>
-        <text class='postman-address'>{{receiver.address}}</text>
-      </view>
-      <view class='postman-operation'>
-        <view wx:if="{{receiver.state==1}}" style='display: inline'>
-          <image class='postman-mainaddress' id="{{index}}" src="../../../image/hook_s.png" bindtap="checkMainAddress"></image>
-          <text>设置为默认地址</text>
+        <view class='postman-operation'>
+          <view wx:if="{{receiver.state==1}}" style='display: inline-block'>
+            <checkbox class='postman-mainaddress' id="{{index}}" checked="true" bindtap="checkMainAddress">设置为默认地址</checkbox>
+          </view>
+          <view style='display: inline-block' wx:else>
+            <checkbox class='postman-mainaddress' id="{{index}}" bindtap="checkMainAddress">设置为默认地址</checkbox>
+          </view>
+          <button bindtap="on_click_edit" class='postman-edit' id="{{index}}">编辑</button>
+          <button class='postman-cancel' bindtap="on_click_delete" id="{{receiver.no}}">删除</button>
         </view>
-        <view style='display: inline' wx:else>
-          <image class='postman-mainaddress' id="{{index}}" src="../../../image/hook_n@2x.png" bindtap="checkMainAddress"></image>
-          <text>设置为默认地址</text>
-        </view>
-        <button bindtap="on_click_edit" class='postman-edit' id="{{index}}">编辑</button>
-        <button class='postman-cancel' bindtap="on_click_delete" id="{{receiver.no}}">删除</button>
       </view>
     </view>
-  </view>
-  <button class='btn-submit' bindtap="on_click_new">新增收货地址</button>
+    <button class='btn-submit' bindtap="on_click_new">新增收货地址</button>
 </view>

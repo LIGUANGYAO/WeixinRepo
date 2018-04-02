@@ -105,37 +105,60 @@ class event_model extends CI_Model
 /**
      * This function is used to get event detail with eventId
      * @param {number} $eventId : This is event id
-     * @return {mixed} $result : This is searched result
+     * @param {number} $userId : This is user id
+     * @return array $result : This is searched result
      */
-    function getEventDetailById($eventId)
+    function getEventDetailById($eventId, $userId = 0)
     {
-        $this->db->select("user.role");
-        $this->db->from("user, event");
-        $this->db->where("event.id", $eventId);
-        $this->db->where("user.no = event.organizer_id");
-        $query = $this->db->get();
-        $result = $query->result();
-        if($result[0]->role == 1)
-        {
-            $query = $this->db->query("SELECT event.pic, event.type,event.name as eventName, event.limit, event.cost, event.start_time, 
-                event.end_time,event.comment, event.rating, event.address1, event.address2,event.address3, event.address4, event.state, 
-                boss.site_name,boss.site_address, user.name, user.phone, user.role
-            FROM event
-                INNER JOIN user 
-                    ON (event.organizer_id = user.no)
-                INNER JOIN boss 
-                    ON (boss.boss_id = user.no)
-            WHERE event.id = ".$eventId.";");
+        if($userId!=0){
+            $this->db->select("user.role");
+            $this->db->from("user, event");
+            $this->db->where("event.id", $eventId);
+            $this->db->where("user.no = event.organizer_id");
+            $query = $this->db->get();
+            $result = $query->result();
+            if($result[0]->role == 1)
+            {
+                $query = $this->db->query("SELECT event.pic, event.type,event.name AS eventName, event.limit, event.cost, event.start_time, 
+                    event.end_time,event.comment, event.rating, event.address1, event.address2,event.address3, event.address4, event.state, event.id,
+                    boss.boss_id,boss.site_name,boss.site_address, user.name, user.phone, user.role, SUM(favourite_event.`user_id`) AS favor_state
+                FROM  USER, boss, EVENT
+                LEFT JOIN favourite_event ON favourite_event.`event_id`=event.id AND favourite_event.`user_id` = ".$userId."
+                WHERE event.id = ".$eventId." AND user.no = event.organizer_id AND boss.boss_id = user.no GROUP BY event.id");
+            }
+            else
+            {
+                $query = $this->db->query("SELECT event.pic, event.type,event.name AS eventName, event.limit, event.cost, event.start_time, 
+                    event.end_time,event.comment, event.rating, event.address1, event.address2,event.address3, event.address4, event.state, event.id,
+                    user.name, user.phone, user.role, SUM(favourite_event.`user_id`) AS favor_state
+                FROM  USER, EVENT
+                LEFT JOIN favourite_event ON favourite_event.`event_id`=event.id AND favourite_event.`user_id` = ".$userId."
+                WHERE event.id = ".$eventId." AND user.no = event.organizer_id GROUP BY event.id");
+            }
         }
-        else
-        {
-            $query = $this->db->query("SELECT event.pic, event.type,event.name as eventName, event.limit, event.cost, event.start_time,
-                event.end_time, event.comment, event.rating, event.address1, event.address2,event.address3, event.address4,event.additional, event.state,
-                user.name, user.phone, user.role
-            FROM event
-                INNER JOIN user 
-                    ON (event.organizer_id = user.no)
-            WHERE event.id = ".$eventId.";");
+        else{
+            $this->db->select("user.role");
+            $this->db->from("user, event");
+            $this->db->where("event.id", $eventId);
+            $this->db->where("user.no = event.organizer_id");
+            $query = $this->db->get();
+            $result = $query->result();
+            if($result[0]->role == 1)
+            {
+                $query = $this->db->query("SELECT event.pic, event.type,event.name AS eventName, event.limit, event.cost, event.start_time, 
+                    event.end_time,event.comment, event.rating, event.address1, event.address2,event.address3, event.address4, event.state, event.id,
+                    boss.boss_id,boss.site_name,boss.site_address, user.name, user.phone, user.role
+                FROM  USER, boss, EVENT
+                WHERE event.id = ".$eventId." AND user.no = event.organizer_id AND boss.boss_id = user.no GROUP BY event.id");
+            }
+            else
+            {
+                $query = $this->db->query("SELECT event.pic, event.type,event.name AS eventName, event.limit, event.cost, event.start_time, 
+                    event.end_time,event.comment, event.rating, event.address1, event.address2,event.address3, event.address4, event.state, event.id,
+                    user.name, user.phone, user.role
+                FROM  USER, EVENT
+                WHERE event.id = ".$eventId." AND user.no = event.organizer_id GROUP BY event.id");
+            }
         }
         return $query->result();
     }
@@ -214,11 +237,18 @@ class event_model extends CI_Model
      */
     function getEventByUser($user_id, $state)
     {
-        $this->db->select("event.*, user.role");
+        $this->db->select("event.id, event.pic, event.name, event.type, event.start_time, event.end_time, event.state, event.cost,provinces.province, cities.city, areas.area, event.detail_address, user.role, user.avatar, sum(booking.reg_num) as register_num");
         $this->db->from("event");
+        $this->db->join("provinces", "provinces.id=event.province");
+        $this->db->join("cities", "cities.id=event.city");
+        $this->db->join("areas", "areas.id=event.area");
         $this->db->join("user", "user.no = event.organizer_id");
+        $this->db->join("booking", "event.id = booking.event_id","left");
         $this->db->where("user.no", $user_id);
-        $this->db->where("event.state", $state);
+        if($state!=3){
+            $this->db->where('event.state', $state);
+        }
+        $this->db->group_by("event.id");
         $query = $this->db->get();
         return $query->result();
     }
@@ -243,6 +273,46 @@ class event_model extends CI_Model
             }
         }
         $this->db->insert("event", $event);
+        return true;
+    }
+
+    /**
+     * This function is used to get the events in 5km from current user
+     * @param float $longitude : This is longitude of current user
+     * @param float $latitude: This is latitude of the current user
+     * @return array $result : information of events found
+     */
+    function getEventByDistance($longitude, $latitude)
+    {
+        $this->db->select("event.id, event.longitude, event.latitude, user.avatar");
+        $this->db->from("event");
+        $this->db->join("user", "user.no = event.organizer_id");
+        $this->db->where("( 6371 * acos( cos( radians($latitude) ) * cos( radians( event.latitude) ) 
+   * cos( radians(event.longitude) - radians($longitude)) + sin(radians($latitude)) 
+   * sin( radians(event.latitude))))<=5000");
+        $this->db->where("event.publicity", 1);
+        $this->db->where("(event.state=0 OR event.state=1)");
+        $this->db->where("user.role", 2);
+        $query = $this->db->get();
+        return $query->result();
+    }
+
+    /**
+     * This function is used to get the events in 5km from current user
+     * @param float $longitude : This is longitude of current user
+     * @param float $latitude: This is latitude of the current user
+     * @return array $result : information of events found
+     */
+    function getEventByProvince($province)
+    {
+        $this->db->select("event.id, event.type, event.cost, event.start_time, event.end_time, sum(booking.reg_num), 
+            event.address1, event.address2, event.address3, event.address4, event.name, user.avatar, user.role");
+        $this->db->from("event");
+        $this->db->join("user", "user.no = event.organizer_id");
+        $this->db->join("booking", "booking.event_id = event.id", "left");
+        $this->db->where("event.publicity", 1);
+        $this->db->where("event.state", 1);
+        $this->db->where("event.address1", $province);
         $query = $this->db->get();
         return $query->result();
     }

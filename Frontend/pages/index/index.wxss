@@ -1,8 +1,9 @@
+@import "../footer/footer.wxss";
 .map_container{
   position: absolute;
   top: 0;
   left: 0;
-  bottom: 0;
+  bottom: 98rpx;
   right: 0;
   
 }

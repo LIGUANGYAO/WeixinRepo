@@ -1,5 +1,5 @@
 <!--index.wxml-->
-<import src="template/template.wxml" />
+<import src="../profile/template/act_template.wxml" />
 <view class="container">
   <view class="tab">
     <view class="tab-bar">
@@ -13,8 +13,9 @@
     <image class='tab-detail-open' bindtap="On_click_modal_open"src='../../image/filter@2x.png'></image>
   </view>
   <scroll-view class="activities">
-    <view wx:for="{{array}}">
-      <template is="act-template" data="{{item}}" />
+    <view wx:for="{{events}}" wx:item="item" wx:key="index">
+      <!--<view wx:if="{{item.state == selected_state}}">-->
+        <template is="act-template" data="{{item, userRole, eventType, eventState}}" />
     </view>
   </scroll-view>
 
@@ -48,4 +49,6 @@
       <button class='modal-ok'>确定</button>
     </view>
   </view>
+
+  <include src="../footer/footer" />
 </view>

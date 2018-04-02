@@ -1,14 +1,14 @@
 <!--index.wxml-->
 <view>
-  <view class="cls_title">
-    <text class="cls_all_comments">全部评论10人)</text>
+  <view class="cls_title" wx:if="{{method=='event'}}">
+    <text class="cls_all_comments">全部评论(共{{rating.length}}人)</text>
   </view>
-  <view wx:for="{{comment_array}}" class="cls_user_comment_info">
-    <image class="cls_user_photo" src="{{item.user_photo_src}}" mode="aspectFill"> </image>
+  <view wx:for="{{rating}}" class="cls_user_comment_info" wx:item="item" wx:key="index">
+    <image class="cls_user_photo" src="{{item.avatar}}" mode="aspectFill"> </image>
     <view class='name-star-view'>
-      <text class="cls_user_name">{{item.comment_user_name}}</text>
+      <text class="cls_user_name">{{item.name}}</text>
       <view class="stars" wx:for="{{[1, 2, 3, 4, 5]}}" wx:for-index="idx" wx:for-item="itm">
-        <view wx:if="{{idx >= item.count_yellowStar - 1}}">
+        <view wx:if="{{idx >= (5-item.point)}}">
           <image id="{{idx}}" class="cls_user_comment_star" bindtap="additionStar" src="{{img_yellow_start_src}}" mode="aspectFill" style='right:{{star_img_position + idx*37}}rpx' />
         </view>
         <view wx:else>
@@ -16,8 +16,8 @@
         </view>
       </view>
     </view>
-    <text class="cls_comment_date">{{item.comment_time}}</text>
-    <text class="cls_comment_content">{{item.comment_content}}</text>
+    <text class="cls_comment_date">{{item.submit_time}}</text>
+    <text class="cls_comment_content">{{item.comment}}</text>
   </view>
 
 </view>
