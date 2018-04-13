@@ -6,7 +6,9 @@ Page({
    * 页面的初始数据
    */
   data: {
-    id:0
+    id:0,
+    disable: 0,
+    btn_text:"立即兑换"
   },
 
   /**
@@ -27,6 +29,17 @@ Page({
       },
       success: function (res) {
         that.data.id = res.data.result[0].id
+        that.data.cost = res.data.result[0].cost
+        /*
+        if (res.data.result[0].cost > app.globalData.total_honey)
+        {
+          that.setData({ btn_text: "蜂蜜不足", disable: 1})
+        }
+        if (res.data.result[0].number == 0)
+        {
+          that.setData({ btn_text: "缺货", disable: 1})
+        }
+        */
         that.setData({product: res.data.result[0]})
       },
       fail: function () {
@@ -86,7 +99,7 @@ Page({
   {
     var that = this
     wx.navigateTo({
-      url: '../product_order/product_order?id='+ that.data.id,
+      url: '../product_order/product_order?id=' + that.data.id,
     })
   }
 })

@@ -14,9 +14,7 @@ Page({
     display:["display:none;",""],         //style information of images
     introduction: '',                     //introduction of site
     service: '',                           //service comment of site
-    method: 'new',
-    image_buf:[],
-    icon_buf: ''
+    method: 'new'
   },
 
   /**
@@ -35,12 +33,10 @@ Page({
       },
       success: function(res)
       {
-        console.log(res);
         if(res.data.status==true)
         {
             that.setData({
                icon_path: app.globalData.uploadURL + res.data.result[0].site_icon,
-               icon_buf: app.globalData.uploadURL + res.data.result[0].site_icon,
                introduction: res.data.result[0].site_introduction,
                service: res.data.result[0].site_service
             });
@@ -54,7 +50,6 @@ Page({
               image[index] = app.globalData.uploadURL + res.data.picture[index].picture;
             }
             that.setData({
-              image_buf: image,
               image_path: image,
               select: select_buf,
               selected: select,
@@ -63,6 +58,55 @@ Page({
         }
       }
     })
+  },
+
+  /**
+   * 生命周期函数--监听页面初次渲染完成
+   */
+  onReady: function () {
+
+  },
+
+  /**
+   * 生命周期函数--监听页面显示
+   */
+  onShow: function () {
+
+  },
+
+  /**
+   * 生命周期函数--监听页面隐藏
+   */
+  onHide: function () {
+
+  },
+
+  /**
+   * 生命周期函数--监听页面卸载
+   */
+  onUnload: function () {
+
+  },
+
+  /**
+   * 页面相关事件处理函数--监听用户下拉动作
+   */
+  onPullDownRefresh: function () {
+
+  },
+
+  /**
+   * 页面上拉触底事件的处理函数
+   */
+  onReachBottom: function () {
+
+  },
+
+  /**
+   * 用户点击右上角分享
+   */
+  onShareAppMessage: function () {
+
   },
   on_click_selectavatar: function(){
     var that = this;
@@ -130,91 +174,30 @@ Page({
     else{
       requestURL += 'editSiteInfo';
     }
-    console.log(requestURL)
-    var tempFilePath = that.data.icon_path;
-    if(tempFilePath != that.data.icon_buf){
-      wx.uploadFile({
-        url: requestURL,
-        filePath: tempFilePath,
-        name: 'file',
-        formData:{
-          'introduction': that.data.introduction,
-          'service': that.data.service,
-          'user_id': app.globalData.userInfo.user_id
-        }
-      })
+    var tempFilePath =[];
+    tempFilePath[0] = that.data.icon_path;
+    for(var index = 0; index< that.data.selected; index++)
+    {
+      tempFilePath[index + 1] = that.data.image_path[index];
     }
-    else {
-      var path = that.data.icon_path.split('/');
-      tempFilePath = path[path.length - 1];
-      wx.request({
-        url: requestURL+'1',
-        method: 'POST',
-        header: {
-          'content-type': 'application/json'
-        },
-        data: {
-          'site_icon': tempFilePath,
-          'introduction': that.data.introduction,
-          'service': that.data.service,
-          'user_id': app.globalData.userInfo.user_id
-        }
-      })
-    }
-    console.log(that.data.image_path);
-    console.log(that.data.image_buf)
-    for (var index = 0; index < that.data.image_path.length; index++) {
-      tempFilePath = that.data.image_path[index];
-      var index_buf = 0
-      if(tempFilePath != ''){
-        if (that.data.method != 'new') {
-          for (; index_buf < that.data.image_buf.length; index_buf++) {
-            if (tempFilePath == that.data.image_buf[index_buf]) {
-              console.log("same");
-              var path = that.data.image_buf[index_buf].split('/');
-              tempFilePath = path[path.length - 1];
-              console.log(tempFilePath)
-              wx.request({
-                url: app.globalData.mainURL + 'api/addSitePictureURL',
-                method: 'POST',
-                header: {
-                  'content-type': 'application/json'
-                },
-                data: {
-                  'user_id': app.globalData.userInfo.user_id,
-                  'image': tempFilePath
-                }
-              })
-              break;
-            }
-          }
-          if (index_buf==that.data.image_buf.length) {
-            console.log(index_buf)
-            wx.uploadFile({
-              url: app.globalData.mainURL + 'api/addSitePicture',
-              filePath: tempFilePath,
-              name: 'file',
-              formData: {
-                'user_id': app.globalData.userInfo.user_id
-              }
-            })
-          }
-        }
-        else {
-          console.log(tempFilePath)
-          wx.uploadFile({
-            url: app.globalData.mainURL + 'api/addSitePicture',
-            filePath: tempFilePath,
-            name: 'file',
-            formData: {
-              'user_id': app.globalData.userInfo.user_id
-            }
+    wx.uploadFile({
+      url: requestURL,
+      filePath: tempFilePath,
+      formData:{
+        'introduction': that.data.introduction,
+        'service': that.data.service,
+        'user_id': app.globalData.userInfo.user_id
+      },
+      success: function(res)
+      {
+        if(res.data.status == true)
+        {
+          wx.showToast({
+            title: '保存成功',
+            icon: 'none'
           })
         }
       }
-    }
-    wx.redirectTo({
-      url: './register_stadium',
     })
   }
 })

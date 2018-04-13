@@ -31,6 +31,7 @@
   height: 36rpx;
   font-size: 26rpx;
   margin-left: 120rpx;
+  margin-top: 18rpx;
   font-family: "PingFangSC-Regular";
 }
 

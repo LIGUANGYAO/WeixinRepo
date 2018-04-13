@@ -47,13 +47,9 @@ Page({
         if(event_buf!=null){
           for(var index = 0; index<event_buf.length; index++)
           {
-            event_buf[index].avatar = app.globalData.uploadURL+event_buf[index].pic;
+            event_buf[index].avatar = app.globalData.uploadURL+event_buf[index].avatar;
             var time = event_buf[index].start_time.split(':');
             event_buf[index].start_time = time[0] + ':' +time[1];
-            if(event_buf[index].register_num==null)
-            {
-              event_buf[index].register_num=0;
-            }
           }
           that.setData({
             events: event_buf,

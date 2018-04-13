@@ -8,7 +8,6 @@ Page({
     eventType: [],
     userRole: [],
     eventState: [],
-    favourite_image: ['../../../image/good_n@2x.png','../../../image/good_s@2x.png'],
     starparam: {
       stars: [0, 1, 2, 3, 4],
 
@@ -48,7 +47,6 @@ Page({
           if(site_buf!=null)
           {
             if(site_buf.point==null) site_buf.point = 0;
-            if(site_buf.fav_state==null) site_buf.fav_state = 0;
             var star = that.data.starparam;
             star.score = site_buf.point*1;
             that.setData({
@@ -67,9 +65,6 @@ Page({
           var is_favourite = res.data.isFavourite;
           for (var index = 0; index < event_buf.length; index++){
             event_buf[index].avatar = app.globalData.uploadURL + event_buf[index].avatar
-            if(event_buf[index].register_num==null){
-              event_buf[index].register_num=0;
-            }
           }
           that.setData({
             site: site_buf,
@@ -80,7 +75,6 @@ Page({
         }
       }
     })
-    // set swiper image
   },
   click_detail_event: function (event) {
     wx.navigateTo({
@@ -90,27 +84,6 @@ Page({
   on_Clicked_Comment: function (event) {
     wx.navigateTo({
       url: '../../other/comment/comment?id=' + event.currentTarget.id+'&kind=site',
-    })
-  },
-  on_click_favourite: function(){
-    var site_buf = this.data.site
-    site_buf.fav_state = (site_buf.fav_state+1)%2;
-    this.setData({
-      site: site_buf
-    })
-    var that = this;
-    wx.request({
-      url: app.globalData.mainURL + 'api/cancelFavouriteSite',
-      method: 'POST',
-      header:{
-        'content-type': 'application/json'
-      },
-      data:{
-        'user_id': app.globalData.userInfo.user_id,
-        'boss_id': that.data.site.boss_id
-      },
-      success: function(res){
-      }
     })
   }
 })  

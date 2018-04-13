@@ -20,9 +20,9 @@
     <view wx:for="{{booking}}" wx:key="index">
       <block wx:if="{{item.state==selectedtab}}">
         <template is="act-template" data="{{item, userRole, eventType, bookingState}}" />
-        <view wx:if="{{(selectedtab == 0) || ((selectedtab == 1) && (item.favor_state==0))}}" class="btn-view">
+        <view wx:if="{{selectedtab != 2}}" class="btn-view">
           <button wx:if="{{selectedtab == 0}}" id="{{item.id}}" class="activity-button" bindtap='btn_remove_booking'> 取消蜂约 </button>
-          <button wx:if="{{(selectedtab == 1) && (item.favor_state==0)}}" id="{{item.id}}" class="activity-button" bindtap='btn_write_comment'> 评价 </button>
+          <button wx:if="{{(selectedtab == 1)}}" id="{{item.id}}" class="activity-button" bindtap='btn_write_comment'> 评价 </button>
         </view>
       </block>
     </view>

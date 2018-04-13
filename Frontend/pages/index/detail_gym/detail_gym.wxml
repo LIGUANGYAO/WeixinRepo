@@ -22,7 +22,6 @@
     </view>
     <view class="focus-event-date">电话 |{{site.phone}}</view>
     <view class="focus-event-place-detail">地址 |{{site.site_address}}</view>
-    <image class="focus-event-favor" bindtap="on_click_favourite" src='{{favourite_image[site.fav_state]}}'></image>
   </view>
   <view class='comment-gym'>
     <view class='comment-gym-label'><text>场馆介绍</text></view>

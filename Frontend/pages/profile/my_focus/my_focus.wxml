@@ -7,8 +7,8 @@
     </view>
     <text class="reg_member_place">地址｜{{item.site_address}}</text>
     <text class="reg_cls_comment_number">电话｜{{item.phone}}</text>
+    <button class="reg_cls_clear_btn" id="index" bindtap="on_cancel">取消关注</button>
   </view>
-  <button class="reg_cls_clear_btn" id="{{index}}" bindtap="on_cancel">取消关注</button>
   </block>
   <view wx:if="{{favourite.length == 0}}">
     <image class='no-focus-image' src='../../../image/success_n@3x.png'></image>

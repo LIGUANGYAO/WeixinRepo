@@ -13,11 +13,11 @@ Page({
   },
   onLoad: function () {
     //Setting Nickname and avatar of User
-    this.setData({ userInfo: app.globalData.userInfo });
+    this.setData({ userInfo: app.globalData.userInfo })
   },
   //listener of tabbar
   select: function (event) {
-    wx.navigateTo({
+    wx.redirectTo({
       url: "../" + event.currentTarget.id + '/' + event.currentTarget.id,
     })
   },
@@ -49,16 +49,9 @@ Page({
         })
         break;
       case 'auth_me':
-        if(app.globalData.userInfo.state==0){
-          wx.navigateTo({
-            url: 'auth/auth',
-          })
-        }
-        else{
-          wx.navigateTo({
-            url: 'auth/auth-text/auth_text',
-          })
-        }
+        wx.navigateTo({
+          url: 'auth/auth',
+        })
         break;
       case 'delivery_address':
         wx.navigateTo({
@@ -66,9 +59,9 @@ Page({
         })
         break;
       case 'about_stadium':
-      wx.navigateTo({
-        url: 'register_stadium/register_stadium',
-      })
+        wx.navigateTo({
+          url: 'register_stadium/register_stadium',
+        })
         break;
       default:
         break;

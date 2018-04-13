@@ -9,11 +9,9 @@
         <image class="activity-type" src="../../../image/my_bee_category@2x.png"></image>
         <text class="activity-type-text">{{eventType[item.type]}}</text>
         <image class="activity-limit" src="../../../image/my_bee_number@2x.png"></image>
-        <text class="activity-limit-text">{{item.register_num}}人</text>
-        <block wx:if="{{item.role==1}}">
-            <image class="activity-cost" src="../../../image/my_bee_m@2x.png"></image>
-            <text class="activity-cost-text">{{item.cost}}元/人</text>
-          </block>
+        <text class="activity-limit-text">{{item.member_amount}}人</text>
+        <image class="activity-cost" src="../../../image/my_bee_m@2x.png"></image>
+        <text class="activity-cost-text">{{item.cost}}元/人</text>
       </view>
       <text class="activity-time">时间 | {{item.start_time}}</text>
       <text class="activity-address">地址 | {{item.address1+item.address2+item.address3+item.address4}}</text>

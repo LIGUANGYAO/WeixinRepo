@@ -14,8 +14,7 @@ Page({
     userInfo: [],
     eventType: [],
     userRole: [],
-    eventState: [],
-    register_num: 0
+    eventState: []
   },
   onLoad: function(param)
   {
@@ -56,17 +55,12 @@ Page({
         if(event_buf.favourite_num==null){
           event_buf.favourite_num = 0;
         }
-        var register = res.data.register_num[0].register_num;
-        if(register==null){
-          register=0;
-        }
         var time = event_buf.start_time.split(':');
         event_buf.start_time = time[0]+':'+time[1];
         console.log(event_buf);
         that.setData({
           event: event_buf,
-          id: id,
-          register_num: register
+          id: id
         });
       }
     })

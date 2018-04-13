@@ -43,9 +43,6 @@ Page({
         if(book != null){
           for(var index=0; index<book.length; index++){
             book[index].avatar = app.globalData.uploadURL + book[index].avatar;
-            if(book[index].favor_state==null){
-              book[index].favor_state = 0;
-            }
             var time = book[index].start_time.split(':');
             book[index].start_time = time[0] + ':' + time[1];
           }

@@ -8,23 +8,12 @@
     <input class='phonenumber-input' type='number' bindblur='on_blur_phonenumber' placeholder='请输入电话号码' value="{{address.phone}}"/>
   </view>
 
-  <view class='address-view' bindtap='On_clicked_address'>
+  <view class='address-view'>
     <text class='address-text'>*收货地址:</text>
-    <input class='address-input' disabled  placeholder="选择省/市/县" value="{{(select_province==-1)?'':province[select_province].province+city[select_city].city+area[select_area].area}}"></input>
+    <view class='address-input'>选择省/市/县</view>
     <image class='address-image' src='../../../image/next@2x.png'></image>
   </view>
-    <picker-view class="picker-view" indicator-style="height: 50px;" bindchange="bindChange" wx:if="{{select_address!=false}}">
-      <picker-view-column>
-        <view class="picker-column" wx:for="{{province}}">{{item.province}}</view>
-      </picker-view-column>
-      <picker-view-column>
-        <view class="picker-column" wx:for="{{city}}">{{item.city}}</view>
-      </picker-view-column>
-      <picker-view-column>
-        <view class="picker-column" wx:for="{{area}}">{{item.area}}</view>
-      </picker-view-column>
-    </picker-view>
-  <input class="detail-address" placeholder='*请输入详细地址' value="{{address.detail_address}}" bindblur='on_blur_address'/>
+  <input class="detail-address" placeholder='*请输入详细地址' value="{{address.address}}"/>
   <view class='mail-view'>
     <text class='mail-text'>*邮政编码：</text>
     <input class='mail-input' bindblur='on_blur_mail' placeholder='请输入邮政编码' value="{{address.email}}"/>

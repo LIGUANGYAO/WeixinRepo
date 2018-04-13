@@ -1,4 +1,5 @@
 // pages/backyard/transaction/transaction.js
+var app = getApp()
 Page({
 
   /**
@@ -12,9 +13,29 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-  
+    var that = this
+    wx.request({
+      url: app.globalData.mainURL + 'api/getExchange',
+      data: {
+        user_id: app.globalData.userInfo.user_id
+      },
+      method: 'POST',
+      header: {
+        'content-type': 'application/json'
+      },
+      success: function (res) {
+        that.setData({array: res.data.result, upload_url: app.globalData.uploadURL, productState: app.globalData.productState})
+      },
+      fail: function () {
+      }
+    })
   },
-
+  onDetailState:function(query)
+  {
+    wx.navigateTo({
+      url: '../transaction_detail/transaction_detail?id=' + query.currentTarget.id,
+    })
+  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

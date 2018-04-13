@@ -13,8 +13,7 @@ Page({
     booking: [],
     eventType: [],
     userRole: [],
-    bookingState: [],
-    register_num:0,
+    bookingState: []
   },
 
   /**
@@ -45,13 +44,10 @@ Page({
         if(book != null){
           book.avatar = app.globalData.uploadURL + book.avatar;
           var time = book.start_time.split(':');
-          var register = res.data.register_num[0].register_num
-          if(register==null) register =0;
           book.start_time = time[0] + ':' + time[1];
           that.setData({
             booking: book,
-            rating: res.data.rating,
-            register_num: register
+            rating: res.data.rating
           })
         }
       }

@@ -8,6 +8,7 @@
   border-top-style: solid;
   border-top-width: 2rpx;
   border-top-color: gainsboro; 
+  z-index: 99999;
 }
 
 .footer-text{

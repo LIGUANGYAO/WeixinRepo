@@ -4,14 +4,14 @@
     <image class='stadium-image-next' src='../../../image/next@2x.png' />
     <image class='stadium-avatar-image' src='{{icon_path}}' />
   </view>
-  <view class='stadium-descript-view'>
-    <view class='stadium-descript-text'>*场馆介绍：</view>
-    <textarea class='stadium-descript-textarea' placeholder='请输入场馆简介，不超过200字' bindblur='blur_on_introduction' value="{{introduction}}">
+  <view class='stadium-input-view'>
+    <view class='stadium-input-text'>*场馆介绍：</view>
+    <textarea class='stadium-input-textarea' maxlength='200' placeholder='请输入场馆简介，不超过200字' bindblur='blur_on_introduction' value="{{introduction}}">
     </textarea>
   </view>
-  <view class='stadium-service-view'>
-    <view class='stadium-service-text'>*服务介绍：</view>
-    <textarea class='stadium-service-textarea' placeholder='请输入场馆简介，不超过200字' bindblur='blur_on_service' value="{{service}}">
+  <view class='stadium-input-view'>
+    <view class='stadium-input-text'>*服务介绍：</view>
+    <textarea class='stadium-input-textarea' maxlength='200' placeholder='请输入场馆简介，不超过200字' bindblur='blur_on_service' value="{{service}}">
     </textarea>
   </view>
   <view class='stadium-images-view'>
@@ -30,9 +30,7 @@
     <image class='stadium-images-delete' id="3" src="../../../image/del02@2x.png" style='{{display[select[4]]}}' bindtap="on_click_delete"></image>
     <image class='stadium-images-image' id="4" src='{{image_path[4]}}' style="{{display[select[4]]}}" bindtap='on_click_image'>
     </image>
-    <view wx:if="{{selected==5}}">
-      <image class='stadium-images-delete' id="4" src="../../../image/del02@2x.png" bindtap="on_click_delete"></image>
-    </view>
+    <image wx:if="{{selected==5}}" class='stadium-images-delete1' id="4" src="../../../image/del02@2x.png" bindtap="on_click_delete"></image>
   </view>
   <button class='btn-submit' bindtap="on_click_save">完成</button>
 </view>

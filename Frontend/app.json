@@ -19,6 +19,7 @@
     "pages/profile/my_membership/my_membership",
     "pages/profile/my_focus/my_focus",
     "pages/profile/auth/auth",
+    "pages/profile/auth/auth_text",
     "pages/profile/delivery/delivery",
     "pages/profile/delivery/editdelivery",
     "pages/profile/register_stadium/register_stadium",
@@ -31,6 +32,8 @@
     "pages/backyard/product_order/product_order",
     "pages/backyard/transaction/transaction",
     "pages/backyard/transaction_detail/transaction_detail",
+    "pages/backyard/ordercomplete/ordercomplete",
+    "pages/backyard/help/help",
     "pages/other/evaluation/evaluation",
     "pages/other/comment/comment",
     "pages/other/create_event/create_event"

@@ -12,8 +12,8 @@ Page({
     avatar: "../../image/temp.jpg",
   },
   onLoad: function () {
-    this.setData({ total: app.globalData.total_honey})
-    this.setData({ honeybox_array : app.globalData.honeybox_array})
+    this.setData({ total: app.globalData.honey_info.total_honey})
+    this.setData({ honeybox_array : app.globalData.honey_info.honeybox_array})
     this.setData({ avatar: app.globalData.userInfo.avatar })
   },
   select: function (event) {
@@ -32,19 +32,17 @@ Page({
     })
   },
   On_click_comment: function(){
+    wx.navigateTo({
+      url: 'help/help',
+    })
   },
   on_click_honey: function(event){
-    for (var iter = 0; iter < app.globalData.honeybox_array.length; iter++)
+    for (var iter = 0; iter < app.globalData.honey_info.honeybox_array.length; iter++)
     {
-      if (event.currentTarget.id == app.globalData.honeybox_array[iter].start_time)
-      {
-        app.globalData.total_honey += app.globalData.honeybox_array[iter].honey
-        app.globalData.honeybox_array.splice(iter, 1)
-      }
+      app.globalData.honey_info.total_honey += app.globalData.honey_info.honeybox_array[iter].honey
     }
-    this.setData({ total: app.globalData.total_honey })
-    this.setData({honeybox_array: app.globalData.honeybox_array})
-    wx.setStorageSync('total_honey', app.globalData.total_honey)
-    wx.setStorageSync('honeybox_array', app.globalData.honeybox_array)
+    //app.globalData.honey_info.honeybox_array = new Array()
+    this.setData({ total: app.globalData.honey_info.total_honey })
+    this.setData({ honeybox_array: app.globalData.honey_info.honeybox_array})
   }
 })

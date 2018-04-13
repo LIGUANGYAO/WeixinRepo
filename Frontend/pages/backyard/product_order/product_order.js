@@ -107,5 +107,8 @@ Page({
       fail: function () {
       }
     })
+    wx.navigateTo({
+      url: '../ordercomplete/ordercomplete',
+    })
   }
 })

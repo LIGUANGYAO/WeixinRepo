@@ -20,5 +20,5 @@
      {{product.comment}}
     </view>
   </view>
-  <button id="{{product.id}}" bindtap="On_click_order" class='btn_submit'>立即兑换</button>
+  <button id="{{product.id}}" bindtap="On_click_order" disabled="{{disable}}"class='btn_submit'>{{btn_text}}</button>
 </view>
