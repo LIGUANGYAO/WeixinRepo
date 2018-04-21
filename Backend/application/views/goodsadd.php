@@ -142,7 +142,7 @@
                     <div class="row form-inline">
                         <div class="row" style="padding-left: 200px;">
                             <div class="col-xs-12 col-sm-12 form-inline">
-                                <a class="btn btn-default form-control" href="<?php echo base_url(); ?>product">
+                                <a class="btn btn-default form-control" href="<?php echo base_url(); ?>index.php/product">
                                     <span>返回</span>
                                 </a>
                                 <input class="btn btn-primary form-control" type="submit" value="保存">
@@ -201,6 +201,6 @@
 
 
 <!-- Course Management JS-->
-<script type="text/javascript" src="<?php echo base_url(); ?>assets/js/product_manage/product.js"
+<script type="text/javascript" src="<?php echo base_url(); ?>index.php/assets/js/product_manage/product.js"
         charset="utf-8"></script>
 

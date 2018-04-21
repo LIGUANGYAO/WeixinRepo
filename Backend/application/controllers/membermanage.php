@@ -1,6 +1,6 @@
 <?php if (!defined('BASEPATH')) exit('No direct script access allowed');
 
-require APPPATH . '/libraries/BaseController.php';
+require APPPATH . '/libraries/basecontroller.php';
 
 /**
  * Class : Shop (ShopController)
@@ -9,7 +9,7 @@ require APPPATH . '/libraries/BaseController.php';
  * @version : 1.0
  * @since : 12 August 2017
  */
-class membermanage extends BaseController
+class MemberManage extends basecontroller
 {
     /**
      * This is default constructor of the class

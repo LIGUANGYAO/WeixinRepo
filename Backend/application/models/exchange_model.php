@@ -26,13 +26,17 @@ class exchange_model extends CI_Model
     function getExchangeDetailById($exchangeId)
     {
         $this->db->select("goods.name as good_name,goods.cost");
-        $this->db->select("accept_address.name, accept_address.phone, accept_address.address, accept_address.email, accept_address.state as address_state");
+        $this->db->select("accept_address.name, accept_address.phone, accept_address.detail_address, accept_address.email, accept_address.state as address_state");
         $this->db->select("exchange.*");
-        $this->db->from('exchange');
+        $this->db->select("provinces.province, cities.city, areas.area");
+        $this->db->from('provinces, cities, areas, exchange');
         $this->db->join('goods','goods.id = exchange.good_id');
         $this->db->join('accept_address','exchange.user_id = accept_address.user_id');
         $this->db->where('exchange.no', $exchangeId);
         $this->db->where('accept_address.state', 1);
+        $this->db->where("provinces.id = accept_address.province");
+        $this->db->where("cities.id = accept_address.city");
+        $this->db->where("areas.id = accept_address.area");
         $query = $this->db->get();
         return $query->result();
     }
@@ -159,7 +163,7 @@ class exchange_model extends CI_Model
     {
         $this->db->select("exchange.*");
         $this->db->select("goods.avatar, goods.cost, goods.name");
-        $this->db->select("accept_address.name as address_name, accept_address.phone, accept_address.address");
+        $this->db->select("accept_address.name as address_name, accept_address.phone, accept_address.detail_address");
         $this->db->from("exchange, goods, accept_address");
         $this->db->where("exchange.no", $exchangeId);
         $this->db->where("goods.id = exchange.good_id");

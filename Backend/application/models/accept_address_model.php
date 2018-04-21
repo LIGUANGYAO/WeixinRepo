@@ -8,6 +8,14 @@ class accept_address_model extends CI_Model
     */
     function addAddressByUser($info)
     {
+        $this->db->select("no");
+        $this->db->from("accept_address");
+        $this->db->where("state", 1);
+        $this->db->where("user_id", $info->{'user_id'});
+        $result = $this->db->get()->result();
+        if(count($result)==0){
+            $info->{'state'} = 1;
+        }
         $this->db->insert("accept_address", $info);
         return true;
     }
@@ -67,8 +75,12 @@ class accept_address_model extends CI_Model
             $this->db->query("update accept_address set state=1 where user_id=".$userId." limit 1");
         }
         $this->db->select("*");
+        $this->db->select("provinces.province, cities.city, areas.area");
         $this->db->from("accept_address");
         $this->db->where('user_id', $userId);
+        $this->db->join("provinces","provinces.id = accept_address.province");
+        $this->db->join("cities","cities.id = accept_address.city");
+        $this->db->join("areas","areas.id = accept_address.area");
         $query = $this->db->get();
         return $query->result();
     }
@@ -78,8 +90,12 @@ class accept_address_model extends CI_Model
     */
     function getMainAddress($userId)
     {
-        $this->db->select("name, phone, address");
+        $this->db->select("name, phone, detail_address");
+        $this->db->select("provinces.province, cities.city, areas.area");
         $this->db->from("accept_address");
+        $this->db->join("provinces","provinces.id = accept_address.province");
+        $this->db->join("cities","cities.id = accept_address.city");
+        $this->db->join("areas","areas.id = accept_address.area");
         $this->db->where('user_id', $userId);
         $this->db->where('state', 1);
         $query = $this->db->get();

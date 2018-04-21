@@ -20,13 +20,23 @@ Page({
     active2: "",
     active3: "",
     bookingArray: new Array(),
-    selectedtab: "booked",
     events: [],
     selected_state: 0,
     userInfo: [],
     eventType: [],
     userRole: [],
-    eventState: []
+    eventState: [],
+    select_tab: 0,
+    filter_role: 1,
+    filter_type: 0,
+    filter_start: '',
+    filter_end: '',
+    select_type: 0,
+    select_role: 1,
+    select_start: '',
+    select_end: '',
+    starttime: '开始时间',
+    endtime: '结束时间'
   },
   onLoad: function () {
     this.setData({
@@ -38,16 +48,13 @@ Page({
     var that = this;
     //http://restapi.amap.com/v3/geocode/regeo?key=Your key&location=116.481488,39.990464&poitype=&radius=&extensions=all&batch=false&roadlevel=0
     wx.getLocation({
-      success: function(res) {
+      success: function (res) {
         var longitude = res.longitude;
         var latitude = res.latitude;
         var url = 'http://restapi.amap.com/v3/geocode/regeo?key=8eb63e36d0b6d7d29a392503a4a80f6c&location=' + longitude + ',' + latitude + '&poitype=&radius=&extensions=all&batch=false&roadlevel=0';
-        console.log(url);
         wx.request({
           url: url,
-          success:function(res)
-          {
-            console.log(res);
+          success: function (res) {
             var province = res.data.regeocode.addressComponent.province
             wx.request({
               url: app.globalData.mainURL + 'api/getEventsByProvince',
@@ -56,20 +63,21 @@ Page({
                 'content-type': 'application/json'
               },
               data: {
-                province: province
+                province: province,
+                user_id: app.globalData.userInfo.user_id
               },
               success: function (res) {
-                console.log(res);
+                console.log(res)
                 var event_buf = res.data.result;
                 if (event_buf != null) {
                   for (var index = 0; index < event_buf.length; index++) {
-                    event_buf[index].avatar = app.globalData.uploadURL + event_buf[index].avatar;
                     var time = event_buf[index].start_time.split(':');
                     event_buf[index].start_time = time[0] + ':' + time[1];
-                    if (event_buf[index].register_num == null) {
-                      event_buf[index].register_num = 0;
+                    if (event_buf[index].current_member == null) {
+                      event_buf[index].current_member = 0;
                     }
                   }
+                  console.log(event_buf)
                   that.setData({
                     events: event_buf,
                   })
@@ -82,41 +90,117 @@ Page({
     })
   },
   select: function (event) {
-    wx.redirectTo({
-      url: "../" + event.currentTarget.id + '/' + event.currentTarget.id,
+    if (app.globalData.currentpage != event.currentTarget.id) {
+      if (event.currentTarget.id != '') {
+        wx.redirectTo({
+          url: "../" + event.currentTarget.id + '/' + event.currentTarget.id,
+          success: function (res) {
+            app.globalData.currentpage = event.currentTarget.id
+          }
+        })
+      }
+    }
+  },
+  on_click_create_event: function () {
+    console.log(app.globalData.userInfo.state)
+    if (app.globalData.userInfo.state == 0 || app.globalData.userInfo.state == 3) {
+      wx.showModal({
+        title: '提示',
+        content: '是未注册的使用者',
+        success: function (res) {
+          if (res.confirm) {
+            wx.navigateTo({
+              url: '../profile/auth/auth',
+            })
+          } else if (res.cancel) {
+          }
+        }
+      })
+      return;
+    }
+    if (app.globalData.userInfo.state == 1) {
+      wx.showModal({
+        title: '提示',
+        content: '正在注册。 请稍等。',
+        showCancel: false,
+      })
+      return;
+    }
+    wx.navigateTo({
+      url: '../other/create_event/create_event',
     })
   },
   On_click_favourite: function (e) {
 
-  },
-  On_click_detail_event: function (e) {
-    wx.navigateTo({
-      url: 'detail_event/detail_event',
-    })
   },
   On_click_modal_open: function (e) {
     this.data.showModal = 1
     this.setData({ showModal: this.data.showModal })
   },
   selectTab: function (e) {
-    if (e.currentTarget.id == 'tab-btn1' & this.data.active1 == "")
-    {
-      this.setData({active1: "active"})
+    if (e.currentTarget.id == 'tab-btn1' & this.data.active1 == "") {
+      this.setData({ active1: "active" })
       this.setData({ active2: "" })
+      this.setData({ select_tab: 0 })
     }
-    if(e.currentTarget.id == 'tab-btn2' & this.data.active2 == ""){
+    if (e.currentTarget.id == 'tab-btn2' & this.data.active2 == "") {
       this.setData({ active1: "" })
       this.setData({ active2: "active" })
+      this.setData({ select_tab: 1 })
     }
   },
-  On_click_hide: function()
-  {
+  On_click_hide: function () {
     this.data.showModal = 0;
-    this.setData({ showModal: 0})
+    this.setData({ showModal: 0 })
   },
   click_detail_event: function (event) {
     wx.navigateTo({
       url: '../index/detail_event/detail_event?id=' + event.currentTarget.id,
     })
   },
+  hideModal: function () {
+    this.data.showModal = 0;
+    this.setData({ showModal: 0 })
+  },
+  on_click_role: function (event) {
+    if (event.currentTarget.id == 2) {
+      this.setData({
+        modal_active1: "",
+        modal_active2: "active",
+        filter_role: 2
+      })
+    }
+    else {
+      this.setData({
+        modal_active1: "active",
+        modal_active2: "",
+        filter_role: 1
+      })
+    }
+  },
+  on_click_type: function (event) {
+    var event_type = event.currentTarget.id
+    this.setData({
+      filter_type: event_type
+    })
+  },
+  change_filter: function () {
+    this.setData({
+      select_type: this.data.filter_type,
+      select_role: this.data.filter_role,
+      select_start: this.data.filter_start,
+      select_end: this.data.filter_end
+    })
+    this.hideModal()
+  },
+  starttime_picker: function (e) {
+    this.setData({
+      starttime: e.detail.value
+    })
+  },
+  endtime_picker: function (e) {
+    this.setData({
+      endtime: e.detail.value
+    })
+  }
 })

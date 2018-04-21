@@ -43,7 +43,6 @@ Page({
         console.log(res);
         var book = res.data.result[0];
         if(book != null){
-          book.avatar = app.globalData.uploadURL + book.avatar;
           var time = book.start_time.split(':');
           var register = res.data.register_num[0].register_num
           if(register==null) register =0;

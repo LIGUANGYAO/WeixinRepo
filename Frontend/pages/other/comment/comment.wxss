@@ -1,5 +1,8 @@
 /**index.wxss**/
-
+.tcontainer{
+  width: 100%;
+  height: 182rpx;
+}
 .cls_title {
   width: calc(100%-30rpx);
   height: 88rpx;
@@ -15,6 +18,8 @@
 }
 
 .cls_user_comment_info {
+  padding-top: 30rpx;
+  padding-bottom: 30rpx;
   width: 100%;
   height: auto;
   border-bottom: solid 3rpx #f4f4f4;
@@ -28,11 +33,6 @@
   height: 80rpx;
   border-radius: 50%;
 }
-
-.name-star-view {
-
-}
-
 .cls_user_name {
   margin-left: 20rpx;
   margin-bottom: 6rpx;

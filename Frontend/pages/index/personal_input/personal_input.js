@@ -53,7 +53,7 @@ Page({
   },
   on_Input_Memcount: function (event) {
     this.setData({ memcount: event.detail.value });
-    this.setData({ total_cost: event.detail.value * this.data.eventData.cost})
+    this.setData({ total_cost: event.detail.value * this.data.event.cost})
   },
   on_Btn_OK: function()
   {
@@ -69,7 +69,7 @@ Page({
       console.log(this.data.phonenumber.toString().length)
       this.setData({ val_phonenumber: "error" })
     }
-    if (this.data.memcount > (this.data.eventData.max_member - this.data.eventData.member_count) || this.data.memcount == 0) 
+    if (this.data.memcount > (this.data.event.limit - this.data.event.current_member) || this.data.memcount == 0) 
     {
       x++
       this.setData({ val_memcount: "error" })
@@ -77,6 +77,26 @@ Page({
     if(x == 0)
     {
       console.log("OK")
+      var that = this
+      wx.request({
+        url: app.globalData.mainURL + 'api/addBooking',
+        method: 'POST',
+        header: {
+          'content-type': 'application/json'
+        },
+        data:{
+          user_id: app.globalData.userInfo.user_id,
+          event_id: that.data.event.id,
+          reg_num: that.data.memcount,
+          pay_type: 1
+        },
+        success: function(res){
+          console.log(res)
+        }
+      })
+      wx.redirectTo({
+        url: '../../activity/activity',
+      })
     }
   }
 })

@@ -1,21 +1,23 @@
 <view class='container'>
-  <view class="product">
-    <view class="product-bar">
-      <text class="product-no">订单编号：</text>
-      <text>123456789</text>
-      <text class="product-status">待发货</text>
-    </view>
-    <view class="product-detail">
-      <image class="product-picture" src="../../../image/temp.jpg"></image>
-      <view class='product-name-view'>
-        <text class='product-name-text'>asdf</text>
+  <view wx:for="{{array}}">
+    <view id="{{item.no}}" bindtap="onDetailState"class="product">
+      <view class="product-bar">
+        <text class="product-no">订单编号：</text>
+        <text>{{item.no}}</text>
+        <text class="product-status">{{productState[item.state]}}</text>
       </view>
-      <view class="product-content">
-        <text class='product-content-text'>asdf</text>
+      <view class="product-detail">
+        <image class="product-picture" src="{{upload_url + item.avatar}}"></image>
+        <view class='product-name-view'>
+          <text class='product-name-text'>{{item.name}}</text>
+        </view>
+        <view class="product-content">
+          <text class='product-content-text'>{{item.cost}}ml蜂蜜</text>
+        </view>
+        <text class='product-count'>x1</text>
       </view>
-      <text class='product-count'>x1</text>
+      <view class="product-total-cost">共计1件商品，需
+        <text>{{item.cost}}ml</text>蜂蜜</view>
     </view>
-    <view class="product-total-cost">共计1件商品，需
-      <text>23456ml</text>蜂蜜</view>
   </view>
 </view>

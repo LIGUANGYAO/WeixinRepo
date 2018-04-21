@@ -14,11 +14,48 @@ Page({
   onLoad: function () {
     //Setting Nickname and avatar of User
     this.setData({ userInfo: app.globalData.userInfo });
+    console.log(this.data.userInfo)
   },
   //listener of tabbar
   select: function (event) {
+    if (app.globalData.currentpage != event.currentTarget.id) {
+      if (event.currentTarget.id != '') {
+        wx.redirectTo({
+          url: "../" + event.currentTarget.id + '/' + event.currentTarget.id,
+          success: function (res) {
+            app.globalData.currentpage = event.currentTarget.id
+          }
+        })
+      }
+    }
+  },
+  on_click_create_event: function () {
+    console.log(app.globalData.userInfo.state)
+    if (app.globalData.userInfo.state == 0 || app.globalData.userInfo.state == 3) {
+      wx.showModal({
+        title: '提示',
+        content: '是未注册的使用者',
+        success: function (res) {
+          if (res.confirm) {
+            wx.navigateTo({
+              url: '../profile/auth/auth',
+            })
+          } else if (res.cancel) {
+          }
+        }
+      })
+      return;
+    }
+    if (app.globalData.userInfo.state == 1) {
+      wx.showModal({
+        title: '提示',
+        content: '正在注册。 请稍等。',
+        showCancel: false,
+      })
+      return;
+    }
     wx.navigateTo({
-      url: "../" + event.currentTarget.id + '/' + event.currentTarget.id,
+      url: '../other/create_event/create_event',
     })
   },
   whichpress: function (event) {

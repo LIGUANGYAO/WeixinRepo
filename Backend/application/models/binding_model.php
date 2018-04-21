@@ -9,10 +9,10 @@ class binding_model extends CI_Model
      */
     function getBindingDetailById($bindingId)
     {
-        $query = "select binding.no, binding.state, binding.submit_time, binding.bank_phone, binding.credit_no, binding.cost, binding.reciever, binding.bank, binding.reciever_id,binding.comment,binding.recieve_time,
+        $query = "select binding_history.no, binding_history.state, binding_history.submit_time, binding.bank_phone, binding.credit_no, binding_history.amount, binding.receiver, binding.bank, binding.id_no,binding_history.comment,binding_history.binding_time,
                     user.name, user.phone
-                    from binding, `user` 
-                    where binding.user_id = user.no";
+                    from binding, `user`, binding_history 
+                    where binding.user_id = user.no and binding.no = binding_history.binding_no and binding_history.no=".$bindingId;
         $result = $this->db->query($query);
         return $result->result();
     }
@@ -24,12 +24,12 @@ class binding_model extends CI_Model
      */
     function bindingListingCount($searchStatus = null , $searchText = '', $searchState)
     {
-        $query = "select binding.no, binding.state, binding.submit_time, binding.bank_phone, binding.credit_no, binding.cost, binding.reciever, binding.reciever_id,
+        $query = "select binding_history.no, binding_history.state, binding_history.submit_time, binding.bank_phone, binding.credit_no, binding_history.amount, binding.receiver, binding.id_no,
                     user.name, user.phone
-                    from binding, `user` 
-                    where binding.user_id = user.no";
+                    from binding, `user`, binding_history 
+                    where binding.user_id = user.no and binding.no = binding_history.binding_no";
         if($searchState != 10){
-            $query = $query . " and binding.state like '%" . $searchState ."%'";
+            $query = $query . " and binding_history.state like '%" . $searchState ."%'";
         }
         if (!empty($searchText)) {
             if(isset($searchStatus)){
@@ -54,12 +54,12 @@ class binding_model extends CI_Model
      */
     function bindingListing($searchStatus = null , $searchText = '', $searchState, $page, $segment)
     {
-        $query = "select binding.no, binding.state, binding.submit_time, binding.bank_phone, binding.credit_no, binding.cost, binding.reciever, binding.reciever_id,
-                    user.name, user.phone 
-                    from binding, `user` 
-                    where binding.user_id = user.no";
+        $query = "select binding_history.no, binding_history.state, binding_history.submit_time, binding.bank_phone, binding.credit_no, binding_history.amount, binding.receiver, binding.id_no,
+                    user.name, user.phone
+                    from binding, `user`, binding_history 
+                    where binding.user_id = user.no and binding.no = binding_history.binding_no";
         if($searchState != 10){
-            $query = $query . " and binding.state like '%" . $searchState ."%'";
+            $query = $query . " and binding_history.state like '%" . $searchState ."%'";
         }
         if (!empty($searchText)) {
             if(isset($searchStatus)){
@@ -87,7 +87,7 @@ class binding_model extends CI_Model
     function updateStateById($bindingId, $info)
     {
         $this->db->where("no", $bindingId);
-        $this->db->update("binding", $info);
+        $this->db->update("binding_history", $info);
         $result = $this->db->affected_rows();
         return $result;
     }

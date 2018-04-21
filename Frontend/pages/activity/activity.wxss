@@ -118,7 +118,7 @@
   width: calc(100% - 200rpx);
   height: 100%;
   overflow: hidden;
-  z-index: 9999;
+  z-index: 99999;
   background: white;
 }
 
@@ -247,7 +247,17 @@
   color: #333;
   letter-spacing: 1.8rpx;
 }
-
+.selected{
+  width: 140rpx;
+  height: 54rpx;
+  line-height: 54rpx;
+  background: #E6B53C;
+  border-radius: 10rpx;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  color: white;
+  letter-spacing: 1.8rpx;
+}
 .modal-actual-time {
   position: absolute;
   top: 910rpx;
@@ -268,6 +278,7 @@
   height: 54rpx;
   top: 990rpx;
   left: 37rpx;
+  text-align: center;
   font-family: PingFangSC-Regular;
   font-size: 24rpx;
   line-height: 54rpx;
@@ -284,12 +295,12 @@
   line-height: 54rpx;
   background-color: #e8e8e8;
   border-radius: 10rpx;
+  text-align: center;
   font-family: PingFangSC-Regular;
   font-size: 24rpx;
   color: #333;
   letter-spacing: 1.8rpx;
 }
-
 .model-time-symbol {
   position: absolute;
   top: 1016rpx;

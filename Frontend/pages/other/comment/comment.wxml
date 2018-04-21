@@ -7,12 +7,12 @@
     <image class="cls_user_photo" src="{{item.avatar}}" mode="aspectFill"> </image>
     <view class='name-star-view'>
       <text class="cls_user_name">{{item.name}}</text>
-      <view class="stars" wx:for="{{[1, 2, 3, 4, 5]}}" wx:for-index="idx" wx:for-item="itm">
+      <view class="stars" wx:for="{{[1, 2, 3, 4, 5]}}" wx:for-index="idx" wx:for-item="itm" wx:key="{{itm.point}}">
         <view wx:if="{{idx >= (5-item.point)}}">
-          <image id="{{idx}}" class="cls_user_comment_star" bindtap="additionStar" src="{{img_yellow_start_src}}" mode="aspectFill" style='right:{{star_img_position + idx*37}}rpx' />
+          <image id="{{idx}}" class="cls_user_comment_star" src="{{img_yellow_start_src}}" mode="aspectFill" style='right:{{star_img_position + idx*37}}rpx' />
         </view>
         <view wx:else>
-          <image id="{{idx}}" class="cls_user_comment_star" bindtap="substractStar" src="{{img_black_start_src}}" mode="aspectFill" style='right:{{star_img_position + idx*37}}rpx' />
+          <image id="{{idx}}" class="cls_user_comment_star" src="{{img_black_start_src}}" mode="aspectFill" style='right:{{star_img_position + idx*37}}rpx' />
         </view>
       </view>
     </view>

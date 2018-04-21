@@ -7,7 +7,7 @@
  * @version : 1.1
  * @since : 15 November 2016
  */
-class BaseController extends CI_Controller
+class basecontroller extends CI_Controller
 {
     protected $role = '';
     protected $vendorId = '';
@@ -36,7 +36,7 @@ class BaseController extends CI_Controller
         $isLoggedIn = $this->session->userdata('isLoggedIn');
 
         if (!isset ($isLoggedIn) || $isLoggedIn != TRUE) {
-            redirect('login_controller');
+            redirect('Login');
         } else {
             $this->role = $this->session->userdata('role');
             $this->vendorId = $this->session->userdata('userId');
@@ -94,7 +94,7 @@ class BaseController extends CI_Controller
     {
         $this->session->sess_destroy();
 
-        redirect('login_controller');
+        redirect('login');
     }
 
     /**
@@ -109,7 +109,7 @@ class BaseController extends CI_Controller
     {
 
         $this->load->view('includes/header', $headerInfo);
-        $this->load->view($viewName, $pageInfo);
+        //$this->load->view("usermanage", $pageInfo);
         $this->load->view('includes/footer', $footerInfo);
     }
 

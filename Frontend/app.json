@@ -5,6 +5,7 @@
     "pages/index/detail_event/detail_event",
     "pages/index/personal_input/personal_input",
     "pages/index/search/search",
+    "pages/index/news/news",
     "pages/logs/logs",
     "pages/profile/profile",
     "pages/profile/my_booking/booking",
@@ -31,9 +32,13 @@
     "pages/backyard/product_order/product_order",
     "pages/backyard/transaction/transaction",
     "pages/backyard/transaction_detail/transaction_detail",
+    "pages/backyard/ordercomplete/ordercomplete",
+    "pages/backyard/help/help",
     "pages/other/evaluation/evaluation",
     "pages/other/comment/comment",
-    "pages/other/create_event/create_event"
+    "pages/other/create_event/create_event",
+    "pages/other/select_location/select_location",
+    "pages/profile/auth/auth-text/auth_text"
   ],
   "window": {
     "backgroundTextStyle": "light",

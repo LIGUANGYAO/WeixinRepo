@@ -21,7 +21,7 @@
           <label class="activity-limit-label">{{register_num}}人</label>
           <block wx:if="{{booking.role==1}}" style="display: inline-block">
             <image class="activity-cost" src="../../../image/my_bee_m@2x.png"></image>
-            <text class="activity-cost-text">{{booking.cost}}元/人</text>
+            <text class="activity-cost-label">{{booking.cost}}元/人</text>
           </block>
         </view>
       </view>
@@ -29,7 +29,7 @@
         <label class="activity-time-label">时间 | {{booking.start_time}}</label>
       </view>
       <view class="activity-address">
-        <label class="activity-address-label">地址 | {{booking.address1+booking.address2+booking.address3+booking.address4}}</label>
+        <label class="activity-address-label">地址 | {{booking.province+booking.city+booking.area+booking.detail_address}}</label>
       </view>
     </view>
   </view>

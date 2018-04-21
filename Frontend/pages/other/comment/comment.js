@@ -26,12 +26,10 @@ Page({
           'event_id': id
         },
         success: function(res){
-          console.log(id);
-          console.log(res);
           var ratings = res.data.result;
           if(ratings!=null){
             for(var index=0; index<ratings.length; index++){
-              ratings[index].avatar = app.globalData.uploadURL + ratings[index].avatar;
+              ratings[index].avatar = ratings[index].avatar;
             }
             that.setData({
               rating: ratings,
@@ -54,14 +52,10 @@ Page({
         success: function (res) {
           var ratings = res.data.result;
           if(ratings!=null){
-            for (var index = 0; index < ratings.length; index++) {
-              ratings[index].avatar = app.globalData.uploadURL + ratings[index].avatar;
-            }
             that.setData({
               rating: ratings,
               method: kind
             })
-            console.log(ratings);
           }
         }
       })

@@ -16,17 +16,17 @@
       <image src='../../../image/my_bee_m@2x.png'></image>
       <text>{{event.cost}}元/人</text>
     </view>
-    <block wx:if="{{event.rating>0}}">
-      <image class="favor_star" src='../../../image/good_s@2x.png'></image>
+    <block wx:if="{{rating>0}}">
+      <image class="favor_star" bindtap="btn_Clicked_Favor" src='../../../image/good_s@2x.png'></image>
     </block>
     <block wx:else>
-      <image class="favor_star" src='../../../image/good_n@2x.png'></image>
+      <image class="favor_star" bindtap="btn_Clicked_Favor" src='../../../image/good_n@2x.png'></image>
     </block>
-    <text class='favor_text'>1</text>
+    <text class='favor_text'>{{event.favor_state}}</text>
     <view class="act_date">
       <view>时间 | {{event.start_time+'-'+event.end_time}}</view>
     </view>
-    <view class="temp-fonts">地址 |{{event.address1+event.address2+event.address3+event.address4}}</view>
+    <view class="temp-fonts">地址 |{{event.province+event.city+event.area+event.detail_address}}</view>
   </view>
   <view class='place-info'>
     <view class='place-info-view'>
@@ -51,7 +51,7 @@
     <view class='applicant-title'>
       <text class='applicant-title-text'>已报名人（{{register_amount}}人）</text>
     </view>
-    <view class='applicant-each-view' wx:for="{{booking}}">
+    <view class='applicant-each-view' wx:for="{{booking}}" wx:key="{{item.name}}">
       <image class="applicant-image" src="{{item.avatar}}"></image>
       <text class='applicant-name'>{{item.name}}</text>
     </view>

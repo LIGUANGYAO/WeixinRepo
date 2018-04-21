@@ -26,7 +26,7 @@
             </div>
             <div class="row custom-info-row">
                 <label class="col-sm-2">身份证号:</label>
-                <label class="col-sm-4" id="nickname"><?php echo $bindingDetail[0]->reciever_id; ?></label>
+                <label class="col-sm-4" id="nickname"><?php echo $bindingDetail[0]->id_no; ?></label>
             </div>
             <div class="row custom-info-row">
                 <label class="col-sm-2">银行卡号:</label>
@@ -38,7 +38,7 @@
             </div>
             <div class="row custom-info-row">
                 <label class="col-sm-2">申请金额:</label>
-                <label class="col-sm-4" id="site_name"><?php echo $bindingDetail[0]->cost; ?></label>
+                <label class="col-sm-4" id="site_name"><?php echo $bindingDetail[0]->amount; ?></label>
             </div>
             <div class="row custom-info-row">
                 <label class="col-sm-2">申请时间:</label>
@@ -50,11 +50,11 @@
             </div>
             <div class="row custom-info-row">
                 <label class="col-sm-2">打款人:</label>  
-                <label class="col-sm-2"><?php echo $bindingDetail[0]->reciever; ?></label>
+                <label class="col-sm-2"><?php echo $bindingDetail[0]->receiver; ?></label>
             </div>
             <div class="row custom-info-row">
                 <label class="col-sm-2">打款时间:</label>
-                <label class="col-sm-2"><?php echo $bindingDetail[0]->recieve_time; ?></label>
+                <label class="col-sm-2"><?php echo $bindingDetail[0]->binding_time; ?></label>
             </div>
         </div>
         <div class="container">

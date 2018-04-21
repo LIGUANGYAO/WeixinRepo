@@ -41,7 +41,6 @@
 .text-auto1{
   display: inline-block;
   line-height: 100%;
-  vertical-align: 25rpx;
   width: 170rpx;
 }
 .text-auto2{
@@ -69,4 +68,13 @@
   width: 330rpx;
   height: 207rpx;
   margin-top: 20rpx;
+}
+.submit-btn {
+  width: 100%;
+  height: 88rpx;
+  background: #E6B53C;
+  font-family: PingFangSC-Semibold;
+  font-size: 32rpx;
+  color: #fff;
+  letter-spacing: 1.54rpx;
 }

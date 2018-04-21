@@ -14,7 +14,7 @@ Page({
    */
   onLoad: function (options) {
     var that = this
-    this.setData({ total_honey: app.globalData.total_honey })
+    this.setData({ total_honey: app.globalData.honey_info.total_honey })
     this.setData({ upload_url: app.globalData.uploadURL})
     wx.request({
       url: app.globalData.mainURL + 'api/getGoodsList',

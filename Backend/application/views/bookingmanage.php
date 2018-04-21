@@ -10,7 +10,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
-                    <form action="<?php echo base_url(); ?>bookingListingByFilter" method="POST" id="searchList">
+                    <form action="<?php echo base_url(); ?>index.php/bookingListingByFilter" method="POST" id="searchList">
                         <div class="col-xs-2 col-sm-4 form-inline">
                             <div class="form-group">
                                 <select class="form-control" id="searchStatus" name="searchStatus">
@@ -134,5 +134,5 @@
         </div>
     </section>
 </div>
-<script type="text/javascript" src="<?php echo base_url(); ?>assets/js/common.js" charset="utf-8"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>index.php/assets/js/common.js" charset="utf-8"></script>
 </script>

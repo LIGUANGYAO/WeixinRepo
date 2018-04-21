@@ -9,7 +9,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
-                    <form action="<?php echo base_url(); ?>ratingListingByFilter" method="POST" id="searchList">
+                    <form action="<?php echo base_url(); ?>index.php/ratingListingByFilter" method="POST" id="searchList">
                         <div class="col-xs-12 col-sm-4 form-inline">
                             <div class="form-group">
                                 <select class="form-control" id="searchStatus" name="searchStatus">
@@ -43,8 +43,8 @@
                             <th>姓名</th>
                             <th>手机号码</th>
                             <th>评分</th>
-                            <th style="width: 60vw;">评分内容</th>
-                            <th width="">操作</th>
+                            <th>评分内容</th>
+                            <th>操作</th>
                         </tr>
                         </thead>
                         <tbody>
@@ -83,7 +83,7 @@
                             </div>
                             <div class="form-group">
                                 <button class="btn btn-default" onclick="$('#custom-confirm-delete-view').hide();">取消</button>
-                                <button class="btn btn-primary" onclick="deleteUser('<?php echo base_url(); ?>');">确定</button>
+                                <button class="btn btn-primary" onclick="deleteUser('<?php echo base_url(); ?>index.php/');">确定</button>
                                 <div id="ratingId" style="display: none;"></div>
                             </div>
                         </div>
@@ -93,6 +93,6 @@
         </div>
     </section>
 </div>
-<script type="text/javascript" src="<?php echo base_url(); ?>assets/js/common.js" charset="utf-8"></script>
-<script type="text/javascript" src="<?php echo base_url(); ?>assets/js/rating.js" charset="utf-8"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>index.php/assets/js/common.js" charset="utf-8"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>index.php/assets/js/rating.js" charset="utf-8"></script>
 </script>

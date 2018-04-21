@@ -5,7 +5,7 @@
     <view>
       <text class="cls_user_name">{{item.name}}</text>
       <view class="stars" wx:for="{{[1, 2, 3, 4, 5]}}" wx:item="num" wx:key="index">
-        <view wx:if="{{index >= (4-item.point)}}">
+        <view wx:if="{{num >= (5-1*item.point)}}">
           <image class="cls_user_comment_star" bindtap="substractStar" src="{{img_yellow_star_src}}" mode="aspectFill" style='right:{{star_img_position + index*37}}rpx' />
         </view>
         <view wx:else>

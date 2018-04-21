@@ -293,11 +293,15 @@ class user_model extends CI_Model
      */
     function getFavouriteSite($userId)
     {
-        $this->db->select("boss.site_name, boss.site_address, boss.boss_id");
+        $this->db->select("boss.site_name, boss.detail_address, boss.boss_id");
         $this->db->select("user.phone, user.avatar");
+        $this->db->select("provinces.province, cities.city, areas.area");
         $this->db->from("favourite");
         $this->db->join("boss", "boss.boss_id = favourite.boss_id");
         $this->db->join("user", "favourite.boss_id = user.no");
+        $this->db->join("provinces","provinces.id = boss.province");
+        $this->db->join("cities","cities.id = boss.city");
+        $this->db->join("areas","areas.id = boss.area");
         $this->db->where("favourite.user_id", $userId);
         $query = $this->db->get();
         return $query->result();
@@ -310,9 +314,22 @@ class user_model extends CI_Model
     */
     function cancelFavouriteSite($userId, $bossId)
     {
-        $this->db->where('user_id', $userId);
-        $this->db->where('boss_id', $bossId);
-        $this->db->delete('favourite');
+        $this->db->select("no");
+        $this->db->from("favourite");
+        $this->db->where("user_id", $userId);
+        $this->db->where("boss_id", $bossId);
+        $result = $this->db->get()->result();
+        if(count($result) > 0){
+            $this->db->where('user_id', $userId);
+            $this->db->where('boss_id', $bossId);
+            $this->db->delete('favourite');
+        }
+        else
+        {
+            $info['user_id'] = $userId;
+            $info['boss_id'] = $bossId;
+            $this->db->insert('favourite', $info);
+        }
         return true;
     }
 
@@ -354,6 +371,17 @@ class user_model extends CI_Model
         $this->db->update("user", $userInfo);
         $query = $this->db->affected_rows();
         return $query;
+    }
+
+    /**
+     * This function is used to add honey
+     * @param int $amount : This is amount of honey
+     *@return boolean $result: this is status of adding
+     */
+    function catchHoney($amount, $user_id)
+    {
+        $this->db->query("update user set honey=honey+$amount where no=$user_id");
+        return true;
     }
 }
 

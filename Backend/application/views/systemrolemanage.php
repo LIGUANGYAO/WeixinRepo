@@ -71,7 +71,7 @@
                             <div class="form-group">
                                 <button class="btn btn-default" onclick="$('#custom-confirm-delete-view').hide();">取消
                                 </button>
-                                <button class="btn btn-primary" onclick="deleteRole('<?php echo base_url(); ?>');">确定
+                                <button class="btn btn-primary" onclick="deleteRole('<?php echo base_url(); ?>index.php/');">确定
                                 </button>
                                 <div id="roleId" style="display: none;"></div>
                             </div>
@@ -85,7 +85,7 @@
                                 <button class="btn btn-default" onclick="$('#custom-generate-auth-count-view').hide();">
                                     取消
                                 </button>
-                                <button class="btn btn-primary" onclick="addRole('<?php echo base_url(); ?>' );">确认
+                                <button class="btn btn-primary" onclick="addRole('<?php echo base_url(); ?>index.php/' );">确认
                                 </button>
                             </div>
                             <div class="form-group alert-danger" id="alertmsg" style="display: none;"></div>
@@ -124,7 +124,7 @@
                                 <button class="btn btn-default" onclick="$('#custom-generate-auth-view').hide();">取消
                                 </button>
                                 <button class="btn btn-primary"
-                                        onclick="updateRole('<?php echo base_url(); ?>', '<?php echo $role; ?>' );">确认
+                                        onclick="updateRole('<?php echo base_url(); ?>index.php/', '<?php echo $role; ?>' );">确认
                                 </button>
                             </div>
                             <div class="form-group alert-danger" id="alertmsg" style="display: none;"></div>
@@ -137,8 +137,8 @@
         </div>
     </section>
 </div>
-<script type="text/javascript" src="<?php echo base_url(); ?>assets/js/common.js" charset="utf-8"></script>
-<script type="text/javascript" src="<?php echo base_url(); ?>assets/js/sysrole.js" charset="utf-8"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>index.php/assets/js/common.js" charset="utf-8"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>index.php/assets/js/sysrole.js" charset="utf-8"></script>
 <script type="text/javascript">
     jQuery(document).ready(function () {
         //$('.treeview-menu').show();

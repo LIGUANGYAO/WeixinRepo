@@ -10,7 +10,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
-                    <form action="<?php echo base_url(); ?>goodsListingByFilter" method="POST" id="searchList">
+                    <form action="<?php echo base_url(); ?>index.php/goodsListingByFilter" method="POST" id="searchList">
                         <div class="col-xs-12 col-sm-4 form-inline">
                             <div class="form-group">
                                 <label>商品名称</label>
@@ -38,7 +38,7 @@
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-2 form-inline">
-                            <a class="btn btn-primary" href="<?php echo base_url(); ?>goodAdd">
+                            <a class="btn btn-primary" href="<?php echo base_url(); ?>index.php/goodAdd">
                                 新增
                             </a>
                         </div>
@@ -108,7 +108,7 @@
                             </div>
                             <div class="form-group">
                                 <button class="btn btn-default" onclick="$('#custom-confirm-delete-view').hide();">取消</button>
-                                <button class="btn btn-primary" onclick="deleteGood('<?php echo base_url(); ?>');">确定</button>
+                                <button class="btn btn-primary" onclick="deleteGood('<?php echo base_url(); ?>index.php/');">确定</button>
                                 <div id="goodId" style="display: none;"></div>
                             </div>
                         </div>
@@ -141,5 +141,5 @@
         </div>
     </section>
 </div>
-<script type="text/javascript" src="<?php echo base_url(); ?>assets/js/common.js" charset="utf-8"></script>
-<script type="text/javascript" src="<?php echo base_url(); ?>assets/js/goods.js" charset="utf-8"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>index.php/assets/js/common.js" charset="utf-8"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>index.php/assets/js/goods.js" charset="utf-8"></script>

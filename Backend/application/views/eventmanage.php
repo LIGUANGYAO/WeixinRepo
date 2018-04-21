@@ -9,7 +9,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
-                    <form action="<?php echo base_url(); ?>eventListingByFilter" method="POST" id="searchList">
+                    <form action="<?php echo base_url(); ?>index.php/eventListingByFilter" method="POST" id="searchList">
                         <div class="col-xs-2 col-sm-4 form-inline">
                             <div class="form-group">
                                 <select class="form-control" id="searchStatus" name="searchStatus">
@@ -62,7 +62,7 @@
                         <div class="col-xs-1 col-sm-3 form-inline">
                             <div class="form-group area-search-control-view">
                                 <button class="btn btn-primary searchList"
-                                        onclick="searchArea('<?php echo base_url(); ?>');">查询
+                                        onclick="searchArea('<?php echo base_url(); ?>index.php/');">查询
                                 </button>
                             </div>
                         </div>
@@ -124,7 +124,7 @@
                             </div>
                             <div class="form-group">
                                 <button class="btn btn-default" onclick="$('#custom-confirm-delete-view').hide();">取消</button>
-                                <button class="btn btn-primary" onclick="deleteEvent('<?php echo base_url(); ?>');">确定</button>
+                                <button class="btn btn-primary" onclick="deleteEvent('<?php echo base_url(); ?>index.php/');">确定</button>
                                 <div id="eventId" style="display: none;"></div>
                             </div>
                         </div>
@@ -137,6 +137,6 @@
         </div>
     </section>
 </div>
-<script type="text/javascript" src="<?php echo base_url(); ?>assets/js/common.js" charset="utf-8"></script>
-<script type="text/javascript" src="<?php echo base_url(); ?>assets/js/event.js" charset="utf-8"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>index.php/assets/js/common.js" charset="utf-8"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>index.php/assets/js/event.js" charset="utf-8"></script>
 </script>

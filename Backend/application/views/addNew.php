@@ -10,7 +10,7 @@
                 <!-- left column -->
                 <div class="col-md-4">
                     <!-- form start -->
-                    <form role="form" id="addUser" action="<?php echo base_url(); ?>addNewAdmin" method="post">
+                    <form role="form" id="addUser" action="<?php echo base_url(); ?>index.php/addNewUser" method="post">
 <!--                        <form role="form" id="addUser" action="" method="">-->
                             <div class="box-body">
                                 <div class="row">
@@ -59,10 +59,8 @@
                                                     $i = 0;
                                                     foreach ($roles as $rl) {
                                                         $i++;
-                                                        //if($i==1) continue;
                                                         ?>
-                                                        <option<?php echo isset($roleId) ? ($rl->roleId == 1 ? 'selected' : '') : ''; ?>
-                                                                value="<?php echo $rl->roleId; ?>"><?php echo $rl->role ?></option>
+                                                        <option <?php echo isset($roleId) ? ($rl->roleId == 1 ? 'selected' : '') : ''; ?> value="<?php echo $rl->roleId; ?>"><?php echo $rl->role ?></option>
                                                        <?php
                                                     }
                                                 }
@@ -77,7 +75,7 @@
                             <div class="">
                                 <input type="submit" class="btn btn-primary" value="确认"/>
                                 <input type="reset" class="btn btn-default" value="取消"
-                                       onclick="cancel('<?php echo base_url(); ?>');"/>
+                                       onclick="cancel('<?php echo base_url(); ?>index.php/');"/>
                             </div>
                         </form>
                 </div>
@@ -114,4 +112,4 @@
     </section>
 
 </div>
-<script src="<?php echo base_url(); ?>assets/js/addUser.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>index.php/assets/js/addUser.js" type="text/javascript"></script>

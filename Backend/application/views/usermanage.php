@@ -10,7 +10,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
-                    <form action="<?php echo base_url(); ?>userListingByFilter" method="POST" id="searchList">
+                    <form action="<?php echo base_url(); ?>index.php/userListingByFilter" method="POST" id="searchList">
                         <div class="col-xs-12 col-sm-4 form-inline">
                             <div class="form-group">
                                 <select class="form-control" id="searchStatus" name="searchStatus">
@@ -109,7 +109,7 @@
                                 ?>
                                 <tr>
                                     <td><?php echo $i; ?></td>
-                                    <td><image src="<?php echo base_url().'uploads/'.$record->avatar; ?>" style="width:50px; height:50px; border-radius:50%;"/></td>
+                                    <td><image src="<?php echo $record->avatar; ?>" style="width:50px; height:50px; border-radius:50%;"/></td>
                                     <td><?php echo $record->nickname; ?></td>
                                     <td><?php echo $record->name; ?></td>
                                     <td><?php echo $record->phone; ?></td>
@@ -144,7 +144,7 @@
                                 </div>
                                 <div class="form-group">
                                     <button class="btn btn-default" onclick="$('#custom-confirm-delete-view').hide();">取消</button>
-                                    <button class="btn btn-primary" onclick="changeForbidden('<?php echo base_url(); ?>');">确定</button>
+                                    <button class="btn btn-primary" onclick="changeForbidden('<?php echo base_url(); ?>index.php/');">确定</button>
                                     <div id="userId" style="display: none;"></div>
                                 </div>
                         </div>
@@ -168,8 +168,8 @@
         </div>
     </section>
 </div>
-<script type="text/javascript" src="<?php echo base_url(); ?>assets/js/common.js" charset="utf-8"></script>
-<script type="text/javascript" src="<?php echo base_url(); ?>assets/js/user.js" charset="utf-8"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>index.php/assets/js/common.js" charset="utf-8"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>index.php/assets/js/user.js" charset="utf-8"></script>
 
 <script type="text/javascript">
     $(function () {

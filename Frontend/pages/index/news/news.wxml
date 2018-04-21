@@ -1,0 +1,9 @@
+<view class='news-item-view'>
+  <view class='news-item-header'>
+    <view class='news-item-title'>asdf</view>
+    <view class='news-item-date'>2018-4-11</view>
+  </view>
+  <view class='news-item-text'>
+  asdfasdfffffffffffffffffffffffffffffffffffffadsggggggggggggggggggggggggggggggggggggggg  
+  </view>
+</view>

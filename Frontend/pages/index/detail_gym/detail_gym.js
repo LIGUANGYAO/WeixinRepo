@@ -1,14 +1,14 @@
 var app = getApp()
 Page({
   data: {
-    site:[],
-    event:[],
-    isFavourite:false,
-    pictures:[],
+    site: [],
+    event: [],
+    isFavourite: false,
+    pictures: [],
     eventType: [],
     userRole: [],
     eventState: [],
-    favourite_image: ['../../../image/good_n@2x.png','../../../image/good_s@2x.png'],
+    favourite_image: ['../../../image/good_n@2x.png', '../../../image/good_s@2x.png'],
     starparam: {
       stars: [0, 1, 2, 3, 4],
 
@@ -29,7 +29,6 @@ Page({
       bookingState: app.globalData.eventState
     });
     var id = options.id;
-    console.log(id);
     var that = this;
     wx.request({
       url: app.globalData.mainURL + 'api/getSiteDetail',
@@ -41,36 +40,37 @@ Page({
         'boss_id': id,
         'user_id': app.globalData.userInfo.user_id
       },
-      success: function(res){
-        console.log(res);
-        if(res.data.status){
+      success: function (res) {
+        if (res.data.status) {
           var site_buf = res.data.site[0];
-          if(site_buf!=null)
-          {
-            if(site_buf.point==null) site_buf.point = 0;
-            if(site_buf.fav_state==null) site_buf.fav_state = 0;
+          if (site_buf != null) {
+            if (site_buf.point == null) site_buf.point = 0;
+            if (site_buf.fav_state == null) site_buf.fav_state = 0;
+            else site_buf.fav_state = 1;
             var star = that.data.starparam;
-            star.score = site_buf.point*1;
+            star.score = site_buf.point * 1;
             that.setData({
               starparam: star,
             })
           }
           var picture = res.data.picture;
-          var images= [];
-          if(picture.length!=0)
-          {
-            for(var index=0;index<picture.length;index++){
+          var images = [];
+          if (picture.length != 0) {
+            for (var index = 0; index < picture.length; index++) {
               images[index] = app.globalData.uploadURL + picture[index].picture
             }
           }
           var event_buf = res.data.event;
           var is_favourite = res.data.isFavourite;
-          for (var index = 0; index < event_buf.length; index++){
-            event_buf[index].avatar = app.globalData.uploadURL + event_buf[index].avatar
-            if(event_buf[index].register_num==null){
-              event_buf[index].register_num=0;
+          for (var index = 0; index < event_buf.length; index++) {
+            if (event_buf[index].register_num == null) {
+              event_buf[index].register_num = 0;
             }
           }
+          console.log(site_buf)
+          wx.setNavigationBarTitle({
+            title: site_buf.site_name
+          })
           that.setData({
             site: site_buf,
             pictures: images,
@@ -84,17 +84,17 @@ Page({
   },
   click_detail_event: function (event) {
     wx.navigateTo({
-      url: '../detail_event/detail_event?id='+event.currentTarget.id,
+      url: '../detail_event/detail_event?id=' + event.currentTarget.id,
     })
   },
   on_Clicked_Comment: function (event) {
     wx.navigateTo({
-      url: '../../other/comment/comment?id=' + event.currentTarget.id+'&kind=site',
+      url: '../../other/comment/comment?id=' + event.currentTarget.id + '&kind=site',
     })
   },
-  on_click_favourite: function(){
+  on_click_favourite: function () {
     var site_buf = this.data.site
-    site_buf.fav_state = (site_buf.fav_state+1)%2;
+    site_buf.fav_state = (1 + site_buf.fav_state) % 2;
     this.setData({
       site: site_buf
     })
@@ -102,14 +102,14 @@ Page({
     wx.request({
       url: app.globalData.mainURL + 'api/cancelFavouriteSite',
       method: 'POST',
-      header:{
+      header: {
         'content-type': 'application/json'
       },
-      data:{
+      data: {
         'user_id': app.globalData.userInfo.user_id,
         'boss_id': that.data.site.boss_id
       },
-      success: function(res){
+      success: function (res) {
       }
     })
   }

@@ -5,7 +5,7 @@
     <view>
       <text class="reg_cls_city_name">{{item.site_name}}</text>
     </view>
-    <text class="reg_member_place">地址｜{{item.site_address}}</text>
+    <text class="reg_member_place">地址｜{{item.province+item.city+item.area+item.detail_address}}</text>
     <text class="reg_cls_comment_number">电话｜{{item.phone}}</text>
   </view>
   <button class="reg_cls_clear_btn" id="{{index}}" bindtap="on_cancel">取消关注</button>

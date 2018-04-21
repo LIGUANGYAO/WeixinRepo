@@ -102,23 +102,10 @@ function exportTable(){
         setInterval( function(){
             //return;
             $.ajax({
-                type : 'post',
-                url : baseURL + 'cron_controller',
-                data : { 'data' : 'test'},
-                success: function (data, textStatus, jqXHR) {
-                    var currentdate = new Date();
-                    var datetime = "Last Sync: " + currentdate.getDate() + "/"
-                        + (currentdate.getMonth()+1)  + "/"
-                        + currentdate.getFullYear() + " @ "
-                        + currentdate.getHours() + ":"
-                        + currentdate.getMinutes() + ":"
-                        + currentdate.getSeconds();
-                    console.log(datetime);
-                },
-                error: function (jqXHR, textStatus, errorThrown) {
-                    // Handle errors here
-                    console.log('ERRORS: ' + textStatus);
-                    // STOP LOADING SPINNER
+                type : 'get',
+                url : baseURL + 'api/checkEventState',
+                success: function(res){
+                    console.log(res);
                 }
             });
         }, 60000);

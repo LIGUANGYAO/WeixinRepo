@@ -1,6 +1,6 @@
 <?php if (!defined('BASEPATH')) exit('No direct script access allowed');
 
-require APPPATH . '/libraries/BaseController.php';
+require APPPATH . '/libraries/basecontroller.php';
 
 /**
  * Class : User (UserController)
@@ -9,7 +9,7 @@ require APPPATH . '/libraries/BaseController.php';
  * @version : 1.0
  * @since : 8 August 2017
  */
-class systemmanage extends BaseController
+class systemmanage extends basecontroller
 {
     /**
      * This is default constructor of the class
@@ -321,13 +321,7 @@ class systemmanage extends BaseController
             );
 
             $result = $this->admin_model->deleteUser($userId, $userInfo);
-            if ($result > 0) {
-                echo(json_encode(array('status' => TRUE)));
-            } else {
-                echo(json_encode(array('status' => FALSE)));
-            }
             redirect('userListing');
-
         }
     }
 

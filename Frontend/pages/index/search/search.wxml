@@ -1,14 +1,21 @@
-<!--index.wxml-->
-
-<import src="wxSearch/wxSearch.wxml" />
-
-<view class="wxSearch-section">
-  <view class="wxSearch-pancel">
-    <view class="weui-search-bar__box">
-      <input Confirm-type="Search" bindtab="wxSearchTap" bindinput="wxSearchInput" bindfocus="wxSerchFocus" value="{{wxSearchData.value}}" bindblur="wxSearchBlur" bindconfirm="wxSearchFn" class="wxSearch-input" placeholder="输入地址" />
-      <icon class="weui-icon-search_in-box" bindtap="wxSearchFn" type="search" size="30"></icon>
+<view class='tcontainer'>
+  <view class='input-view'>
+    <input class='input-box' bindinput="on_input_text" placeholder='输入地址' value='{{inputtext}}'></input>
+    <image class='input-icon' src='../../../image/search@2x.png'></image>
+    <view class='search-btn' bindtap='on_click_cancel' >取消</view>
+  </view>
+  <scroll-view class='input-tip'>
+    <view class="input-tip-view" bindtap="on_bindSearch" data-keywords="{{i.name}}"  wx:for="{{tips}}" wx:key="{{i.name}}" wx:for-item="i">
+      {{i.name}}
     </view>
-    <button class="wxSearch-button" bindtap="wxSearchCancel" plain="true">取消</button>
+  </scroll-view>
+  <view wx:if="{{isshow}}">
+    <view class='delete-view'>
+      <view class='delete-text'>搜索历史</view>
+      <image class='delete-icon' bindtap="on_click_delete"  src='../../../image/Emptied.png'></image>
+    </view>
+    <view class='favor-text' bindtap="on_click_favor_item" id = "{{index}}"  wx:for="{{favorinput}}" wx:key="{{item.name}}">
+      {{item.name}}
+    </view>
   </view>
 </view>
-<template is="wxSearch" data="{{wxSearchData}}" />

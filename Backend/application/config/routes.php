@@ -38,13 +38,13 @@
 |
 */
 
-$route['default_controller'] = "login_controller";
+$route['default_controller'] = "login";
 $route['404_override'] = 'error';
 $route['dashboard'] = 'systemmanage/dashboard';
 
 /*********** USER DEFINED ROUTES *******************/
 
-$route['loginMe'] = 'login_controller/loginMe';
+$route['loginme'] = 'login/loginMe';
 
 $route['Wxpay'] = 'Wxpay';
 $route['Wxpay/confirm/(:any)'] = 'Wxpay/confirm/$1';
@@ -98,6 +98,8 @@ $route['bindingConfirmed'] = 'binding/bindingConfirmed';
 $route['rating'] = "rating";
 $route['rating/(:num)'] = 'rating';
 $route['ratingListingByFilter'] = 'rating/ratingListingByFilter';
+$route['rulemanage'] = "rule";
+$route['saveRule'] = "rule/saveRule";
 
 $route['alarm'] = "alarm";
 
@@ -112,12 +114,12 @@ $route['updateUserPassword'] = "systemmanage/updateUserPassword";
 $route['pageNotFound'] = "systemmanage/pageNotFound";
 $route['checkEmailExists'] = "systemmanage/checkEmailExists";
 
-$route['forgotPassword'] = "login_controller/forgotPassword";
-$route['resetPasswordUser'] = "login_controller/resetPasswordUser";
-$route['resetPasswordConfirmUser'] = "login_controller/resetPasswordConfirmUser";
-$route['resetPasswordConfirmUser/(:any)'] = "login_controller/resetPasswordConfirmUser/$1";
-$route['resetPasswordConfirmUser/(:any)/(:any)'] = "login_controller/resetPasswordConfirmUser/$1/$2";
-$route['createPasswordUser'] = "login_controller/createPasswordUser";
+$route['forgotPassword'] = "Login/forgotPassword";
+$route['resetPasswordUser'] = "Login/resetPasswordUser";
+$route['resetPasswordConfirmUser'] = "Login/resetPasswordConfirmUser";
+$route['resetPasswordConfirmUser/(:any)'] = "Login/resetPasswordConfirmUser/$1";
+$route['resetPasswordConfirmUser/(:any)/(:any)'] = "Login/resetPasswordConfirmUser/$1/$2";
+$route['createPasswordUser'] = "Login/createPasswordUser";
 /*-----------------------API-------------------------*/
 $route['api/addNewUser'] = "api/Data_Manage/addNewUser";
 $route['api/getUserState'] = "api/Data_Manage/getState";
@@ -186,5 +188,6 @@ $route['api/getItemsOnMap'] = "api/Data_Manage/getItemsOnMap";
 $route['api/catchHoney'] = "api/Data_Manage/catchHoney";
 
 $route['api/createEvent'] = "api/Data_Manage/addEvent";
+$route['api/getRules'] = "api/Data_Manage/getRules";
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

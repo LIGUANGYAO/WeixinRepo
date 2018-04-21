@@ -12,11 +12,14 @@ class booking_model extends CI_Model
     {
         $this->db->select("booking.reg_num, booking.state,booking.id, booking.pay_type");
         $this->db->select("event.name, event.type, event.limit, event.cost, 
-            event.start_time, event.end_time, event.address1, event.address2, event.address3, event.address4");
+            event.start_time, event.end_time,  provinces.province,cities.city,areas.area, event.detail_address");
         $this->db->select("user.name as userName, user.phone, user.role, user.avatar");
-        $this->db->from("booking, user, event");
+        $this->db->from("booking, user, event, provinces, cities, areas");
         $this->db->where("event.id = booking.event_id");
         $this->db->where("user.no = event.organizer_id");
+        $this->db->where("event.province = provinces.id");
+        $this->db->where("event.city = cities.id");
+        $this->db->where("event.area = areas.id");
         $this->db->where("booking.id", $bookingId);
         $query = $this->db->get();
         return $query->result();
@@ -29,7 +32,7 @@ class booking_model extends CI_Model
      */
     function getBookingDetailById($bookingId)
     {
-        $this->db->select("user.avatar,user.name,user.phone, booking.reg_num, booking.pay_type,booking.id");
+        $this->db->select("user.avatar,user.name, user.nickname,user.phone, booking.reg_num, booking.pay_type,booking.id");
         $this->db->from("booking");
         $this->db->join("user", "booking.user_id = user.no");
         $this->db->where("booking.id", $bookingId);
@@ -71,7 +74,7 @@ class booking_model extends CI_Model
      */
     function getBookingDetailByEvent($eventId)
     {
-        $this->db->select("user.avatar,user.name,user.phone, booking.reg_num, booking.pay_type, event.cost, sum(booking.reg_num) as register_num");
+        $this->db->select("user.avatar,user.name, user.nickname,user.phone, booking.reg_num, booking.pay_type, event.cost, sum(booking.reg_num) as register_num");
         $this->db->from("booking");
         $this->db->join("user", "booking.user_id = user.no");
         $this->db->join("event", "booking.event_id = event.id");
@@ -117,7 +120,7 @@ class booking_model extends CI_Model
     function bookingListingCount($searchStatus = null, $searchName = '', $searchType = 100,  $searchState = 10, $searchPay = 10)
     {
          $query = "select booking.id, booking.reg_num, booking.state, booking.submit_time, booking.pay_type,
-                    event.cost, event.name as event_name, event.type, user.name, user.phone 
+                    event.cost, event.name as event_name, event.type, user.name, user.nickname, user.phone 
                     from booking, user, event
                     where booking.event_id = event.id and booking.user_id = user.no";
         if($searchPay != 10){
@@ -154,7 +157,7 @@ class booking_model extends CI_Model
     function bookingListing($searchStatus = null, $searchText = '', $searchType = 100,  $searchState = 10, $searchPay = 10, $page, $segment)
     {
         $query = "select booking.id, booking.reg_num, booking.state, booking.submit_time, booking.pay_type,
-                    event.cost, event.name as event_name, event.type, user.name, user.phone 
+                    event.cost, event.name as event_name, event.type, user.name, user.nickname, user.phone 
                     from booking, user, event
                     where booking.event_id = event.id and booking.user_id = user.no";
         if($searchPay != 10){
@@ -251,15 +254,18 @@ class booking_model extends CI_Model
     function getBookingByUser($user_id)
     {
         $this->db->select("booking.id, booking.state, sum(booking.reg_num) as register_num, booking.pay_type");
-        $this->db->select("event.name, event.type, event.cost, event.address1, event.limit,event.address2,event.address3,event.address4,event.pic, event.start_time, event.end_time");
+        $this->db->select("event.name, event.type, event.cost, provinces.province,cities.city,areas.area, event.detail_address,event.pic, event.start_time, event.end_time");
         $this->db->select("user.avatar, user.role");
         $this->db->select("sum(rating.id)>0 as favor_state");
-        $this->db->from("user, booking");
+        $this->db->from("user, booking, provinces, cities, areas");
         $this->db->join("event","event.id = booking.event_id");
         $this->db->join("rating","booking.user_id = rating.user_id and booking.event_id = rating.event_id","left");
         $this->db->where("booking.user_id", $user_id);
         $this->db->where("user.no = event.organizer_id");
         $this->db->where("event.publicity", 1);
+        $this->db->where("event.province = provinces.id");
+        $this->db->where("event.city = cities.id");
+        $this->db->where("event.area = areas.id");
         $this->db->group_by("event.id");
         $query = $this->db->get();
         return $query->result();
@@ -272,7 +278,7 @@ class booking_model extends CI_Model
      */
     function changeStateByEvent($event)
     {
-        $state['state'] = 2;
+        $state['state'] = 1;
         foreach ($event as $eventId) {
             $this->updateStateByEventId($eventId->id, $state);
         }
@@ -300,6 +306,17 @@ class booking_model extends CI_Model
     {
         $this->db->where("id", $bookingId);
         $this->db->update("booking", $state);
+        return true;
+    }
+
+    /**
+     * This function is used to add the booking information of user for a event
+     * @param array $booking : This is information array of booking
+     * @return boolean $result : This is boolean value of add booking
+     */
+    function addBooking($booking)
+    {
+        $this->db->insert("booking", $booking);
         return true;
     }
 }

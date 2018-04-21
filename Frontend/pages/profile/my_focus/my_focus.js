@@ -27,9 +27,6 @@ Page({
       success: function(res){
         var fav_buf = res.data.result;
         if(fav_buf!=null){
-          for(var index = 0; index < fav_buf.length; index++){
-            fav_buf[index].avatar = app.globalData.uploadURL + fav_buf[index].avatar
-          }
           that.setData({
             favourite: fav_buf
           })

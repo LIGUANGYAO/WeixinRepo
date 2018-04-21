@@ -5,8 +5,6 @@
     <title>登录</title>
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
     <link href="<?php echo base_url(); ?>assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet"
-          type="text/css"/>
     <link href="<?php echo base_url(); ?>assets/dist/css/AdminLTE.min.css" rel="stylesheet" type="text/css"/>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -50,7 +48,7 @@
             </div>
        <?php } ?>
 
-        <form action="<?php echo base_url(); ?>loginMe" method="post">
+        <form action="<?php echo base_url(); ?>index.php/loginme" method="post">
             <div class="form-group has-feedback">
                 <input type="account" class="form-control" placeholder="账号" name="account" required autocomplete="on"/>
                 <span class="glyphicon glyphicon-user form-control-feedback"></span>

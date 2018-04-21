@@ -13,6 +13,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    console.log(options.id)
     var that = this
     this.setData({ upload_url: app.globalData.uploadURL })
     wx.request({
@@ -106,6 +107,9 @@ Page({
       },
       fail: function () {
       }
+    })
+    wx.navigateTo({
+      url: '../ordercomplete/ordercomplete',
     })
   }
 })

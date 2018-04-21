@@ -32,7 +32,7 @@
             </div>
             <div class="row custom-info-row">
                 <label class="col-sm-2">活动地址:</label>
-                <label class="col-sm-4" id="site_name"><?php echo $eventDetail[0]->address1.$eventDetail[0]->address2.$eventDetail[0]->address3.$eventDetail[0]->address4; ?></label>
+                <label class="col-sm-4" id="site_name"><?php echo $eventDetail[0]->province.$eventDetail[0]->city.$eventDetail[0]->area.$eventDetail[0]->detail_address; ?></label>
             </div>
            <?php
                 if($eventDetail[0]->role == 2){
@@ -123,7 +123,7 @@
                                 foreach($booking as $booking_element)
                                 {
                                     echo "<tr>";
-                                    echo "<td><image src='".base_url()."uploads/".$booking_element->avatar."' style='width:50px;height:50px;border-radius:50%;'/></td>";
+                                    echo "<td><image src='".$booking_element->avatar."' style='width:50px;height:50px;border-radius:50%;'/></td>";
                                     echo "<td>".$booking_element->name."</td>";
                                     echo "<td>".$booking_element->phone."</td>";
                                     echo "<td>".$booking_element->reg_num."</td>";
@@ -151,6 +151,6 @@
 
 
 <!-- Course Management JS-->
-<script type="text/javascript" src="<?php echo base_url(); ?>assets/js/shop.js" charset="utf-8"></script>
-<script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery.qrcode.js" charset="utf-8"></script>
-<script type="text/javascript" src="<?php echo base_url(); ?>assets/js/qrcode.js" charset="utf-8"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>index.php/assets/js/shop.js" charset="utf-8"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>index.php/assets/js/jquery.qrcode.js" charset="utf-8"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>index.php/assets/js/qrcode.js" charset="utf-8"></script>

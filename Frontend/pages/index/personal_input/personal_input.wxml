@@ -37,7 +37,7 @@
     <view>活动名称:  {{event.eventName}}</view>
     <view>活动时间:  {{event.start_time + '-' + event.end_time}}</view>
     <view>活动费用:  {{event.cost}}元／人</view>
-    <view>活动地址:  {{event.address1+event.address2+event.address3+event.address4}}</view>
+    <view>活动地址:  {{event.province+event.city+event.area+event.detail_address}}</view>
   </view>
   <button bindtap="on_Btn_OK" class='bnt-cost'>确认支付</button>
 </view>

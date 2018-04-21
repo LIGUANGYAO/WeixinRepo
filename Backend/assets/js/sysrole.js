@@ -75,12 +75,6 @@ function confirmDelete(id) {
 
 function showRoleEdit(roleId) {
     $('#roleId').html(roleId);
-    var content = makeContent(tree_data);
-    $('#treeview-container').html(content);
-    JSON.parse($('#permission'+roleId).html());
-    $('#treeview-container').treeview({
-        data : JSON.parse($('#permission'+roleId).html())
-    });
     $('#custom-generate-auth-view').show();
 }
 

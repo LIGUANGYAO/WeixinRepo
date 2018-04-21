@@ -1,9 +1,9 @@
 <?php if (!defined('BASEPATH')) exit('No direct script access allowed');
 
-require APPPATH . '/libraries/BaseController.php';
+require APPPATH . '/libraries/basecontroller.php';
 
 
-class alarm extends BaseController
+class Alarm extends basecontroller
 {
     /**
      * This is default constructor of the class

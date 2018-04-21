@@ -179,6 +179,7 @@ class rating_model extends CI_Model
         $query = $this->db->get();
         return $query->result();
     }
+
 }
 
 /* End of file rating_model.php */

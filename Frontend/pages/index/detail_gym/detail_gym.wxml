@@ -1,10 +1,9 @@
 <import src="../../profile/template/stadium_template.wxml" />
-<import src="startemplate.wxml" />
 <view class='container'>
   <swiper class="swiper_box" indicator-dots="true" autoplay="true" interval="3000" duration="300">
     <block wx:for="{{pictures}}" wx:key="pic">
       <swiper-item>
-        <image src="{{item}}" class="slide-image" />
+        <image class="slide-image" src="{{item}}" />
       </swiper-item>
     </block>
   </swiper>
@@ -18,14 +17,16 @@
         </image>
       </view>
       <text class='rating-star-text'>{{starparam.score}}分</text>
-      <text bindtap="on_Clicked_Comment" id="{{site.boss_id}}" class='focus-count-comment'>{{site.rating_amount}}条评论>></text>
+      <text class='focus-count-comment' bindtap="on_Clicked_Comment" id="{{site.boss_id}}">{{site.rating_amount}}条评论>></text>
     </view>
     <view class="focus-event-date">电话 |{{site.phone}}</view>
-    <view class="focus-event-place-detail">地址 |{{site.site_address}}</view>
+    <view class="focus-event-place-detail">地址 |{{site.province+site.city+site.area+site.detail_address}}</view>
     <image class="focus-event-favor" bindtap="on_click_favourite" src='{{favourite_image[site.fav_state]}}'></image>
   </view>
   <view class='comment-gym'>
-    <view class='comment-gym-label'><text>场馆介绍</text></view>
+    <view class='comment-gym-label'>
+      <text>场馆介绍</text>
+    </view>
     <view class='comment-gym-text'>{{site.site_introduction}}</view>
   </view>
 

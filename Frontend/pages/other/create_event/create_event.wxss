@@ -17,6 +17,7 @@
 
 .event-input {
   display: inline-block;
+  vertical-align: middle;
   margin-left: 10rpx;
 }
 
@@ -127,5 +128,6 @@
 
 .stadiumaddress-input {
   margin-left: 30rpx;
+  vertical-align: middle;
   display: inline-block;
 }

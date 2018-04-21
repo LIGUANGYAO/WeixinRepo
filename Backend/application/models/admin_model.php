@@ -112,7 +112,6 @@ class admin_model extends CI_Model
     {
         $this->db->select('*');
         $this->db->from('role');
-        $this->db->where('roleId <> 2');
         $query = $this->db->get();
 
         return $query->result();
@@ -210,9 +209,7 @@ class admin_model extends CI_Model
         if ($result >= 11) {
             return '0';
         } else {
-            $item = [
-                'role' => $name
-            ];
+            $item['role'] = $name;
             $this->db->trans_start();
             $this->db->insert('role', $item);
 

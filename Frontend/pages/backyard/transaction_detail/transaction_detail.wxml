@@ -1,16 +1,16 @@
 <view class='container'>
   <view class="product-order-number">
     <text class="product-order-no">订单编号：</text>
-    <text>123456789</text>
-    <text class="product-order-status">待发货</text>
+    <text>{{array.no}}</text>
+    <text class="product-order-status">{{productState[array.state]}}</text>
   </view>
   <view class='postman-data-view'>
     <image class='postman-pos-image' src='../../../image/garden_dw@2x.png'></image>
     <view class='postman-address-view'>
-      <text class='postman-name-text'>收货人：刘德华</text>
-      <text class='postman-number-text'>13868686886</text>
+      <text class='postman-name-text'>收货人：{{array.address_name}}</text>
+      <text class='postman-number-text'>{{array.phone}}</text>
       <view class='postman-address-text'>
-        收货地址：北京市昌平区霍营黄金旧干线二期93号 楼一单元666
+        {{array.address}}
       </view>
     </view>
   </view>
@@ -19,30 +19,44 @@
       <text class='product-descript'>商品清单</text>
     </view>
     <view class="product-detail">
-      <image class="product-picture" src="../../../image/temp.jpg"></image>
+      <image class="product-picture" src="{{upload_url + array.avatar}}"></image>
       <view class='product-name-view'>
-        <text class='product-name-text'>asdf</text>
+        <text class='product-name-text'>{{array.name}}</text>
       </view>
       <view class="product-content">
-        <text class='product-content-text'>asdf</text>
+        <text class='product-content-text'>{{array.cost}}</text>
       </view>
       <text class='product-count'>x1</text>
     </view>
     <view class="product-total-cost">共计1件商品，需
-      <text>23456ml</text>蜂蜜</view>
+      <text>{{array.cost}}ml</text>蜂蜜</view>
   </view>
   <view class='product-comment-view'>
     <view class='product-comment-title'>留言：</view>
-    <view class='product-comment-text'>我还能写多少字呢？我还能写多少字呢？我还能写多少字呢？我还能写多少字呢？我还能写多少字呢？我还能写多少字呢？</view>
+    <view class='product-comment-text'>{{array.comment}}</view>
   </view>
   <view class='product-delivery-time'>
-    <view>兑换时间：2018-02-03 13:00:00</view>
-    <view>发货时间：2018-02-03 13:00:00</view>
-    <view>收货时间：2018-02-03 13:00:00</view>
+    <view>兑换时间：{{array.submit_time}}</view>
+    <view wx:if="{{array.state != 0}}">发货时间：{{array.send_time}}</view>
+    <view wx:if="{{array.state == 2}}">收货时间：{{array.accept_time}}</view>
   </view>
-  <view class='product-delivery-data'>
-    <view>物流名称：韵达快递</view>
-    <view>物流编号：4325738272748392748394</view>
+  <view wx:if="{{array.state != 0}}" class='product-delivery-data'>
+    <view>物流名称：{{array.company}}</view>
+    <view>物流编号：{{array.company_id}}</view>
   </view>
-  <button class='btn_submit'>确认收货</button>
+  <button wx:if="{{array.state == 1}}" bindtap="btn_submit" class='btn_submit'>确认收货</button>
+
+  <view class="modal-mask1" bindtap="hideModal" catchtouchmove="preventTouchMove" wx:if="{{showModal1}}"></view>
+  <view class="modal-dialog1" wx:if="{{showModal1}}">
+    <view class='modal-text1'>请您确认是否已收到货？
+    </view>
+    <view class='modal-footer1'>
+      <view bindtap="onConfirm1" class='modal-confirm1'>
+        <view style='margin-top:20rpx'>确定</view>
+      </view>
+      <view bindtap="onCancel1" class='modal-cancel1'>
+        <view style='margin-top:20rpx'>取消</view>
+      </view>
+    </view>
+  </view>
 </view>

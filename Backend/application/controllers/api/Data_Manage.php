@@ -124,6 +124,7 @@ class Data_Manage extends CI_Controller
     {
         $endedEvents = $this->event_model->checkStateByTime();
         $this->booking_model->changeStateByEvent($endedEvents);
+        $this->honey_model->checkHoney();
     }
 
     /*
@@ -185,7 +186,8 @@ class Data_Manage extends CI_Controller
     {
         $data = json_decode(file_get_contents("php://input"));
         $province = $data->{'province'};
-        $result = $this->event_model->getEventByProvince($province);
+        $user_id = $data->{"user_id"};
+        $result = $this->event_model->getEventByProvince($province, $user_id);
         if(count($result)>0){
             echo json_encode(array('status' => true, 'result' => $result), 200);
         } else {
@@ -203,11 +205,47 @@ class Data_Manage extends CI_Controller
         $user_id = $data->{'user_id'};
         $result = $this->event_model->getEventDetailById($event_id, $user_id);
         $booking = $this->booking_model->getBookingDetailByEvent($event_id);
-        $rating = $this->rating_model->getRatingDetailByEvent($event_id);
+        $rating = $this->favourite_event_model->getFavouriteDetailByUser($user_id, $event_id);
+        $rating_detail = $this->rating_model->getRatingByEvent($event_id);
         $register_num = $this->booking_model->getRegisterNum($event_id);
         $is_rating = $this->favourite_event_model->is_rating($user_id);
         if(count($result)>0){
-            echo json_encode(array('status' => true, 'result' => $result, 'booking' => $booking, 'rating' => $rating, 'register_num' => $register_num), 200);
+            echo json_encode(array('status' => true, 'result' => $result, 'booking' => $booking, 'rating' => $rating, 'rating_detail' => $rating_detail, 'register_num' => $register_num), 200);
+        } else {
+            echo json_encode(array('status' => false), 200);
+        }
+    }
+
+    /*
+    * this function is used to set favourite state of event
+    */
+    public function setFavouriteEvent()
+    {
+        $data = json_decode(file_get_contents("php://input"));
+        $event_id = $data->{"event_id"};
+        $user_id = $data->{"user_id"};
+        $result = $this->favourite_event_model->setFavouriteEvent($user_id, $event_id);
+        if($result){
+            echo json_encode(array('status' => true), 200);
+        } else {
+            echo json_encode(array('status' => false), 200);
+        }
+    }
+
+    /*
+    * this function is used to add booking information of user for a event
+    */
+    public function addBooking()
+    {
+        $data = json_decode(file_get_contents("php://input"));
+        $info['event_id'] = $data->{"event_id"};
+        $info['user_id'] = $data->{"user_id"};
+        $info['reg_num'] = $data->{"reg_num"};
+        $info['pay_type'] = $data->{"pay_type"};
+        $info['submit_time'] = date("Y-m-d h:i:s");
+        $result = $this->booking_model->addBooking($info);
+        if($result){
+            echo json_encode(array('status' => true), 200);
         } else {
             echo json_encode(array('status' => false), 200);
         }
@@ -872,6 +910,8 @@ class Data_Manage extends CI_Controller
         $data = json_decode(file_get_contents("php://input"));
         $no = $data->{'no'};
         $amount = $data->{'amount'};
+        $user_id = $data->{'user_id'};
+        $this->user_model->catchHoney($amount, $user_id);
         $result = $this->honey_model->catchHoney($no, $amount);
         if($result){
             echo json_encode(array('status' => true), 200);
@@ -1035,6 +1075,19 @@ class Data_Manage extends CI_Controller
         $payment = $this->binding_model->getPaymentHistory($userId);
         if(count($payment)> 0){
             echo json_encode(array('status' => true,'payment' => $payment), 200);
+        } else {
+            echo json_encode(array('status' => false), 200);
+        }
+    }
+
+    /*
+    * this function is used to get all information of rule
+    */
+    public function getRules()
+    {
+        $rule = $this->rule_model->getRule();
+        if(count($rule)> 0){
+            echo json_encode(array('status' => true,'rule' => $rule), 200);
         } else {
             echo json_encode(array('status' => false), 200);
         }

@@ -92,7 +92,7 @@ Page({
     if(this.data.method == "new"){
       if (e.detail.value[0] == 1) {
         this.data.user_role = "个人"
-        this.data.role = 0;
+        this.data.role = 2;
 
       }
       else {

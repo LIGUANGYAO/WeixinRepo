@@ -9,7 +9,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
-                    <form action="<?php echo base_url(); ?>bindingListingByFilter" method="POST" id="searchList">
+                    <form action="<?php echo base_url(); ?>index.php/bindingListingByFilter" method="POST" id="searchList">
                         <div class="col-xs-12 col-sm-4 form-inline">
                             <div class="form-group">
                                 <select class="form-control" id="searchStatus" name="searchStatus">
@@ -70,11 +70,11 @@
                                 <tr>
                                     <td><?php echo $record->phone; ?></td>
                                     <td><?php echo $record->name; ?></td>
-                                    <td><?php echo $record->reciever; ?></td>
-                                    <td><?php echo $record->reciever_id; ?></td>
+                                    <td><?php echo $record->receiver; ?></td>
+                                    <td><?php echo $record->id_no; ?></td>
                                     <td><?php echo $record->credit_no; ?></td>
                                     <td><?php echo $record->bank_phone; ?></td>
-                                    <td><?php echo $record->cost; ?></td>
+                                    <td><?php echo $record->amount; ?></td>
                                     <td><?php echo $state[$record->state]; ?></td>
                                     <td class="text-center">
                                        <?php 
@@ -109,5 +109,5 @@
         </div>
     </section>
 </div>
-<script type="text/javascript" src="<?php echo base_url(); ?>assets/js/common.js" charset="utf-8"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>index.php/assets/js/common.js" charset="utf-8"></script>
 </script>

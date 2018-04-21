@@ -42,7 +42,6 @@ Page({
         var book = res.data.result;
         if(book != null){
           for(var index=0; index<book.length; index++){
-            book[index].avatar = app.globalData.uploadURL + book[index].avatar;
             if(book[index].favor_state==null){
               book[index].favor_state = 0;
             }

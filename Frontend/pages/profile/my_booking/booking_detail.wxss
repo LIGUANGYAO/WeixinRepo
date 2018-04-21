@@ -66,7 +66,7 @@
   position: absolute;
   left: 210rpx;
   top: 6rpx;
-  width: 76rpx;
+  width: 100rpx;
   height: 43rpx;
   border-radius: 10rpx;
   border-color:  #E6B53C;

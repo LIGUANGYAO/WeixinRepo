@@ -14,6 +14,27 @@ class rule_model extends CI_Model
         return $query->result();
     }
 
+    /**
+    *This is function to get all information of rule
+    */
+    function getRule()
+    {
+        $this->db->select("*");
+        $this->db->from("rule");
+        $query = $this->db->get();
+        return $query->result();
+    }
+
+    /**
+    *This is function to update information of rule
+    */
+    function updateRule($index, $value)
+    {
+        $this->db->where("no", $index);
+        $this->db->update("rule", $value);
+        return true;
+    }
+
 }
 
 /* End of file rule_model.php */

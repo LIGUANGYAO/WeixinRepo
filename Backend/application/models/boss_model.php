@@ -59,10 +59,14 @@ class boss_model extends CI_Model
      */
     function getSiteDetail($bossId, $userId)
     {
-        $this->db->select("boss.site_address, boss.site_name, boss.site_introduction, boss.site_service,user.phone, boss.boss_id");
+        $this->db->select("boss.detail_address, boss.site_name, boss.site_introduction, boss.site_service,user.phone, boss.boss_id");
         $this->db->select("avg(rating.point) as point, count(rating.id) as rating_amount");
         $this->db->select("(count(favourite.no)>0) as fav_state");
+        $this->db->select("provinces.province, cities.city, areas.area");
         $this->db->from("boss");
+        $this->db->join("provinces","provinces.id = boss.province");
+        $this->db->join("cities","cities.id = boss.city");
+        $this->db->join("areas","areas.id = boss.area");
         $this->db->join("user", "user.no = boss.boss_id");
         $this->db->join("event", 'event.organizer_id = boss.boss_id','left');
         $this->db->join("rating", "rating.event_id = event.id",'left');
@@ -190,7 +194,7 @@ class boss_model extends CI_Model
         $this->db->from("boss");
         $this->db->where("( 6371 * acos( cos( radians($latitude) ) * cos( radians( latitude) ) 
    * cos( radians(longitude) - radians($longitude)) + sin(radians($latitude)) 
-   * sin( radians(latitude))))<=5000");
+   * sin( radians(latitude))))<=5");
         $query = $this->db->get();
         return $query->result();
     }

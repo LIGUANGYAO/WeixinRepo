@@ -16,7 +16,7 @@
           </block>
       </view>
       <text class="activity-time">时间 | {{item.start_time}}</text>
-      <text class="activity-address">地址 | {{item.address1+item.address2+item.address3+item.address4}}</text>
+      <text class="activity-address">地址 | {{item.province+item.city+item.area+item.detail_address}}</text>
     </view>
   </view>
 </template>

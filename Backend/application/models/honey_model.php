@@ -10,11 +10,11 @@ class honey_model extends CI_Model
      */
     function getHoneyByDistance($longitude, $latitude)
     {
-        $this->db->select("no, longitude, latitude, amount");
+        $this->db->select("no, longitude, latitude, amount, pick_choice");
         $this->db->from("honey");
         $this->db->where("( 6371 * acos( cos( radians($latitude) ) * cos( radians( latitude) ) 
    * cos( radians(longitude) - radians($longitude)) + sin(radians($latitude)) 
-   * sin( radians(latitude))))<=5000");
+   * sin( radians(latitude))))<=5");
         $query = $this->db->get();
         return $query->result();
     }
@@ -27,7 +27,30 @@ class honey_model extends CI_Model
      */
     function catchHoney($no, $amount)
     {
-        $this->db->query("update honey set amount=(amount-$amount) where no=$no");
+        $this->db->select("amount");
+        $this->db->from("honey");
+        $this->db->where("no", $no);
+        $result = $this->db->get()->result();
+        if($result[0]->amount == $amount)
+        {
+            $this->db->where("no", $no);
+            $this->db->delete("honey");
+        }
+        else{
+            $this->db->query("update honey set amount=(amount-$amount), pick_choice=pick_choice+1 where no=$no");
+        }
+        $result = $this->db->affeted_rows();
+        return (count($result)>0)?true:false;
+    }
+
+    /**
+     * This function is used to check the honey which are available from time limit
+     * @return boolean $result : state of subtract
+     */
+    function checkHoney()
+    {
+        $now = date("Y-m-d h:i:s");
+        $this->db->query("delete from honey where timestampdiff(second, create_time, $now)>86400");
         $result = $this->db->affeted_rows();
         return (count($result)>0)?true:false;
     }

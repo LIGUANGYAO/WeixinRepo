@@ -13,7 +13,7 @@
         <div class="container">
             <div class="row custom-info-row">
                 <label class="col-sm-2">头像:</label>
-                <image src="<?php echo base_url().'uploads/'.$userDetail[0]->avatar; ?>" style="width:80px; height:80px; border-radius:50%;"/>
+                <image src="<?php echo $userDetail[0]->avatar; ?>" style="width:80px; height:80px; border-radius:50%;"/>
             </div>
             <div class="row custom-info-row">
                 <label class="col-sm-2">昵称:</label>
@@ -159,6 +159,6 @@
 
 
 <!-- Course Management JS-->
-<script type="text/javascript" src="<?php echo base_url(); ?>assets/js/shop.js" charset="utf-8"></script>
-<script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery.qrcode.js" charset="utf-8"></script>
-<script type="text/javascript" src="<?php echo base_url(); ?>assets/js/qrcode.js" charset="utf-8"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>index.php/assets/js/shop.js" charset="utf-8"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>index.php/assets/js/jquery.qrcode.js" charset="utf-8"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>index.php/assets/js/qrcode.js" charset="utf-8"></script>

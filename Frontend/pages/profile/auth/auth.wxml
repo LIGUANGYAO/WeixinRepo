@@ -12,28 +12,28 @@
     </picker-view-column>
   </picker-view>
   <view wx:if="{{role==1}}">
-    <view class='stadium-info'>
-      <text class='stadium-info-name'>*场馆名称:</text>
-      <input class='stadium-info-input' placeholder='请输入场馆名称' bindblur='On_blur_stadiuminfo' wx:if="{{method!='edit'}}"/>
-      <input class='stadium-info-input' placeholder='请输入场馆名称' bindblur='On_blur_stadiuminfo' value="{{user.site_name}}" disabled wx:else/>
+    <view class='input-info'>
+      <text class='input-info-name'>*场馆名称:</text>
+      <input class='input-info-input' placeholder='请输入场馆名称' bindblur='On_blur_stadiuminfo' wx:if="{{method!='edit'}}"/>
+      <input class='input-info-input' placeholder='请输入场馆名称' bindblur='On_blur_stadiuminfo' value="{{user.site_name}}" disabled wx:else/>
     </view>
-    <view class='ownername-view'>
-      <text class='ownername-text'>*馆主姓名:</text>
-      <input class='ownername-input' placeholder='请输入馆主真实姓名' bindblur='On_blur_name'  wx:if="{{method!='edit'}}"/>
-      <input class='ownername-input' placeholder='请输入馆主真实姓名' bindblur='On_blur_name'  value="{{user.name}}"  disabled wx:else/>
+    <view class='input-info'>
+      <text class='input-info-name'>*馆主姓名:</text>
+      <input class='input-info-input' placeholder='请输入馆主真实姓名' bindblur='On_blur_name'  wx:if="{{method!='edit'}}"/>
+      <input class='input-info-input' placeholder='请输入馆主真实姓名' bindblur='On_blur_name'  value="{{user.name}}"  disabled wx:else/>
     </view>
-    <view class='phonenumber-view'>
-      <text class='phonenumber-text'>*联系方式:</text>
-      <input class='phonenumber-input' type='number' placeholder='请输入手机号' bindblur='On_blur_phone' value="{{user.phone}}"/>
+    <view class='input-info'>
+      <text class='input-info-name'>*联系方式:</text>
+      <input class='input-info-input' type='number' placeholder='请输入手机号' bindblur='On_blur_phone' value="{{user.phone}}"/>
     </view>
-    <view class='authnumber-view'>
-      <text class='authnumber-text'>*验证码:</text>
-      <input class='authnumber-input' type='number' placeholder='请输入手机号' bindblur='On_blur_authnumber' />
+    <view class='input-info'>
+      <text class='input-info-name'>*验证码:</text>
+      <input class='input-info-input' style="width: 350rpx" type='number' placeholder='请输入手机号' bindblur='On_blur_authnumber' />
       <button class='authnumber-btn' bindtap='On_click_authnumber'>获取验证码</button>
     </view>
-    <view class='stadiumaddress-view' bindtap='On_clicked_address'>
-      <text class='stadiumaddress-text'>*场馆地址:</text>
-      <input class='stadiumaddress-input' disabled  placeholder="选择省/市/县" value="{{(method=='new')?((province=='')?'':province[select_province].province+city[select_city].city+area[select_area].area):user.province+user.city+user.area+user.detail_address}}"></input>
+    <view class='user-role' bindtap='On_clicked_address'>
+      <text class='user-role-text'>*场馆地址:</text>
+      <input class='user-role-select' disabled  placeholder="选择省/市/县" value="{{(method=='new')?((province=='')?'':province[select_province].province+city[select_city].city+area[select_area].area):user.province+user.city+user.area+user.detail_address}}"></input>
       <image class='user-role-image' src='../../../image/next@2x.png'></image>
     </view>
     <picker-view class="picker-view" indicator-style="height: 50px;" bindchange="bindChange" wx:if="{{select_address!=false}}">
@@ -51,18 +51,18 @@
       <input class='detailaddress-input' placeholder="请输入详细地址" bindblur='On_blur_detailaddress' wx:if="{{method!='edit'}}"/>
       <input class='detailaddress-input' placeholder="请输入详细地址" bindblur='On_blur_detailaddress' value="{{user.detail_address}}" disabled wx:else/>
     </view>
-    <view class='selectpos-view' bindtap='On_click_map'>
-      <text class='stadiumaddress-text'>*选择地图定位:</text>
+    <view class='user-role' bindtap='On_click_map'>
+      <text class='user-role-text'>*选择地图定位:</text>
       <image class='user-role-image' src='../../../image/next@2x.png'></image>
     </view>
     <view class='reigsterimage-view'>
       <view class='registerimage-text'>*营业执照照片</view>
       <image class='registerimage-image' src='{{user.allow_pic}}' bindtap='On_click_registerimage'></image>
     </view>
-    <view class='idcard-info-view'>
-      <text class='idcard-info-text '>*身份证号:</text>
-      <input class='idcard-info-input' type='number' placeholder='请输入身份证号' bindblur='On_blur_idcard' wx:if="{{method!='edit'}}"/>
-      <input class='idcard-info-input' type='number' placeholder='请输入身份证号' bindblur='On_blur_idcard' value="{{user.id_no}}" disabled wx:else/>
+    <view class='input-info'>
+      <text class='input-info-name '>*身份证号:</text>
+      <input class='input-info-input' type='number' placeholder='请输入身份证号' bindblur='On_blur_idcard' wx:if="{{method!='edit'}}"/>
+      <input class='input-info-input' type='number' placeholder='请输入身份证号' bindblur='On_blur_idcard' value="{{user.id_no}}" disabled wx:else/>
     </view>
     <view class='idcardimage-view' >
       <view class='idcardimage-text'>*营业执照照片</view>
@@ -76,20 +76,20 @@
       <text class='nickname-text'>*昵称:</text>
       <text class='nickname-text1'>{{nickname}}</text>
     </view>
-    <view class='ownername-view'>
-      <text class='ownername-text'>*真实姓名:</text>
-      <input class='ownername-input' placeholder='请输入真实姓名' bindblur='On_blur_name1' wx:if="{{method!='edit'}}"/>
-      <input class='ownername-input' placeholder='请输入真实姓名' value="{{user.name}}" disabled wx:else/>
+    <view class='input-info'>
+      <text class='input-info-name'>*真实姓名:</text>
+      <input class='input-info-input' placeholder='请输入真实姓名' bindblur='On_blur_name1' wx:if="{{method!='edit'}}"/>
+      <input class='input-info-input' placeholder='请输入真实姓名' value="{{user.name}}" disabled wx:else/>
     </view>
-    <view class='phonenumber-view'>
-      <text class='phonenumber-text'>*联系方式:</text>
-      <input class='phonenumber-input' type='number' placeholder='请输入手机号' bindblur='On_blur_phone1' value="{{user.phone}}"/>
+    <view class='input-info'>
+      <text class='input-info-name'>*联系方式:</text>
+      <input class='input-info-input' type='number' placeholder='请输入手机号' bindblur='On_blur_phone1' value="{{user.phone}}"/>
     </view>
-    <view class='authnumber-view'>
-      <text class='authnumber-text'>*验证码：:</text>
-      <input class='authnumber-input' type='number' placeholder='请输入验证码' bindblur='On_blur_authnumber1'/>
+    <view class='input-info'>
+      <text class='input-info-name'>*验证码：:</text>
+      <input class='input-info-input' style="width: 350rpx" type='number' placeholder='请输入验证码' bindblur='On_blur_authnumber1'/>
       <button class='authnumber-btn' bindtap='On_click_authnumber'>获取验证码</button>
     </view>
-    <button class='submit-btn' bindtap='On_click_submit'>提交</button>
+    <button class='submit-btn' style='position: fixed' bindtap='On_click_submit'>提交</button>
   </view>
 </view>

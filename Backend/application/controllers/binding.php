@@ -1,6 +1,6 @@
 <?php if (!defined('BASEPATH')) exit('No direct script access allowed');
 
-require APPPATH . '/libraries/BaseController.php';
+require APPPATH . '/libraries/basecontroller.php';
 
 /**
  * Class : Shop (ShopController)
@@ -9,7 +9,7 @@ require APPPATH . '/libraries/BaseController.php';
  * @version : 1.0
  * @since : 12 August 2017
  */
-class binding extends BaseController
+class Binding extends basecontroller
 {
     /**
      * This is default constructor of the class
@@ -89,7 +89,8 @@ class binding extends BaseController
         $bindingId = $this->input->post('binding_id');
         $info['comment'] = $this->input->post('comment');
         $info['state'] = $this->input->post('option_status');
-        $info['recieve_time'] = date("Y-m-d h:i:a");
+        $info['binding_time'] = date("Y-m-d h:i:a");
+        $info['binding_man'] = $this->session->userdata('userId');
         $result = $this->binding_model->updateStateById($bindingId, $info);
         if($result){
             $this->bindingCollectListing();

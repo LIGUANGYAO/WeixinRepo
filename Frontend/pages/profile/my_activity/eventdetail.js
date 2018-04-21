@@ -40,17 +40,12 @@ Page({
       success: function (res) {
         console.log(res);
         var books = res.data.booking;
-        for (var index = 0; index < books.length; index++) {
-          books[index].avatar = app.globalData.uploadURL + books[index].avatar
-        }
-        var rating_buf = res.data.rating
-        for(var index = 0; index < rating_buf.length; index++){
-          rating_buf[index].avatar = app.globalData.uploadURL + rating_buf[index].avatar
-        }
+        var rating_buf = res.data.rating_detail
         that.setData({
           booking: books,
           rating: rating_buf
         })
+        console.log(rating_buf)
         var event_buf = res.data.result[0];
         event_buf.pic = app.globalData.uploadURL + event_buf.pic;
         if(event_buf.favourite_num==null){
@@ -62,7 +57,6 @@ Page({
         }
         var time = event_buf.start_time.split(':');
         event_buf.start_time = time[0]+':'+time[1];
-        console.log(event_buf);
         that.setData({
           event: event_buf,
           id: id,

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title><?php echo $pageTitle; ?></title>
-    <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon"/>
+    <link rel="shortcut icon" href="<?php echo base_url(); ?>assets/images/logo.png" type="image/x-icon"/>
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
     <!-- Bootstrap 3.3.4 -->
     <link href="<?php echo base_url(); ?>assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
@@ -137,7 +137,7 @@
                     </a>
                 </li>
                 <li class="treeview"
-                    style="<?php echo(($menu_acc != '') ? ($menu_acc->p_70 == '1' ? '' : 'display:none;') : 'display:none'); ?>">
+                    style="<?php echo(($menu_acc != '') ? ($menu_acc->p_60 == '1' ? '' : 'display:none;') : 'display:none'); ?>">
                     <a href="<?php echo base_url(); ?>binding">
                         <i class="fa fa-th"></i>
                         <span>提现管理</span>

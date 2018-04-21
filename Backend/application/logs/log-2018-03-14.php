@@ -57,7 +57,7 @@ DEBUG - 2018-03-14 03:23:19 --> Form Validation Class Initialized
 DEBUG - 2018-03-14 03:23:19 --> Language file loaded: language/english/form_validation_lang.php
 DEBUG - 2018-03-14 03:23:19 --> XSS Filtering completed
 DEBUG - 2018-03-14 03:23:19 --> Unable to find validation rule: 
-ERROR - 2018-03-14 03:23:19 --> Severity: Notice  --> Undefined property: stdClass::$permission D:\xampp1\htdocs\Backend\application\controllers\login_controller.php 75
+ERROR - 2018-03-14 03:23:19 --> Severity: Notice  --> Undefined property: stdClass::$permission D:\xampp1\htdocs\Backend\application\controllers\Login.php 75
 DEBUG - 2018-03-14 03:23:19 --> Config Class Initialized
 DEBUG - 2018-03-14 03:23:19 --> Hooks Class Initialized
 DEBUG - 2018-03-14 03:23:19 --> Utf8 Class Initialized
@@ -178,7 +178,7 @@ DEBUG - 2018-03-14 03:26:10 --> Form Validation Class Initialized
 DEBUG - 2018-03-14 03:26:10 --> Language file loaded: language/english/form_validation_lang.php
 DEBUG - 2018-03-14 03:26:10 --> XSS Filtering completed
 DEBUG - 2018-03-14 03:26:10 --> Unable to find validation rule: 
-ERROR - 2018-03-14 03:26:10 --> Severity: Notice  --> Undefined property: stdClass::$permission D:\xampp1\htdocs\Backend\application\controllers\login_controller.php 75
+ERROR - 2018-03-14 03:26:10 --> Severity: Notice  --> Undefined property: stdClass::$permission D:\xampp1\htdocs\Backend\application\controllers\Login.php 75
 DEBUG - 2018-03-14 03:26:10 --> Config Class Initialized
 DEBUG - 2018-03-14 03:26:10 --> Hooks Class Initialized
 DEBUG - 2018-03-14 03:26:10 --> Utf8 Class Initialized
@@ -1037,7 +1037,7 @@ DEBUG - 2018-03-14 03:39:59 --> Form Validation Class Initialized
 DEBUG - 2018-03-14 03:39:59 --> Language file loaded: language/english/form_validation_lang.php
 DEBUG - 2018-03-14 03:39:59 --> XSS Filtering completed
 DEBUG - 2018-03-14 03:39:59 --> Unable to find validation rule: 
-ERROR - 2018-03-14 03:39:59 --> Severity: Notice  --> Undefined property: stdClass::$permission D:\xampp1\htdocs\Backend\application\controllers\login_controller.php 75
+ERROR - 2018-03-14 03:39:59 --> Severity: Notice  --> Undefined property: stdClass::$permission D:\xampp1\htdocs\Backend\application\controllers\Login.php 75
 DEBUG - 2018-03-14 03:39:59 --> Config Class Initialized
 DEBUG - 2018-03-14 03:39:59 --> Hooks Class Initialized
 DEBUG - 2018-03-14 03:39:59 --> Utf8 Class Initialized
@@ -1741,7 +1741,7 @@ DEBUG - 2018-03-14 04:25:41 --> Form Validation Class Initialized
 DEBUG - 2018-03-14 04:25:41 --> Language file loaded: language/english/form_validation_lang.php
 DEBUG - 2018-03-14 04:25:41 --> XSS Filtering completed
 DEBUG - 2018-03-14 04:25:41 --> Unable to find validation rule: 
-ERROR - 2018-03-14 04:25:41 --> Severity: Notice  --> Undefined property: stdClass::$permission D:\xampp1\htdocs\Backend\application\controllers\login_controller.php 75
+ERROR - 2018-03-14 04:25:41 --> Severity: Notice  --> Undefined property: stdClass::$permission D:\xampp1\htdocs\Backend\application\controllers\Login.php 75
 DEBUG - 2018-03-14 04:25:41 --> Config Class Initialized
 DEBUG - 2018-03-14 04:25:41 --> Hooks Class Initialized
 DEBUG - 2018-03-14 04:25:41 --> Utf8 Class Initialized
@@ -2181,7 +2181,7 @@ DEBUG - 2018-03-14 04:31:23 --> Form Validation Class Initialized
 DEBUG - 2018-03-14 04:31:23 --> Language file loaded: language/english/form_validation_lang.php
 DEBUG - 2018-03-14 04:31:23 --> XSS Filtering completed
 DEBUG - 2018-03-14 04:31:23 --> Unable to find validation rule: 
-ERROR - 2018-03-14 04:31:23 --> Severity: Notice  --> Undefined property: stdClass::$permission D:\xampp1\htdocs\Backend\application\controllers\login_controller.php 75
+ERROR - 2018-03-14 04:31:23 --> Severity: Notice  --> Undefined property: stdClass::$permission D:\xampp1\htdocs\Backend\application\controllers\Login.php 75
 DEBUG - 2018-03-14 04:31:23 --> Config Class Initialized
 DEBUG - 2018-03-14 04:31:23 --> Hooks Class Initialized
 DEBUG - 2018-03-14 04:31:23 --> Utf8 Class Initialized
@@ -2350,7 +2350,7 @@ DEBUG - 2018-03-14 05:19:23 --> Form Validation Class Initialized
 DEBUG - 2018-03-14 05:19:23 --> Language file loaded: language/english/form_validation_lang.php
 DEBUG - 2018-03-14 05:19:23 --> XSS Filtering completed
 DEBUG - 2018-03-14 05:19:23 --> Unable to find validation rule: 
-ERROR - 2018-03-14 05:19:23 --> Severity: Notice  --> Undefined property: stdClass::$permission D:\xampp1\htdocs\Backend\application\controllers\login_controller.php 75
+ERROR - 2018-03-14 05:19:23 --> Severity: Notice  --> Undefined property: stdClass::$permission D:\xampp1\htdocs\Backend\application\controllers\Login.php 75
 DEBUG - 2018-03-14 05:19:23 --> Config Class Initialized
 DEBUG - 2018-03-14 05:19:23 --> Hooks Class Initialized
 DEBUG - 2018-03-14 05:19:23 --> Utf8 Class Initialized

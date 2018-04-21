@@ -31,7 +31,7 @@
       <view>时间 | {{event.start_time}}</view>
       <text class="act_favour" style=''>{{event.rating}}</text>
     </view>
-    <view class="temp-fonts">地址 |{{event.address1+event.address2+event.address3+event.address4}}</view>
+    <view class="temp-fonts">地址 |{{event.province+event.city+event.area+event.detail_address}}</view>
   </view>
   <view class='place-info'>
     <block wx:if="{{event.role==1}}">

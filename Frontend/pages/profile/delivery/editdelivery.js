@@ -22,7 +22,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    if(options.no!= null){
+    if(options.no!= 0){
       var address_buf = this.data.address;
       address_buf.no = options.no;
       address_buf.name = options.name;
@@ -35,12 +35,16 @@ Page({
       this.setData({
         address: address_buf
       })
-      this.data.method='change'
+      this.setData({
+        method: 'change'
+      })
     }
     else{
-      this.data.method='new'
+      this.setData({
+        method: 'new'
+      })
     }
-    console.log(this.data.address)
+    console.log(this.data.method)
   }, 
   On_clicked_address: function (e) {
       this.data.select_address = !this.data.select_address;

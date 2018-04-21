@@ -1,9 +1,9 @@
 <?php if (!defined('BASEPATH')) exit('No direct script access allowed');
 
-require APPPATH . '/libraries/BaseController.php';
+require APPPATH . '/libraries/basecontroller.php';
 
 
-class rating extends BaseController
+class Rating extends basecontroller
 {
     /**
      * This is default constructor of the class

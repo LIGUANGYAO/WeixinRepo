@@ -1,7 +1,7 @@
 <!--index.wxml-->
 <view class="container">
   <view class="userinfo">
-    <image class="userinfo-avatar" src="{{user.avatar}}"></image>
+    <image class="userinfo-avatar" src="{{userInfo.avatar}}"></image>
     <view class="userinfo-nickname">
       <label>{{userInfo.nickname}}</label>
       <image wx:if="{{userInfo.isVIP}}" class="vip-symbol" src="../../image/VIP@2x.png"></image>
