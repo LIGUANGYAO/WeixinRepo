@@ -60,8 +60,6 @@
 }
 
 .focus-event-place-detail {
-  display: inline;
-  width: auto;
   margin-top: 10rpx;
   margin-left: 30rpx;
   font-size: 26rpx;
@@ -145,11 +143,5 @@
   font-size: 30rpx;
   color: #333;
   letter-spacing: 0.64rpx;
-}
-.focus-event-favor{
-  float: right;
-  width: 42rpx;
-  height: 40rpx;
-  margin-right: 30rpx;
 }
 @import "../../profile/template/stadium_template.wxss"

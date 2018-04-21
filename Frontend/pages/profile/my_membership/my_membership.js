@@ -8,6 +8,7 @@ Page({
   data: {
     userInfo: {},
     mn_ismember: 0,
+    place_Name: "北京大学体育馆",
     is_vip: 1,
     term_date: "2018-3-31",
     cost: 20
@@ -18,54 +19,10 @@ Page({
    */
   onLoad: function (options) {
     this.data.userInfo = app.globalData.userInfo
-    
+    if (this.data.userInfo.avatar == '../../image/temp.jpg')
+      this.data.userInfo.avatar = '../' + this.data.userInfo.avatar
     this.setData({ userInfo: app.globalData.userInfo })
     this.setData({ mn_ismember: this.data.mn_ismember })
-  },
-  pay: function () {
-    var ordercode = 0.1;
-    wx.login({
-      success: function (res) {
-        if (res.code) {
-          wx.request({
-            url: app.globalData.mainURL+'api/pay',
-            data: {
-              id: res.code,//要去换取openid的登录凭证
-              fee: ordercode
-            },
-            method: 'POST',
-            header:
-            {
-              'content-type': 'application/json'
-            },
-            success: function (res) {
-              console.log(res.data)
-              wx.requestPayment({
-                timeStamp: res.data.timeStamp,
-                nonceStr: res.data.nonceStr,
-                package: res.data.package,
-                signType: 'MD5',
-                paySign: res.data.paySign,
-                success: function (res) {
-                  // success
-                  console.log(res);
-                },
-                fail: function (res) {
-                  // fail
-                  console.log(res);
-                },
-                complete: function (res) {
-                  // complete
-                  console.log(res);
-                }
-              })
-            }
-          })
-        } else {
-          console.log('获取用户登录态失败！' + res.errMsg)
-        }
-      }
-    });
   },
 
   /**

@@ -20,6 +20,7 @@
     "pages/profile/my_membership/my_membership",
     "pages/profile/my_focus/my_focus",
     "pages/profile/auth/auth",
+    "pages/profile/auth/auth_text",
     "pages/profile/delivery/delivery",
     "pages/profile/delivery/editdelivery",
     "pages/profile/register_stadium/register_stadium",

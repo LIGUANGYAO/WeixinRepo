@@ -29,9 +29,8 @@
   padding-top: 32rpx;
 }
 
-.event-left-text {
+.event-right-text {
   float: right;
-  text-align: right;
   margin-right: 30rpx;
 }
 
@@ -98,6 +97,7 @@
 .event-add-radiogroup radio {
   margin-left: 40rpx;
 }
+<<<<<<< HEAD
 
 
 .picker-view {
@@ -131,3 +131,5 @@
   vertical-align: middle;
   display: inline-block;
 }
+=======
+>>>>>>> d9384fb835d96b6b8c2290b24abda7c6e82c36cd

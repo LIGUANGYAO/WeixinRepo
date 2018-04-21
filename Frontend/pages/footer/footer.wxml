@@ -7,7 +7,11 @@
     <image bindtap="select" class="footer-activity-image" src="{{activity[selected[1]]}}"></image>
     <text class="footer-text footer-activity-text">活动</text>
   </view>
+<<<<<<< HEAD
   <image bindtap="on_click_create_event" class="footer-plus-image"src='../../image/add@2x.png'></image>
+=======
+  <image class="footer-plus-image"src='../../image/add@2x.png'></image>
+>>>>>>> d9384fb835d96b6b8c2290b24abda7c6e82c36cd
   <view id = "backyard" class="footer-garden" bindtap="select">
     <image bindtap="select" class="footer-garden-image" src="{{garden[selected[2]]}}"></image>
     <text class="footer-text footer-garden-text">后花园</text>

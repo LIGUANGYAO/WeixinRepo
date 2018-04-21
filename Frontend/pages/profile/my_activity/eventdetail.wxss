@@ -104,6 +104,7 @@
   position: absolute;
   top: 495rpx;
   right: 50rpx;
+  width: 42rpx;
   font-size: 22rpx;
   text-align: center;
   color: #472e00;
@@ -119,7 +120,7 @@
 .place-info {
   margin-top: 20rpx;
   padding-top: 20rpx;
-  height: auto;
+  height: 264rpx;
   width: 100%;
   background-color: white;
 }

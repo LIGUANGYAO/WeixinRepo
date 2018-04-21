@@ -16,6 +16,7 @@ Page({
     modal_active2: "",
     array: [{ "phonenumber": 17642518820, "status": "进行中", "kind": "football", "user": "user", "match": "football", "membernum": "5", "cost": 12, "date": "2018", "place": "bejing", "iscomment": 0, "favourite": 200 }],
     showModal: 0,
+<<<<<<< HEAD
     active1: "active",
     active2: "",
     active3: "",
@@ -88,6 +89,10 @@ Page({
         })
       },
     })
+=======
+  },
+  onLoad: function () {
+>>>>>>> d9384fb835d96b6b8c2290b24abda7c6e82c36cd
   },
   select: function (event) {
     if (app.globalData.currentpage != event.currentTarget.id) {
@@ -151,6 +156,7 @@ Page({
   },
   On_click_hide: function () {
     this.data.showModal = 0;
+<<<<<<< HEAD
     this.setData({ showModal: 0 })
   },
   click_detail_event: function (event) {
@@ -202,5 +208,8 @@ Page({
     this.setData({
       endtime: e.detail.value
     })
+=======
+    this.setData({ showModal: 0})
+>>>>>>> d9384fb835d96b6b8c2290b24abda7c6e82c36cd
   }
 })

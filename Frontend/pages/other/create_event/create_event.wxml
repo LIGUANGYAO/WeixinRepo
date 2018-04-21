@@ -2,83 +2,59 @@
   <view class='create-event-container'>
     <view class='event-view'>
       <text>活动名称:</text>
-      <input class='event-input' placeholder='请输入活动名称' bindblur='on_event_name'></input>
+      <input class='event-input' placeholder='请输入活动名称'></input>
     </view>
-    <view class='event-view'  bindtap="showitem">
-      <text>活动类型:</text>
-      <input class='event-input' placeholder='请选择' value="{{eventType[event.kind]}}"></input>
-      <image class='event-next-image' src='../../../image/next@2x.png'></image>
-      <block wx:for="{{eventType}}" wx:key="index">
-        <view class="{{open?'display_show':'display_none'}}" id="{{index}}" bindtap="on_click_type">{{item}}</view>
-      </block>
-    </view>
-    <view class="event-view">
-      <text>开始时间:</text>
-      <picker mode="multiSelector" class='event-input'  value="{{dateTime1}}" bindchange="changeDateTime1" bindcolumnchange="changeDateTimeColumn1" range="{{dateTimeArray1}}">
-        <view class="event-input">
-          {{dateTimeArray1[0][dateTime1[0]]}}-{{dateTimeArray1[1][dateTime1[1]]}}-{{dateTimeArray1[2][dateTime1[2]]}} {{dateTimeArray1[3][dateTime1[3]]}}:{{dateTimeArray1[4][dateTime1[4]]}}
-        </view>
-      </picker>
-      <image class='event-next-image' src='../../../image/next@2x.png'></image>
-    </view>
-    <view class="event-view">
-      <text>结束时间:</text>
-      <picker mode="multiSelector" class='event-input'  value="{{dateTime}}" bindchange="changeDateTime" bindcolumnchange="changeDateTimeColumn" range="{{dateTimeArray}}">
-        <view class="event-input">
-          {{dateTimeArray[0][dateTime[0]]}}-{{dateTimeArray[1][dateTime[1]]}}-{{dateTimeArray[2][dateTime[2]]}} {{dateTimeArray[3][dateTime[3]]}}:{{dateTimeArray[4][dateTime[4]]}}
-        </view>
-      </picker>
-      <image class='event-next-image' src='../../../image/next@2x.png'></image>
-    </view>
-    <view class='event-view'  bindtap='On_clicked_address'>
-      <text class='stadiumaddress-text'>活动地址:</text>
-      <input class='stadiumaddress-input' disabled  placeholder="选择省/市/县" value="{{(province=='')?'':province[select_province].province+city[select_city].city+area[select_area].area}}"></input>
-      <image class='event-next-image' src='../../../image/next@2x.png'></image>
-    </view>
-    <picker-view class="picker-view" indicator-style="height: 50px;" bindchange="bindChange" wx:if="{{select_address!=false}}">
-      <picker-view-column>
-        <view class="picker-column" wx:for="{{province}}">{{item.province}}</view>
-      </picker-view-column>
-      <picker-view-column>
-        <view class="picker-column" wx:for="{{city}}">{{item.city}}</view>
-      </picker-view-column>
-      <picker-view-column>
-        <view class="picker-column" wx:for="{{area}}">{{item.area}}</view>
-      </picker-view-column>
-    </picker-view>
     <view class='event-view'>
-      <input class='event-input' placeholder='请输入详细地址'  bindblur='On_blur_detailaddress'></input>
+      <text>活动类型:</text>
+      <input class='event-input' placeholder='请选择'></input>
+      <image class='event-next-image' src='../../../image/next@2x.png'></image>
     </view>
-    <view class='event-view' bindtap='On_click_map'>
+    <view class='event-view'>
+      <text>开始时间:</text>
+      <input class='event-input' placeholder='请选择'></input>
+      <image class='event-next-image' src='../../../image/next@2x.png'></image>
+    </view>
+    <view class='event-view'>
+      <text>结束时间:</text>
+      <input class='event-input' placeholder='请选择'></input>
+      <image class='event-next-image' src='../../../image/next@2x.png'></image>
+    </view>
+    <view class='event-view'>
+      <text>活动地址:  选择省/市/县</text>
+      <image class='event-next-image' src='../../../image/next@2x.png'></image>
+    </view>
+    <view class='event-view'>
+      <input class='event-input' placeholder='请输入详细地址'></input>
+    </view>
+    <view class='event-view'>
       <text>选择地图定位:</text>
       <image class='event-next-image' src='../../../image/next@2x.png'></image>
     </view>
     <view class='event-view'>
       <text>人数上限:</text>
-      <input class='event-input' bindblur='on_blur_limit'></input>
-      <text class='event-left-text'>人</text>
+      <input class='event-input'></input>
+      <text class='event-right-text'>人</text>
     </view>
-    <view class='event-view' wx:if="{{role==1}}">
-      <text>活动费用:</text>
-      <input class='event-input' bindblur='on_blur_cost'></input>
-      <text class='event-left-text'>元/人</text>
+    <view class='event-view'>
+      <text>活动封面:</text>
+      <input class='event-input'></input>
+      <text class='event-right-text'>元/人</text>
     </view>
     <view class='event-selimage-view'>
-      <text>活动封面:</text>
-      <image class='event-selimage-image' src='{{event.event_pic}}'  bindtap='On_click_registerimage'></image>
+      <text>活动简介:</text>
+      <image class='event-selimage-image' src='../../../image/fengm@3x.png'></image>
     </view>
     <view class='event-comment-view'>
       <text>活动简介:</text>
-      <textarea class='event-comment-textarea' maxlength='100' placeholder='请输入活动简介，不超过100字' bindblur='on_blur_comment'></textarea>
+      <textarea class='event-comment-textarea' maxlength='100' placeholder='请输入活动简介，不超过100字'></textarea>
     </view>
     <view class='event-view'>
       <text>是否公开:</text>
       <radio-group class="event-private-group" bindchange="radioChange">
         <radio value='1' checked>公开创建</radio>
-        <radio value='0'>隐私创建</radio>
+        <radio value='0'>公开创建</radio>
       </radio-group>
     </view>
-    <block wx:if="{{role==2}}">
     <view class='event-view'>
       <text>活动结束后是否在地图上生成能量:</text>
       <radio-group class="event-add-radiogroup" bindchange="radioChange1">
@@ -86,8 +62,6 @@
         <radio value='0'>否</radio>
       </radio-group>
     </view>
-  </block>
   </view>
-  <button class='btn_submit' bindtap="on_submit">创建活动</button>
+  <button class='btn_submit'>创建活动</button>
 </view>
-

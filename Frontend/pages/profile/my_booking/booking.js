@@ -42,9 +42,13 @@ Page({
         var book = res.data.result;
         if(book != null){
           for(var index=0; index<book.length; index++){
+<<<<<<< HEAD
             if(book[index].favor_state==null){
               book[index].favor_state = 0;
             }
+=======
+            book[index].avatar = app.globalData.uploadURL + book[index].avatar;
+>>>>>>> d9384fb835d96b6b8c2290b24abda7c6e82c36cd
             var time = book[index].start_time.split(':');
             book[index].start_time = time[0] + ':' + time[1];
           }

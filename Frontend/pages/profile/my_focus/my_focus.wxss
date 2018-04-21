@@ -55,7 +55,6 @@
   margin-right: 30rpx;
   width: auto;
   height: auto;
-  transform: translate(0, -80rpx);
   background-color: #e6b53c;
   font-family: PingFangSC-Semibold;
   font-size: 24rpx;

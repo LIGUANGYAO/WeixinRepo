@@ -8,7 +8,11 @@
   border-top-style: solid;
   border-top-width: 2rpx;
   border-top-color: gainsboro; 
+<<<<<<< HEAD
   z-index: 999;
+=======
+  z-index: 99999;
+>>>>>>> d9384fb835d96b6b8c2290b24abda7c6e82c36cd
 }
 
 .footer-text{

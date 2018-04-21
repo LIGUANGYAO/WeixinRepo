@@ -71,16 +71,9 @@ Page({
 
   },
   On_change_picker: function (e) {
-<<<<<<< HEAD
-    if(this.data.method == "new"){
-      if (e.detail.value[0] == 1) {
-        this.data.user_role = "个人"
-        this.data.role = 2;
-=======
     if (e.detail.value[0] == 1){
       this.data.mo_user_info.user_role = "个人"
       this.data.role = 0;
->>>>>>> d9384fb835d96b6b8c2290b24abda7c6e82c36cd
 
     }
     else{

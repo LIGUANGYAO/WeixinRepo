@@ -1,4 +1,3 @@
-@import "../profile/template/act_template.wxss";
 @import "../footer/footer.wxss";
 
 .container {

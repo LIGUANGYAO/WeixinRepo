@@ -18,11 +18,17 @@
           <image class="activity-type" src="../../../image/my_bee_category@2x.png"></image>
           <label class="activity-type-label">{{eventType[booking.type]}}</label>
           <image class="activity-limit" src="../../../image/my_bee_number@2x.png"></image>
+<<<<<<< HEAD
           <label class="activity-limit-label">{{register_num}}人</label>
           <block wx:if="{{booking.role==1}}" style="display: inline-block">
             <image class="activity-cost" src="../../../image/my_bee_m@2x.png"></image>
             <text class="activity-cost-label">{{booking.cost}}元/人</text>
           </block>
+=======
+          <label class="activity-limit-label">{{booking.limit}}人</label>
+          <image class="activity-cost" src="../../../image/my_bee_m@2x.png"></image>
+          <label class="activity-cost-label">{{booking.cost}}元/人</label>
+>>>>>>> d9384fb835d96b6b8c2290b24abda7c6e82c36cd
         </view>
       </view>
       <view class="activity-time">

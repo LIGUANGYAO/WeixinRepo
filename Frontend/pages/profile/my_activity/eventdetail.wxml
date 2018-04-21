@@ -15,16 +15,14 @@
       <image src='../../../image/my_bee_category@2x.png'></image>
       <text>{{eventType[event.type]}}</text>
       <image src='../../../image/my_bee_number@2x.png'></image>
-      <text>{{register_num}}人</text>
-      <block wx:if="{{event.role==1}}" style="display:inline-block;">
-        <image src='../../../image/my_bee_m@2x.png'></image>
-        <text>{{event.cost}}元/人</text>
-      </block>
+      <text>{{event.limit}}人</text>
+      <image src='../../../image/my_bee_m@2x.png'></image>
+      <text>{{event.cost}}元/人</text>
       <block wx:if="{{event.rating>0}}">
-        <image src='../../../image/good_s@2x.png' bindtap="on_click_like"></image>
+        <image src='../../../image/good_s@2x.png'></image>
       </block>
       <block wx:else>
-        <image src='../../../image/good_n@2x.png' bindtap="on_click_like"></image>
+        <image src='../../../image/good_n@2x.png'></image>
       </block>
     </view>
     <view class="act_date">
@@ -62,7 +60,7 @@
   <view wx:if="{{event.state != 2}}" class="booking_detail">
     <view class="reg_member_view">
       <view class="reg_cls_title">
-        <text class="reg_cls_all_comments">报名成员（{{register_num}}人)</text>
+        <text class="reg_cls_all_comments">报名成员（{{booking.length}}人)</text>
         <block wx:if="{{booking.length>0}}">
           <text class="view_more_detail_booking" bindtap="on_click_booking">查看更多》</text>
         </block>

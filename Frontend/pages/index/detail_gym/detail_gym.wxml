@@ -20,8 +20,12 @@
       <text class='focus-count-comment' bindtap="on_Clicked_Comment" id="{{site.boss_id}}">{{site.rating_amount}}条评论>></text>
     </view>
     <view class="focus-event-date">电话 |{{site.phone}}</view>
+<<<<<<< HEAD
     <view class="focus-event-place-detail">地址 |{{site.province+site.city+site.area+site.detail_address}}</view>
     <image class="focus-event-favor" bindtap="on_click_favourite" src='{{favourite_image[site.fav_state]}}'></image>
+=======
+    <view class="focus-event-place-detail">地址 |{{site.site_address}}</view>
+>>>>>>> d9384fb835d96b6b8c2290b24abda7c6e82c36cd
   </view>
   <view class='comment-gym'>
     <view class='comment-gym-label'>

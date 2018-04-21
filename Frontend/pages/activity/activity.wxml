@@ -13,10 +13,15 @@
     <image class='tab-detail-open' bindtap="On_click_modal_open" src='../../image/filter@2x.png'></image>
   </view>
   <scroll-view class="activities">
+<<<<<<< HEAD
     <view wx:for="{{events}}" wx:item="item" wx:key="index">
       <view wx:if="{{select_tab==item.is_favourite && select_role==item.role && select_type==item.type}}">
         <template is="act-template" data="{{item, userRole, eventType, eventState}}" />
       </view>
+=======
+    <view wx:for="{{array}}">
+      <template is="act-template" data="{{item}}" />
+>>>>>>> d9384fb835d96b6b8c2290b24abda7c6e82c36cd
     </view>
   </scroll-view>
 

@@ -1,6 +1,11 @@
 <!--index.wxml-->
 <view class="container">
+  <view class='search-view'>
+    <input class='search-input' placeholder='输入地址'></input>
+    <icon class='search-icon' type="search" size='40'></icon>
+  </view>
   <view class="map_container">
+<<<<<<< HEAD
     <map class="bee-map" id="mymap" longitude="{{current_longitude}}" latitude="{{current_latitude}}" scale="13" show-location="false" markers="{{markers}}" bindmarkertap="on_Click_maker">
       <!--Top Items-->
       <cover-image class="news-image" bindtap="on_click_news" src="../../image/inf@2x.png"></cover-image>
@@ -21,5 +26,22 @@
     <cover-image class="bar-updown" bindtap="on_click_down" src="../../image/arrow-bottom.png"></cover-image>
   </cover-view>
   <!--footer-->
+=======
+    <map class="bee-map" id="my-map" longitude="{{current_longitude}}" latitude="{{current_latitude}}" scale="13" show-location="false" markers="{{markers}}" bindmarkertap="on_Click_maker" bindregionchange='on_regionchange'>
+      <cover-image class="news-image" src='../../image/inf@2x.png'></cover-image>
+    </map>
+  </view>
+  <view class='honey-text-view' wx:for="{{honey_array}}">
+    <cover-view class='honey-text' id="{{item.id}}" style='top: {{item.top}}px; left: {{item.left}}px;' bindtap='on_selhoney'>{{item.amount}}ml</cover-view>
+  </view>
+  <cover-view class='sport-kind-bar'>
+    <cover-image class="bar-item-sel" src='{{currentkind}}'></cover-image>
+    <cover-image bindtap="on_click_up" class='bar-updown' src='../../image/arrow-top.png'></cover-image>
+    <cover-view wx:for="{{show_array}}">
+      <cover-image class="bar-item" id="{{item.id}}" src='{{item.src}}' bindtap='on_selectkind'></cover-image>
+    </cover-view>
+    <cover-image bindtap="on_click_down" class='bar-updown' src='../../image/arrow-bottom.png'></cover-image>
+  </cover-view>
+>>>>>>> d9384fb835d96b6b8c2290b24abda7c6e82c36cd
   <include src="../footer/footer" />
 </view>

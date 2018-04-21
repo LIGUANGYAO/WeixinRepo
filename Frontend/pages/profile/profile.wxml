@@ -43,7 +43,15 @@
       <label class="list-item-label">收货地址管理</label>
       <image class="symbol" src='../../image/next@2x.png'></image>
     </view>
+    <!--
     <view wx:if="{{userInfo.role == 1}}" id="about_stadium" class="list-item" bindtap='whichpress'>
+      <image class="setting-icon7" src="../../image/per@2x.png"></image>
+      <label class="list-item-label">场馆资料</label>
+      <image class="symbol" src='../../image/next@2x.png'></image>
+    </view>
+  </view>
+  -->
+    <view id="about_stadium" class="list-item" bindtap='whichpress'>
       <image class="setting-icon7" src="../../image/per@2x.png"></image>
       <label class="list-item-label">场馆资料</label>
       <image class="symbol" src='../../image/next@2x.png'></image>

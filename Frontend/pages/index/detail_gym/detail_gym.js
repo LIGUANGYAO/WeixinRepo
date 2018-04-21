@@ -8,7 +8,10 @@ Page({
     eventType: [],
     userRole: [],
     eventState: [],
+<<<<<<< HEAD
     favourite_image: ['../../../image/good_n@2x.png', '../../../image/good_s@2x.png'],
+=======
+>>>>>>> d9384fb835d96b6b8c2290b24abda7c6e82c36cd
     starparam: {
       stars: [0, 1, 2, 3, 4],
 
@@ -43,10 +46,16 @@ Page({
       success: function (res) {
         if (res.data.status) {
           var site_buf = res.data.site[0];
+<<<<<<< HEAD
           if (site_buf != null) {
             if (site_buf.point == null) site_buf.point = 0;
             if (site_buf.fav_state == null) site_buf.fav_state = 0;
             else site_buf.fav_state = 1;
+=======
+          if(site_buf!=null)
+          {
+            if(site_buf.point==null) site_buf.point = 0;
+>>>>>>> d9384fb835d96b6b8c2290b24abda7c6e82c36cd
             var star = that.data.starparam;
             star.score = site_buf.point * 1;
             that.setData({
@@ -62,10 +71,15 @@ Page({
           }
           var event_buf = res.data.event;
           var is_favourite = res.data.isFavourite;
+<<<<<<< HEAD
           for (var index = 0; index < event_buf.length; index++) {
             if (event_buf[index].register_num == null) {
               event_buf[index].register_num = 0;
             }
+=======
+          for (var index = 0; index < event_buf.length; index++){
+            event_buf[index].avatar = app.globalData.uploadURL + event_buf[index].avatar
+>>>>>>> d9384fb835d96b6b8c2290b24abda7c6e82c36cd
           }
           console.log(site_buf)
           wx.setNavigationBarTitle({
@@ -80,7 +94,6 @@ Page({
         }
       }
     })
-    // set swiper image
   },
   click_detail_event: function (event) {
     wx.navigateTo({
@@ -91,6 +104,7 @@ Page({
     wx.navigateTo({
       url: '../../other/comment/comment?id=' + event.currentTarget.id + '&kind=site',
     })
+<<<<<<< HEAD
   },
   on_click_favourite: function () {
     var site_buf = this.data.site
@@ -112,5 +126,7 @@ Page({
       success: function (res) {
       }
     })
+=======
+>>>>>>> d9384fb835d96b6b8c2290b24abda7c6e82c36cd
   }
 })  
