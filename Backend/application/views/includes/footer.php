@@ -33,7 +33,6 @@
 <script src="<?php echo base_url(); ?>assets/js/validation.js" type="text/javascript"></script>
 
 <script type="text/javascript">
-    
 function exportTable(){
     $(".table").table2excel({
         exclude: ".noExl",
@@ -93,51 +92,8 @@ function exportTable(){
                 $("#main_page_body").removeClass("sidebar-collapse");
         });
 
-//        $('.content').click(function () {
-//            $("#main_page_body").addClass("sidebar-collapse");
-//        });
-
-
-        // check activity state each every year ror month
-        setInterval( function(){
-            //return;
-            $.ajax({
-                type : 'get',
-                url : baseURL + 'api/checkEventState',
-                success: function(res){
-                    console.log(res);
-                }
-            });
-        }, 60000);
-
-        // check message status
-        setTimeout( chkMessage(), 2000);
-        setInterval( chkMessage(), 30000);
     });
 
-
-    function chkMessage(){
-        $.ajax({
-            type : 'post',
-            url : baseURL + 'cron_controller/chkMessages',
-            data : { 'id' : loginID},
-            success: function (data, textStatus, jqXHR) {
-                //console.log(data);
-                if(data == '0'){
-                    $('#message_detail').css({'display':'none'});
-                }else{
-                    $('#message_detail').html(data);
-                    $('#message_detail').css({'display':'block'});
-                    $('#message_detail').attr('data-original-title', data + ' 新消息');
-                }
-            },
-            error: function (jqXHR, textStatus, errorThrown) {
-                // Handle errors here
-                console.log('ERRORS: ' + textStatus);
-                // STOP LOADING SPINNER
-            }
-        });
-    }
 </script>
 </body>
 </html>

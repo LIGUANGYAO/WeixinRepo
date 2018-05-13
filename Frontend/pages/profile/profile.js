@@ -4,69 +4,16 @@ const app = getApp()
 
 Page({
   data: {
-    activity: ["../../image/activity_n@2x.png", "../../image/activity_s@2x.png"],
-    fengti: ["../../image/Home_n@2x.png", "../../image/Home_s@2x.png"],
-    garden: ["../../image/garden_n@2x.png", "../../image/garden_s@2x.png"],
-    mine: ["../../image/my_n@2x.png", "../../image/my_s@2x.png"],
-    selected: [0, 0, 0, 1],
-    userInfo: {}
+    userInfo: {},
   },
-  onLoad: function () {
-    //Setting Nickname and avatar of User
-<<<<<<< HEAD
-    this.setData({ userInfo: app.globalData.userInfo });
-    console.log(this.data.userInfo)
-  },
-  //listener of tabbar
-  select: function (event) {
-    if (app.globalData.currentpage != event.currentTarget.id) {
-      if (event.currentTarget.id != '') {
-        wx.redirectTo({
-          url: "../" + event.currentTarget.id + '/' + event.currentTarget.id,
-          success: function (res) {
-            app.globalData.currentpage = event.currentTarget.id
-          }
-        })
-      }
-    }
-  },
-  on_click_create_event: function () {
-    console.log(app.globalData.userInfo.state)
-    if (app.globalData.userInfo.state == 0 || app.globalData.userInfo.state == 3) {
-      wx.showModal({
-        title: '提示',
-        content: '是未注册的使用者',
-        success: function (res) {
-          if (res.confirm) {
-            wx.navigateTo({
-              url: '../profile/auth/auth',
-            })
-          } else if (res.cancel) {
-          }
-        }
-      })
-      return;
-    }
-    if (app.globalData.userInfo.state == 1) {
-      wx.showModal({
-        title: '提示',
-        content: '正在注册。 请稍等。',
-        showCancel: false,
-      })
-      return;
-    }
-    wx.navigateTo({
-      url: '../other/create_event/create_event',
-=======
-    this.setData({ userInfo: app.globalData.userInfo })
-  },
-  //listener of tabbar
-  select: function (event) {
-    wx.redirectTo({
-      url: "../" + event.currentTarget.id + '/' + event.currentTarget.id,
->>>>>>> d9384fb835d96b6b8c2290b24abda7c6e82c36cd
+  onShow: function () {
+    wx.showTabBar({
     })
+    //Setting Nickname and avatar of User
+    this.setData({ userInfo: app.globalData.userInfo });
   },
+  //listener of tabbar
+  //footer function
   whichpress: function (event) {
     switch (event.currentTarget.id) {
       case 'about_my_bee':
@@ -95,9 +42,16 @@ Page({
         })
         break;
       case 'auth_me':
-        wx.navigateTo({
-          url: 'auth/auth',
-        })
+        if(app.globalData.userInfo.state==0){
+          wx.navigateTo({
+            url: 'auth/auth',
+          })
+        }
+        else{
+          wx.navigateTo({
+            url: 'auth/auth-text/auth_text',
+          })
+        }
         break;
       case 'delivery_address':
         wx.navigateTo({
@@ -105,9 +59,9 @@ Page({
         })
         break;
       case 'about_stadium':
-        wx.navigateTo({
-          url: 'register_stadium/register_stadium',
-        })
+      wx.navigateTo({
+        url: 'register_stadium/register_stadium',
+      })
         break;
       default:
         break;

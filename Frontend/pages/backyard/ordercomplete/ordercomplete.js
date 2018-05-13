@@ -1,4 +1,5 @@
 // pages/backyard/ordercomplete/ordercomplete.js
+var app = getApp()
 Page({
 
   /**
@@ -63,13 +64,13 @@ Page({
   onShareAppMessage: function () {
   
   },
-  on_click_shop:function(){
+  on_click_shop: function () {
     wx.navigateTo({
       url: '../mainbeeshop/mainbeeshop',
     })
   },
-  on_click_map:function(){
-    wx.navigateTo({
+  on_click_map: function () {
+    wx.switchTab({
       url: '../../index/index',
     })
   }

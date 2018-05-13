@@ -31,7 +31,7 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   overflow-x: auto;
-  min-height: 40px;
+  min-height: 150px;
 }
 .fr-box.fr-basic.fr-rtl .fr-element {
   text-align: right;
@@ -68,6 +68,7 @@
 }
 .fr-element [contenteditable="true"] {
   outline: 0px solid transparent;
+  height: 300px;
 }
 .fr-box a.fr-floating-btn {
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 1px 1px rgba(0, 0, 0, 0.16);
@@ -141,6 +142,7 @@ iframe.fr-iframe {
 }
 .fr-wrapper {
   position: relative;
+  height: 600px;
   z-index: 1;
 }
 .fr-wrapper::after {

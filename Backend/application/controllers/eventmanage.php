@@ -9,7 +9,7 @@ require APPPATH . '/libraries/basecontroller.php';
  * @version : 1.0
  * @since : 12 August 2017
  */
-class EventManage extends basecontroller
+class eventmanage extends basecontroller
 {
     /**
      * This is default constructor of the class
@@ -46,7 +46,6 @@ class EventManage extends basecontroller
         $this->global['searchState'] = $searchState;
         $this->global['searchType'] = $searchType;
         $this->global['pageType'] = 'event';
-        $data['eventType'] = $this->event_model->getEventType();
         $this->loadViews("eventmanage", $this->global, $data, NULL);
     }
 
@@ -83,8 +82,7 @@ class EventManage extends basecontroller
      */
     function showEventDetail($eventId)
     {
-        $eventDetail = $this->event_model->getEventDetailById($eventId);;
-        $data['eventType'] = $this->event_model->getEventType();
+        $eventDetail = $this->event_model->getEventDetailById($eventId);
         $data['eventDetail'] = $eventDetail;
 
         $userId = $this->event_model->getOrganizerId($eventId);

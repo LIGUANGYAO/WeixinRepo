@@ -25,6 +25,7 @@ Page({
         'content-type': 'application/json'
       },
       success: function (res) {
+        if (!res.data.status) return;
         that.setData({product_array: res.data.result})
       },
       fail: function () {

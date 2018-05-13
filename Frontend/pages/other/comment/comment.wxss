@@ -1,7 +1,6 @@
 /**index.wxss**/
 .tcontainer{
   width: 100%;
-  height: 182rpx;
 }
 .cls_title {
   width: calc(100%-30rpx);
@@ -18,8 +17,8 @@
 }
 
 .cls_user_comment_info {
-  padding-top: 30rpx;
-  padding-bottom: 30rpx;
+  padding-top: 10rpx;
+  padding-bottom: 32rpx;
   width: 100%;
   height: auto;
   border-bottom: solid 3rpx #f4f4f4;
@@ -27,11 +26,13 @@
 
 .cls_user_photo {
   float: left;
-  margin-top: 34rpx;
   margin-left: 30rpx;
   width: 80rpx;
   height: 80rpx;
   border-radius: 50%;
+}
+.name-star-view{
+  line-height: 20rpx;
 }
 .cls_user_name {
   margin-left: 20rpx;
@@ -57,6 +58,7 @@
 
 .cls_comment_date {
   display: block;
+  margin-top: 18rpx;
   margin-bottom: 3rpx;
   margin-left: 130rpx;
   width: auto;

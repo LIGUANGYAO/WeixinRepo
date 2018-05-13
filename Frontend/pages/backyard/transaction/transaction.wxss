@@ -87,3 +87,21 @@
   letter-spacing: 0.35rpx;
   vertical-align: middle;
 }
+
+.no-focus-image {
+  position: absolute;
+  top: 168rpx;
+  right: 285rpx;
+  width: 180rpx;
+  height: 199rpx;
+}
+
+.no-focus-text {
+  position: absolute;
+  top: 430rpx;
+  left: 310rpx;
+  font-family: PingFangSC-Semibold;
+  font-size: 32rpx;
+  color: #333;
+  letter-spacing: 1.54rpx;
+}

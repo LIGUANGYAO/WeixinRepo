@@ -9,7 +9,7 @@ require APPPATH . '/libraries/basecontroller.php';
  * @version : 1.0
  * @since : 12 August 2017
  */
-class Exchange extends basecontroller
+class exchange extends basecontroller
 {
     /**
      * This is default constructor of the class
@@ -76,7 +76,7 @@ class Exchange extends basecontroller
         $info['company'] = $this->input->post('company');
         $info['company_id'] = $this->input->post('company_id');
         $info['state'] = 1;
-        $info['send_time'] = date("Y-m-d h:i:a");
+        $info['send_time'] = date("Y-m-d H:i:s");
         $result = $this->exchange_model->updateStateById($exchangeId,$info);
 
         if (count($result)>0) {

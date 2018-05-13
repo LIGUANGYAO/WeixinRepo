@@ -38,6 +38,8 @@ class basecontroller extends CI_Controller
         if (!isset ($isLoggedIn) || $isLoggedIn != TRUE) {
             redirect('Login');
         } else {
+            $this->load->model("alarm_admin_model");
+            $result = $this->alarm_admin_model->getNewAlarmCount();
             $this->role = $this->session->userdata('role');
             $this->vendorId = $this->session->userdata('userId');
             $this->name = $this->session->userdata('name');
@@ -48,6 +50,8 @@ class basecontroller extends CI_Controller
             $this->global['role'] = $this->role;
             $this->global['role_text'] = $this->roleText;
             $this->global['menu_access'] = $this->permission;
+            $this->global['news'] = $result;
+            $this->global['eventType'] = array('足球', '篮球', '排球', '羽毛球', '乒乓球', '台球', '网球', '保龄球', '健身馆', '瑜伽', '游泳', '射击射箭', '跆拳道', '休闭桌游', '滑冰', '滑雪', '运动装备', '其他');
         }
     }
 
@@ -105,11 +109,11 @@ class basecontroller extends CI_Controller
      * @param {mixed} $footerInfo : This is array of footer information
      * @return {null} $result : null
      */
-    function loadViews($viewName = "", $headerInfo = NULL, $pageInfo = NULL, $footerInfo = NULL)
+    function loadViews($viewName = "", $headerInfo = NULL, $data = NULL, $footerInfo = NULL)
     {
 
         $this->load->view('includes/header', $headerInfo);
-        //$this->load->view("usermanage", $pageInfo);
+        $this->load->view($viewName, $data);
         $this->load->view('includes/footer', $footerInfo);
     }
 
@@ -132,12 +136,12 @@ class basecontroller extends CI_Controller
         $config ['full_tag_open'] = '<nav><ul class="pagination">';
         $config ['full_tag_close'] = '</ul></nav>';
         $config ['first_tag_open'] = '<li class="arrow">';
-        $config ['first_link'] = 'First';
+        $config ['first_link'] = '首页';
         $config ['first_tag_close'] = '</li>';
-        $config ['prev_link'] = 'Previous';
+        $config ['prev_link'] = '上一页';
         $config ['prev_tag_open'] = '<li class="arrow">';
         $config ['prev_tag_close'] = '</li>';
-        $config ['next_link'] = 'Next';
+        $config ['next_link'] = '下一页';
         $config ['next_tag_open'] = '<li class="arrow">';
         $config ['next_tag_close'] = '</li>';
         $config ['cur_tag_open'] = '<li class="active"><a href="#">';
@@ -145,7 +149,7 @@ class basecontroller extends CI_Controller
         $config ['num_tag_open'] = '<li>';
         $config ['num_tag_close'] = '</li>';
         $config ['last_tag_open'] = '<li class="arrow">';
-        $config ['last_link'] = 'Last';
+        $config ['last_link'] = '尾页';
         $config ['last_tag_close'] = '</li>';
 
         $this->pagination->initialize($config);

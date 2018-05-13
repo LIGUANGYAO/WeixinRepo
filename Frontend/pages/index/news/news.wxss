@@ -1,7 +1,6 @@
 /* pages/index/news/news.wxss */
 
 .news-item-view {
-  width: 100%;
   height: auto;
   background-color: white;
   padding-left: 30rpx;
@@ -25,7 +24,7 @@
 }
 
 .news-item-date {
-  width: 40%;
+  width: 50%;
   display: inline-block;
   text-align: right;
   font-family: PingFangSC-Regular;

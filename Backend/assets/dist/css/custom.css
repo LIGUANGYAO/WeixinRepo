@@ -61,8 +61,23 @@
     text-align: center;
     background-color: white;
     padding: 30px;
-    left: 40%;
+    left: 45%;
+    width: 15%;
     top: 20%;
+    z-index: 10000000;
+}
+
+#crop-image-panel{
+    position: absolute;
+    border: 1px solid;
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+    left: 20%;
+    height: 70%;
+    width: 60%;
+    top: 20%;
+    z-index: 10000000;
 }
 
 #custom-confirm-delete-view p, #custom-confirm-deploy-view p {

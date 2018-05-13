@@ -1,7 +1,7 @@
 /**index.wxss**/
 
 .cls_cardholder_name{
-  position:absolute; 
+  position: absolute;
   left: 0rpx; 
   top: 0rpx; 
   width: 100%; 
@@ -111,7 +111,7 @@
 
 .cls_phone_number_txt{
   position:absolute; 
-  left:0rpx;
+  left:10rpx;
   bottom: 16rpx; 
   width: auto; 
   height: auto;

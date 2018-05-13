@@ -1,24 +1,25 @@
-<view class='container'>
-  <image class="product-image" src='{{upload_url + product.avatar}}'></image>
+<import src="../../../wxParse/wxParse.wxml" />
+<scroll-view class='container'>
+  <image class="product-image" src='{{product.pic}}'></image>
   <view class='product-detail'>
     <view class='product-name'>
-      <text>{{product.name}}</text>
+      <text style="font-weight: bold;">{{product.name}}</text>
     </view>
     <view class='prodcut-cost'>
       <image class="product-cost-image" src='../../../image/garden_fm@2x.png'></image>
       <view class='product-cost-text'>
         <text>{{product.cost}}ml兑换</text>
       </view>
-      <text class='product-type'>库存{{product.amount}}</text>
+      <view class='product-type'>库存{{product.amount}}</view>
     </view>
   </view>
   <view class='product-explain'>
     <view class='product-explain-header'>
-      <text>商品介绍</text>
+      <text style="font-weight: bold;">商品介绍</text>
     </view>
     <view class='product-explain-view'>
-     {{product.comment}}
+     <template is="wxParse" data="{{wxParseData:comment.nodes}}" />
     </view>
   </view>
-  <button id="{{product.id}}" bindtap="On_click_order" disabled="{{disable}}"class='btn_submit'>{{btn_text}}</button>
-</view>
+</scroll-view>
+<button id="{{product.id}}" bindtap="On_click_order" disabled="{{disable}}"class='btn_submit'>{{btn_text}}</button>

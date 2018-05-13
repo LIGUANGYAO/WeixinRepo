@@ -35,34 +35,19 @@ if(!empty($userInfo))
                                 <div class="col-md-12 form-inline">
                                     <div class="form-group" style="margin-bottom: 10px;">
                                         <label for="email">&nbsp;&nbsp;&nbsp;*账 号 &nbsp;:&nbsp;</label>
-                                        <input type="text" class="form-control required email" id="email"
-                                               name="email" maxlength="128" value="<?php echo isset($email)?$email:''; ?>">
+                                        <input type="text" class="form-control required email" maxlength="128" value="<?php echo isset($name)?$name:''; ?>" disabled>
+                                        <input type="text" style="display: none;" class="form-control required email" id="email"
+                                               name="email" maxlength="128" value="<?php echo isset($name)?$name:''; ?>" >
                                     </div>
                                 </div>
                                 <div class="col-md-12 form-inline">
                                     <div class="form-group" style="margin-bottom: 10px;">
                                         <label for="fname" >&nbsp;&nbsp;&nbsp;*姓 名 &nbsp;:&nbsp;</label>
                                         <input type="text" class="form-control required" id="fname" name="fname"
-                                               maxlength="128" value="<?php echo isset($name)?$name:''; ?>">
+                                               maxlength="128" value="<?php echo isset($email)?$email:''; ?>">
                                         <input type="hidden" value="<?php echo $userId; ?>" name="userId" id="userId" />
                                     </div>
 
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12 form-inline">
-                                    <div class="form-group" style="margin-bottom: 10px;">
-                                        <label for="password">&nbsp;&nbsp;&nbsp;*密 码 &nbsp;:&nbsp;</label>
-                                        <input type="password" class="form-control required" id="password"
-                                               name="password" maxlength="20" value="<?php echo isset($password)?$password:''; ?>">
-                                    </div>
-                                </div>
-                                <div class="col-md-12 form-inline">
-                                    <div class="form-group" style="margin-bottom: 10px;">
-                                        <label for="cpassword">*确认密码 &nbsp;:&nbsp;</label>
-                                        <input type="password" class="form-control required equalTo" id="cpassword"
-                                               name="cpassword" maxlength="20" value="<?php echo isset($cpassword)?$cpassword:''; ?>">
-                                    </div>
                                 </div>
                             </div>
                             <div class="row">
@@ -87,13 +72,17 @@ if(!empty($userInfo))
                                     </div>
                                 </div>
                             </div>
+                            <div class="row">
+                                <div class="col-md-12 form-inline">
+                                    <div class="form-group">
+                                        <input type="submit" class="btn btn-primary form-control" value="确认" style="margin-left:150px;"/>
+                                        <input type="reset" class="btn btn-default form-control" value="取消" onclick="cancel('<?php echo base_url();?>');" style="margin-left:50px;"/>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <!-- /.box-body -->
 
-                        <div class="">
-                            <input type="submit" class="btn btn-primary" value="确认"/>
-                            <input type="reset" class="btn btn-default" value="取消" onclick="cancel('<?php echo base_url();?>');" />
-                        </div>
                     </form>
                 </div>
                 <div class="col-md-4">
@@ -131,4 +120,4 @@ if(!empty($userInfo))
     </section>
 
 </div>
-<script src="<?php echo base_url(); ?>index.php/assets/js/addUser.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>assets/js/addUser.js" type="text/javascript"></script>

@@ -6,7 +6,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    array: []
   },
 
   /**
@@ -24,7 +24,13 @@ Page({
         'content-type': 'application/json'
       },
       success: function (res) {
-        that.setData({array: res.data.result, upload_url: app.globalData.uploadURL, productState: app.globalData.productState})
+        if (!res.data.status) return;
+        var shoparray = res.data.result
+        for (var index = 0; index < shoparray.length; index++) {
+          shoparray[index].idshow = '0000000000'
+          shoparray[index].idshow = shoparray[index].idshow.slice(0, 10 - shoparray[index].no.length) + shoparray[index].no
+        }
+        that.setData({ array: shoparray, upload_url: app.globalData.uploadURL, productState: app.globalData.productState})
       },
       fail: function () {
       }
@@ -47,7 +53,6 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-  
   },
 
   /**

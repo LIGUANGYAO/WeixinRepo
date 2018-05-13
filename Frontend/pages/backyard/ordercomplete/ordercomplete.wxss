@@ -24,7 +24,7 @@
 
 .com-cancel-btn {
   position: absolute;
-  top: 1035rpx;
+  top: 735rpx;
   left: 107rpx;
   width: 240rpx;
   background-color: #e6b53c;
@@ -38,11 +38,11 @@
 
 .com-submit-btn {
   position: absolute;
-  top: 1035rpx;
+  top: 735rpx;
   left: 408rpx;
   width: 240rpx;
   background-color: white;
-  border: 4px solid #e6b53c;
+  border: 4rpx solid #e6b53c;
   border-radius: 22rpx;
   font-family: PingFangSC-Semibold;
   font-size: 32rpx;

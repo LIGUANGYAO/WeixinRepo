@@ -50,11 +50,7 @@ $active_record = TRUE;
 
 $db['default']['hostname'] = 'localhost';
 $db['default']['username'] = 'root';
-<<<<<<< HEAD
-$db['default']['password'] = 'android';
-=======
-$db['default']['password'] = 'password';
->>>>>>> d9384fb835d96b6b8c2290b24abda7c6e82c36cd
+$db['default']['password'] = '';
 $db['default']['database'] = 'fengti';
 $db['default']['dbdriver'] = 'mysqli';
 $db['default']['dbprefix'] = '';

@@ -3,45 +3,44 @@
   <view style='width:100%'>
     <view class="activity">
       <view class="activity-bar">
-        <label class="activity-no">订单编号：{{booking.id}}</label>
+        <label class="activity-no">订单编号：{{booking.idshow}}</label>
         <label class="activity-status">{{bookingState[booking.state]}}</label>
       </view>
       <view class="activity-detail">
         <image class="activity-picture" src="{{booking.avatar}}"></image>
         <view class="activity-name">
-          {{booking.name}}
-          <view class="activity-role">
-            <label class="activity-role-text">{{userRole[booking.role]}}</label>
-          </view>
+          <text class='activity-name-label' style="font-weight: bold;">{{booking.name}}</text>
+          <text class="activity-role-text">{{userRole[booking.role]}}</text>
         </view>
         <view class="activity-content">
           <image class="activity-type" src="../../../image/my_bee_category@2x.png"></image>
-          <label class="activity-type-label">{{eventType[booking.type]}}</label>
+          <text class="activity-type-label">{{eventType[booking.type]}}</text>
           <image class="activity-limit" src="../../../image/my_bee_number@2x.png"></image>
-<<<<<<< HEAD
-          <label class="activity-limit-label">{{register_num}}人</label>
+          <text class="activity-limit-label">{{register_num}}人</text>
           <block wx:if="{{booking.role==1}}" style="display: inline-block">
             <image class="activity-cost" src="../../../image/my_bee_m@2x.png"></image>
             <text class="activity-cost-label">{{booking.cost}}元/人</text>
           </block>
-=======
-          <label class="activity-limit-label">{{booking.limit}}人</label>
-          <image class="activity-cost" src="../../../image/my_bee_m@2x.png"></image>
-          <label class="activity-cost-label">{{booking.cost}}元/人</label>
->>>>>>> d9384fb835d96b6b8c2290b24abda7c6e82c36cd
         </view>
       </view>
+      <view class="activity-agent">
+        <label class="activity-agent-label">发起人 | {{booking.agent_name}}</label>
+      </view>
+      <view class="activity-phone">
+        <label class="activity-phone-label" bindtap='phone_call'>联系方式 | <text  style="text-decoration: underline; color: blue;">{{booking.agent_phone}}</text></label>
+      </view>
       <view class="activity-time">
-        <label class="activity-time-label">时间 | {{booking.start_time}}</label>
+        <label class="activity-time-label">时间 | {{booking.start_time}} - {{booking.end_time}}</label>
       </view>
       <view class="activity-address">
-        <label class="activity-address-label">地址 | {{booking.province+booking.city+booking.area+booking.detail_address}}</label>
+        <view style='display:inline-block; width: 11%; float: left;'>地址 | </view>
+        <view style='display: inline-block; width: 80%; vertical-align: top;'><text selectable='true'>{{booking.province+booking.city+booking.area+booking.detail_address}}</text></view>
       </view>
     </view>
   </view>
-  <view style='width: 100%'>
+  <view class="detail-info"style='width: calc(100% - 30rpx); padding-left: 30rpx;'>
     <view class="personal-data">
-      <label class="personal-data-title">个人信息</label>
+      <label class="detail-info-label" style="font-weight: bold;">个人信息</label>
     </view>
     <view class="personal-name">
       <label class="personal-name-label">真实姓名: {{booking.userName}}</label>
@@ -52,31 +51,31 @@
   </view>
   <view class='introduce' wx:if="{{(booking.state==1) && (rating.length>0)}}">
     <view class='introduce-view'>
-      <text class='introduce-border'>我的评价</text>
+      <text class='introduce-border' style="font-weight: bold;">我的评价</text>
     </view>
     <view class="cls_score_title_bar">
       <text class="cls_score_title">评分：</text>
-      <view class = "cls-score-star-view1" wx:for="{{[1, 2, 3, 4, 5]}}">
-        <view class = "cls-score-star-view2" wx:if="{{item <= rating[0].point}}">
-          <image class="cls_score_star" src="{{img_yellow_start_src}}"/>
+      <view class="cls-score-star-view1" wx:for="{{[1, 2, 3, 4, 5]}}">
+        <view class="cls-score-star-view2" wx:if="{{item <= rating[0].point}}">
+          <image class="cls_score_star" src="{{img_yellow_start_src}}" />
         </view>
-        <view class = "cls-score-star-view2" wx:else>
-          <image class="cls_score_star" src="{{img_black_start_src}}"/>
+        <view class="cls-score-star-view2" wx:else>
+          <image class="cls_score_star" src="{{img_black_start_src}}" />
         </view>
       </view>
     </view>
-    <view style='width: 100%; height:380rpx'>
-      <view class='introduce-detail'>{{ rating[0].comment}}</view>
+    <view style='padding-left: 30rpx; width: 100%; height: auto;'>
+      <text class='introduce-detail'>{{ rating[0].comment}}</text>
     </view>
   </view>
-  <block wx:if="{{booking.state==0}}">
+  <block wx:if="{{booking.state==0  && bookingcanceltime}}">
     <view class="cancel-button" bindtap='final_cancel'>
-      <label class="button-label">取消蜂约</label>
+      取消蜂约
     </view>
   </block>
   <block wx:if="{{(booking.state==1) && (rating.length==0)}}">
     <view class="cancel-button" id="{{booking.id}}" bindtap='btn_write_comment'>
-      <label class="button-label">评价</label>
+      评价
     </view>
   </block>
 </view>

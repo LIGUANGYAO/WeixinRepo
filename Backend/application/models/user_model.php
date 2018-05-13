@@ -81,7 +81,7 @@ class user_model extends CI_Model
         if($toTime!=''){
             $this->db->where("date(reg_time) <= date('".$toTime."')");
         }
-        $this->db->order_by('reg_time');
+        $this->db->order_by('reg_time','desc');
         $this->db->limit($page, $segment);
         $query = $this->db->get();
 
@@ -103,7 +103,7 @@ class user_model extends CI_Model
         if($result[0]->role == 1)
         {
             $query = $this->db->query("select user.avatar, user.nickname, user.name, user.phone, user.honey, user.state, user.role, user.forbidden,
-                boss.allow_pic, boss.id_pic1, boss.id_pic2, boss.id_no, boss.site_name, provinces.province,cities.city,areas.area,boss.detail_address 
+                boss.allow_pic, boss.id_pic1, boss.id_pic2, boss.id_no, boss.site_name, provinces.province,cities.city,areas.area,boss.detail_address, boss.province as province_id, boss.city as city_id, boss.area as area_id
                 from user, boss, provinces, cities, areas where boss.province=provinces.id and boss.city=cities.id and areas.id=boss.area and user.no = boss.boss_id and user.no = ".$userId.";");
         }
         else if($result[0]->role==0){
@@ -288,6 +288,20 @@ class user_model extends CI_Model
 
     /**
      * This function is used to get information of user
+     * @param string $open_id : This is open_id of user
+     *@return array $result: this is the array of information
+     */
+    function getStateByOpenId($open_id)
+    {
+        $this->db->select("*");
+        $this->db->from("user");
+        $this->db->where("open_id", $open_id);
+        $query = $this->db->get();
+        return $query->result();
+    }
+
+    /**
+     * This function is used to get information of user
      * @param string $nickname : This is nickname of user
      *@return array $result: this is the array of information
      */
@@ -341,8 +355,15 @@ class user_model extends CI_Model
      */
     function addAllowPic($user_id, $userInfo)
     {
-        $this->db->where("boss_id", $user_id);
-        $this->db->update("boss", $userInfo);
+        $result = $this->db->query("select no from boss where boss_id=".$user_id)->result();
+        if(count($result)>0){
+            $this->db->where("boss_id", $user_id);
+            $this->db->update("boss", $userInfo);
+        }
+        else{
+            $userInfo['boss_id'] = $user_id;
+            $this->db->insert('boss', $userInfo);
+        }
         $query = $this->db->affected_rows();
         return $query;
     }
@@ -354,8 +375,15 @@ class user_model extends CI_Model
      */
     function addIDPic($user_id, $userInfo)
     {
-        $this->db->where("boss_id", $user_id);
-        $this->db->update("boss", $userInfo);
+        $result = $this->db->query("select no from boss where boss_id=".$user_id)->result();
+        if(count($result)>0){
+            $this->db->where("boss_id", $user_id);
+            $this->db->update("boss", $userInfo);
+        }
+        else{
+            $userInfo['boss_id'] = $user_id;
+            $this->db->insert('boss' ,$userInfo);
+        }
         $query = $this->db->affected_rows();
         return $query;
     }
@@ -380,8 +408,51 @@ class user_model extends CI_Model
      */
     function catchHoney($amount, $user_id)
     {
-        $this->db->query("update user set honey=honey+$amount where no=$user_id");
+        $this->db->query("update user set honey=".(1*$amount)." where no=$user_id");
         return true;
+    }
+
+    /**
+     * This function is used to sub honey
+     * @param int $user_id : This is amount of honey
+     * @param int $good_id: this is id of good which user exchange
+     *@return boolean $result: this is status of adding
+     */
+    function subHoney($user_id, $good_id)
+    {
+        $amount = $this->db->query("select cost from goods where id=".$good_id)->result();
+        $result = $this->db->query("update user set honey=honey-".(1*$amount[0]->cost)." where no=".$user_id);
+        return $result;
+    }
+
+    /**
+     * This function is used to get basic data for member state especially
+     * @param int $user_id : This is id of user
+     * @param int $role: this is role of user
+     *@return boolean $result: this is status of adding
+     */
+    function getBasicData($user_id, $role)
+    {
+
+        if($role==1){
+            $this->db->select("user.avatar, boss.site_name as name");
+        }
+        else if($role==2)
+        {
+            $this->db->select("user.avatar, user.name");
+        }
+        else
+        {
+            $this->db->select("user.avatar, user.nickname as name");
+        }
+        $this->db->from("user");
+        if($role==1)
+        {
+            $this->db->join("boss", "boss.boss_id = user.no");
+        }
+        $this->db->where("user.no", $user_id);
+        $query = $this->db->get();
+        return $query->result();
     }
 }
 

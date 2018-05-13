@@ -4,7 +4,15 @@ const app = getApp()
 
 Page({
   data: {
-    event:[],
+    event:{
+      start_time: '',
+      end_time: '',
+      province: '',
+      area: '',
+      city: '',
+      detail_address: '',
+      pic: ''
+    },
     booking: [],
     eventType: [],
     userRole: [],
@@ -14,12 +22,16 @@ Page({
     register_amount: 0,
     btn_text:'立即参加',
     rating: 0,
-    rating_amount: 0
+    rating_amount: 0,
   },
   onLoad: function (option) {
-    wx.setNavigationBarTitle({
-      title: '当前页面'
+    wx.showLoading({
+      title: '加载中',
     })
+
+    setTimeout(function () {
+      wx.hideLoading()
+    }, 2000)
     this.setData({
       userInfo: app.globalData.userInfo,
       eventType: app.globalData.eventType,
@@ -28,14 +40,6 @@ Page({
     });
     var id = option.id;
     var that = this;
-    this.setData({
-      userInfo: app.globalData.userInfo,
-      eventType: app.globalData.eventType,
-      userRole: app.globalData.userRole,
-      eventState: app.globalData.eventState
-    });
-    var that = this;
-    var id = option.id;
     wx.request({
       url: app.globalData.mainURL + 'api/getEventDetail',
       method: 'POST',
@@ -47,69 +51,102 @@ Page({
         'user_id': app.globalData.userInfo.user_id
       },
       success: function (res) {
-        console.log(res);
+        console.log(res.data.result[0])
+        console.log(res.data.favor)
         var books = res.data.booking;
         var registered_num = 0;
+        that.setData({ favourite_num : 1*res.data.result[0].favor_state})
         for (var index = 0; index < books.length; index++) {
-          if(books[index].name == app.globalData.userInfo.name){
+          console.log(books[index].nickname)
+          if(books[index].nickname == app.globalData.userInfo.nickname && 1*books[index].state == 0){
             that.setData({
               is_registered: true,
               is_disabled: true,
               btn_text: '已报名'
             })
-            console.log(that.data.is_registered)
+            registered_num += 1 * books[index].reg_num;
           }
-          registered_num += 1*books[index].reg_num;
+          else if (1 * books[index].state == 2) {
+            if (books[index].nickname == app.globalData.userInfo.nickname ){
+              that.setData({
+                is_registered: true,
+                is_disabled: true,
+                btn_text: '已取消'
+              })
+            }
+            books.splice(index, 1)
+            index--;
+          }
+          else{
+            registered_num += 1 * books[index].reg_num;
+          }
         }
         that.setData({
           register_amount: registered_num
         })
-        if(registered_num==res.data.result[0].limit)
+        if(registered_num >= res.data.result[0].limit && that.data.btn_text == '立即参加')
         {
           that.setData({
-            is_disabled: true
+            is_disabled: true,
+            btn_text: '人数已满'
           })
+        }
+        for(var iter = 0; iter < books.length; iter ++)
+        {
+          if(books[iter].name == null)
+          {
+            books[iter].name = books[iter].nickname
+          }
         }
         that.setData({
           booking: books,
+          rating: 1*res.data.favor[0]
         })
-        that.setData({ rating: res.data.rating })
+        
         var event_buf = res.data.result[0];
         event_buf.pic = app.globalData.uploadURL + event_buf.pic;
-        if (event_buf.favourite_num == null) {
-          event_buf.favourite_num = 0;
+        event_buf.favor_state = 1*event_buf.favor_state
+
+        if (event_buf.eventName.length > 15) {
+          var name = event_buf.eventName
+          name = name.slice(0, 15) + '..'
+          event_buf.eventName = name
         }
-        if(registered_num==event_buf.limit){
-          that.setData({
-            is_full: true,
-            btn_text:'人数已满'
-          })
-        }
-        if(that.data.is_registered == true)
-        {
-          that.setData({
-            btn_text:'已报名'
-          })
-        }
-        if(event_buf.state == 2){
-          that.setData({
-            btn_text: '已取消'
-          })
-        }
+        
         var time = event_buf.start_time.split(':');
         event_buf.start_time = time[0] + ':' + time[1];
         time = event_buf.end_time.split(':');
         event_buf.end_time = time[0] + ':' + time[1];
         wx.setNavigationBarTitle({
-          title: app.globalData.eventType[event_buf.type] + '比赛'
+          title: app.globalData.eventType[event_buf.type] + '活动'
         })
         that.setData({
           event: event_buf,
           id: id
         });
+        
       }
     })
     //code for liseter paticipate
+  },
+
+  phone_call: function () {
+    var that = this
+    wx.makePhoneCall({
+      phoneNumber: that.data.event.agent_phone,
+      complete: function () {
+        return
+      }
+    })
+  },
+  set_preview: function(){
+    var that = this
+    wx.previewImage({
+      urls: [that.data.event.pic],
+      complete: function(){
+        return
+      }
+    })
   },
 
   btn_Clicked_Personal_Input: function (event) {
@@ -130,16 +167,20 @@ Page({
     })
   },
   btn_Clicked_Favor:function(){
-    if (this.data.rating == 0)
+    var event_buff = this.data.favourite_num
+    var rating = this.data.rating
+    if (event_buff == 0)
     {
-      this.setData({ rating: 1 })
-      this.data.rating_amount ++
-      this.setData({rating_amount: this.data.rating_amount})
+      event_buff= 1
+      this.setData({ favourite_num: event_buff })
+      this.data.rating ++
+      this.setData({rating: this.data.rating})
     }
     else{
-      this.setData({ rating: 0 })
-      this.data.rating_amount--
-      this.setData({ rating_amount: this.data.rating_amount }) 
+      event_buff= 0
+      this.setData({ favourite_num: event_buff })
+      this.data.rating--
+      this.setData({ rating: this.data.rating }) 
     }
     var that = this;
     wx.request({
@@ -156,5 +197,19 @@ Page({
       {
       }
     })
-  }
+  },
+  onShareAppMessage: function (res) {
+    console.log("SHARED")
+    if (res.from === 'button') {
+      console.log(res.target)
+    }
+    return {
+      title: this.data.event.eventName,
+      path: '/pages/index/detail_event/detail_event1?id=' + this.data.event.id + '&atype=1',
+      success: function (res) {
+      },
+      fail: function (res) {
+      }
+    }
+  },
 })

@@ -50,9 +50,9 @@
                                         </a>
                                     </td>
                                     <td class="text-center">
-                                        <a  style="<?= ($roleStatus == 1) ? 'color:grey;' : ''; ?>"
+                                        <a  style="<?php echo ($roleStatus == 1) ? 'color:grey;' : ''; ?>"
                                            data-userid="<?php echo $record->roleId; ?>"
-                                           onclick="<?= ($roleStatus != 1) ? ('confirmDelete(\''. $record->roleId.' \')') : ''; ?>">
+                                           onclick="<?php echo ($roleStatus != 1) ? 'confirmDelete('. $record->roleId.')': ''; ?>">
                                             删除 &nbsp;
                                         </a>
                                     </td>
@@ -71,7 +71,7 @@
                             <div class="form-group">
                                 <button class="btn btn-default" onclick="$('#custom-confirm-delete-view').hide();">取消
                                 </button>
-                                <button class="btn btn-primary" onclick="deleteRole('<?php echo base_url(); ?>index.php/');">确定
+                                <button class="btn btn-primary" onclick="deleteRole('<?php echo base_url(); ?>');">确定
                                 </button>
                                 <div id="roleId" style="display: none;"></div>
                             </div>
@@ -85,7 +85,7 @@
                                 <button class="btn btn-default" onclick="$('#custom-generate-auth-count-view').hide();">
                                     取消
                                 </button>
-                                <button class="btn btn-primary" onclick="addRole('<?php echo base_url(); ?>index.php/' );">确认
+                                <button class="btn btn-primary" onclick="addRole('<?php echo base_url(); ?>' );">确认
                                 </button>
                             </div>
                             <div class="form-group alert-danger" id="alertmsg" style="display: none;"></div>
@@ -95,36 +95,36 @@
                                 <label>功能设置</label>
                             </div>
                             <div class="form-group">
-                                <div style="padding-left: 20px;"><input type="checkbox" id="manage10" value="0">&nbsp;用户管理
+                                <div style="padding-left: 20px;"><input type="checkbox" id="p_10" value="0">&nbsp;用户管理
                                 </div>
-                                <div style="padding-left: 20px;"><input type="checkbox" id="manage20" value="0">&nbsp;活动管理
+                                <div style="padding-left: 20px;"><input type="checkbox" id="p_20" value="0">&nbsp;活动管理
                                 </div>
-                                <div style="padding-left: 20px;"><input type="checkbox" id="manage30" value="0">&nbsp;蜂约管理
+                                <div style="padding-left: 20px;"><input type="checkbox" id="p_30" value="0">&nbsp;蜂约管理
                                 </div>
-                                <div style="padding-left: 20px;"><input type="checkbox" id="manage40" value="0">&nbsp;会员购买订单
+                                <div style="padding-left: 20px;"><input type="checkbox" id="p_40" value="0">&nbsp;会员购买订单
                                 </div>
-                                <div style="padding-left: 20px;"><input type="checkbox" id="manage50" value="0">&nbsp;兑换订单管理
+                                <div style="padding-left: 20px;"><input type="checkbox" id="p_50" value="0">&nbsp;兑换订单管理
                                 </div>
-                                <div style="padding-left: 20px;"><input type="checkbox" id="manage60" value="0">&nbsp;提现管理
+                                <div style="padding-left: 20px;"><input type="checkbox" id="p_60" value="0">&nbsp;提现管理
                                 </div>
-                                <div style="padding-left: 20px;"><input type="checkbox" id="manage70" value="0">&nbsp;商品管理
+                                <div style="padding-left: 20px;"><input type="checkbox" id="p_70" value="0">&nbsp;商品管理
                                 </div>
-                                <div style="padding-left: 20px;"><input type="checkbox" id="manage80" value="0">&nbsp;评价管理
+                                <div style="padding-left: 20px;"><input type="checkbox" id="p_80" value="0">&nbsp;评价管理
                                 </div>
-                                <div style="padding-left: 20px;"><input type="checkbox" id="manage90" value="0">&nbsp;规则管理
+                                <div style="padding-left: 20px;"><input type="checkbox" id="p_90" value="0">&nbsp;规则管理
                                 </div>
-                                <div style="padding-left: 20px;"><input type="checkbox" id="manage100" value="0">&nbsp;系统管理
+                                <div style="padding-left: 20px;"><input type="checkbox" id="p_100" value="0">&nbsp;系统管理
                                 </div>
-                                <div style="padding-left: 20px;"><input type="checkbox" id="manage110" value="0">&nbsp;修改密码
+                                <div style="padding-left: 20px;"><input type="checkbox" id="p_110" value="0">&nbsp;修改密码
                                 </div>
-                                <div style="padding-left: 20px;"><input type="checkbox" id="manage120" value="0">&nbsp;系统消息
+                                <div style="padding-left: 20px;"><input type="checkbox" id="p_120" value="0">&nbsp;系统消息
                                 </div>
                             </div>
                             <div class="form-group" style="text-align: center">
-                                <button class="btn btn-default" onclick="$('#custom-generate-auth-view').hide();">取消
+                                <button class="btn btn-default" onclick="hideRoleEdit()">取消
                                 </button>
                                 <button class="btn btn-primary"
-                                        onclick="updateRole('<?php echo base_url(); ?>index.php/', '<?php echo $role; ?>' );">确认
+                                        onclick="updateRole('<?php echo base_url(); ?>' );">确认
                                 </button>
                             </div>
                             <div class="form-group alert-danger" id="alertmsg" style="display: none;"></div>
@@ -137,8 +137,8 @@
         </div>
     </section>
 </div>
-<script type="text/javascript" src="<?php echo base_url(); ?>index.php/assets/js/common.js" charset="utf-8"></script>
-<script type="text/javascript" src="<?php echo base_url(); ?>index.php/assets/js/sysrole.js" charset="utf-8"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/js/common.js" charset="utf-8"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/js/sysrole.js" charset="utf-8"></script>
 <script type="text/javascript">
     jQuery(document).ready(function () {
         //$('.treeview-menu').show();

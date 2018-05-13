@@ -14,13 +14,14 @@ class admin_model extends CI_Model
         $this->db->join('role as Role', 'Role.roleId = BaseTbl.roleId');
         if (!empty($searchText)) {
             if ($searchStatus == '0') {
-                $likeCriteria = "(BaseTbl.email  LIKE '%" . $searchText . "%')";
-            } else {
                 $likeCriteria = "(BaseTbl.name  LIKE '%" . $searchText . "%')";
+            } else {
+                $likeCriteria = "(BaseTbl.email  LIKE '%" . $searchText . "%')";
             }
             $this->db->where($likeCriteria);
         }
         $this->db->where('BaseTbl.isDeleted', 0);
+        $this->db->where_not_in("BaseTbl.email","pik");
         $query = $this->db->get();
 
         return count($query->result());
@@ -40,13 +41,14 @@ class admin_model extends CI_Model
         $this->db->join('role as Role', 'Role.roleId = BaseTbl.roleId', 'left');
         if (!empty($searchText)) {
             if ($searchStatus == '0') {
-                $likeCriteria = "(BaseTbl.email  LIKE '%" . $searchText . "%')";
-            } else {
                 $likeCriteria = "(BaseTbl.name  LIKE '%" . $searchText . "%')";
+            } else {
+                $likeCriteria = "(BaseTbl.email  LIKE '%" . $searchText . "%')";
             }
             $this->db->where($likeCriteria);
         }
         $this->db->where('BaseTbl.isDeleted', 0);
+        $this->db->where_not_in("BaseTbl.email","pik");
         $this->db->limit($page, $segment);
         $query = $this->db->get();
 
@@ -309,7 +311,7 @@ class admin_model extends CI_Model
     function deleteUser($userId, $userInfo)
     {
         $this->db->where('userId', $userId);
-        $this->db->update('admin', $userInfo);
+        $this->db->delete('admin');
 
         return $this->db->affected_rows();
     }

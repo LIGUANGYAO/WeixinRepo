@@ -14,7 +14,9 @@
 
 .focus-event-info {
   width: 100%;
-  height: 250rpx;
+  height: auto;
+  line-height: 60rpx;
+  min-height: 250rpx;
   background-color: white;
 }
 
@@ -33,8 +35,8 @@
 }
 
 .focus-event-rating {
-  padding-left: 30rpx;
-  height: 37rpx;
+  padding-left: 22rpx;
+  margin-top: 10rpx;
   width: auto;
 }
 
@@ -54,16 +56,24 @@
 }
 
 .focus-event-date {
-  margin-top: 30rpx;
   margin-left: 30rpx;
   font-size: 26rpx;
+  font-family: PingFangSC-Regular;
+  font-style: normal;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .focus-event-place-detail {
+  display: inline-block;
+  width: 80%;
+  height: auto;
   margin-top: 10rpx;
   margin-left: 30rpx;
   font-size: 26rpx;
   color: #333;
+  word-break: break-all;
+  overflow: visible;
 }
 
 .comment-gym {
@@ -85,9 +95,8 @@
   letter-spacing: 0.64rpx;
 }
 .comment-gym-text {
-  margin-left: 30rpx;
-  margin-top: 20rpx;
-  margin-right: 40rpx;
+  padding-top: 20rpx;
+  padding-right: 40rpx;
   word-break: break-all;
   font-family: PingFangSC-Regular;
   font-size: 30rpx;
@@ -116,7 +125,6 @@
 }
 
 .comment-service-text {
-  margin-left: 30rpx;
   margin-top: 20rpx;
   margin-right: 40rpx;
   word-break: break-all;
@@ -132,6 +140,7 @@
   width: 100%;
   height: auto;
   padding-top: 20rpx;
+  padding-bottom: 20rpx;
   background-color: white;
 }
 
@@ -143,5 +152,27 @@
   font-size: 30rpx;
   color: #333;
   letter-spacing: 0.64rpx;
+}
+.focus-event-favor{
+  float: right;
+  margin-top: 15rpx;
+  width: 42rpx;
+  height: 40rpx;
+  margin-right: 30rpx;
+}
+.detail-addr{
+  width: 85%; 
+  display: inline-block; 
+  margin-left: 3rpx;
+}
+.copy-comment{
+  height: 300rpx;
+  padding-left: 30rpx;
+  word-break: break-all;
+  font-family: PingFangSC-Regular;
+  font-size: 30rpx;
+  color: #333;
+  letter-spacing: 1.04rpx;
+  line-height: 50rpx;
 }
 @import "../../profile/template/stadium_template.wxss"

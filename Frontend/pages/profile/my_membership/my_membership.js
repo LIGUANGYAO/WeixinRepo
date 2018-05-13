@@ -6,23 +6,147 @@ Page({
    * 页面的初始数据
    */
   data: {
-    userInfo: {},
-    mn_ismember: 0,
-    place_Name: "北京大学体育馆",
-    is_vip: 1,
-    term_date: "2018-3-31",
-    cost: 20
+    expire_time: '',
+    name: '',
+    cost: 0,
+    state: 0,
+    btn_text_sel: 0,
+    btn_text: ["立即开通", "立即续费"],
+    isclick: 0,
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    this.data.userInfo = app.globalData.userInfo
-    if (this.data.userInfo.avatar == '../../image/temp.jpg')
-      this.data.userInfo.avatar = '../' + this.data.userInfo.avatar
-    this.setData({ userInfo: app.globalData.userInfo })
-    this.setData({ mn_ismember: this.data.mn_ismember })
+    this.setData({
+      userInfo: app.globalData.userInfo,
+      cost: app.globalData.rule[7].value
+    })
+    var that = this
+    wx.request({
+      url: app.globalData.mainURL + 'api/getMemberState',
+      method: 'POST',
+      header: {
+        'content-type': 'application/json'
+      },
+      data: {
+        user_id: app.globalData.userInfo.user_id,
+        role: app.globalData.userInfo.role
+      },
+      success: function (res) {
+
+        if (res.data.result != null) {
+          if (res.data.result.state == null || res.data.result.state * 1 == 0) {
+            that.data.btn_text_sel = 0
+          }
+          else {
+            that.data.btn_text_sel = 1
+          }
+          that.setData({
+            expire_time: res.data.result.expire_time,
+            state: that.data.btn_text_sel * 1
+          })
+        }
+        if (res.data.result1 != null) {
+          that.setData({
+            name: res.data.result1[0].name
+          })
+        }
+      }
+
+    })
+  },
+  pay: function () {
+    var ordercode = app.globalData.rule[7].value;
+    if (this.data.isclick == 1) return
+    this.data.isclick = 1
+    var out_trade_no = app.globalData.mch_id + Date.now()
+    var out_refund_no = app.globalData.mch_id + Date.now()
+    var that = this
+    wx.login({
+      success: function (res) {
+        if (res.code) {
+          wx.request({
+            url: app.globalData.mainURL + 'api/pay',
+            data: {
+              id: wx.getStorageSync('openid'),//要去换取openid的登录凭证
+              fee: ordercode,
+              user_id: app.globalData.userInfo.user_id,
+              out_trade_no: out_trade_no
+            },
+            method: 'POST',
+            header:
+            {
+              'content-type': 'application/json'
+            },
+            success: function (res) {
+              wx.requestPayment({
+                timeStamp: res.data.timeStamp,
+                nonceStr: res.data.nonceStr,
+                package: res.data.package,
+                signType: 'MD5',
+                paySign: res.data.paySign,
+                success: function (res) {
+                  if (res.errMsg.length <= 20) {
+                    wx.request({
+                      url: app.globalData.mainURL + 'api/setMember',
+                      method: 'POST',
+                      header:
+                      {
+                        'content-type': 'application/json'
+                      },
+                      data: {
+                        user_id: app.globalData.userInfo.user_id,
+                        total_fee: ordercode,
+                        out_trade_no: out_trade_no
+                      },
+                      success: function (res) {
+                        that.setData({ state: 1 })
+                        wx.request({
+                          url: app.globalData.mainURL + 'api/getMemberState',
+                          method: 'POST',
+                          header: {
+                            'content-type': 'application/json'
+                          },
+                          data: {
+                            user_id: app.globalData.userInfo.user_id,
+                            role: app.globalData.userInfo.role
+                          },
+                          success: function (res) {
+                            console.log(res)
+                            app.globalData.userInfo.isVIP = 1
+                            if (res.data.result != null) {
+                              that.setData({
+                                expire_time: res.data.result.expire_time,
+                              })
+                            }
+                          }
+                        })
+                      }
+                    })
+                    /*
+                    wx.redirectTo({
+                      url: './my_membership',
+                    })
+                    */
+                  }
+                },
+                fail: function (res) {
+                  // fail
+
+                },
+                complete: function (res) {
+                  // complete
+                  that.data.isclick = 0
+                }
+              })
+            }
+          })
+        } else {
+        }
+      }
+    });
   },
 
   /**

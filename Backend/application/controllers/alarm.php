@@ -3,7 +3,7 @@
 require APPPATH . '/libraries/basecontroller.php';
 
 
-class Alarm extends basecontroller
+class alarm extends basecontroller
 {
     /**
      * This is default constructor of the class
@@ -11,7 +11,7 @@ class Alarm extends basecontroller
     public function __construct()
     {
         parent::__construct();
-        $this->load->model('alarm_model');
+        $this->load->model('alarm_admin_model');
         $this->isLoggedIn();
     }
 
@@ -22,16 +22,16 @@ class Alarm extends basecontroller
     {
 
         $this->global['pageTitle'] = '系统信息';
-        $count = $this->alarm_model->getAlarmCount();
-        $returns = $this->paginationCompress("rating/", $count, 10);
-        $data['alarmList'] = $this->alarm_model->getAlarm($returns['page'], $returns['segment']);
+        $count = $this->alarm_admin_model->getAlarmCount();
+        $returns = $this->paginationCompress("alarm/", $count, 10);
+        $data['alarmList'] = $this->alarm_admin_model->getAlarm($returns['page'], $returns['segment']);
         $this->loadViews("alarm", $this->global, $data, NULL);
     }
 
     function readAlarm()
     {
         $id = $this->input->post('id');
-        $result = $this->alarm_model->updateState($id);
+        $result = $this->alarm_admin_model->updateState($id);
         if ($result == true) {
             $this->session->set_flashdata('success', '该修成功.');
             echo(json_encode(array('status' => TRUE)));
@@ -44,10 +44,10 @@ class Alarm extends basecontroller
     /**
      * This function is used to delete alarm by id
      */
-    function deletealarm()
+    function deleteAlarm()
     {
-        $id = $this->input->post('id');
-        $result = $this->alarm_model->deleteAlarm($id);
+        $id = $this->input->post('delete_array');
+        $result = $this->alarm_admin_model->deleteAlarm($id);
         if ($result == true) {
             $this->session->set_flashdata('success', '删除成功.');
             echo(json_encode(array('status' => TRUE)));

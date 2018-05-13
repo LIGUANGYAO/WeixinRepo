@@ -6,13 +6,19 @@
         </h1>
     </section>
    <?php
-        $state=['待发货','待收货','交易成功'];
+        $state=array('待发货','待收货','交易成功');
     ?>
     <section class="content">
         <div class="container">
             <div class="row custom-info-row">
                 <label class="col-sm-1">订单编号:</label>
-                <label class="col-sm-1" id="nickname"><?php echo $exchangeDetail[0]->no; ?></label>
+                <label class="col-sm-1" id="nickname">
+                <?php
+                $no = "";
+                for($index = 0; $index < (10 - strlen($exchangeDetail[0]->no."")); $index++)
+                    $no = $no."0";
+                $no = $no.$exchangeDetail[0]->no;
+                 echo $no; ?></label>
                 <label class="col-sm-1" style="color:red;" id="nickname"><?php echo $state[$exchangeDetail[0]->state]; ?></label>
             </div>
             <div class="row custom-info-row">
@@ -20,13 +26,13 @@
                 <label class="col-sm-2  " id="nickname"><?php echo $exchangeDetail[0]->phone; ?></label>
             </div>
             <div class="row custom-info-row">
-                <label class="col-sm-4" id="nickname"><?php echo $exchangeDetail[0]->address; ?></label>
+                <label class="col-sm-4" id="nickname"><?php echo $exchangeDetail[0]->province.$exchangeDetail[0]->city.$exchangeDetail[0]->area.$exchangeDetail[0]->detail_address; ?></label>
             </div>
             <div class="row custom-info-row">
                 <label class="col-sm-2">商品清单</label>
             </div>
             <div class="row custom-info-row">
-                <div class="col-sm-4">
+                <div class="col-sm-8">
                     <table class="table table-bordered area-result-view">
                         <thead>
                         <tr style="background-color: lightslategrey;">
@@ -39,11 +45,11 @@
                         <tbody id="content_tbl">
                         <tr>
                             <td><?php echo $exchangeDetail[0]->good_name; ?></td>
-                            <td><?php  $pic = $this->goods_model->getPictureById($exchangeDetail[0]->good_id); ?>
-                                <img src = "<?php if(!empty($pic)) echo $pic[0]->pic; ?>"/>
+                            <td>
+                                <img src = "<?php if(!empty($exchangeDetail[0]->pic)) echo base_url().'uploads/'.$exchangeDetail[0]->pic; ?>" style="width: 350px; height: 190px;"/>
                             </td>
                             <td><?php echo $exchangeDetail[0]->cost."ml"; ?></td>
-                            <td><a href="<?php echo base_url().'goodDetail/'.$exchangeDetail[0]->good_id; ?>">查看</a></td>
+                            <td><a href="<?php echo base_url().'goodsDetail/'.$exchangeDetail[0]->good_id; ?>">查看</a></td>
                         </tr>
                         </tbody>
                     </table>
@@ -77,7 +83,7 @@
                 <label class="col-sm-2">收货时间:</label>
                 <label class="col-sm-4" id="nickname">
                    <?php if(!empty($exchangeDetail[0]->accept_time)){
-                        echo $exchangeDetail[0]->acccept_time;
+                        echo $exchangeDetail[0]->accept_time;
                     }
                     else
                     {
@@ -108,6 +114,6 @@
 
 
 <!-- Course Management JS-->
-<script type="text/javascript" src="<?php echo base_url(); ?>index.php/assets/js/shop.js" charset="utf-8"></script>
-<script type="text/javascript" src="<?php echo base_url(); ?>index.php/assets/js/jquery.qrcode.js" charset="utf-8"></script>
-<script type="text/javascript" src="<?php echo base_url(); ?>index.php/assets/js/qrcode.js" charset="utf-8"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/js/shop.js" charset="utf-8"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery.qrcode.js" charset="utf-8"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/js/qrcode.js" charset="utf-8"></script>

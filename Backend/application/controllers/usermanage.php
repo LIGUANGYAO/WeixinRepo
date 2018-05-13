@@ -73,6 +73,11 @@ class usermanage extends basecontroller
         $userId = $this->input->post('userId');
         $state = $this->input->post('state');
         $userInfo = array('state' => $state);
+        $alarm['user_id'] = $userId;
+        $alarm['type'] = (($state==2)?6:7);
+        $alarm['submit_time'] = date("Y-m-d H:i:s");
+        $this->load->model("alarm_user_model");
+        $this->alarm_user_model->addAlarm($alarm);
         $result = $this->user_model->updateStateById($userId, $userInfo);
         if ($result > 0) {
             $this->session->set_flashdata('success', '修改密码成功.');
@@ -124,13 +129,15 @@ class usermanage extends basecontroller
         $forbidden = $result[0]->forbidden;
         $forbidden = ($forbidden + 1) % 2;
         $this->user_model->updateForbiddenById($userId, $forbidden);
-        if ($result > 0) {
+
+            echo(json_encode(array('status' => TRUE, 'userId' => $forbidden)));
+        /*if ($result > 0) {
             $this->session->set_flashdata('success', '修改密码成功.');
             echo(json_encode(array('status' => TRUE)));
         } else {
             $this->session->set_flashdata('error', '修改密码失败.');
             echo(json_encode(array('status' => FALSE)));
-        }
+        }*/
 }
 /**
      * This function is used to show the detail of user with userId

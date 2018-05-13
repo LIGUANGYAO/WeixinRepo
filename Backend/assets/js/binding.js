@@ -20,18 +20,19 @@ $('input[name="radio_caro_type"]').click(function () {
 
 function  OnShowMessage() {
     var type = $('#option_status').val();
-
-    switch (type){
-        case '1':
-            $('#alert_message').html('是否确认打款成功？');
-            break;
-        case '2':
-            $('#alert_message').html('是否确认打款失败？');
-            break;
+    if(type=='1'){
+                $('#alert_message').html('是否确认打款成功？');
+        $('#confirm_delete').show();
     }
+    else if (type=='2'){
+                $('#alert_message').html('是否确认打款失败？');
+        $('#confirm_delete').show();
 
-    $('#confirm_delete').show();
+    }
+    else{
+        alert("请选择提现状态");
+    }
 }
 function onConfirm() {
-    $('form').submit();
+        $('form').submit();
 }

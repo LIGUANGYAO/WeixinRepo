@@ -13,14 +13,10 @@ Page({
     booking_id: 0
   },
   onLoad: function (param) {
+
     this.setData({
       booking_id: param.id
     })
-    wx.showToast({
-      title: '啦啦啦啦啦',
-      icon: "none",
-      duration: 2000
-    });
   },
   bindInputText: function (e) {
     this.setData({
@@ -67,5 +63,6 @@ Page({
         icon:'none'
       })
     }
+    console.log(this.data.comment)
   }
 })

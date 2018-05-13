@@ -29380,3 +29380,9950 @@ DEBUG - 2018-04-21 20:00:01 --> Model Class Initialized
 DEBUG - 2018-04-21 20:00:01 --> Model Class Initialized
 DEBUG - 2018-04-21 20:00:01 --> Final output sent to browser
 DEBUG - 2018-04-21 20:00:01 --> Total execution time: 0.0347
+DEBUG - 2018-04-21 20:34:37 --> Config Class Initialized
+DEBUG - 2018-04-21 20:34:37 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:34:37 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:34:37 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:34:37 --> URI Class Initialized
+DEBUG - 2018-04-21 20:34:37 --> Router Class Initialized
+DEBUG - 2018-04-21 20:34:37 --> Output Class Initialized
+DEBUG - 2018-04-21 20:34:37 --> Security Class Initialized
+DEBUG - 2018-04-21 20:34:37 --> Input Class Initialized
+DEBUG - 2018-04-21 20:34:37 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:34:37 --> Language Class Initialized
+DEBUG - 2018-04-21 20:34:37 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:34:37 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:34:37 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:34:37 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:34:37 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:34:37 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:34:37 --> Session Class Initialized
+DEBUG - 2018-04-21 20:34:37 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:34:37 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:34:37 --> Session routines successfully run
+DEBUG - 2018-04-21 20:34:37 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:34:37 --> Model Class Initialized
+DEBUG - 2018-04-21 20:34:37 --> Model Class Initialized
+DEBUG - 2018-04-21 20:34:37 --> Model Class Initialized
+DEBUG - 2018-04-21 20:34:37 --> Model Class Initialized
+DEBUG - 2018-04-21 20:34:37 --> Model Class Initialized
+DEBUG - 2018-04-21 20:34:37 --> Model Class Initialized
+DEBUG - 2018-04-21 20:34:37 --> Model Class Initialized
+DEBUG - 2018-04-21 20:34:37 --> Model Class Initialized
+DEBUG - 2018-04-21 20:34:37 --> Model Class Initialized
+DEBUG - 2018-04-21 20:34:37 --> Model Class Initialized
+DEBUG - 2018-04-21 20:34:37 --> Model Class Initialized
+DEBUG - 2018-04-21 20:34:37 --> Model Class Initialized
+DEBUG - 2018-04-21 20:34:37 --> Model Class Initialized
+DEBUG - 2018-04-21 20:34:37 --> Model Class Initialized
+DEBUG - 2018-04-21 20:34:37 --> Final output sent to browser
+DEBUG - 2018-04-21 20:34:37 --> Total execution time: 0.0387
+DEBUG - 2018-04-21 20:36:47 --> Config Class Initialized
+DEBUG - 2018-04-21 20:36:47 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:36:47 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:36:47 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:36:47 --> URI Class Initialized
+DEBUG - 2018-04-21 20:36:47 --> Router Class Initialized
+DEBUG - 2018-04-21 20:36:47 --> Output Class Initialized
+DEBUG - 2018-04-21 20:36:47 --> Security Class Initialized
+DEBUG - 2018-04-21 20:36:47 --> Input Class Initialized
+DEBUG - 2018-04-21 20:36:47 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:36:47 --> Language Class Initialized
+DEBUG - 2018-04-21 20:36:47 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:36:47 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:36:47 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:36:47 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:36:47 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:36:47 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:36:47 --> Session Class Initialized
+DEBUG - 2018-04-21 20:36:47 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:36:47 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:36:47 --> Session routines successfully run
+DEBUG - 2018-04-21 20:36:47 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:36:47 --> Model Class Initialized
+DEBUG - 2018-04-21 20:36:47 --> Model Class Initialized
+DEBUG - 2018-04-21 20:36:47 --> Model Class Initialized
+DEBUG - 2018-04-21 20:36:47 --> Model Class Initialized
+DEBUG - 2018-04-21 20:36:47 --> Model Class Initialized
+DEBUG - 2018-04-21 20:36:47 --> Model Class Initialized
+DEBUG - 2018-04-21 20:36:47 --> Model Class Initialized
+DEBUG - 2018-04-21 20:36:47 --> Model Class Initialized
+DEBUG - 2018-04-21 20:36:47 --> Model Class Initialized
+DEBUG - 2018-04-21 20:36:47 --> Model Class Initialized
+DEBUG - 2018-04-21 20:36:47 --> Model Class Initialized
+DEBUG - 2018-04-21 20:36:47 --> Model Class Initialized
+DEBUG - 2018-04-21 20:36:47 --> Model Class Initialized
+DEBUG - 2018-04-21 20:36:47 --> Model Class Initialized
+DEBUG - 2018-04-21 20:36:47 --> Final output sent to browser
+DEBUG - 2018-04-21 20:36:47 --> Total execution time: 0.0486
+DEBUG - 2018-04-21 20:37:02 --> Config Class Initialized
+DEBUG - 2018-04-21 20:37:02 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:37:02 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:37:02 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:37:02 --> URI Class Initialized
+DEBUG - 2018-04-21 20:37:02 --> Router Class Initialized
+DEBUG - 2018-04-21 20:37:02 --> Output Class Initialized
+DEBUG - 2018-04-21 20:37:02 --> Security Class Initialized
+DEBUG - 2018-04-21 20:37:02 --> Input Class Initialized
+DEBUG - 2018-04-21 20:37:02 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:37:02 --> Language Class Initialized
+DEBUG - 2018-04-21 20:37:02 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:37:02 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:37:02 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:37:02 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:37:02 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:37:02 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:37:02 --> Session Class Initialized
+DEBUG - 2018-04-21 20:37:02 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:37:02 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:37:02 --> Session routines successfully run
+DEBUG - 2018-04-21 20:37:02 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:37:02 --> Model Class Initialized
+DEBUG - 2018-04-21 20:37:02 --> Model Class Initialized
+DEBUG - 2018-04-21 20:37:02 --> Model Class Initialized
+DEBUG - 2018-04-21 20:37:02 --> Model Class Initialized
+DEBUG - 2018-04-21 20:37:02 --> Model Class Initialized
+DEBUG - 2018-04-21 20:37:02 --> Model Class Initialized
+DEBUG - 2018-04-21 20:37:02 --> Model Class Initialized
+DEBUG - 2018-04-21 20:37:02 --> Model Class Initialized
+DEBUG - 2018-04-21 20:37:02 --> Model Class Initialized
+DEBUG - 2018-04-21 20:37:02 --> Model Class Initialized
+DEBUG - 2018-04-21 20:37:02 --> Model Class Initialized
+DEBUG - 2018-04-21 20:37:02 --> Model Class Initialized
+DEBUG - 2018-04-21 20:37:02 --> Model Class Initialized
+DEBUG - 2018-04-21 20:37:02 --> Model Class Initialized
+DEBUG - 2018-04-21 20:37:02 --> Final output sent to browser
+DEBUG - 2018-04-21 20:37:02 --> Total execution time: 0.0377
+DEBUG - 2018-04-21 20:37:03 --> Config Class Initialized
+DEBUG - 2018-04-21 20:37:03 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:37:03 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:37:03 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:37:03 --> URI Class Initialized
+DEBUG - 2018-04-21 20:37:03 --> Router Class Initialized
+DEBUG - 2018-04-21 20:37:03 --> Config Class Initialized
+DEBUG - 2018-04-21 20:37:03 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:37:03 --> Output Class Initialized
+DEBUG - 2018-04-21 20:37:03 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:37:03 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:37:03 --> Security Class Initialized
+DEBUG - 2018-04-21 20:37:03 --> URI Class Initialized
+DEBUG - 2018-04-21 20:37:03 --> Input Class Initialized
+DEBUG - 2018-04-21 20:37:03 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:37:03 --> Router Class Initialized
+DEBUG - 2018-04-21 20:37:03 --> Language Class Initialized
+DEBUG - 2018-04-21 20:37:03 --> Output Class Initialized
+DEBUG - 2018-04-21 20:37:03 --> Security Class Initialized
+DEBUG - 2018-04-21 20:37:03 --> Input Class Initialized
+DEBUG - 2018-04-21 20:37:03 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:37:03 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:37:03 --> Language Class Initialized
+DEBUG - 2018-04-21 20:37:03 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:37:03 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:37:03 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:37:03 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:37:03 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:37:03 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:37:03 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:37:03 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:37:03 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:37:03 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:37:03 --> Session Class Initialized
+DEBUG - 2018-04-21 20:37:03 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:37:03 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:37:03 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:37:03 --> Session routines successfully run
+DEBUG - 2018-04-21 20:37:03 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:37:03 --> Model Class Initialized
+DEBUG - 2018-04-21 20:37:03 --> Model Class Initialized
+DEBUG - 2018-04-21 20:37:03 --> Model Class Initialized
+DEBUG - 2018-04-21 20:37:03 --> Session Class Initialized
+DEBUG - 2018-04-21 20:37:03 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:37:03 --> Model Class Initialized
+DEBUG - 2018-04-21 20:37:03 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:37:03 --> Session routines successfully run
+DEBUG - 2018-04-21 20:37:03 --> Model Class Initialized
+DEBUG - 2018-04-21 20:37:03 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:37:03 --> Model Class Initialized
+DEBUG - 2018-04-21 20:37:03 --> Model Class Initialized
+DEBUG - 2018-04-21 20:37:03 --> Model Class Initialized
+DEBUG - 2018-04-21 20:37:03 --> Model Class Initialized
+DEBUG - 2018-04-21 20:37:03 --> Model Class Initialized
+DEBUG - 2018-04-21 20:37:03 --> Model Class Initialized
+DEBUG - 2018-04-21 20:37:03 --> Model Class Initialized
+DEBUG - 2018-04-21 20:37:03 --> Model Class Initialized
+DEBUG - 2018-04-21 20:37:03 --> Model Class Initialized
+DEBUG - 2018-04-21 20:37:03 --> Model Class Initialized
+DEBUG - 2018-04-21 20:37:03 --> Model Class Initialized
+DEBUG - 2018-04-21 20:37:03 --> Model Class Initialized
+DEBUG - 2018-04-21 20:37:03 --> Model Class Initialized
+DEBUG - 2018-04-21 20:37:03 --> Model Class Initialized
+DEBUG - 2018-04-21 20:37:03 --> Model Class Initialized
+DEBUG - 2018-04-21 20:37:03 --> Model Class Initialized
+DEBUG - 2018-04-21 20:37:03 --> Model Class Initialized
+DEBUG - 2018-04-21 20:37:03 --> Model Class Initialized
+DEBUG - 2018-04-21 20:37:03 --> Model Class Initialized
+DEBUG - 2018-04-21 20:37:03 --> Model Class Initialized
+DEBUG - 2018-04-21 20:37:03 --> Final output sent to browser
+DEBUG - 2018-04-21 20:37:03 --> Model Class Initialized
+DEBUG - 2018-04-21 20:37:03 --> Total execution time: 0.0464
+DEBUG - 2018-04-21 20:37:03 --> Model Class Initialized
+DEBUG - 2018-04-21 20:37:03 --> Model Class Initialized
+DEBUG - 2018-04-21 20:37:06 --> Config Class Initialized
+DEBUG - 2018-04-21 20:37:06 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:37:06 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:37:06 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:37:06 --> URI Class Initialized
+DEBUG - 2018-04-21 20:37:06 --> Router Class Initialized
+DEBUG - 2018-04-21 20:37:06 --> Output Class Initialized
+DEBUG - 2018-04-21 20:37:06 --> Security Class Initialized
+DEBUG - 2018-04-21 20:37:06 --> Input Class Initialized
+DEBUG - 2018-04-21 20:37:06 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:37:06 --> Language Class Initialized
+DEBUG - 2018-04-21 20:37:06 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:37:06 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:37:06 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:37:06 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:37:06 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:37:06 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:37:06 --> Session Class Initialized
+DEBUG - 2018-04-21 20:37:06 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:37:06 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:37:06 --> Session routines successfully run
+DEBUG - 2018-04-21 20:37:06 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:37:06 --> Model Class Initialized
+DEBUG - 2018-04-21 20:37:06 --> Model Class Initialized
+DEBUG - 2018-04-21 20:37:06 --> Model Class Initialized
+DEBUG - 2018-04-21 20:37:06 --> Model Class Initialized
+DEBUG - 2018-04-21 20:37:06 --> Model Class Initialized
+DEBUG - 2018-04-21 20:37:06 --> Model Class Initialized
+DEBUG - 2018-04-21 20:37:06 --> Model Class Initialized
+DEBUG - 2018-04-21 20:37:06 --> Model Class Initialized
+DEBUG - 2018-04-21 20:37:06 --> Model Class Initialized
+DEBUG - 2018-04-21 20:37:06 --> Model Class Initialized
+DEBUG - 2018-04-21 20:37:06 --> Model Class Initialized
+DEBUG - 2018-04-21 20:37:06 --> Model Class Initialized
+DEBUG - 2018-04-21 20:37:06 --> Model Class Initialized
+DEBUG - 2018-04-21 20:37:06 --> Model Class Initialized
+DEBUG - 2018-04-21 20:37:06 --> Final output sent to browser
+DEBUG - 2018-04-21 20:37:06 --> Total execution time: 0.0364
+DEBUG - 2018-04-21 20:43:35 --> Config Class Initialized
+DEBUG - 2018-04-21 20:43:35 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:43:35 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:43:35 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:43:35 --> URI Class Initialized
+DEBUG - 2018-04-21 20:43:35 --> Router Class Initialized
+DEBUG - 2018-04-21 20:43:35 --> Output Class Initialized
+DEBUG - 2018-04-21 20:43:35 --> Security Class Initialized
+DEBUG - 2018-04-21 20:43:35 --> Input Class Initialized
+DEBUG - 2018-04-21 20:43:35 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:43:35 --> Language Class Initialized
+DEBUG - 2018-04-21 20:43:35 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:43:35 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:43:35 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:43:35 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:43:35 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:43:35 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:43:35 --> Session Class Initialized
+DEBUG - 2018-04-21 20:43:35 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:43:35 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:43:35 --> Session routines successfully run
+DEBUG - 2018-04-21 20:43:35 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:43:35 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:35 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:35 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:35 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:35 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:35 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:35 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:35 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:35 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:35 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:35 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:35 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:35 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:35 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:35 --> Final output sent to browser
+DEBUG - 2018-04-21 20:43:35 --> Total execution time: 0.0336
+DEBUG - 2018-04-21 20:43:36 --> Config Class Initialized
+DEBUG - 2018-04-21 20:43:36 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:43:36 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:43:36 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:43:36 --> URI Class Initialized
+DEBUG - 2018-04-21 20:43:36 --> Router Class Initialized
+DEBUG - 2018-04-21 20:43:36 --> Output Class Initialized
+DEBUG - 2018-04-21 20:43:36 --> Security Class Initialized
+DEBUG - 2018-04-21 20:43:36 --> Input Class Initialized
+DEBUG - 2018-04-21 20:43:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:43:36 --> Language Class Initialized
+DEBUG - 2018-04-21 20:43:36 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:43:36 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:43:36 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:43:36 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:43:36 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:43:36 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:43:36 --> Session Class Initialized
+DEBUG - 2018-04-21 20:43:36 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:43:36 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:43:36 --> Session routines successfully run
+DEBUG - 2018-04-21 20:43:36 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:43:36 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:36 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:36 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:36 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:36 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:36 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:36 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:36 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:36 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:36 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:36 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:36 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:36 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:36 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:36 --> Final output sent to browser
+DEBUG - 2018-04-21 20:43:36 --> Total execution time: 0.0349
+DEBUG - 2018-04-21 20:43:36 --> Config Class Initialized
+DEBUG - 2018-04-21 20:43:36 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:43:36 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:43:36 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:43:36 --> URI Class Initialized
+DEBUG - 2018-04-21 20:43:36 --> Router Class Initialized
+DEBUG - 2018-04-21 20:43:36 --> Output Class Initialized
+DEBUG - 2018-04-21 20:43:36 --> Security Class Initialized
+DEBUG - 2018-04-21 20:43:36 --> Input Class Initialized
+DEBUG - 2018-04-21 20:43:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:43:36 --> Language Class Initialized
+DEBUG - 2018-04-21 20:43:36 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:43:36 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:43:36 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:43:36 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:43:36 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:43:36 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:43:36 --> Session Class Initialized
+DEBUG - 2018-04-21 20:43:36 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:43:36 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:43:36 --> Session routines successfully run
+DEBUG - 2018-04-21 20:43:36 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:43:36 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:36 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:36 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:36 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:36 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:36 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:36 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:36 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:36 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:36 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:36 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:36 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:36 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:36 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:39 --> Config Class Initialized
+DEBUG - 2018-04-21 20:43:39 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:43:39 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:43:39 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:43:39 --> URI Class Initialized
+DEBUG - 2018-04-21 20:43:39 --> Router Class Initialized
+DEBUG - 2018-04-21 20:43:39 --> Output Class Initialized
+DEBUG - 2018-04-21 20:43:39 --> Security Class Initialized
+DEBUG - 2018-04-21 20:43:39 --> Input Class Initialized
+DEBUG - 2018-04-21 20:43:39 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:43:39 --> Language Class Initialized
+DEBUG - 2018-04-21 20:43:39 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:43:39 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:43:39 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:43:39 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:43:39 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:43:39 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:43:39 --> Session Class Initialized
+DEBUG - 2018-04-21 20:43:39 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:43:39 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:43:39 --> Session routines successfully run
+DEBUG - 2018-04-21 20:43:39 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:43:39 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:39 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:39 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:39 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:39 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:39 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:39 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:39 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:39 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:39 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:39 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:39 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:39 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:39 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:39 --> Final output sent to browser
+DEBUG - 2018-04-21 20:43:39 --> Total execution time: 0.0351
+DEBUG - 2018-04-21 20:43:56 --> Config Class Initialized
+DEBUG - 2018-04-21 20:43:56 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:43:56 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:43:56 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:43:56 --> URI Class Initialized
+DEBUG - 2018-04-21 20:43:56 --> Router Class Initialized
+DEBUG - 2018-04-21 20:43:56 --> Output Class Initialized
+DEBUG - 2018-04-21 20:43:56 --> Security Class Initialized
+DEBUG - 2018-04-21 20:43:56 --> Input Class Initialized
+DEBUG - 2018-04-21 20:43:56 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:43:56 --> Language Class Initialized
+DEBUG - 2018-04-21 20:43:56 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:43:56 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:43:56 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:43:56 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:43:56 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:43:56 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:43:56 --> Session Class Initialized
+DEBUG - 2018-04-21 20:43:56 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:43:56 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:43:56 --> Session routines successfully run
+DEBUG - 2018-04-21 20:43:56 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:43:56 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:56 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:56 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:56 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:56 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:56 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:56 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:56 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:56 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:56 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:56 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:56 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:56 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:56 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:56 --> Final output sent to browser
+DEBUG - 2018-04-21 20:43:56 --> Total execution time: 0.0329
+DEBUG - 2018-04-21 20:43:57 --> Config Class Initialized
+DEBUG - 2018-04-21 20:43:57 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:43:57 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:43:57 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:43:57 --> URI Class Initialized
+DEBUG - 2018-04-21 20:43:57 --> Router Class Initialized
+DEBUG - 2018-04-21 20:43:57 --> Output Class Initialized
+DEBUG - 2018-04-21 20:43:57 --> Security Class Initialized
+DEBUG - 2018-04-21 20:43:57 --> Input Class Initialized
+DEBUG - 2018-04-21 20:43:57 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:43:57 --> Language Class Initialized
+DEBUG - 2018-04-21 20:43:57 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:43:57 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:43:57 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:43:57 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:43:57 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:43:57 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:43:57 --> Session Class Initialized
+DEBUG - 2018-04-21 20:43:57 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:43:57 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:43:57 --> Session routines successfully run
+DEBUG - 2018-04-21 20:43:57 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:43:57 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:57 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:57 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:57 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:57 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:57 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:57 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:57 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:57 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:57 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:57 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:57 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:57 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:57 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:57 --> Config Class Initialized
+DEBUG - 2018-04-21 20:43:57 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:43:57 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:43:57 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:43:57 --> URI Class Initialized
+DEBUG - 2018-04-21 20:43:57 --> Router Class Initialized
+DEBUG - 2018-04-21 20:43:57 --> Output Class Initialized
+DEBUG - 2018-04-21 20:43:57 --> Security Class Initialized
+DEBUG - 2018-04-21 20:43:57 --> Input Class Initialized
+DEBUG - 2018-04-21 20:43:57 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:43:57 --> Language Class Initialized
+DEBUG - 2018-04-21 20:43:57 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:43:57 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:43:57 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:43:57 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:43:57 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:43:57 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:43:57 --> Session Class Initialized
+DEBUG - 2018-04-21 20:43:57 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:43:57 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:43:57 --> Session routines successfully run
+DEBUG - 2018-04-21 20:43:57 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:43:57 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:57 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:57 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:57 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:57 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:57 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:57 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:57 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:57 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:57 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:57 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:57 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:57 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:57 --> Model Class Initialized
+DEBUG - 2018-04-21 20:43:57 --> Final output sent to browser
+DEBUG - 2018-04-21 20:43:57 --> Total execution time: 0.0493
+DEBUG - 2018-04-21 20:44:00 --> Config Class Initialized
+DEBUG - 2018-04-21 20:44:00 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:44:00 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:44:00 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:44:00 --> URI Class Initialized
+DEBUG - 2018-04-21 20:44:00 --> Router Class Initialized
+DEBUG - 2018-04-21 20:44:00 --> Output Class Initialized
+DEBUG - 2018-04-21 20:44:00 --> Security Class Initialized
+DEBUG - 2018-04-21 20:44:00 --> Input Class Initialized
+DEBUG - 2018-04-21 20:44:00 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:44:00 --> Language Class Initialized
+DEBUG - 2018-04-21 20:44:00 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:44:00 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:44:00 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:44:00 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:44:00 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:44:00 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:44:00 --> Session Class Initialized
+DEBUG - 2018-04-21 20:44:00 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:44:00 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:44:00 --> Session routines successfully run
+DEBUG - 2018-04-21 20:44:00 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:44:00 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:00 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:00 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:00 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:00 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:00 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:00 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:00 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:00 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:00 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:00 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:00 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:00 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:00 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:00 --> Final output sent to browser
+DEBUG - 2018-04-21 20:44:00 --> Total execution time: 0.0521
+DEBUG - 2018-04-21 20:44:19 --> Config Class Initialized
+DEBUG - 2018-04-21 20:44:19 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:44:19 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:44:19 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:44:19 --> URI Class Initialized
+DEBUG - 2018-04-21 20:44:19 --> Router Class Initialized
+DEBUG - 2018-04-21 20:44:19 --> Output Class Initialized
+DEBUG - 2018-04-21 20:44:19 --> Security Class Initialized
+DEBUG - 2018-04-21 20:44:19 --> Input Class Initialized
+DEBUG - 2018-04-21 20:44:19 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:44:19 --> Language Class Initialized
+DEBUG - 2018-04-21 20:44:19 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:44:19 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:44:19 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:44:19 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:44:19 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:44:19 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:44:19 --> Session Class Initialized
+DEBUG - 2018-04-21 20:44:19 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:44:19 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:44:19 --> Session routines successfully run
+DEBUG - 2018-04-21 20:44:19 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:44:19 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:19 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:19 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:19 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:19 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:19 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:19 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:19 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:19 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:19 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:19 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:19 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:19 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:19 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:19 --> Final output sent to browser
+DEBUG - 2018-04-21 20:44:19 --> Total execution time: 0.0332
+DEBUG - 2018-04-21 20:44:20 --> Config Class Initialized
+DEBUG - 2018-04-21 20:44:20 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:44:20 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:44:20 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:44:20 --> URI Class Initialized
+DEBUG - 2018-04-21 20:44:20 --> Router Class Initialized
+DEBUG - 2018-04-21 20:44:20 --> Output Class Initialized
+DEBUG - 2018-04-21 20:44:20 --> Security Class Initialized
+DEBUG - 2018-04-21 20:44:20 --> Input Class Initialized
+DEBUG - 2018-04-21 20:44:20 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:44:20 --> Language Class Initialized
+DEBUG - 2018-04-21 20:44:20 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:44:20 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:44:20 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:44:20 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:44:20 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:44:20 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:44:20 --> Session Class Initialized
+DEBUG - 2018-04-21 20:44:20 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:44:20 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:44:20 --> Session routines successfully run
+DEBUG - 2018-04-21 20:44:20 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:44:20 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:20 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:20 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:20 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:20 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:20 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:20 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:20 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:20 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:20 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:20 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:20 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:20 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:20 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:21 --> Config Class Initialized
+DEBUG - 2018-04-21 20:44:21 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:44:21 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:44:21 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:44:21 --> URI Class Initialized
+DEBUG - 2018-04-21 20:44:21 --> Router Class Initialized
+DEBUG - 2018-04-21 20:44:21 --> Output Class Initialized
+DEBUG - 2018-04-21 20:44:21 --> Security Class Initialized
+DEBUG - 2018-04-21 20:44:21 --> Input Class Initialized
+DEBUG - 2018-04-21 20:44:21 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:44:21 --> Language Class Initialized
+DEBUG - 2018-04-21 20:44:21 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:44:21 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:44:21 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:44:21 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:44:21 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:44:21 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:44:21 --> Session Class Initialized
+DEBUG - 2018-04-21 20:44:21 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:44:21 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:44:21 --> Session routines successfully run
+DEBUG - 2018-04-21 20:44:21 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:44:21 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:21 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:21 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:21 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:21 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:21 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:21 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:21 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:21 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:21 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:21 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:21 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:21 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:21 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:21 --> Final output sent to browser
+DEBUG - 2018-04-21 20:44:21 --> Total execution time: 0.0344
+DEBUG - 2018-04-21 20:44:25 --> Config Class Initialized
+DEBUG - 2018-04-21 20:44:25 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:44:25 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:44:25 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:44:25 --> URI Class Initialized
+DEBUG - 2018-04-21 20:44:25 --> Router Class Initialized
+DEBUG - 2018-04-21 20:44:25 --> Output Class Initialized
+DEBUG - 2018-04-21 20:44:25 --> Security Class Initialized
+DEBUG - 2018-04-21 20:44:25 --> Input Class Initialized
+DEBUG - 2018-04-21 20:44:25 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:44:25 --> Language Class Initialized
+DEBUG - 2018-04-21 20:44:25 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:44:25 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:44:25 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:44:25 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:44:25 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:44:25 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:44:25 --> Session Class Initialized
+DEBUG - 2018-04-21 20:44:25 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:44:25 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:44:25 --> Session routines successfully run
+DEBUG - 2018-04-21 20:44:25 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:44:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:44:25 --> Final output sent to browser
+DEBUG - 2018-04-21 20:44:25 --> Total execution time: 0.0357
+DEBUG - 2018-04-21 20:46:19 --> Config Class Initialized
+DEBUG - 2018-04-21 20:46:19 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:46:19 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:46:19 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:46:19 --> URI Class Initialized
+DEBUG - 2018-04-21 20:46:19 --> Router Class Initialized
+DEBUG - 2018-04-21 20:46:19 --> Output Class Initialized
+DEBUG - 2018-04-21 20:46:19 --> Security Class Initialized
+DEBUG - 2018-04-21 20:46:19 --> Input Class Initialized
+DEBUG - 2018-04-21 20:46:19 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:46:19 --> Language Class Initialized
+DEBUG - 2018-04-21 20:46:19 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:46:19 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:46:19 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:46:19 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:46:19 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:46:19 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:46:19 --> Session Class Initialized
+DEBUG - 2018-04-21 20:46:19 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:46:19 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:46:19 --> Session routines successfully run
+DEBUG - 2018-04-21 20:46:19 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:46:19 --> Model Class Initialized
+DEBUG - 2018-04-21 20:46:19 --> Model Class Initialized
+DEBUG - 2018-04-21 20:46:19 --> Model Class Initialized
+DEBUG - 2018-04-21 20:46:19 --> Model Class Initialized
+DEBUG - 2018-04-21 20:46:19 --> Model Class Initialized
+DEBUG - 2018-04-21 20:46:19 --> Model Class Initialized
+DEBUG - 2018-04-21 20:46:19 --> Model Class Initialized
+DEBUG - 2018-04-21 20:46:19 --> Model Class Initialized
+DEBUG - 2018-04-21 20:46:19 --> Model Class Initialized
+DEBUG - 2018-04-21 20:46:19 --> Model Class Initialized
+DEBUG - 2018-04-21 20:46:19 --> Model Class Initialized
+DEBUG - 2018-04-21 20:46:19 --> Model Class Initialized
+DEBUG - 2018-04-21 20:46:19 --> Model Class Initialized
+DEBUG - 2018-04-21 20:46:19 --> Model Class Initialized
+DEBUG - 2018-04-21 20:46:19 --> Final output sent to browser
+DEBUG - 2018-04-21 20:46:19 --> Total execution time: 0.0324
+DEBUG - 2018-04-21 20:46:20 --> Config Class Initialized
+DEBUG - 2018-04-21 20:46:20 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:46:20 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:46:20 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:46:20 --> URI Class Initialized
+DEBUG - 2018-04-21 20:46:20 --> Router Class Initialized
+DEBUG - 2018-04-21 20:46:20 --> Output Class Initialized
+DEBUG - 2018-04-21 20:46:20 --> Security Class Initialized
+DEBUG - 2018-04-21 20:46:20 --> Input Class Initialized
+DEBUG - 2018-04-21 20:46:20 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:46:20 --> Language Class Initialized
+DEBUG - 2018-04-21 20:46:20 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:46:20 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:46:20 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:46:20 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:46:20 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:46:20 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:46:20 --> Session Class Initialized
+DEBUG - 2018-04-21 20:46:20 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:46:20 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:46:20 --> Session routines successfully run
+DEBUG - 2018-04-21 20:46:20 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:46:20 --> Model Class Initialized
+DEBUG - 2018-04-21 20:46:20 --> Model Class Initialized
+DEBUG - 2018-04-21 20:46:20 --> Model Class Initialized
+DEBUG - 2018-04-21 20:46:20 --> Model Class Initialized
+DEBUG - 2018-04-21 20:46:20 --> Model Class Initialized
+DEBUG - 2018-04-21 20:46:20 --> Model Class Initialized
+DEBUG - 2018-04-21 20:46:20 --> Model Class Initialized
+DEBUG - 2018-04-21 20:46:20 --> Model Class Initialized
+DEBUG - 2018-04-21 20:46:20 --> Model Class Initialized
+DEBUG - 2018-04-21 20:46:20 --> Model Class Initialized
+DEBUG - 2018-04-21 20:46:20 --> Model Class Initialized
+DEBUG - 2018-04-21 20:46:20 --> Model Class Initialized
+DEBUG - 2018-04-21 20:46:20 --> Model Class Initialized
+DEBUG - 2018-04-21 20:46:20 --> Model Class Initialized
+DEBUG - 2018-04-21 20:46:21 --> Config Class Initialized
+DEBUG - 2018-04-21 20:46:21 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:46:21 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:46:21 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:46:21 --> URI Class Initialized
+DEBUG - 2018-04-21 20:46:21 --> Router Class Initialized
+DEBUG - 2018-04-21 20:46:21 --> Output Class Initialized
+DEBUG - 2018-04-21 20:46:21 --> Security Class Initialized
+DEBUG - 2018-04-21 20:46:21 --> Input Class Initialized
+DEBUG - 2018-04-21 20:46:21 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:46:21 --> Language Class Initialized
+DEBUG - 2018-04-21 20:46:21 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:46:21 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:46:21 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:46:21 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:46:21 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:46:21 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:46:21 --> Session Class Initialized
+DEBUG - 2018-04-21 20:46:21 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:46:21 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:46:21 --> Session routines successfully run
+DEBUG - 2018-04-21 20:46:21 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:46:21 --> Model Class Initialized
+DEBUG - 2018-04-21 20:46:21 --> Model Class Initialized
+DEBUG - 2018-04-21 20:46:21 --> Model Class Initialized
+DEBUG - 2018-04-21 20:46:21 --> Model Class Initialized
+DEBUG - 2018-04-21 20:46:21 --> Model Class Initialized
+DEBUG - 2018-04-21 20:46:21 --> Model Class Initialized
+DEBUG - 2018-04-21 20:46:21 --> Model Class Initialized
+DEBUG - 2018-04-21 20:46:21 --> Model Class Initialized
+DEBUG - 2018-04-21 20:46:21 --> Model Class Initialized
+DEBUG - 2018-04-21 20:46:21 --> Model Class Initialized
+DEBUG - 2018-04-21 20:46:21 --> Model Class Initialized
+DEBUG - 2018-04-21 20:46:21 --> Model Class Initialized
+DEBUG - 2018-04-21 20:46:21 --> Model Class Initialized
+DEBUG - 2018-04-21 20:46:21 --> Model Class Initialized
+DEBUG - 2018-04-21 20:46:21 --> Final output sent to browser
+DEBUG - 2018-04-21 20:46:21 --> Total execution time: 0.0333
+DEBUG - 2018-04-21 20:46:23 --> Config Class Initialized
+DEBUG - 2018-04-21 20:46:23 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:46:23 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:46:23 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:46:23 --> URI Class Initialized
+DEBUG - 2018-04-21 20:46:23 --> Router Class Initialized
+DEBUG - 2018-04-21 20:46:23 --> Output Class Initialized
+DEBUG - 2018-04-21 20:46:23 --> Security Class Initialized
+DEBUG - 2018-04-21 20:46:23 --> Input Class Initialized
+DEBUG - 2018-04-21 20:46:23 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:46:23 --> Language Class Initialized
+DEBUG - 2018-04-21 20:46:23 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:46:23 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:46:23 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:46:23 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:46:23 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:46:23 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:46:23 --> Session Class Initialized
+DEBUG - 2018-04-21 20:46:23 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:46:23 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:46:23 --> Session routines successfully run
+DEBUG - 2018-04-21 20:46:23 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:46:23 --> Model Class Initialized
+DEBUG - 2018-04-21 20:46:23 --> Model Class Initialized
+DEBUG - 2018-04-21 20:46:23 --> Model Class Initialized
+DEBUG - 2018-04-21 20:46:23 --> Model Class Initialized
+DEBUG - 2018-04-21 20:46:23 --> Model Class Initialized
+DEBUG - 2018-04-21 20:46:23 --> Model Class Initialized
+DEBUG - 2018-04-21 20:46:23 --> Model Class Initialized
+DEBUG - 2018-04-21 20:46:23 --> Model Class Initialized
+DEBUG - 2018-04-21 20:46:23 --> Model Class Initialized
+DEBUG - 2018-04-21 20:46:23 --> Model Class Initialized
+DEBUG - 2018-04-21 20:46:23 --> Model Class Initialized
+DEBUG - 2018-04-21 20:46:23 --> Model Class Initialized
+DEBUG - 2018-04-21 20:46:23 --> Model Class Initialized
+DEBUG - 2018-04-21 20:46:23 --> Model Class Initialized
+DEBUG - 2018-04-21 20:46:23 --> Final output sent to browser
+DEBUG - 2018-04-21 20:46:23 --> Total execution time: 0.0530
+DEBUG - 2018-04-21 20:47:01 --> Config Class Initialized
+DEBUG - 2018-04-21 20:47:01 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:47:01 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:47:01 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:47:01 --> URI Class Initialized
+DEBUG - 2018-04-21 20:47:01 --> Router Class Initialized
+DEBUG - 2018-04-21 20:47:01 --> Output Class Initialized
+DEBUG - 2018-04-21 20:47:01 --> Security Class Initialized
+DEBUG - 2018-04-21 20:47:01 --> Input Class Initialized
+DEBUG - 2018-04-21 20:47:01 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:47:01 --> Language Class Initialized
+DEBUG - 2018-04-21 20:47:01 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:47:01 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:47:01 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:47:01 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:47:01 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:47:01 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:47:01 --> Session Class Initialized
+DEBUG - 2018-04-21 20:47:01 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:47:01 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:47:01 --> Session routines successfully run
+DEBUG - 2018-04-21 20:47:01 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:47:01 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:01 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:01 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:01 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:01 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:01 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:01 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:01 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:01 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:01 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:01 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:01 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:01 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:01 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:01 --> Final output sent to browser
+DEBUG - 2018-04-21 20:47:01 --> Total execution time: 0.0322
+DEBUG - 2018-04-21 20:47:02 --> Config Class Initialized
+DEBUG - 2018-04-21 20:47:02 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:47:02 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:47:02 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:47:02 --> URI Class Initialized
+DEBUG - 2018-04-21 20:47:02 --> Router Class Initialized
+DEBUG - 2018-04-21 20:47:02 --> Output Class Initialized
+DEBUG - 2018-04-21 20:47:02 --> Security Class Initialized
+DEBUG - 2018-04-21 20:47:02 --> Input Class Initialized
+DEBUG - 2018-04-21 20:47:02 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:47:02 --> Language Class Initialized
+DEBUG - 2018-04-21 20:47:02 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:47:02 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:47:02 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:47:02 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:47:02 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:47:02 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:47:02 --> Session Class Initialized
+DEBUG - 2018-04-21 20:47:02 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:47:02 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:47:02 --> Session routines successfully run
+DEBUG - 2018-04-21 20:47:02 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:47:02 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:02 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:02 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:02 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:02 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:02 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:02 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:02 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:02 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:02 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:02 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:02 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:02 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:02 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:02 --> Config Class Initialized
+DEBUG - 2018-04-21 20:47:02 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:47:02 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:47:02 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:47:02 --> URI Class Initialized
+DEBUG - 2018-04-21 20:47:02 --> Router Class Initialized
+DEBUG - 2018-04-21 20:47:02 --> Output Class Initialized
+DEBUG - 2018-04-21 20:47:02 --> Security Class Initialized
+DEBUG - 2018-04-21 20:47:02 --> Input Class Initialized
+DEBUG - 2018-04-21 20:47:02 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:47:02 --> Language Class Initialized
+DEBUG - 2018-04-21 20:47:02 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:47:02 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:47:02 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:47:02 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:47:02 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:47:02 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:47:02 --> Session Class Initialized
+DEBUG - 2018-04-21 20:47:02 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:47:02 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:47:02 --> Session routines successfully run
+DEBUG - 2018-04-21 20:47:02 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:47:02 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:02 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:02 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:02 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:02 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:02 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:02 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:02 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:02 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:02 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:02 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:02 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:02 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:02 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:02 --> Final output sent to browser
+DEBUG - 2018-04-21 20:47:02 --> Total execution time: 0.0335
+DEBUG - 2018-04-21 20:47:05 --> Config Class Initialized
+DEBUG - 2018-04-21 20:47:05 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:47:05 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:47:05 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:47:05 --> URI Class Initialized
+DEBUG - 2018-04-21 20:47:05 --> Router Class Initialized
+DEBUG - 2018-04-21 20:47:05 --> Output Class Initialized
+DEBUG - 2018-04-21 20:47:05 --> Security Class Initialized
+DEBUG - 2018-04-21 20:47:05 --> Input Class Initialized
+DEBUG - 2018-04-21 20:47:05 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:47:05 --> Language Class Initialized
+DEBUG - 2018-04-21 20:47:05 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:47:05 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:47:05 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:47:05 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:47:05 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:47:05 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:47:05 --> Session Class Initialized
+DEBUG - 2018-04-21 20:47:05 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:47:05 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:47:05 --> Session routines successfully run
+DEBUG - 2018-04-21 20:47:05 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:47:05 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:05 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:05 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:05 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:05 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:05 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:05 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:05 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:05 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:05 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:05 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:05 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:05 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:05 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:05 --> Final output sent to browser
+DEBUG - 2018-04-21 20:47:05 --> Total execution time: 0.0338
+DEBUG - 2018-04-21 20:47:50 --> Config Class Initialized
+DEBUG - 2018-04-21 20:47:50 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:47:50 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:47:50 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:47:50 --> URI Class Initialized
+DEBUG - 2018-04-21 20:47:50 --> Router Class Initialized
+DEBUG - 2018-04-21 20:47:50 --> Output Class Initialized
+DEBUG - 2018-04-21 20:47:50 --> Security Class Initialized
+DEBUG - 2018-04-21 20:47:50 --> Input Class Initialized
+DEBUG - 2018-04-21 20:47:50 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:47:50 --> Language Class Initialized
+DEBUG - 2018-04-21 20:47:50 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:47:50 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:47:50 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:47:50 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:47:50 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:47:50 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:47:50 --> Session Class Initialized
+DEBUG - 2018-04-21 20:47:50 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:47:50 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:47:50 --> Session routines successfully run
+DEBUG - 2018-04-21 20:47:50 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:47:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:50 --> Final output sent to browser
+DEBUG - 2018-04-21 20:47:50 --> Total execution time: 0.0356
+DEBUG - 2018-04-21 20:47:51 --> Config Class Initialized
+DEBUG - 2018-04-21 20:47:51 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:47:51 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:47:51 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:47:51 --> URI Class Initialized
+DEBUG - 2018-04-21 20:47:51 --> Router Class Initialized
+DEBUG - 2018-04-21 20:47:51 --> Output Class Initialized
+DEBUG - 2018-04-21 20:47:51 --> Security Class Initialized
+DEBUG - 2018-04-21 20:47:51 --> Input Class Initialized
+DEBUG - 2018-04-21 20:47:51 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:47:51 --> Language Class Initialized
+DEBUG - 2018-04-21 20:47:51 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:47:51 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:47:51 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:47:51 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:47:51 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:47:51 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:47:51 --> Session Class Initialized
+DEBUG - 2018-04-21 20:47:51 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:47:51 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:47:51 --> Session routines successfully run
+DEBUG - 2018-04-21 20:47:51 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:47:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:51 --> Config Class Initialized
+DEBUG - 2018-04-21 20:47:51 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:47:51 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:47:51 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:47:51 --> URI Class Initialized
+DEBUG - 2018-04-21 20:47:51 --> Router Class Initialized
+DEBUG - 2018-04-21 20:47:51 --> Output Class Initialized
+DEBUG - 2018-04-21 20:47:51 --> Security Class Initialized
+DEBUG - 2018-04-21 20:47:51 --> Input Class Initialized
+DEBUG - 2018-04-21 20:47:51 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:47:51 --> Language Class Initialized
+DEBUG - 2018-04-21 20:47:51 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:47:51 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:47:51 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:47:51 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:47:51 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:47:51 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:47:51 --> Session Class Initialized
+DEBUG - 2018-04-21 20:47:51 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:47:51 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:47:51 --> Session routines successfully run
+DEBUG - 2018-04-21 20:47:51 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:47:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:51 --> Final output sent to browser
+DEBUG - 2018-04-21 20:47:51 --> Total execution time: 0.0348
+DEBUG - 2018-04-21 20:47:54 --> Config Class Initialized
+DEBUG - 2018-04-21 20:47:54 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:47:54 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:47:54 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:47:54 --> URI Class Initialized
+DEBUG - 2018-04-21 20:47:54 --> Router Class Initialized
+DEBUG - 2018-04-21 20:47:54 --> Output Class Initialized
+DEBUG - 2018-04-21 20:47:54 --> Security Class Initialized
+DEBUG - 2018-04-21 20:47:54 --> Input Class Initialized
+DEBUG - 2018-04-21 20:47:54 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:47:54 --> Language Class Initialized
+DEBUG - 2018-04-21 20:47:54 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:47:54 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:47:54 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:47:54 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:47:54 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:47:54 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:47:54 --> Session Class Initialized
+DEBUG - 2018-04-21 20:47:54 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:47:54 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:47:54 --> Session routines successfully run
+DEBUG - 2018-04-21 20:47:54 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:47:54 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:54 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:54 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:54 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:54 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:54 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:54 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:54 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:54 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:54 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:54 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:54 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:54 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:54 --> Model Class Initialized
+DEBUG - 2018-04-21 20:47:54 --> Final output sent to browser
+DEBUG - 2018-04-21 20:47:54 --> Total execution time: 0.0366
+DEBUG - 2018-04-21 20:48:25 --> Config Class Initialized
+DEBUG - 2018-04-21 20:48:25 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:48:25 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:48:25 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:48:25 --> URI Class Initialized
+DEBUG - 2018-04-21 20:48:25 --> Router Class Initialized
+DEBUG - 2018-04-21 20:48:25 --> Output Class Initialized
+DEBUG - 2018-04-21 20:48:25 --> Security Class Initialized
+DEBUG - 2018-04-21 20:48:25 --> Input Class Initialized
+DEBUG - 2018-04-21 20:48:25 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:48:25 --> Language Class Initialized
+DEBUG - 2018-04-21 20:48:25 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:48:25 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:48:25 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:48:25 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:48:25 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:48:25 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:48:25 --> Session Class Initialized
+DEBUG - 2018-04-21 20:48:25 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:48:25 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:48:25 --> Session routines successfully run
+DEBUG - 2018-04-21 20:48:25 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:48:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:25 --> Final output sent to browser
+DEBUG - 2018-04-21 20:48:25 --> Total execution time: 0.0459
+DEBUG - 2018-04-21 20:48:25 --> Config Class Initialized
+DEBUG - 2018-04-21 20:48:25 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:48:25 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:48:25 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:48:25 --> URI Class Initialized
+DEBUG - 2018-04-21 20:48:25 --> Router Class Initialized
+DEBUG - 2018-04-21 20:48:25 --> Output Class Initialized
+DEBUG - 2018-04-21 20:48:25 --> Security Class Initialized
+DEBUG - 2018-04-21 20:48:25 --> Input Class Initialized
+DEBUG - 2018-04-21 20:48:25 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:48:25 --> Language Class Initialized
+DEBUG - 2018-04-21 20:48:25 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:48:25 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:48:25 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:48:25 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:48:25 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:48:25 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:48:25 --> Session Class Initialized
+DEBUG - 2018-04-21 20:48:25 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:48:25 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:48:25 --> Session routines successfully run
+DEBUG - 2018-04-21 20:48:25 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:48:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:26 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:26 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:26 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:26 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:26 --> Config Class Initialized
+DEBUG - 2018-04-21 20:48:26 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:48:26 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:48:26 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:48:26 --> URI Class Initialized
+DEBUG - 2018-04-21 20:48:26 --> Router Class Initialized
+DEBUG - 2018-04-21 20:48:26 --> Output Class Initialized
+DEBUG - 2018-04-21 20:48:26 --> Security Class Initialized
+DEBUG - 2018-04-21 20:48:26 --> Input Class Initialized
+DEBUG - 2018-04-21 20:48:26 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:48:26 --> Language Class Initialized
+DEBUG - 2018-04-21 20:48:26 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:48:26 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:48:26 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:48:26 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:48:26 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:48:26 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:48:26 --> Session Class Initialized
+DEBUG - 2018-04-21 20:48:26 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:48:26 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:48:26 --> Session routines successfully run
+DEBUG - 2018-04-21 20:48:26 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:48:26 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:26 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:26 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:26 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:26 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:26 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:26 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:26 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:26 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:26 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:26 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:26 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:26 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:26 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:26 --> Final output sent to browser
+DEBUG - 2018-04-21 20:48:26 --> Total execution time: 0.0347
+DEBUG - 2018-04-21 20:48:29 --> Config Class Initialized
+DEBUG - 2018-04-21 20:48:29 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:48:29 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:48:29 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:48:29 --> URI Class Initialized
+DEBUG - 2018-04-21 20:48:29 --> Router Class Initialized
+DEBUG - 2018-04-21 20:48:29 --> Output Class Initialized
+DEBUG - 2018-04-21 20:48:29 --> Security Class Initialized
+DEBUG - 2018-04-21 20:48:29 --> Input Class Initialized
+DEBUG - 2018-04-21 20:48:29 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:48:29 --> Language Class Initialized
+DEBUG - 2018-04-21 20:48:29 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:48:29 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:48:29 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:48:29 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:48:29 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:48:29 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:48:29 --> Session Class Initialized
+DEBUG - 2018-04-21 20:48:29 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:48:29 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:48:29 --> Session routines successfully run
+DEBUG - 2018-04-21 20:48:29 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:48:29 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:29 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:29 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:29 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:29 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:29 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:29 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:29 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:29 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:29 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:29 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:29 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:29 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:29 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:29 --> Final output sent to browser
+DEBUG - 2018-04-21 20:48:29 --> Total execution time: 0.0338
+DEBUG - 2018-04-21 20:48:37 --> Config Class Initialized
+DEBUG - 2018-04-21 20:48:37 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:48:37 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:48:37 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:48:37 --> URI Class Initialized
+DEBUG - 2018-04-21 20:48:37 --> Router Class Initialized
+DEBUG - 2018-04-21 20:48:37 --> Output Class Initialized
+DEBUG - 2018-04-21 20:48:37 --> Security Class Initialized
+DEBUG - 2018-04-21 20:48:37 --> Input Class Initialized
+DEBUG - 2018-04-21 20:48:37 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:48:37 --> Language Class Initialized
+DEBUG - 2018-04-21 20:48:37 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:48:37 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:48:37 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:48:37 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:48:37 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:48:37 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:48:37 --> Session Class Initialized
+DEBUG - 2018-04-21 20:48:37 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:48:37 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:48:37 --> Session routines successfully run
+DEBUG - 2018-04-21 20:48:37 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:48:37 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:37 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:37 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:37 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:37 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:37 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:37 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:37 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:37 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:37 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:37 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:37 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:37 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:37 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:37 --> Final output sent to browser
+DEBUG - 2018-04-21 20:48:37 --> Total execution time: 0.0349
+DEBUG - 2018-04-21 20:48:37 --> Config Class Initialized
+DEBUG - 2018-04-21 20:48:37 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:48:37 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:48:37 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:48:37 --> URI Class Initialized
+DEBUG - 2018-04-21 20:48:37 --> Router Class Initialized
+DEBUG - 2018-04-21 20:48:37 --> Output Class Initialized
+DEBUG - 2018-04-21 20:48:37 --> Security Class Initialized
+DEBUG - 2018-04-21 20:48:37 --> Input Class Initialized
+DEBUG - 2018-04-21 20:48:37 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:48:37 --> Language Class Initialized
+DEBUG - 2018-04-21 20:48:37 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:48:37 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:48:37 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:48:37 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:48:37 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:48:37 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:48:37 --> Session Class Initialized
+DEBUG - 2018-04-21 20:48:37 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:48:37 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:48:37 --> Session routines successfully run
+DEBUG - 2018-04-21 20:48:37 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:48:37 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:37 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:37 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:37 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:37 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:37 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:37 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:37 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:37 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:37 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:37 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:37 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:37 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:37 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:38 --> Config Class Initialized
+DEBUG - 2018-04-21 20:48:38 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:48:38 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:48:38 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:48:38 --> URI Class Initialized
+DEBUG - 2018-04-21 20:48:38 --> Router Class Initialized
+DEBUG - 2018-04-21 20:48:38 --> Output Class Initialized
+DEBUG - 2018-04-21 20:48:38 --> Security Class Initialized
+DEBUG - 2018-04-21 20:48:38 --> Input Class Initialized
+DEBUG - 2018-04-21 20:48:38 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:48:38 --> Language Class Initialized
+DEBUG - 2018-04-21 20:48:38 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:48:38 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:48:38 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:48:38 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:48:38 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:48:38 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:48:38 --> Session Class Initialized
+DEBUG - 2018-04-21 20:48:38 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:48:38 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:48:38 --> Session routines successfully run
+DEBUG - 2018-04-21 20:48:38 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:48:38 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:38 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:38 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:38 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:38 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:38 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:38 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:38 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:38 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:38 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:38 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:38 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:38 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:38 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:38 --> Final output sent to browser
+DEBUG - 2018-04-21 20:48:38 --> Total execution time: 0.0370
+DEBUG - 2018-04-21 20:48:40 --> Config Class Initialized
+DEBUG - 2018-04-21 20:48:40 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:48:40 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:48:40 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:48:40 --> URI Class Initialized
+DEBUG - 2018-04-21 20:48:40 --> Router Class Initialized
+DEBUG - 2018-04-21 20:48:40 --> Output Class Initialized
+DEBUG - 2018-04-21 20:48:40 --> Security Class Initialized
+DEBUG - 2018-04-21 20:48:40 --> Input Class Initialized
+DEBUG - 2018-04-21 20:48:40 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:48:40 --> Language Class Initialized
+DEBUG - 2018-04-21 20:48:40 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:48:40 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:48:40 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:48:40 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:48:40 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:48:40 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:48:40 --> Session Class Initialized
+DEBUG - 2018-04-21 20:48:40 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:48:40 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:48:40 --> Session routines successfully run
+DEBUG - 2018-04-21 20:48:40 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:48:40 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:40 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:40 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:40 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:40 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:40 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:40 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:40 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:40 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:40 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:40 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:40 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:40 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:40 --> Model Class Initialized
+DEBUG - 2018-04-21 20:48:40 --> Final output sent to browser
+DEBUG - 2018-04-21 20:48:40 --> Total execution time: 0.0351
+DEBUG - 2018-04-21 20:49:14 --> Config Class Initialized
+DEBUG - 2018-04-21 20:49:14 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:49:14 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:49:14 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:49:14 --> URI Class Initialized
+DEBUG - 2018-04-21 20:49:14 --> Router Class Initialized
+DEBUG - 2018-04-21 20:49:14 --> Output Class Initialized
+DEBUG - 2018-04-21 20:49:14 --> Security Class Initialized
+DEBUG - 2018-04-21 20:49:14 --> Input Class Initialized
+DEBUG - 2018-04-21 20:49:14 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:49:14 --> Language Class Initialized
+DEBUG - 2018-04-21 20:49:14 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:49:14 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:49:14 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:49:14 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:49:14 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:49:14 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:49:14 --> Session Class Initialized
+DEBUG - 2018-04-21 20:49:14 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:49:14 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:49:14 --> Session routines successfully run
+DEBUG - 2018-04-21 20:49:14 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:49:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:14 --> Final output sent to browser
+DEBUG - 2018-04-21 20:49:14 --> Total execution time: 0.0619
+DEBUG - 2018-04-21 20:49:15 --> Config Class Initialized
+DEBUG - 2018-04-21 20:49:15 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:49:15 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:49:15 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:49:15 --> URI Class Initialized
+DEBUG - 2018-04-21 20:49:15 --> Router Class Initialized
+DEBUG - 2018-04-21 20:49:15 --> Output Class Initialized
+DEBUG - 2018-04-21 20:49:15 --> Security Class Initialized
+DEBUG - 2018-04-21 20:49:15 --> Input Class Initialized
+DEBUG - 2018-04-21 20:49:15 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:49:15 --> Language Class Initialized
+DEBUG - 2018-04-21 20:49:15 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:49:15 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:49:15 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:49:15 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:49:15 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:49:15 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:49:15 --> Session Class Initialized
+DEBUG - 2018-04-21 20:49:15 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:49:15 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:49:15 --> Session routines successfully run
+DEBUG - 2018-04-21 20:49:15 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:49:15 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:15 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:15 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:15 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:15 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:15 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:15 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:15 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:15 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:15 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:15 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:15 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:15 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:15 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:15 --> Config Class Initialized
+DEBUG - 2018-04-21 20:49:15 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:49:15 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:49:15 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:49:15 --> URI Class Initialized
+DEBUG - 2018-04-21 20:49:15 --> Router Class Initialized
+DEBUG - 2018-04-21 20:49:15 --> Output Class Initialized
+DEBUG - 2018-04-21 20:49:15 --> Security Class Initialized
+DEBUG - 2018-04-21 20:49:15 --> Input Class Initialized
+DEBUG - 2018-04-21 20:49:15 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:49:15 --> Language Class Initialized
+DEBUG - 2018-04-21 20:49:15 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:49:15 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:49:15 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:49:15 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:49:15 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:49:15 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:49:15 --> Session Class Initialized
+DEBUG - 2018-04-21 20:49:15 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:49:15 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:49:15 --> Session routines successfully run
+DEBUG - 2018-04-21 20:49:15 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:49:15 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:15 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:15 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:15 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:15 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:15 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:15 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:15 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:15 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:15 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:15 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:15 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:15 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:15 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:15 --> Final output sent to browser
+DEBUG - 2018-04-21 20:49:15 --> Total execution time: 0.0349
+DEBUG - 2018-04-21 20:49:17 --> Config Class Initialized
+DEBUG - 2018-04-21 20:49:17 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:49:17 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:49:17 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:49:17 --> URI Class Initialized
+DEBUG - 2018-04-21 20:49:17 --> Router Class Initialized
+DEBUG - 2018-04-21 20:49:17 --> Output Class Initialized
+DEBUG - 2018-04-21 20:49:17 --> Security Class Initialized
+DEBUG - 2018-04-21 20:49:17 --> Input Class Initialized
+DEBUG - 2018-04-21 20:49:17 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:49:17 --> Language Class Initialized
+DEBUG - 2018-04-21 20:49:17 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:49:17 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:49:17 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:49:17 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:49:17 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:49:17 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:49:17 --> Session Class Initialized
+DEBUG - 2018-04-21 20:49:17 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:49:17 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:49:17 --> Session routines successfully run
+DEBUG - 2018-04-21 20:49:17 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:49:17 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:17 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:17 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:17 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:17 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:17 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:17 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:17 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:17 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:17 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:17 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:17 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:17 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:17 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:17 --> Final output sent to browser
+DEBUG - 2018-04-21 20:49:17 --> Total execution time: 0.0575
+DEBUG - 2018-04-21 20:49:54 --> Config Class Initialized
+DEBUG - 2018-04-21 20:49:54 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:49:54 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:49:54 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:49:54 --> URI Class Initialized
+DEBUG - 2018-04-21 20:49:54 --> Router Class Initialized
+DEBUG - 2018-04-21 20:49:54 --> Output Class Initialized
+DEBUG - 2018-04-21 20:49:54 --> Security Class Initialized
+DEBUG - 2018-04-21 20:49:54 --> Input Class Initialized
+DEBUG - 2018-04-21 20:49:54 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:49:54 --> Language Class Initialized
+DEBUG - 2018-04-21 20:49:54 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:49:54 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:49:54 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:49:54 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:49:54 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:49:54 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:49:54 --> Session Class Initialized
+DEBUG - 2018-04-21 20:49:54 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:49:54 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:49:54 --> Session routines successfully run
+DEBUG - 2018-04-21 20:49:54 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:49:54 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:54 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:54 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:54 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:54 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:54 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:54 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:54 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:54 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:54 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:54 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:54 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:54 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:54 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:54 --> Final output sent to browser
+DEBUG - 2018-04-21 20:49:54 --> Total execution time: 0.0324
+DEBUG - 2018-04-21 20:49:55 --> Config Class Initialized
+DEBUG - 2018-04-21 20:49:55 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:49:55 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:49:55 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:49:55 --> URI Class Initialized
+DEBUG - 2018-04-21 20:49:55 --> Router Class Initialized
+DEBUG - 2018-04-21 20:49:55 --> Output Class Initialized
+DEBUG - 2018-04-21 20:49:55 --> Security Class Initialized
+DEBUG - 2018-04-21 20:49:55 --> Input Class Initialized
+DEBUG - 2018-04-21 20:49:55 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:49:55 --> Language Class Initialized
+DEBUG - 2018-04-21 20:49:55 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:49:55 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:49:55 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:49:55 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:49:55 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:49:55 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:49:55 --> Session Class Initialized
+DEBUG - 2018-04-21 20:49:55 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:49:55 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:49:55 --> Session routines successfully run
+DEBUG - 2018-04-21 20:49:55 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:49:55 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:55 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:55 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:55 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:55 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:55 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:55 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:55 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:55 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:55 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:55 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:55 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:55 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:55 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:55 --> Config Class Initialized
+DEBUG - 2018-04-21 20:49:55 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:49:55 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:49:55 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:49:55 --> URI Class Initialized
+DEBUG - 2018-04-21 20:49:55 --> Router Class Initialized
+DEBUG - 2018-04-21 20:49:55 --> Output Class Initialized
+DEBUG - 2018-04-21 20:49:55 --> Security Class Initialized
+DEBUG - 2018-04-21 20:49:55 --> Input Class Initialized
+DEBUG - 2018-04-21 20:49:55 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:49:55 --> Language Class Initialized
+DEBUG - 2018-04-21 20:49:55 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:49:55 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:49:55 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:49:55 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:49:55 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:49:55 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:49:55 --> Session Class Initialized
+DEBUG - 2018-04-21 20:49:55 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:49:55 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:49:55 --> Session routines successfully run
+DEBUG - 2018-04-21 20:49:55 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:49:55 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:55 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:55 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:55 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:55 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:55 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:55 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:55 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:55 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:55 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:55 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:55 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:55 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:55 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:55 --> Final output sent to browser
+DEBUG - 2018-04-21 20:49:55 --> Total execution time: 0.0340
+DEBUG - 2018-04-21 20:49:57 --> Config Class Initialized
+DEBUG - 2018-04-21 20:49:57 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:49:57 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:49:57 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:49:57 --> URI Class Initialized
+DEBUG - 2018-04-21 20:49:57 --> Router Class Initialized
+DEBUG - 2018-04-21 20:49:57 --> Output Class Initialized
+DEBUG - 2018-04-21 20:49:57 --> Security Class Initialized
+DEBUG - 2018-04-21 20:49:57 --> Input Class Initialized
+DEBUG - 2018-04-21 20:49:57 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:49:57 --> Language Class Initialized
+DEBUG - 2018-04-21 20:49:57 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:49:57 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:49:57 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:49:57 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:49:57 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:49:57 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:49:57 --> Session Class Initialized
+DEBUG - 2018-04-21 20:49:57 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:49:57 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:49:57 --> Session routines successfully run
+DEBUG - 2018-04-21 20:49:57 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:49:57 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:57 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:57 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:57 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:57 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:57 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:57 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:57 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:57 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:57 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:57 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:57 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:57 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:57 --> Model Class Initialized
+DEBUG - 2018-04-21 20:49:57 --> Final output sent to browser
+DEBUG - 2018-04-21 20:49:57 --> Total execution time: 0.0480
+DEBUG - 2018-04-21 20:50:04 --> Config Class Initialized
+DEBUG - 2018-04-21 20:50:04 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:50:04 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:50:04 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:50:04 --> URI Class Initialized
+DEBUG - 2018-04-21 20:50:04 --> Router Class Initialized
+DEBUG - 2018-04-21 20:50:04 --> Output Class Initialized
+DEBUG - 2018-04-21 20:50:04 --> Security Class Initialized
+DEBUG - 2018-04-21 20:50:04 --> Input Class Initialized
+DEBUG - 2018-04-21 20:50:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:50:04 --> Language Class Initialized
+DEBUG - 2018-04-21 20:50:04 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:50:04 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:50:04 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:50:04 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:50:04 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:50:04 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:50:04 --> Session Class Initialized
+DEBUG - 2018-04-21 20:50:04 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:50:04 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:50:04 --> Session routines successfully run
+DEBUG - 2018-04-21 20:50:04 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:50:04 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:04 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:04 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:04 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:04 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:04 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:04 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:04 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:04 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:04 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:04 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:04 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:04 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:04 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:04 --> Final output sent to browser
+DEBUG - 2018-04-21 20:50:04 --> Total execution time: 0.0369
+DEBUG - 2018-04-21 20:50:04 --> Config Class Initialized
+DEBUG - 2018-04-21 20:50:04 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:50:04 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:50:04 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:50:04 --> URI Class Initialized
+DEBUG - 2018-04-21 20:50:04 --> Router Class Initialized
+DEBUG - 2018-04-21 20:50:04 --> Output Class Initialized
+DEBUG - 2018-04-21 20:50:04 --> Security Class Initialized
+DEBUG - 2018-04-21 20:50:04 --> Input Class Initialized
+DEBUG - 2018-04-21 20:50:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:50:04 --> Language Class Initialized
+DEBUG - 2018-04-21 20:50:04 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:50:04 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:50:04 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:50:04 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:50:04 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:50:04 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:50:04 --> Session Class Initialized
+DEBUG - 2018-04-21 20:50:04 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:50:04 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:50:04 --> Session routines successfully run
+DEBUG - 2018-04-21 20:50:04 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:50:04 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:04 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:04 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:04 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:04 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:04 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:04 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:04 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:04 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:04 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:04 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:04 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:04 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:04 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:05 --> Config Class Initialized
+DEBUG - 2018-04-21 20:50:05 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:50:05 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:50:05 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:50:05 --> URI Class Initialized
+DEBUG - 2018-04-21 20:50:05 --> Router Class Initialized
+DEBUG - 2018-04-21 20:50:05 --> Output Class Initialized
+DEBUG - 2018-04-21 20:50:05 --> Security Class Initialized
+DEBUG - 2018-04-21 20:50:05 --> Input Class Initialized
+DEBUG - 2018-04-21 20:50:05 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:50:05 --> Language Class Initialized
+DEBUG - 2018-04-21 20:50:05 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:50:05 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:50:05 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:50:05 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:50:05 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:50:05 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:50:05 --> Session Class Initialized
+DEBUG - 2018-04-21 20:50:05 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:50:05 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:50:05 --> Session routines successfully run
+DEBUG - 2018-04-21 20:50:05 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:50:05 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:05 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:05 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:05 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:05 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:05 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:05 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:05 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:05 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:05 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:05 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:05 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:05 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:05 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:05 --> Final output sent to browser
+DEBUG - 2018-04-21 20:50:05 --> Total execution time: 0.0555
+DEBUG - 2018-04-21 20:50:08 --> Config Class Initialized
+DEBUG - 2018-04-21 20:50:08 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:50:08 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:50:08 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:50:08 --> URI Class Initialized
+DEBUG - 2018-04-21 20:50:08 --> Router Class Initialized
+DEBUG - 2018-04-21 20:50:08 --> Output Class Initialized
+DEBUG - 2018-04-21 20:50:08 --> Security Class Initialized
+DEBUG - 2018-04-21 20:50:08 --> Input Class Initialized
+DEBUG - 2018-04-21 20:50:08 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:50:08 --> Language Class Initialized
+DEBUG - 2018-04-21 20:50:08 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:50:08 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:50:08 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:50:08 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:50:08 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:50:08 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:50:08 --> Session Class Initialized
+DEBUG - 2018-04-21 20:50:08 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:50:08 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:50:08 --> Session routines successfully run
+DEBUG - 2018-04-21 20:50:08 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:50:08 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:08 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:08 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:08 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:08 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:08 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:08 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:08 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:08 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:08 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:08 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:08 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:08 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:08 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:08 --> Final output sent to browser
+DEBUG - 2018-04-21 20:50:08 --> Total execution time: 0.0360
+DEBUG - 2018-04-21 20:50:23 --> Config Class Initialized
+DEBUG - 2018-04-21 20:50:23 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:50:23 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:50:23 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:50:23 --> URI Class Initialized
+DEBUG - 2018-04-21 20:50:23 --> Router Class Initialized
+DEBUG - 2018-04-21 20:50:23 --> Output Class Initialized
+DEBUG - 2018-04-21 20:50:23 --> Security Class Initialized
+DEBUG - 2018-04-21 20:50:23 --> Input Class Initialized
+DEBUG - 2018-04-21 20:50:23 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:50:23 --> Language Class Initialized
+DEBUG - 2018-04-21 20:50:23 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:50:23 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:50:23 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:50:23 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:50:23 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:50:23 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:50:23 --> Session Class Initialized
+DEBUG - 2018-04-21 20:50:23 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:50:23 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:50:23 --> Session routines successfully run
+DEBUG - 2018-04-21 20:50:23 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:50:23 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:23 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:23 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:23 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:23 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:23 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:23 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:23 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:23 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:23 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:23 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:23 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:23 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:23 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:23 --> Final output sent to browser
+DEBUG - 2018-04-21 20:50:23 --> Total execution time: 0.0346
+DEBUG - 2018-04-21 20:50:24 --> Config Class Initialized
+DEBUG - 2018-04-21 20:50:24 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:50:24 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:50:24 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:50:24 --> URI Class Initialized
+DEBUG - 2018-04-21 20:50:24 --> Router Class Initialized
+DEBUG - 2018-04-21 20:50:24 --> Output Class Initialized
+DEBUG - 2018-04-21 20:50:24 --> Security Class Initialized
+DEBUG - 2018-04-21 20:50:24 --> Input Class Initialized
+DEBUG - 2018-04-21 20:50:24 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:50:24 --> Language Class Initialized
+DEBUG - 2018-04-21 20:50:24 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:50:24 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:50:24 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:50:24 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:50:24 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:50:24 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:50:24 --> Session Class Initialized
+DEBUG - 2018-04-21 20:50:24 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:50:24 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:50:24 --> Session routines successfully run
+DEBUG - 2018-04-21 20:50:24 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:50:24 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:24 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:24 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:24 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:24 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:24 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:24 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:24 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:24 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:24 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:24 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:24 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:24 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:24 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:24 --> Config Class Initialized
+DEBUG - 2018-04-21 20:50:24 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:50:24 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:50:24 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:50:24 --> URI Class Initialized
+DEBUG - 2018-04-21 20:50:24 --> Router Class Initialized
+DEBUG - 2018-04-21 20:50:24 --> Output Class Initialized
+DEBUG - 2018-04-21 20:50:24 --> Security Class Initialized
+DEBUG - 2018-04-21 20:50:24 --> Input Class Initialized
+DEBUG - 2018-04-21 20:50:24 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:50:24 --> Language Class Initialized
+DEBUG - 2018-04-21 20:50:24 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:50:24 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:50:24 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:50:24 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:50:24 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:50:24 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:50:24 --> Session Class Initialized
+DEBUG - 2018-04-21 20:50:24 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:50:24 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:50:24 --> Session routines successfully run
+DEBUG - 2018-04-21 20:50:24 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:50:24 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:24 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:24 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:24 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:24 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:24 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:24 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:24 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:24 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:24 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:24 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:24 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:24 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:24 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:24 --> Final output sent to browser
+DEBUG - 2018-04-21 20:50:24 --> Total execution time: 0.0530
+DEBUG - 2018-04-21 20:50:27 --> Config Class Initialized
+DEBUG - 2018-04-21 20:50:27 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:50:27 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:50:27 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:50:27 --> URI Class Initialized
+DEBUG - 2018-04-21 20:50:27 --> Router Class Initialized
+DEBUG - 2018-04-21 20:50:27 --> Output Class Initialized
+DEBUG - 2018-04-21 20:50:27 --> Security Class Initialized
+DEBUG - 2018-04-21 20:50:27 --> Input Class Initialized
+DEBUG - 2018-04-21 20:50:27 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:50:27 --> Language Class Initialized
+DEBUG - 2018-04-21 20:50:27 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:50:27 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:50:27 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:50:27 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:50:27 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:50:27 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:50:27 --> Session Class Initialized
+DEBUG - 2018-04-21 20:50:27 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:50:27 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:50:27 --> Session routines successfully run
+DEBUG - 2018-04-21 20:50:27 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:50:27 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:27 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:27 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:27 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:27 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:27 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:27 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:27 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:27 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:27 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:27 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:27 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:27 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:27 --> Model Class Initialized
+DEBUG - 2018-04-21 20:50:27 --> Final output sent to browser
+DEBUG - 2018-04-21 20:50:27 --> Total execution time: 0.0335
+DEBUG - 2018-04-21 20:51:13 --> Config Class Initialized
+DEBUG - 2018-04-21 20:51:13 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:51:13 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:51:13 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:51:13 --> URI Class Initialized
+DEBUG - 2018-04-21 20:51:13 --> Router Class Initialized
+DEBUG - 2018-04-21 20:51:13 --> Output Class Initialized
+DEBUG - 2018-04-21 20:51:13 --> Security Class Initialized
+DEBUG - 2018-04-21 20:51:13 --> Input Class Initialized
+DEBUG - 2018-04-21 20:51:13 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:51:13 --> Language Class Initialized
+DEBUG - 2018-04-21 20:51:13 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:51:13 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:51:13 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:51:13 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:51:13 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:51:13 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:51:13 --> Session Class Initialized
+DEBUG - 2018-04-21 20:51:13 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:51:13 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:51:13 --> Session routines successfully run
+DEBUG - 2018-04-21 20:51:13 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:51:13 --> Model Class Initialized
+DEBUG - 2018-04-21 20:51:13 --> Model Class Initialized
+DEBUG - 2018-04-21 20:51:13 --> Model Class Initialized
+DEBUG - 2018-04-21 20:51:13 --> Model Class Initialized
+DEBUG - 2018-04-21 20:51:13 --> Model Class Initialized
+DEBUG - 2018-04-21 20:51:13 --> Model Class Initialized
+DEBUG - 2018-04-21 20:51:13 --> Model Class Initialized
+DEBUG - 2018-04-21 20:51:13 --> Model Class Initialized
+DEBUG - 2018-04-21 20:51:13 --> Model Class Initialized
+DEBUG - 2018-04-21 20:51:13 --> Model Class Initialized
+DEBUG - 2018-04-21 20:51:13 --> Model Class Initialized
+DEBUG - 2018-04-21 20:51:13 --> Model Class Initialized
+DEBUG - 2018-04-21 20:51:13 --> Model Class Initialized
+DEBUG - 2018-04-21 20:51:13 --> Model Class Initialized
+DEBUG - 2018-04-21 20:51:13 --> Final output sent to browser
+DEBUG - 2018-04-21 20:51:13 --> Total execution time: 0.0335
+DEBUG - 2018-04-21 20:51:13 --> Config Class Initialized
+DEBUG - 2018-04-21 20:51:13 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:51:13 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:51:13 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:51:13 --> URI Class Initialized
+DEBUG - 2018-04-21 20:51:13 --> Router Class Initialized
+DEBUG - 2018-04-21 20:51:13 --> Output Class Initialized
+DEBUG - 2018-04-21 20:51:13 --> Security Class Initialized
+DEBUG - 2018-04-21 20:51:13 --> Input Class Initialized
+DEBUG - 2018-04-21 20:51:13 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:51:13 --> Language Class Initialized
+DEBUG - 2018-04-21 20:51:13 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:51:13 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:51:13 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:51:13 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:51:13 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:51:13 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:51:13 --> Session Class Initialized
+DEBUG - 2018-04-21 20:51:13 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:51:13 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:51:13 --> Session routines successfully run
+DEBUG - 2018-04-21 20:51:13 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:51:13 --> Model Class Initialized
+DEBUG - 2018-04-21 20:51:13 --> Model Class Initialized
+DEBUG - 2018-04-21 20:51:13 --> Model Class Initialized
+DEBUG - 2018-04-21 20:51:13 --> Model Class Initialized
+DEBUG - 2018-04-21 20:51:13 --> Model Class Initialized
+DEBUG - 2018-04-21 20:51:13 --> Model Class Initialized
+DEBUG - 2018-04-21 20:51:13 --> Model Class Initialized
+DEBUG - 2018-04-21 20:51:13 --> Model Class Initialized
+DEBUG - 2018-04-21 20:51:13 --> Model Class Initialized
+DEBUG - 2018-04-21 20:51:13 --> Model Class Initialized
+DEBUG - 2018-04-21 20:51:13 --> Model Class Initialized
+DEBUG - 2018-04-21 20:51:13 --> Model Class Initialized
+DEBUG - 2018-04-21 20:51:13 --> Model Class Initialized
+DEBUG - 2018-04-21 20:51:13 --> Model Class Initialized
+DEBUG - 2018-04-21 20:51:14 --> Config Class Initialized
+DEBUG - 2018-04-21 20:51:14 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:51:14 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:51:14 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:51:14 --> URI Class Initialized
+DEBUG - 2018-04-21 20:51:14 --> Router Class Initialized
+DEBUG - 2018-04-21 20:51:14 --> Output Class Initialized
+DEBUG - 2018-04-21 20:51:14 --> Security Class Initialized
+DEBUG - 2018-04-21 20:51:14 --> Input Class Initialized
+DEBUG - 2018-04-21 20:51:14 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:51:14 --> Language Class Initialized
+DEBUG - 2018-04-21 20:51:14 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:51:14 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:51:14 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:51:14 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:51:14 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:51:14 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:51:14 --> Session Class Initialized
+DEBUG - 2018-04-21 20:51:14 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:51:14 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:51:14 --> Session routines successfully run
+DEBUG - 2018-04-21 20:51:14 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:51:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:51:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:51:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:51:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:51:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:51:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:51:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:51:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:51:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:51:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:51:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:51:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:51:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:51:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:51:14 --> Final output sent to browser
+DEBUG - 2018-04-21 20:51:14 --> Total execution time: 0.0354
+DEBUG - 2018-04-21 20:51:16 --> Config Class Initialized
+DEBUG - 2018-04-21 20:51:16 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:51:16 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:51:16 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:51:16 --> URI Class Initialized
+DEBUG - 2018-04-21 20:51:16 --> Router Class Initialized
+DEBUG - 2018-04-21 20:51:16 --> Output Class Initialized
+DEBUG - 2018-04-21 20:51:16 --> Security Class Initialized
+DEBUG - 2018-04-21 20:51:16 --> Input Class Initialized
+DEBUG - 2018-04-21 20:51:16 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:51:16 --> Language Class Initialized
+DEBUG - 2018-04-21 20:51:16 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:51:16 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:51:16 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:51:16 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:51:16 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:51:16 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:51:16 --> Session Class Initialized
+DEBUG - 2018-04-21 20:51:16 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:51:16 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:51:16 --> Session routines successfully run
+DEBUG - 2018-04-21 20:51:16 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:51:16 --> Model Class Initialized
+DEBUG - 2018-04-21 20:51:16 --> Model Class Initialized
+DEBUG - 2018-04-21 20:51:16 --> Model Class Initialized
+DEBUG - 2018-04-21 20:51:16 --> Model Class Initialized
+DEBUG - 2018-04-21 20:51:16 --> Model Class Initialized
+DEBUG - 2018-04-21 20:51:16 --> Model Class Initialized
+DEBUG - 2018-04-21 20:51:16 --> Model Class Initialized
+DEBUG - 2018-04-21 20:51:16 --> Model Class Initialized
+DEBUG - 2018-04-21 20:51:16 --> Model Class Initialized
+DEBUG - 2018-04-21 20:51:16 --> Model Class Initialized
+DEBUG - 2018-04-21 20:51:16 --> Model Class Initialized
+DEBUG - 2018-04-21 20:51:16 --> Model Class Initialized
+DEBUG - 2018-04-21 20:51:16 --> Model Class Initialized
+DEBUG - 2018-04-21 20:51:16 --> Model Class Initialized
+DEBUG - 2018-04-21 20:51:16 --> Final output sent to browser
+DEBUG - 2018-04-21 20:51:16 --> Total execution time: 0.0364
+DEBUG - 2018-04-21 20:52:24 --> Config Class Initialized
+DEBUG - 2018-04-21 20:52:24 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:52:24 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:52:24 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:52:24 --> URI Class Initialized
+DEBUG - 2018-04-21 20:52:24 --> Router Class Initialized
+DEBUG - 2018-04-21 20:52:24 --> Output Class Initialized
+DEBUG - 2018-04-21 20:52:24 --> Security Class Initialized
+DEBUG - 2018-04-21 20:52:24 --> Input Class Initialized
+DEBUG - 2018-04-21 20:52:24 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:52:24 --> Language Class Initialized
+DEBUG - 2018-04-21 20:52:24 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:52:24 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:52:24 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:52:24 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:52:24 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:52:24 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:52:24 --> Session Class Initialized
+DEBUG - 2018-04-21 20:52:24 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:52:24 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:52:24 --> Session routines successfully run
+DEBUG - 2018-04-21 20:52:24 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:52:24 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:24 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:24 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:24 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:24 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:24 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:24 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:24 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:24 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:24 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:24 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:24 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:24 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:24 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:24 --> Final output sent to browser
+DEBUG - 2018-04-21 20:52:24 --> Total execution time: 0.0342
+DEBUG - 2018-04-21 20:52:25 --> Config Class Initialized
+DEBUG - 2018-04-21 20:52:25 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:52:25 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:52:25 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:52:25 --> URI Class Initialized
+DEBUG - 2018-04-21 20:52:25 --> Router Class Initialized
+DEBUG - 2018-04-21 20:52:25 --> Output Class Initialized
+DEBUG - 2018-04-21 20:52:25 --> Security Class Initialized
+DEBUG - 2018-04-21 20:52:25 --> Input Class Initialized
+DEBUG - 2018-04-21 20:52:25 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:52:25 --> Language Class Initialized
+DEBUG - 2018-04-21 20:52:25 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:52:25 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:52:25 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:52:25 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:52:25 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:52:25 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:52:25 --> Session Class Initialized
+DEBUG - 2018-04-21 20:52:25 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:52:25 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:52:25 --> Session routines successfully run
+DEBUG - 2018-04-21 20:52:25 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:52:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:25 --> Config Class Initialized
+DEBUG - 2018-04-21 20:52:25 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:52:25 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:52:25 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:52:25 --> URI Class Initialized
+DEBUG - 2018-04-21 20:52:25 --> Router Class Initialized
+DEBUG - 2018-04-21 20:52:25 --> Output Class Initialized
+DEBUG - 2018-04-21 20:52:25 --> Security Class Initialized
+DEBUG - 2018-04-21 20:52:25 --> Input Class Initialized
+DEBUG - 2018-04-21 20:52:25 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:52:25 --> Language Class Initialized
+DEBUG - 2018-04-21 20:52:25 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:52:25 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:52:25 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:52:25 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:52:25 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:52:25 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:52:25 --> Session Class Initialized
+DEBUG - 2018-04-21 20:52:25 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:52:25 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:52:25 --> Session routines successfully run
+DEBUG - 2018-04-21 20:52:25 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:52:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:25 --> Final output sent to browser
+DEBUG - 2018-04-21 20:52:25 --> Total execution time: 0.0352
+DEBUG - 2018-04-21 20:52:27 --> Config Class Initialized
+DEBUG - 2018-04-21 20:52:27 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:52:27 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:52:27 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:52:27 --> URI Class Initialized
+DEBUG - 2018-04-21 20:52:27 --> Router Class Initialized
+DEBUG - 2018-04-21 20:52:27 --> Output Class Initialized
+DEBUG - 2018-04-21 20:52:27 --> Security Class Initialized
+DEBUG - 2018-04-21 20:52:27 --> Input Class Initialized
+DEBUG - 2018-04-21 20:52:27 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:52:27 --> Language Class Initialized
+DEBUG - 2018-04-21 20:52:27 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:52:27 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:52:27 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:52:27 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:52:27 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:52:27 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:52:27 --> Session Class Initialized
+DEBUG - 2018-04-21 20:52:27 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:52:27 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:52:27 --> Session routines successfully run
+DEBUG - 2018-04-21 20:52:27 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:52:27 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:27 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:27 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:27 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:27 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:27 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:27 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:27 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:27 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:27 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:27 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:27 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:27 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:27 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:27 --> Final output sent to browser
+DEBUG - 2018-04-21 20:52:27 --> Total execution time: 0.0340
+DEBUG - 2018-04-21 20:52:51 --> Config Class Initialized
+DEBUG - 2018-04-21 20:52:51 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:52:51 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:52:51 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:52:51 --> URI Class Initialized
+DEBUG - 2018-04-21 20:52:51 --> Router Class Initialized
+DEBUG - 2018-04-21 20:52:51 --> Output Class Initialized
+DEBUG - 2018-04-21 20:52:51 --> Security Class Initialized
+DEBUG - 2018-04-21 20:52:51 --> Input Class Initialized
+DEBUG - 2018-04-21 20:52:51 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:52:51 --> Language Class Initialized
+DEBUG - 2018-04-21 20:52:51 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:52:51 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:52:51 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:52:51 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:52:51 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:52:51 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:52:51 --> Session Class Initialized
+DEBUG - 2018-04-21 20:52:51 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:52:51 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:52:51 --> Session routines successfully run
+DEBUG - 2018-04-21 20:52:51 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:52:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:51 --> Final output sent to browser
+DEBUG - 2018-04-21 20:52:51 --> Total execution time: 0.0496
+DEBUG - 2018-04-21 20:52:52 --> Config Class Initialized
+DEBUG - 2018-04-21 20:52:52 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:52:52 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:52:52 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:52:52 --> URI Class Initialized
+DEBUG - 2018-04-21 20:52:52 --> Router Class Initialized
+DEBUG - 2018-04-21 20:52:52 --> Output Class Initialized
+DEBUG - 2018-04-21 20:52:52 --> Security Class Initialized
+DEBUG - 2018-04-21 20:52:52 --> Input Class Initialized
+DEBUG - 2018-04-21 20:52:52 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:52:52 --> Language Class Initialized
+DEBUG - 2018-04-21 20:52:52 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:52:52 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:52:52 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:52:52 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:52:52 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:52:52 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:52:52 --> Session Class Initialized
+DEBUG - 2018-04-21 20:52:52 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:52:52 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:52:52 --> Session routines successfully run
+DEBUG - 2018-04-21 20:52:52 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:52:52 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:52 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:52 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:52 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:52 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:52 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:52 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:52 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:52 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:52 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:52 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:52 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:52 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:52 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:52 --> Config Class Initialized
+DEBUG - 2018-04-21 20:52:52 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:52:52 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:52:52 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:52:52 --> URI Class Initialized
+DEBUG - 2018-04-21 20:52:52 --> Router Class Initialized
+DEBUG - 2018-04-21 20:52:52 --> Output Class Initialized
+DEBUG - 2018-04-21 20:52:52 --> Security Class Initialized
+DEBUG - 2018-04-21 20:52:52 --> Input Class Initialized
+DEBUG - 2018-04-21 20:52:52 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:52:52 --> Language Class Initialized
+DEBUG - 2018-04-21 20:52:52 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:52:52 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:52:52 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:52:52 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:52:52 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:52:52 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:52:52 --> Session Class Initialized
+DEBUG - 2018-04-21 20:52:52 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:52:52 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:52:52 --> Session routines successfully run
+DEBUG - 2018-04-21 20:52:52 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:52:52 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:52 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:52 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:52 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:52 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:52 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:52 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:52 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:52 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:52 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:52 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:52 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:52 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:52 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:52 --> Final output sent to browser
+DEBUG - 2018-04-21 20:52:52 --> Total execution time: 0.0548
+DEBUG - 2018-04-21 20:52:55 --> Config Class Initialized
+DEBUG - 2018-04-21 20:52:55 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:52:55 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:52:55 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:52:55 --> URI Class Initialized
+DEBUG - 2018-04-21 20:52:55 --> Router Class Initialized
+DEBUG - 2018-04-21 20:52:55 --> Output Class Initialized
+DEBUG - 2018-04-21 20:52:55 --> Security Class Initialized
+DEBUG - 2018-04-21 20:52:55 --> Input Class Initialized
+DEBUG - 2018-04-21 20:52:55 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:52:55 --> Language Class Initialized
+DEBUG - 2018-04-21 20:52:55 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:52:55 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:52:55 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:52:55 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:52:55 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:52:55 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:52:55 --> Session Class Initialized
+DEBUG - 2018-04-21 20:52:55 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:52:55 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:52:55 --> Session routines successfully run
+DEBUG - 2018-04-21 20:52:55 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:52:55 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:55 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:55 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:55 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:55 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:55 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:55 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:55 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:55 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:55 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:55 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:55 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:55 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:55 --> Model Class Initialized
+DEBUG - 2018-04-21 20:52:55 --> Final output sent to browser
+DEBUG - 2018-04-21 20:52:55 --> Total execution time: 0.0334
+DEBUG - 2018-04-21 20:53:45 --> Config Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:53:45 --> URI Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Router Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Output Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Security Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Input Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:53:45 --> Language Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:53:45 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:53:45 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:53:45 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:53:45 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Session Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:53:45 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:53:45 --> Session routines successfully run
+DEBUG - 2018-04-21 20:53:45 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Model Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Model Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Model Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Model Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Model Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Model Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Model Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Model Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Model Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Model Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Model Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Model Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Model Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Model Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Final output sent to browser
+DEBUG - 2018-04-21 20:53:45 --> Total execution time: 0.0325
+DEBUG - 2018-04-21 20:53:45 --> Config Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:53:45 --> URI Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Router Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Output Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Security Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Input Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:53:45 --> Language Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:53:45 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:53:45 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:53:45 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:53:45 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Session Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:53:45 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:53:45 --> Session routines successfully run
+DEBUG - 2018-04-21 20:53:45 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Model Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Model Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Model Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Model Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Model Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Model Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Model Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Model Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Model Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Model Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Model Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Model Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Model Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Model Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Config Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:53:45 --> URI Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Router Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Output Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Security Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Input Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:53:45 --> Language Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:53:45 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:53:45 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:53:45 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:53:45 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Session Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:53:45 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:53:45 --> Session routines successfully run
+DEBUG - 2018-04-21 20:53:45 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Model Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Model Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Model Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Model Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Model Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Model Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Model Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Model Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Model Class Initialized
+DEBUG - 2018-04-21 20:53:45 --> Model Class Initialized
+DEBUG - 2018-04-21 20:53:46 --> Model Class Initialized
+DEBUG - 2018-04-21 20:53:46 --> Model Class Initialized
+DEBUG - 2018-04-21 20:53:46 --> Model Class Initialized
+DEBUG - 2018-04-21 20:53:46 --> Model Class Initialized
+DEBUG - 2018-04-21 20:53:46 --> Final output sent to browser
+DEBUG - 2018-04-21 20:53:46 --> Total execution time: 0.0342
+DEBUG - 2018-04-21 20:53:48 --> Config Class Initialized
+DEBUG - 2018-04-21 20:53:48 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:53:48 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:53:48 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:53:48 --> URI Class Initialized
+DEBUG - 2018-04-21 20:53:48 --> Router Class Initialized
+DEBUG - 2018-04-21 20:53:48 --> Output Class Initialized
+DEBUG - 2018-04-21 20:53:48 --> Security Class Initialized
+DEBUG - 2018-04-21 20:53:48 --> Input Class Initialized
+DEBUG - 2018-04-21 20:53:48 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:53:48 --> Language Class Initialized
+DEBUG - 2018-04-21 20:53:48 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:53:48 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:53:48 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:53:48 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:53:48 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:53:48 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:53:48 --> Session Class Initialized
+DEBUG - 2018-04-21 20:53:48 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:53:48 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:53:48 --> Session routines successfully run
+DEBUG - 2018-04-21 20:53:48 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:53:48 --> Model Class Initialized
+DEBUG - 2018-04-21 20:53:48 --> Model Class Initialized
+DEBUG - 2018-04-21 20:53:48 --> Model Class Initialized
+DEBUG - 2018-04-21 20:53:48 --> Model Class Initialized
+DEBUG - 2018-04-21 20:53:48 --> Model Class Initialized
+DEBUG - 2018-04-21 20:53:48 --> Model Class Initialized
+DEBUG - 2018-04-21 20:53:48 --> Model Class Initialized
+DEBUG - 2018-04-21 20:53:48 --> Model Class Initialized
+DEBUG - 2018-04-21 20:53:48 --> Model Class Initialized
+DEBUG - 2018-04-21 20:53:48 --> Model Class Initialized
+DEBUG - 2018-04-21 20:53:48 --> Model Class Initialized
+DEBUG - 2018-04-21 20:53:48 --> Model Class Initialized
+DEBUG - 2018-04-21 20:53:48 --> Model Class Initialized
+DEBUG - 2018-04-21 20:53:48 --> Model Class Initialized
+DEBUG - 2018-04-21 20:53:48 --> Final output sent to browser
+DEBUG - 2018-04-21 20:53:48 --> Total execution time: 0.0341
+DEBUG - 2018-04-21 20:55:24 --> Config Class Initialized
+DEBUG - 2018-04-21 20:55:24 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:55:24 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:55:24 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:55:24 --> URI Class Initialized
+DEBUG - 2018-04-21 20:55:24 --> Router Class Initialized
+DEBUG - 2018-04-21 20:55:24 --> Output Class Initialized
+DEBUG - 2018-04-21 20:55:24 --> Security Class Initialized
+DEBUG - 2018-04-21 20:55:24 --> Input Class Initialized
+DEBUG - 2018-04-21 20:55:24 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:55:24 --> Language Class Initialized
+DEBUG - 2018-04-21 20:55:24 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:55:24 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:55:24 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:55:24 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:55:24 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:55:24 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:55:24 --> Session Class Initialized
+DEBUG - 2018-04-21 20:55:24 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:55:24 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:55:24 --> Session routines successfully run
+DEBUG - 2018-04-21 20:55:24 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:55:24 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:24 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:24 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:24 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:24 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:24 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:24 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:24 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:24 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:24 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:24 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:24 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:24 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:24 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:24 --> Final output sent to browser
+DEBUG - 2018-04-21 20:55:24 --> Total execution time: 0.0332
+DEBUG - 2018-04-21 20:55:25 --> Config Class Initialized
+DEBUG - 2018-04-21 20:55:25 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:55:25 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:55:25 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:55:25 --> URI Class Initialized
+DEBUG - 2018-04-21 20:55:25 --> Router Class Initialized
+DEBUG - 2018-04-21 20:55:25 --> Output Class Initialized
+DEBUG - 2018-04-21 20:55:25 --> Security Class Initialized
+DEBUG - 2018-04-21 20:55:25 --> Input Class Initialized
+DEBUG - 2018-04-21 20:55:25 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:55:25 --> Language Class Initialized
+DEBUG - 2018-04-21 20:55:25 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:55:25 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:55:25 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:55:25 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:55:25 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:55:25 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:55:25 --> Session Class Initialized
+DEBUG - 2018-04-21 20:55:25 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:55:25 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:55:25 --> Session routines successfully run
+DEBUG - 2018-04-21 20:55:25 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:55:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:25 --> Config Class Initialized
+DEBUG - 2018-04-21 20:55:25 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:55:25 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:55:25 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:55:25 --> URI Class Initialized
+DEBUG - 2018-04-21 20:55:25 --> Router Class Initialized
+DEBUG - 2018-04-21 20:55:25 --> Output Class Initialized
+DEBUG - 2018-04-21 20:55:25 --> Security Class Initialized
+DEBUG - 2018-04-21 20:55:25 --> Input Class Initialized
+DEBUG - 2018-04-21 20:55:25 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:55:25 --> Language Class Initialized
+DEBUG - 2018-04-21 20:55:25 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:55:25 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:55:25 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:55:25 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:55:25 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:55:25 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:55:25 --> Session Class Initialized
+DEBUG - 2018-04-21 20:55:25 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:55:25 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:55:25 --> Session routines successfully run
+DEBUG - 2018-04-21 20:55:25 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:55:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:25 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:25 --> Final output sent to browser
+DEBUG - 2018-04-21 20:55:25 --> Total execution time: 0.0333
+DEBUG - 2018-04-21 20:55:27 --> Config Class Initialized
+DEBUG - 2018-04-21 20:55:27 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:55:27 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:55:27 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:55:27 --> URI Class Initialized
+DEBUG - 2018-04-21 20:55:27 --> Router Class Initialized
+DEBUG - 2018-04-21 20:55:27 --> Output Class Initialized
+DEBUG - 2018-04-21 20:55:27 --> Security Class Initialized
+DEBUG - 2018-04-21 20:55:27 --> Input Class Initialized
+DEBUG - 2018-04-21 20:55:27 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:55:27 --> Language Class Initialized
+DEBUG - 2018-04-21 20:55:27 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:55:27 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:55:27 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:55:27 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:55:27 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:55:27 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:55:27 --> Session Class Initialized
+DEBUG - 2018-04-21 20:55:27 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:55:27 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:55:27 --> Session routines successfully run
+DEBUG - 2018-04-21 20:55:27 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:55:27 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:27 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:27 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:27 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:27 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:27 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:27 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:27 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:27 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:27 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:27 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:27 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:27 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:27 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:27 --> Final output sent to browser
+DEBUG - 2018-04-21 20:55:27 --> Total execution time: 0.0604
+DEBUG - 2018-04-21 20:55:50 --> Config Class Initialized
+DEBUG - 2018-04-21 20:55:50 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:55:50 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:55:50 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:55:50 --> URI Class Initialized
+DEBUG - 2018-04-21 20:55:50 --> Router Class Initialized
+DEBUG - 2018-04-21 20:55:50 --> Output Class Initialized
+DEBUG - 2018-04-21 20:55:50 --> Security Class Initialized
+DEBUG - 2018-04-21 20:55:50 --> Input Class Initialized
+DEBUG - 2018-04-21 20:55:50 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:55:50 --> Language Class Initialized
+DEBUG - 2018-04-21 20:55:50 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:55:50 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:55:50 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:55:50 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:55:50 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:55:50 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:55:50 --> Session Class Initialized
+DEBUG - 2018-04-21 20:55:50 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:55:50 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:55:50 --> Session routines successfully run
+DEBUG - 2018-04-21 20:55:50 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:55:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:50 --> Final output sent to browser
+DEBUG - 2018-04-21 20:55:50 --> Total execution time: 0.0524
+DEBUG - 2018-04-21 20:55:50 --> Config Class Initialized
+DEBUG - 2018-04-21 20:55:50 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:55:50 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:55:50 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:55:50 --> URI Class Initialized
+DEBUG - 2018-04-21 20:55:50 --> Router Class Initialized
+DEBUG - 2018-04-21 20:55:50 --> Output Class Initialized
+DEBUG - 2018-04-21 20:55:50 --> Security Class Initialized
+DEBUG - 2018-04-21 20:55:50 --> Input Class Initialized
+DEBUG - 2018-04-21 20:55:50 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:55:50 --> Language Class Initialized
+DEBUG - 2018-04-21 20:55:50 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:55:50 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:55:50 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:55:50 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:55:50 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:55:50 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:55:50 --> Session Class Initialized
+DEBUG - 2018-04-21 20:55:50 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:55:50 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:55:50 --> Session routines successfully run
+DEBUG - 2018-04-21 20:55:50 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:55:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:51 --> Config Class Initialized
+DEBUG - 2018-04-21 20:55:51 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:55:51 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:55:51 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:55:51 --> URI Class Initialized
+DEBUG - 2018-04-21 20:55:51 --> Router Class Initialized
+DEBUG - 2018-04-21 20:55:51 --> Output Class Initialized
+DEBUG - 2018-04-21 20:55:51 --> Security Class Initialized
+DEBUG - 2018-04-21 20:55:51 --> Input Class Initialized
+DEBUG - 2018-04-21 20:55:51 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:55:51 --> Language Class Initialized
+DEBUG - 2018-04-21 20:55:51 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:55:51 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:55:51 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:55:51 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:55:51 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:55:51 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:55:51 --> Session Class Initialized
+DEBUG - 2018-04-21 20:55:51 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:55:51 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:55:51 --> Session routines successfully run
+DEBUG - 2018-04-21 20:55:51 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:55:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:51 --> Final output sent to browser
+DEBUG - 2018-04-21 20:55:51 --> Total execution time: 0.0341
+DEBUG - 2018-04-21 20:55:53 --> Config Class Initialized
+DEBUG - 2018-04-21 20:55:53 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:55:53 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:55:53 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:55:53 --> URI Class Initialized
+DEBUG - 2018-04-21 20:55:53 --> Router Class Initialized
+DEBUG - 2018-04-21 20:55:53 --> Output Class Initialized
+DEBUG - 2018-04-21 20:55:53 --> Security Class Initialized
+DEBUG - 2018-04-21 20:55:53 --> Input Class Initialized
+DEBUG - 2018-04-21 20:55:53 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:55:53 --> Language Class Initialized
+DEBUG - 2018-04-21 20:55:53 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:55:53 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:55:53 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:55:53 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:55:53 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:55:53 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:55:53 --> Session Class Initialized
+DEBUG - 2018-04-21 20:55:53 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:55:53 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:55:53 --> Session routines successfully run
+DEBUG - 2018-04-21 20:55:53 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:55:53 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:53 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:53 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:53 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:53 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:53 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:53 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:53 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:53 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:53 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:53 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:53 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:53 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:53 --> Model Class Initialized
+DEBUG - 2018-04-21 20:55:53 --> Final output sent to browser
+DEBUG - 2018-04-21 20:55:53 --> Total execution time: 0.0342
+DEBUG - 2018-04-21 20:56:10 --> Config Class Initialized
+DEBUG - 2018-04-21 20:56:10 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:56:10 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:56:10 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:56:10 --> URI Class Initialized
+DEBUG - 2018-04-21 20:56:10 --> Router Class Initialized
+DEBUG - 2018-04-21 20:56:10 --> Output Class Initialized
+DEBUG - 2018-04-21 20:56:10 --> Security Class Initialized
+DEBUG - 2018-04-21 20:56:10 --> Input Class Initialized
+DEBUG - 2018-04-21 20:56:10 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:56:10 --> Language Class Initialized
+DEBUG - 2018-04-21 20:56:10 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:56:10 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:56:10 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:56:10 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:56:10 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:56:10 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:56:10 --> Session Class Initialized
+DEBUG - 2018-04-21 20:56:10 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:56:10 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:56:10 --> Session routines successfully run
+DEBUG - 2018-04-21 20:56:10 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:56:10 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:10 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:10 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:10 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:10 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:10 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:10 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:10 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:10 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:10 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:10 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:10 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:10 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:10 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:10 --> Final output sent to browser
+DEBUG - 2018-04-21 20:56:10 --> Total execution time: 0.0505
+DEBUG - 2018-04-21 20:56:11 --> Config Class Initialized
+DEBUG - 2018-04-21 20:56:11 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:56:11 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:56:11 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:56:11 --> URI Class Initialized
+DEBUG - 2018-04-21 20:56:11 --> Router Class Initialized
+DEBUG - 2018-04-21 20:56:11 --> Output Class Initialized
+DEBUG - 2018-04-21 20:56:11 --> Security Class Initialized
+DEBUG - 2018-04-21 20:56:11 --> Input Class Initialized
+DEBUG - 2018-04-21 20:56:11 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:56:11 --> Language Class Initialized
+DEBUG - 2018-04-21 20:56:11 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:56:11 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:56:11 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:56:11 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:56:11 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:56:11 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:56:11 --> Session Class Initialized
+DEBUG - 2018-04-21 20:56:11 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:56:11 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:56:11 --> Session routines successfully run
+DEBUG - 2018-04-21 20:56:11 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:56:11 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:11 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:11 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:11 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:11 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:11 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:11 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:11 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:11 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:11 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:11 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:11 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:11 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:11 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:11 --> Config Class Initialized
+DEBUG - 2018-04-21 20:56:11 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:56:11 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:56:11 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:56:11 --> URI Class Initialized
+DEBUG - 2018-04-21 20:56:11 --> Router Class Initialized
+DEBUG - 2018-04-21 20:56:11 --> Output Class Initialized
+DEBUG - 2018-04-21 20:56:11 --> Security Class Initialized
+DEBUG - 2018-04-21 20:56:11 --> Input Class Initialized
+DEBUG - 2018-04-21 20:56:11 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:56:11 --> Language Class Initialized
+DEBUG - 2018-04-21 20:56:11 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:56:11 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:56:11 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:56:11 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:56:11 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:56:11 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:56:11 --> Session Class Initialized
+DEBUG - 2018-04-21 20:56:11 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:56:11 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:56:11 --> Session routines successfully run
+DEBUG - 2018-04-21 20:56:11 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:56:11 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:11 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:11 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:11 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:11 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:11 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:11 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:11 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:11 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:11 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:11 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:11 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:11 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:11 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:11 --> Final output sent to browser
+DEBUG - 2018-04-21 20:56:11 --> Total execution time: 0.0410
+DEBUG - 2018-04-21 20:56:13 --> Config Class Initialized
+DEBUG - 2018-04-21 20:56:13 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:56:13 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:56:13 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:56:13 --> URI Class Initialized
+DEBUG - 2018-04-21 20:56:13 --> Router Class Initialized
+DEBUG - 2018-04-21 20:56:13 --> Output Class Initialized
+DEBUG - 2018-04-21 20:56:13 --> Security Class Initialized
+DEBUG - 2018-04-21 20:56:13 --> Input Class Initialized
+DEBUG - 2018-04-21 20:56:13 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:56:13 --> Language Class Initialized
+DEBUG - 2018-04-21 20:56:13 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:56:13 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:56:13 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:56:13 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:56:13 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:56:13 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:56:13 --> Session Class Initialized
+DEBUG - 2018-04-21 20:56:13 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:56:13 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:56:13 --> Session routines successfully run
+DEBUG - 2018-04-21 20:56:13 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:56:13 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:13 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:13 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:13 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:13 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:13 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:13 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:13 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:13 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:13 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:13 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:13 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:13 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:13 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:13 --> Final output sent to browser
+DEBUG - 2018-04-21 20:56:13 --> Total execution time: 0.0354
+DEBUG - 2018-04-21 20:56:14 --> Config Class Initialized
+DEBUG - 2018-04-21 20:56:14 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:56:14 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:56:14 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:56:14 --> URI Class Initialized
+DEBUG - 2018-04-21 20:56:14 --> Router Class Initialized
+DEBUG - 2018-04-21 20:56:14 --> Output Class Initialized
+DEBUG - 2018-04-21 20:56:14 --> Security Class Initialized
+DEBUG - 2018-04-21 20:56:14 --> Input Class Initialized
+DEBUG - 2018-04-21 20:56:14 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:56:14 --> Language Class Initialized
+DEBUG - 2018-04-21 20:56:14 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:56:14 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:56:14 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:56:14 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:56:14 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:56:14 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:56:14 --> Session Class Initialized
+DEBUG - 2018-04-21 20:56:14 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:56:14 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:56:14 --> Session routines successfully run
+DEBUG - 2018-04-21 20:56:14 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:56:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:14 --> Config Class Initialized
+DEBUG - 2018-04-21 20:56:14 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:56:14 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:56:14 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:56:14 --> URI Class Initialized
+DEBUG - 2018-04-21 20:56:14 --> Router Class Initialized
+DEBUG - 2018-04-21 20:56:14 --> Output Class Initialized
+DEBUG - 2018-04-21 20:56:14 --> Security Class Initialized
+DEBUG - 2018-04-21 20:56:14 --> Input Class Initialized
+DEBUG - 2018-04-21 20:56:14 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:56:14 --> Language Class Initialized
+DEBUG - 2018-04-21 20:56:14 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:56:14 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:56:14 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:56:14 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:56:14 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:56:14 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:56:14 --> Session Class Initialized
+DEBUG - 2018-04-21 20:56:14 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:56:14 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:56:14 --> Session routines successfully run
+DEBUG - 2018-04-21 20:56:14 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:56:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:14 --> Final output sent to browser
+DEBUG - 2018-04-21 20:56:14 --> Total execution time: 0.0366
+DEBUG - 2018-04-21 20:56:16 --> Config Class Initialized
+DEBUG - 2018-04-21 20:56:16 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:56:16 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:56:16 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:56:16 --> URI Class Initialized
+DEBUG - 2018-04-21 20:56:16 --> Router Class Initialized
+DEBUG - 2018-04-21 20:56:16 --> Output Class Initialized
+DEBUG - 2018-04-21 20:56:16 --> Security Class Initialized
+DEBUG - 2018-04-21 20:56:16 --> Input Class Initialized
+DEBUG - 2018-04-21 20:56:16 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:56:16 --> Language Class Initialized
+DEBUG - 2018-04-21 20:56:16 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:56:16 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:56:16 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:56:16 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:56:16 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:56:16 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:56:16 --> Session Class Initialized
+DEBUG - 2018-04-21 20:56:16 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:56:16 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:56:16 --> Session routines successfully run
+DEBUG - 2018-04-21 20:56:16 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:56:16 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:16 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:16 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:16 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:16 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:16 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:16 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:16 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:16 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:16 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:16 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:16 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:16 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:16 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:16 --> Final output sent to browser
+DEBUG - 2018-04-21 20:56:16 --> Total execution time: 0.0336
+DEBUG - 2018-04-21 20:56:29 --> Config Class Initialized
+DEBUG - 2018-04-21 20:56:29 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:56:29 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:56:29 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:56:29 --> URI Class Initialized
+DEBUG - 2018-04-21 20:56:29 --> Router Class Initialized
+DEBUG - 2018-04-21 20:56:29 --> Output Class Initialized
+DEBUG - 2018-04-21 20:56:29 --> Security Class Initialized
+DEBUG - 2018-04-21 20:56:29 --> Input Class Initialized
+DEBUG - 2018-04-21 20:56:29 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:56:29 --> Language Class Initialized
+DEBUG - 2018-04-21 20:56:29 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:56:29 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:56:29 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:56:29 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:56:29 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:56:29 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:56:29 --> Session Class Initialized
+DEBUG - 2018-04-21 20:56:29 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:56:29 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:56:29 --> Session routines successfully run
+DEBUG - 2018-04-21 20:56:29 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:56:29 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:29 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:29 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:29 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:29 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:29 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:29 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:29 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:29 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:29 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:29 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:29 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:29 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:29 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:29 --> Final output sent to browser
+DEBUG - 2018-04-21 20:56:29 --> Total execution time: 0.0364
+DEBUG - 2018-04-21 20:56:30 --> Config Class Initialized
+DEBUG - 2018-04-21 20:56:30 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:56:30 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:56:30 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:56:30 --> URI Class Initialized
+DEBUG - 2018-04-21 20:56:30 --> Router Class Initialized
+DEBUG - 2018-04-21 20:56:30 --> Output Class Initialized
+DEBUG - 2018-04-21 20:56:30 --> Security Class Initialized
+DEBUG - 2018-04-21 20:56:30 --> Input Class Initialized
+DEBUG - 2018-04-21 20:56:30 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:56:30 --> Language Class Initialized
+DEBUG - 2018-04-21 20:56:30 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:56:30 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:56:30 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:56:30 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:56:30 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:56:30 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:56:30 --> Session Class Initialized
+DEBUG - 2018-04-21 20:56:30 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:56:30 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:56:30 --> Session routines successfully run
+DEBUG - 2018-04-21 20:56:30 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:56:30 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:30 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:30 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:30 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:30 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:30 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:30 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:30 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:30 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:30 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:30 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:30 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:30 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:30 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:30 --> Config Class Initialized
+DEBUG - 2018-04-21 20:56:30 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:56:30 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:56:30 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:56:30 --> URI Class Initialized
+DEBUG - 2018-04-21 20:56:30 --> Router Class Initialized
+DEBUG - 2018-04-21 20:56:30 --> Output Class Initialized
+DEBUG - 2018-04-21 20:56:30 --> Security Class Initialized
+DEBUG - 2018-04-21 20:56:30 --> Input Class Initialized
+DEBUG - 2018-04-21 20:56:30 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:56:30 --> Language Class Initialized
+DEBUG - 2018-04-21 20:56:30 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:56:30 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:56:30 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:56:30 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:56:30 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:56:30 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:56:30 --> Session Class Initialized
+DEBUG - 2018-04-21 20:56:30 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:56:30 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:56:30 --> Session routines successfully run
+DEBUG - 2018-04-21 20:56:30 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:56:30 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:30 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:30 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:30 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:30 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:30 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:30 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:30 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:30 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:30 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:30 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:30 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:30 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:30 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:30 --> Final output sent to browser
+DEBUG - 2018-04-21 20:56:30 --> Total execution time: 0.0347
+DEBUG - 2018-04-21 20:56:32 --> Config Class Initialized
+DEBUG - 2018-04-21 20:56:32 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:56:32 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:56:32 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:56:32 --> URI Class Initialized
+DEBUG - 2018-04-21 20:56:32 --> Router Class Initialized
+DEBUG - 2018-04-21 20:56:32 --> Output Class Initialized
+DEBUG - 2018-04-21 20:56:32 --> Security Class Initialized
+DEBUG - 2018-04-21 20:56:32 --> Input Class Initialized
+DEBUG - 2018-04-21 20:56:32 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:56:32 --> Language Class Initialized
+DEBUG - 2018-04-21 20:56:32 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:56:32 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:56:32 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:56:32 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:56:32 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:56:33 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:56:33 --> Session Class Initialized
+DEBUG - 2018-04-21 20:56:33 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:56:33 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:56:33 --> Session routines successfully run
+DEBUG - 2018-04-21 20:56:33 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:56:33 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:33 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:33 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:33 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:33 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:33 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:33 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:33 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:33 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:33 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:33 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:33 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:33 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:33 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:33 --> Final output sent to browser
+DEBUG - 2018-04-21 20:56:33 --> Total execution time: 0.0600
+DEBUG - 2018-04-21 20:56:46 --> Config Class Initialized
+DEBUG - 2018-04-21 20:56:46 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:56:46 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:56:46 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:56:46 --> URI Class Initialized
+DEBUG - 2018-04-21 20:56:46 --> Router Class Initialized
+DEBUG - 2018-04-21 20:56:46 --> Output Class Initialized
+DEBUG - 2018-04-21 20:56:46 --> Security Class Initialized
+DEBUG - 2018-04-21 20:56:46 --> Input Class Initialized
+DEBUG - 2018-04-21 20:56:46 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:56:46 --> Language Class Initialized
+DEBUG - 2018-04-21 20:56:46 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:56:46 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:56:46 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:56:46 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:56:46 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:56:46 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:56:46 --> Session Class Initialized
+DEBUG - 2018-04-21 20:56:46 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:56:46 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:56:46 --> Session routines successfully run
+DEBUG - 2018-04-21 20:56:46 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:56:46 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:46 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:46 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:46 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:46 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:46 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:46 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:46 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:46 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:46 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:46 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:46 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:46 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:46 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:46 --> Final output sent to browser
+DEBUG - 2018-04-21 20:56:46 --> Total execution time: 0.0336
+DEBUG - 2018-04-21 20:56:47 --> Config Class Initialized
+DEBUG - 2018-04-21 20:56:47 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:56:47 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:56:47 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:56:47 --> URI Class Initialized
+DEBUG - 2018-04-21 20:56:47 --> Router Class Initialized
+DEBUG - 2018-04-21 20:56:47 --> Output Class Initialized
+DEBUG - 2018-04-21 20:56:47 --> Security Class Initialized
+DEBUG - 2018-04-21 20:56:47 --> Input Class Initialized
+DEBUG - 2018-04-21 20:56:47 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:56:47 --> Language Class Initialized
+DEBUG - 2018-04-21 20:56:47 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:56:47 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:56:47 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:56:47 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:56:47 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:56:47 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:56:47 --> Session Class Initialized
+DEBUG - 2018-04-21 20:56:47 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:56:47 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:56:47 --> Session routines successfully run
+DEBUG - 2018-04-21 20:56:47 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:56:47 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:47 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:47 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:47 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:47 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:47 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:47 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:47 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:47 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:47 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:47 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:47 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:47 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:47 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:47 --> Config Class Initialized
+DEBUG - 2018-04-21 20:56:47 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:56:47 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:56:47 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:56:47 --> URI Class Initialized
+DEBUG - 2018-04-21 20:56:47 --> Router Class Initialized
+DEBUG - 2018-04-21 20:56:47 --> Output Class Initialized
+DEBUG - 2018-04-21 20:56:47 --> Security Class Initialized
+DEBUG - 2018-04-21 20:56:47 --> Input Class Initialized
+DEBUG - 2018-04-21 20:56:47 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:56:47 --> Language Class Initialized
+DEBUG - 2018-04-21 20:56:47 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:56:48 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:56:48 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:56:48 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:56:48 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:56:48 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:56:48 --> Session Class Initialized
+DEBUG - 2018-04-21 20:56:48 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:56:48 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:56:48 --> Session routines successfully run
+DEBUG - 2018-04-21 20:56:48 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:56:48 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:48 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:48 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:48 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:48 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:48 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:48 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:48 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:48 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:48 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:48 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:48 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:48 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:48 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:48 --> Final output sent to browser
+DEBUG - 2018-04-21 20:56:48 --> Total execution time: 0.0339
+DEBUG - 2018-04-21 20:56:50 --> Config Class Initialized
+DEBUG - 2018-04-21 20:56:50 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:56:50 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:56:50 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:56:50 --> URI Class Initialized
+DEBUG - 2018-04-21 20:56:50 --> Router Class Initialized
+DEBUG - 2018-04-21 20:56:50 --> Output Class Initialized
+DEBUG - 2018-04-21 20:56:50 --> Security Class Initialized
+DEBUG - 2018-04-21 20:56:50 --> Input Class Initialized
+DEBUG - 2018-04-21 20:56:50 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:56:50 --> Language Class Initialized
+DEBUG - 2018-04-21 20:56:50 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:56:50 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:56:50 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:56:50 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:56:50 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:56:50 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:56:50 --> Session Class Initialized
+DEBUG - 2018-04-21 20:56:50 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:56:50 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:56:50 --> Session routines successfully run
+DEBUG - 2018-04-21 20:56:50 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:56:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:56:50 --> Final output sent to browser
+DEBUG - 2018-04-21 20:56:50 --> Total execution time: 0.0404
+DEBUG - 2018-04-21 20:57:14 --> Config Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:57:14 --> URI Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Router Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Output Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Security Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Input Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:57:14 --> Language Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:57:14 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:57:14 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:57:14 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:57:14 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Session Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:57:14 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:57:14 --> Session routines successfully run
+DEBUG - 2018-04-21 20:57:14 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Final output sent to browser
+DEBUG - 2018-04-21 20:57:14 --> Total execution time: 0.0322
+DEBUG - 2018-04-21 20:57:14 --> Config Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:57:14 --> URI Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Router Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Output Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Security Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Input Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:57:14 --> Language Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:57:14 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:57:14 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:57:14 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:57:14 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Session Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:57:14 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:57:14 --> Session routines successfully run
+DEBUG - 2018-04-21 20:57:14 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Config Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:57:14 --> URI Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Router Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Output Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Security Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Input Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:57:14 --> Language Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:57:14 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:57:14 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:57:14 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:57:14 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Session Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:57:14 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:57:14 --> Session routines successfully run
+DEBUG - 2018-04-21 20:57:14 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Model Class Initialized
+DEBUG - 2018-04-21 20:57:14 --> Final output sent to browser
+DEBUG - 2018-04-21 20:57:14 --> Total execution time: 0.0341
+DEBUG - 2018-04-21 20:59:50 --> Config Class Initialized
+DEBUG - 2018-04-21 20:59:50 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:59:50 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:59:50 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:59:50 --> URI Class Initialized
+DEBUG - 2018-04-21 20:59:50 --> Router Class Initialized
+DEBUG - 2018-04-21 20:59:50 --> Output Class Initialized
+DEBUG - 2018-04-21 20:59:50 --> Security Class Initialized
+DEBUG - 2018-04-21 20:59:50 --> Input Class Initialized
+DEBUG - 2018-04-21 20:59:50 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:59:50 --> Language Class Initialized
+DEBUG - 2018-04-21 20:59:50 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:59:50 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:59:50 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:59:50 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:59:50 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:59:50 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:59:50 --> Session Class Initialized
+DEBUG - 2018-04-21 20:59:50 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:59:50 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:59:50 --> Session routines successfully run
+DEBUG - 2018-04-21 20:59:50 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:59:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:59:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:59:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:59:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:59:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:59:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:59:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:59:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:59:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:59:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:59:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:59:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:59:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:59:50 --> Model Class Initialized
+DEBUG - 2018-04-21 20:59:50 --> Final output sent to browser
+DEBUG - 2018-04-21 20:59:50 --> Total execution time: 0.0353
+DEBUG - 2018-04-21 20:59:51 --> Config Class Initialized
+DEBUG - 2018-04-21 20:59:51 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:59:51 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:59:51 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:59:51 --> URI Class Initialized
+DEBUG - 2018-04-21 20:59:51 --> Router Class Initialized
+DEBUG - 2018-04-21 20:59:51 --> Output Class Initialized
+DEBUG - 2018-04-21 20:59:51 --> Security Class Initialized
+DEBUG - 2018-04-21 20:59:51 --> Input Class Initialized
+DEBUG - 2018-04-21 20:59:51 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:59:51 --> Language Class Initialized
+DEBUG - 2018-04-21 20:59:51 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:59:51 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:59:51 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:59:51 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:59:51 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:59:51 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:59:51 --> Session Class Initialized
+DEBUG - 2018-04-21 20:59:51 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:59:51 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:59:51 --> Session routines successfully run
+DEBUG - 2018-04-21 20:59:51 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:59:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:59:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:59:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:59:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:59:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:59:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:59:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:59:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:59:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:59:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:59:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:59:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:59:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:59:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:59:51 --> Final output sent to browser
+DEBUG - 2018-04-21 20:59:51 --> Total execution time: 0.0366
+DEBUG - 2018-04-21 20:59:51 --> Config Class Initialized
+DEBUG - 2018-04-21 20:59:51 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:59:51 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:59:51 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:59:51 --> URI Class Initialized
+DEBUG - 2018-04-21 20:59:51 --> Router Class Initialized
+DEBUG - 2018-04-21 20:59:51 --> Output Class Initialized
+DEBUG - 2018-04-21 20:59:51 --> Security Class Initialized
+DEBUG - 2018-04-21 20:59:51 --> Input Class Initialized
+DEBUG - 2018-04-21 20:59:51 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:59:51 --> Language Class Initialized
+DEBUG - 2018-04-21 20:59:51 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:59:51 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:59:51 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:59:51 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:59:51 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:59:51 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:59:51 --> Session Class Initialized
+DEBUG - 2018-04-21 20:59:51 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:59:51 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:59:51 --> Session routines successfully run
+DEBUG - 2018-04-21 20:59:51 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:59:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:59:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:59:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:59:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:59:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:59:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:59:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:59:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:59:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:59:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:59:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:59:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:59:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:59:51 --> Model Class Initialized
+DEBUG - 2018-04-21 20:59:54 --> Config Class Initialized
+DEBUG - 2018-04-21 20:59:54 --> Hooks Class Initialized
+DEBUG - 2018-04-21 20:59:54 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 20:59:54 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 20:59:54 --> URI Class Initialized
+DEBUG - 2018-04-21 20:59:54 --> Router Class Initialized
+DEBUG - 2018-04-21 20:59:54 --> Output Class Initialized
+DEBUG - 2018-04-21 20:59:54 --> Security Class Initialized
+DEBUG - 2018-04-21 20:59:54 --> Input Class Initialized
+DEBUG - 2018-04-21 20:59:54 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 20:59:54 --> Language Class Initialized
+DEBUG - 2018-04-21 20:59:54 --> Loader Class Initialized
+DEBUG - 2018-04-21 20:59:54 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 20:59:54 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 20:59:54 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 20:59:54 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 20:59:54 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 20:59:54 --> Session Class Initialized
+DEBUG - 2018-04-21 20:59:54 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 20:59:54 --> A session cookie was not found.
+DEBUG - 2018-04-21 20:59:54 --> Session routines successfully run
+DEBUG - 2018-04-21 20:59:54 --> Controller Class Initialized
+DEBUG - 2018-04-21 20:59:54 --> Model Class Initialized
+DEBUG - 2018-04-21 20:59:54 --> Model Class Initialized
+DEBUG - 2018-04-21 20:59:54 --> Model Class Initialized
+DEBUG - 2018-04-21 20:59:54 --> Model Class Initialized
+DEBUG - 2018-04-21 20:59:54 --> Model Class Initialized
+DEBUG - 2018-04-21 20:59:54 --> Model Class Initialized
+DEBUG - 2018-04-21 20:59:54 --> Model Class Initialized
+DEBUG - 2018-04-21 20:59:54 --> Model Class Initialized
+DEBUG - 2018-04-21 20:59:54 --> Model Class Initialized
+DEBUG - 2018-04-21 20:59:54 --> Model Class Initialized
+DEBUG - 2018-04-21 20:59:54 --> Model Class Initialized
+DEBUG - 2018-04-21 20:59:54 --> Model Class Initialized
+DEBUG - 2018-04-21 20:59:54 --> Model Class Initialized
+DEBUG - 2018-04-21 20:59:54 --> Model Class Initialized
+DEBUG - 2018-04-21 20:59:54 --> Final output sent to browser
+DEBUG - 2018-04-21 20:59:54 --> Total execution time: 0.0347
+DEBUG - 2018-04-21 21:00:31 --> Config Class Initialized
+DEBUG - 2018-04-21 21:00:31 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:00:31 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:00:31 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:00:31 --> URI Class Initialized
+DEBUG - 2018-04-21 21:00:31 --> Router Class Initialized
+DEBUG - 2018-04-21 21:00:31 --> Output Class Initialized
+DEBUG - 2018-04-21 21:00:31 --> Security Class Initialized
+DEBUG - 2018-04-21 21:00:31 --> Input Class Initialized
+DEBUG - 2018-04-21 21:00:31 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:00:31 --> Language Class Initialized
+DEBUG - 2018-04-21 21:00:31 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:00:31 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:00:31 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:00:31 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:00:31 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:00:31 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:00:31 --> Session Class Initialized
+DEBUG - 2018-04-21 21:00:31 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:00:31 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:00:31 --> Session routines successfully run
+DEBUG - 2018-04-21 21:00:31 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:00:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:00:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:00:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:00:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:00:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:00:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:00:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:00:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:00:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:00:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:00:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:00:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:00:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:00:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:00:31 --> Final output sent to browser
+DEBUG - 2018-04-21 21:00:31 --> Total execution time: 0.0434
+DEBUG - 2018-04-21 21:00:32 --> Config Class Initialized
+DEBUG - 2018-04-21 21:00:32 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:00:32 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:00:32 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:00:32 --> URI Class Initialized
+DEBUG - 2018-04-21 21:00:32 --> Router Class Initialized
+DEBUG - 2018-04-21 21:00:32 --> Output Class Initialized
+DEBUG - 2018-04-21 21:00:32 --> Security Class Initialized
+DEBUG - 2018-04-21 21:00:32 --> Input Class Initialized
+DEBUG - 2018-04-21 21:00:32 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:00:32 --> Language Class Initialized
+DEBUG - 2018-04-21 21:00:32 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:00:32 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:00:32 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:00:32 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:00:32 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:00:32 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:00:32 --> Session Class Initialized
+DEBUG - 2018-04-21 21:00:32 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:00:32 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:00:32 --> Session routines successfully run
+DEBUG - 2018-04-21 21:00:32 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:00:32 --> Model Class Initialized
+DEBUG - 2018-04-21 21:00:32 --> Model Class Initialized
+DEBUG - 2018-04-21 21:00:32 --> Model Class Initialized
+DEBUG - 2018-04-21 21:00:32 --> Model Class Initialized
+DEBUG - 2018-04-21 21:00:32 --> Model Class Initialized
+DEBUG - 2018-04-21 21:00:32 --> Model Class Initialized
+DEBUG - 2018-04-21 21:00:32 --> Model Class Initialized
+DEBUG - 2018-04-21 21:00:32 --> Model Class Initialized
+DEBUG - 2018-04-21 21:00:32 --> Model Class Initialized
+DEBUG - 2018-04-21 21:00:32 --> Model Class Initialized
+DEBUG - 2018-04-21 21:00:32 --> Model Class Initialized
+DEBUG - 2018-04-21 21:00:32 --> Model Class Initialized
+DEBUG - 2018-04-21 21:00:32 --> Model Class Initialized
+DEBUG - 2018-04-21 21:00:32 --> Model Class Initialized
+DEBUG - 2018-04-21 21:00:32 --> Config Class Initialized
+DEBUG - 2018-04-21 21:00:32 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:00:32 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:00:32 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:00:32 --> URI Class Initialized
+DEBUG - 2018-04-21 21:00:32 --> Router Class Initialized
+DEBUG - 2018-04-21 21:00:32 --> Output Class Initialized
+DEBUG - 2018-04-21 21:00:32 --> Security Class Initialized
+DEBUG - 2018-04-21 21:00:32 --> Input Class Initialized
+DEBUG - 2018-04-21 21:00:32 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:00:32 --> Language Class Initialized
+DEBUG - 2018-04-21 21:00:32 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:00:32 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:00:32 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:00:32 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:00:32 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:00:32 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:00:32 --> Session Class Initialized
+DEBUG - 2018-04-21 21:00:32 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:00:32 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:00:32 --> Session routines successfully run
+DEBUG - 2018-04-21 21:00:32 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:00:32 --> Model Class Initialized
+DEBUG - 2018-04-21 21:00:32 --> Model Class Initialized
+DEBUG - 2018-04-21 21:00:32 --> Model Class Initialized
+DEBUG - 2018-04-21 21:00:32 --> Model Class Initialized
+DEBUG - 2018-04-21 21:00:32 --> Model Class Initialized
+DEBUG - 2018-04-21 21:00:32 --> Model Class Initialized
+DEBUG - 2018-04-21 21:00:32 --> Model Class Initialized
+DEBUG - 2018-04-21 21:00:32 --> Model Class Initialized
+DEBUG - 2018-04-21 21:00:32 --> Model Class Initialized
+DEBUG - 2018-04-21 21:00:32 --> Model Class Initialized
+DEBUG - 2018-04-21 21:00:32 --> Model Class Initialized
+DEBUG - 2018-04-21 21:00:32 --> Model Class Initialized
+DEBUG - 2018-04-21 21:00:32 --> Model Class Initialized
+DEBUG - 2018-04-21 21:00:32 --> Model Class Initialized
+DEBUG - 2018-04-21 21:00:32 --> Final output sent to browser
+DEBUG - 2018-04-21 21:00:32 --> Total execution time: 0.0368
+DEBUG - 2018-04-21 21:00:33 --> Config Class Initialized
+DEBUG - 2018-04-21 21:00:33 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:00:33 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:00:33 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:00:33 --> URI Class Initialized
+DEBUG - 2018-04-21 21:00:33 --> Router Class Initialized
+DEBUG - 2018-04-21 21:00:33 --> Output Class Initialized
+DEBUG - 2018-04-21 21:00:33 --> Security Class Initialized
+DEBUG - 2018-04-21 21:00:33 --> Input Class Initialized
+DEBUG - 2018-04-21 21:00:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:00:33 --> Language Class Initialized
+DEBUG - 2018-04-21 21:00:33 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:00:33 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:00:33 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:00:33 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:00:33 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:00:33 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:00:33 --> Session Class Initialized
+DEBUG - 2018-04-21 21:00:33 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:00:33 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:00:33 --> Session routines successfully run
+DEBUG - 2018-04-21 21:00:33 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:00:33 --> Model Class Initialized
+DEBUG - 2018-04-21 21:00:33 --> Model Class Initialized
+DEBUG - 2018-04-21 21:00:33 --> Model Class Initialized
+DEBUG - 2018-04-21 21:00:33 --> Model Class Initialized
+DEBUG - 2018-04-21 21:00:33 --> Model Class Initialized
+DEBUG - 2018-04-21 21:00:33 --> Model Class Initialized
+DEBUG - 2018-04-21 21:00:33 --> Model Class Initialized
+DEBUG - 2018-04-21 21:00:33 --> Model Class Initialized
+DEBUG - 2018-04-21 21:00:33 --> Model Class Initialized
+DEBUG - 2018-04-21 21:00:33 --> Model Class Initialized
+DEBUG - 2018-04-21 21:00:33 --> Model Class Initialized
+DEBUG - 2018-04-21 21:00:33 --> Model Class Initialized
+DEBUG - 2018-04-21 21:00:33 --> Model Class Initialized
+DEBUG - 2018-04-21 21:00:33 --> Model Class Initialized
+DEBUG - 2018-04-21 21:00:33 --> Final output sent to browser
+DEBUG - 2018-04-21 21:00:33 --> Total execution time: 0.0552
+DEBUG - 2018-04-21 21:04:57 --> Config Class Initialized
+DEBUG - 2018-04-21 21:04:57 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:04:57 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:04:57 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:04:57 --> URI Class Initialized
+DEBUG - 2018-04-21 21:04:57 --> Router Class Initialized
+DEBUG - 2018-04-21 21:04:57 --> Output Class Initialized
+DEBUG - 2018-04-21 21:04:57 --> Security Class Initialized
+DEBUG - 2018-04-21 21:04:57 --> Input Class Initialized
+DEBUG - 2018-04-21 21:04:57 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:04:57 --> Language Class Initialized
+DEBUG - 2018-04-21 21:04:57 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:04:57 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:04:57 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:04:57 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:04:57 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:04:57 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:04:57 --> Session Class Initialized
+DEBUG - 2018-04-21 21:04:57 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:04:57 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:04:57 --> Session routines successfully run
+DEBUG - 2018-04-21 21:04:57 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:04:57 --> Model Class Initialized
+DEBUG - 2018-04-21 21:04:57 --> Model Class Initialized
+DEBUG - 2018-04-21 21:04:57 --> Model Class Initialized
+DEBUG - 2018-04-21 21:04:57 --> Model Class Initialized
+DEBUG - 2018-04-21 21:04:57 --> Model Class Initialized
+DEBUG - 2018-04-21 21:04:57 --> Model Class Initialized
+DEBUG - 2018-04-21 21:04:57 --> Model Class Initialized
+DEBUG - 2018-04-21 21:04:57 --> Model Class Initialized
+DEBUG - 2018-04-21 21:04:57 --> Model Class Initialized
+DEBUG - 2018-04-21 21:04:57 --> Model Class Initialized
+DEBUG - 2018-04-21 21:04:57 --> Model Class Initialized
+DEBUG - 2018-04-21 21:04:57 --> Model Class Initialized
+DEBUG - 2018-04-21 21:04:57 --> Model Class Initialized
+DEBUG - 2018-04-21 21:04:57 --> Model Class Initialized
+DEBUG - 2018-04-21 21:04:57 --> Final output sent to browser
+DEBUG - 2018-04-21 21:04:57 --> Total execution time: 0.0590
+DEBUG - 2018-04-21 21:04:57 --> Config Class Initialized
+DEBUG - 2018-04-21 21:04:57 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:04:57 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:04:57 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:04:57 --> URI Class Initialized
+DEBUG - 2018-04-21 21:04:57 --> Router Class Initialized
+DEBUG - 2018-04-21 21:04:57 --> Output Class Initialized
+DEBUG - 2018-04-21 21:04:57 --> Security Class Initialized
+DEBUG - 2018-04-21 21:04:57 --> Input Class Initialized
+DEBUG - 2018-04-21 21:04:57 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:04:57 --> Language Class Initialized
+DEBUG - 2018-04-21 21:04:57 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:04:57 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:04:57 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:04:57 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:04:57 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:04:57 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:04:57 --> Session Class Initialized
+DEBUG - 2018-04-21 21:04:57 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:04:57 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:04:57 --> Session routines successfully run
+DEBUG - 2018-04-21 21:04:57 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:04:57 --> Model Class Initialized
+DEBUG - 2018-04-21 21:04:57 --> Model Class Initialized
+DEBUG - 2018-04-21 21:04:57 --> Model Class Initialized
+DEBUG - 2018-04-21 21:04:57 --> Model Class Initialized
+DEBUG - 2018-04-21 21:04:57 --> Model Class Initialized
+DEBUG - 2018-04-21 21:04:57 --> Model Class Initialized
+DEBUG - 2018-04-21 21:04:57 --> Model Class Initialized
+DEBUG - 2018-04-21 21:04:57 --> Model Class Initialized
+DEBUG - 2018-04-21 21:04:57 --> Model Class Initialized
+DEBUG - 2018-04-21 21:04:57 --> Model Class Initialized
+DEBUG - 2018-04-21 21:04:57 --> Model Class Initialized
+DEBUG - 2018-04-21 21:04:57 --> Model Class Initialized
+DEBUG - 2018-04-21 21:04:57 --> Model Class Initialized
+DEBUG - 2018-04-21 21:04:57 --> Model Class Initialized
+DEBUG - 2018-04-21 21:04:58 --> Config Class Initialized
+DEBUG - 2018-04-21 21:04:58 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:04:58 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:04:58 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:04:58 --> URI Class Initialized
+DEBUG - 2018-04-21 21:04:58 --> Router Class Initialized
+DEBUG - 2018-04-21 21:04:58 --> Output Class Initialized
+DEBUG - 2018-04-21 21:04:58 --> Security Class Initialized
+DEBUG - 2018-04-21 21:04:58 --> Input Class Initialized
+DEBUG - 2018-04-21 21:04:58 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:04:58 --> Language Class Initialized
+DEBUG - 2018-04-21 21:04:58 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:04:58 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:04:58 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:04:58 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:04:58 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:04:58 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:04:58 --> Session Class Initialized
+DEBUG - 2018-04-21 21:04:58 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:04:58 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:04:58 --> Session routines successfully run
+DEBUG - 2018-04-21 21:04:58 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:04:58 --> Model Class Initialized
+DEBUG - 2018-04-21 21:04:58 --> Model Class Initialized
+DEBUG - 2018-04-21 21:04:58 --> Model Class Initialized
+DEBUG - 2018-04-21 21:04:58 --> Model Class Initialized
+DEBUG - 2018-04-21 21:04:58 --> Model Class Initialized
+DEBUG - 2018-04-21 21:04:58 --> Model Class Initialized
+DEBUG - 2018-04-21 21:04:58 --> Model Class Initialized
+DEBUG - 2018-04-21 21:04:58 --> Model Class Initialized
+DEBUG - 2018-04-21 21:04:58 --> Model Class Initialized
+DEBUG - 2018-04-21 21:04:58 --> Model Class Initialized
+DEBUG - 2018-04-21 21:04:58 --> Model Class Initialized
+DEBUG - 2018-04-21 21:04:58 --> Model Class Initialized
+DEBUG - 2018-04-21 21:04:58 --> Model Class Initialized
+DEBUG - 2018-04-21 21:04:58 --> Model Class Initialized
+DEBUG - 2018-04-21 21:04:58 --> Final output sent to browser
+DEBUG - 2018-04-21 21:04:58 --> Total execution time: 0.0341
+DEBUG - 2018-04-21 21:04:59 --> Config Class Initialized
+DEBUG - 2018-04-21 21:04:59 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:04:59 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:04:59 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:04:59 --> URI Class Initialized
+DEBUG - 2018-04-21 21:04:59 --> Router Class Initialized
+DEBUG - 2018-04-21 21:04:59 --> Output Class Initialized
+DEBUG - 2018-04-21 21:04:59 --> Security Class Initialized
+DEBUG - 2018-04-21 21:04:59 --> Input Class Initialized
+DEBUG - 2018-04-21 21:04:59 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:04:59 --> Language Class Initialized
+DEBUG - 2018-04-21 21:04:59 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:04:59 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:04:59 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:04:59 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:04:59 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:04:59 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:04:59 --> Session Class Initialized
+DEBUG - 2018-04-21 21:04:59 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:04:59 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:04:59 --> Session routines successfully run
+DEBUG - 2018-04-21 21:04:59 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:04:59 --> Model Class Initialized
+DEBUG - 2018-04-21 21:04:59 --> Model Class Initialized
+DEBUG - 2018-04-21 21:04:59 --> Model Class Initialized
+DEBUG - 2018-04-21 21:04:59 --> Model Class Initialized
+DEBUG - 2018-04-21 21:04:59 --> Model Class Initialized
+DEBUG - 2018-04-21 21:04:59 --> Model Class Initialized
+DEBUG - 2018-04-21 21:04:59 --> Model Class Initialized
+DEBUG - 2018-04-21 21:04:59 --> Model Class Initialized
+DEBUG - 2018-04-21 21:04:59 --> Model Class Initialized
+DEBUG - 2018-04-21 21:04:59 --> Model Class Initialized
+DEBUG - 2018-04-21 21:04:59 --> Model Class Initialized
+DEBUG - 2018-04-21 21:04:59 --> Model Class Initialized
+DEBUG - 2018-04-21 21:04:59 --> Model Class Initialized
+DEBUG - 2018-04-21 21:04:59 --> Model Class Initialized
+DEBUG - 2018-04-21 21:04:59 --> Final output sent to browser
+DEBUG - 2018-04-21 21:04:59 --> Total execution time: 0.0340
+DEBUG - 2018-04-21 21:05:29 --> Config Class Initialized
+DEBUG - 2018-04-21 21:05:29 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:05:29 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:05:29 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:05:29 --> URI Class Initialized
+DEBUG - 2018-04-21 21:05:29 --> Router Class Initialized
+DEBUG - 2018-04-21 21:05:29 --> Output Class Initialized
+DEBUG - 2018-04-21 21:05:29 --> Security Class Initialized
+DEBUG - 2018-04-21 21:05:29 --> Input Class Initialized
+DEBUG - 2018-04-21 21:05:29 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:05:29 --> Language Class Initialized
+DEBUG - 2018-04-21 21:05:29 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:05:29 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:05:29 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:05:29 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:05:29 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:05:29 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:05:29 --> Session Class Initialized
+DEBUG - 2018-04-21 21:05:29 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:05:29 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:05:29 --> Session routines successfully run
+DEBUG - 2018-04-21 21:05:29 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:05:29 --> Model Class Initialized
+DEBUG - 2018-04-21 21:05:29 --> Model Class Initialized
+DEBUG - 2018-04-21 21:05:29 --> Model Class Initialized
+DEBUG - 2018-04-21 21:05:29 --> Model Class Initialized
+DEBUG - 2018-04-21 21:05:29 --> Model Class Initialized
+DEBUG - 2018-04-21 21:05:29 --> Model Class Initialized
+DEBUG - 2018-04-21 21:05:29 --> Model Class Initialized
+DEBUG - 2018-04-21 21:05:29 --> Model Class Initialized
+DEBUG - 2018-04-21 21:05:29 --> Model Class Initialized
+DEBUG - 2018-04-21 21:05:29 --> Model Class Initialized
+DEBUG - 2018-04-21 21:05:29 --> Model Class Initialized
+DEBUG - 2018-04-21 21:05:29 --> Model Class Initialized
+DEBUG - 2018-04-21 21:05:29 --> Model Class Initialized
+DEBUG - 2018-04-21 21:05:29 --> Model Class Initialized
+DEBUG - 2018-04-21 21:05:29 --> Final output sent to browser
+DEBUG - 2018-04-21 21:05:29 --> Total execution time: 0.0464
+DEBUG - 2018-04-21 21:05:30 --> Config Class Initialized
+DEBUG - 2018-04-21 21:05:30 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:05:30 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:05:30 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:05:30 --> URI Class Initialized
+DEBUG - 2018-04-21 21:05:30 --> Router Class Initialized
+DEBUG - 2018-04-21 21:05:30 --> Output Class Initialized
+DEBUG - 2018-04-21 21:05:30 --> Security Class Initialized
+DEBUG - 2018-04-21 21:05:30 --> Input Class Initialized
+DEBUG - 2018-04-21 21:05:30 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:05:30 --> Language Class Initialized
+DEBUG - 2018-04-21 21:05:30 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:05:30 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:05:30 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:05:30 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:05:30 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:05:30 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:05:30 --> Session Class Initialized
+DEBUG - 2018-04-21 21:05:30 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:05:30 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:05:30 --> Session routines successfully run
+DEBUG - 2018-04-21 21:05:30 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:05:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:05:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:05:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:05:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:05:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:05:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:05:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:05:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:05:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:05:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:05:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:05:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:05:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:05:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:05:30 --> Config Class Initialized
+DEBUG - 2018-04-21 21:05:30 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:05:30 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:05:30 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:05:30 --> URI Class Initialized
+DEBUG - 2018-04-21 21:05:30 --> Router Class Initialized
+DEBUG - 2018-04-21 21:05:30 --> Output Class Initialized
+DEBUG - 2018-04-21 21:05:30 --> Security Class Initialized
+DEBUG - 2018-04-21 21:05:30 --> Input Class Initialized
+DEBUG - 2018-04-21 21:05:30 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:05:30 --> Language Class Initialized
+DEBUG - 2018-04-21 21:05:30 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:05:30 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:05:30 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:05:30 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:05:30 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:05:30 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:05:30 --> Session Class Initialized
+DEBUG - 2018-04-21 21:05:30 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:05:30 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:05:30 --> Session routines successfully run
+DEBUG - 2018-04-21 21:05:30 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:05:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:05:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:05:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:05:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:05:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:05:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:05:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:05:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:05:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:05:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:05:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:05:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:05:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:05:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:05:30 --> Final output sent to browser
+DEBUG - 2018-04-21 21:05:30 --> Total execution time: 0.0359
+DEBUG - 2018-04-21 21:05:31 --> Config Class Initialized
+DEBUG - 2018-04-21 21:05:31 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:05:31 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:05:31 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:05:31 --> URI Class Initialized
+DEBUG - 2018-04-21 21:05:31 --> Router Class Initialized
+DEBUG - 2018-04-21 21:05:31 --> Output Class Initialized
+DEBUG - 2018-04-21 21:05:31 --> Security Class Initialized
+DEBUG - 2018-04-21 21:05:31 --> Input Class Initialized
+DEBUG - 2018-04-21 21:05:31 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:05:31 --> Language Class Initialized
+DEBUG - 2018-04-21 21:05:31 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:05:31 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:05:31 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:05:31 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:05:31 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:05:31 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:05:31 --> Session Class Initialized
+DEBUG - 2018-04-21 21:05:31 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:05:31 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:05:31 --> Session routines successfully run
+DEBUG - 2018-04-21 21:05:31 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:05:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:05:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:05:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:05:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:05:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:05:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:05:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:05:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:05:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:05:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:05:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:05:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:05:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:05:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:05:31 --> Final output sent to browser
+DEBUG - 2018-04-21 21:05:31 --> Total execution time: 0.0375
+DEBUG - 2018-04-21 21:06:53 --> Config Class Initialized
+DEBUG - 2018-04-21 21:06:53 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:06:53 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:06:53 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:06:53 --> URI Class Initialized
+DEBUG - 2018-04-21 21:06:53 --> Router Class Initialized
+DEBUG - 2018-04-21 21:06:53 --> Output Class Initialized
+DEBUG - 2018-04-21 21:06:53 --> Security Class Initialized
+DEBUG - 2018-04-21 21:06:53 --> Input Class Initialized
+DEBUG - 2018-04-21 21:06:53 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:06:53 --> Language Class Initialized
+DEBUG - 2018-04-21 21:06:53 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:06:53 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:06:53 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:06:53 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:06:53 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:06:53 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:06:53 --> Session Class Initialized
+DEBUG - 2018-04-21 21:06:53 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:06:53 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:06:53 --> Session routines successfully run
+DEBUG - 2018-04-21 21:06:53 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:06:53 --> Model Class Initialized
+DEBUG - 2018-04-21 21:06:53 --> Model Class Initialized
+DEBUG - 2018-04-21 21:06:53 --> Model Class Initialized
+DEBUG - 2018-04-21 21:06:53 --> Model Class Initialized
+DEBUG - 2018-04-21 21:06:53 --> Model Class Initialized
+DEBUG - 2018-04-21 21:06:53 --> Model Class Initialized
+DEBUG - 2018-04-21 21:06:53 --> Model Class Initialized
+DEBUG - 2018-04-21 21:06:53 --> Model Class Initialized
+DEBUG - 2018-04-21 21:06:53 --> Model Class Initialized
+DEBUG - 2018-04-21 21:06:53 --> Model Class Initialized
+DEBUG - 2018-04-21 21:06:53 --> Model Class Initialized
+DEBUG - 2018-04-21 21:06:53 --> Model Class Initialized
+DEBUG - 2018-04-21 21:06:53 --> Model Class Initialized
+DEBUG - 2018-04-21 21:06:53 --> Model Class Initialized
+DEBUG - 2018-04-21 21:06:53 --> Final output sent to browser
+DEBUG - 2018-04-21 21:06:53 --> Total execution time: 0.0345
+DEBUG - 2018-04-21 21:06:54 --> Config Class Initialized
+DEBUG - 2018-04-21 21:06:54 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:06:54 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:06:54 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:06:54 --> URI Class Initialized
+DEBUG - 2018-04-21 21:06:54 --> Router Class Initialized
+DEBUG - 2018-04-21 21:06:54 --> Output Class Initialized
+DEBUG - 2018-04-21 21:06:54 --> Security Class Initialized
+DEBUG - 2018-04-21 21:06:54 --> Input Class Initialized
+DEBUG - 2018-04-21 21:06:54 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:06:54 --> Language Class Initialized
+DEBUG - 2018-04-21 21:06:54 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:06:54 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:06:54 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:06:54 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:06:54 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:06:54 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:06:54 --> Session Class Initialized
+DEBUG - 2018-04-21 21:06:54 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:06:54 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:06:54 --> Session routines successfully run
+DEBUG - 2018-04-21 21:06:54 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:06:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:06:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:06:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:06:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:06:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:06:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:06:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:06:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:06:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:06:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:06:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:06:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:06:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:06:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:06:54 --> Config Class Initialized
+DEBUG - 2018-04-21 21:06:54 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:06:54 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:06:54 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:06:54 --> URI Class Initialized
+DEBUG - 2018-04-21 21:06:54 --> Router Class Initialized
+DEBUG - 2018-04-21 21:06:54 --> Output Class Initialized
+DEBUG - 2018-04-21 21:06:54 --> Security Class Initialized
+DEBUG - 2018-04-21 21:06:54 --> Input Class Initialized
+DEBUG - 2018-04-21 21:06:54 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:06:54 --> Language Class Initialized
+DEBUG - 2018-04-21 21:06:54 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:06:54 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:06:54 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:06:54 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:06:54 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:06:54 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:06:54 --> Session Class Initialized
+DEBUG - 2018-04-21 21:06:54 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:06:54 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:06:54 --> Session routines successfully run
+DEBUG - 2018-04-21 21:06:54 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:06:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:06:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:06:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:06:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:06:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:06:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:06:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:06:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:06:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:06:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:06:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:06:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:06:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:06:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:06:54 --> Final output sent to browser
+DEBUG - 2018-04-21 21:06:54 --> Total execution time: 0.0365
+DEBUG - 2018-04-21 21:06:55 --> Config Class Initialized
+DEBUG - 2018-04-21 21:06:55 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:06:55 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:06:55 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:06:55 --> URI Class Initialized
+DEBUG - 2018-04-21 21:06:55 --> Router Class Initialized
+DEBUG - 2018-04-21 21:06:55 --> Output Class Initialized
+DEBUG - 2018-04-21 21:06:55 --> Security Class Initialized
+DEBUG - 2018-04-21 21:06:55 --> Input Class Initialized
+DEBUG - 2018-04-21 21:06:55 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:06:55 --> Language Class Initialized
+DEBUG - 2018-04-21 21:06:55 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:06:55 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:06:55 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:06:55 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:06:55 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:06:55 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:06:55 --> Session Class Initialized
+DEBUG - 2018-04-21 21:06:55 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:06:55 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:06:55 --> Session routines successfully run
+DEBUG - 2018-04-21 21:06:55 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:06:55 --> Model Class Initialized
+DEBUG - 2018-04-21 21:06:55 --> Model Class Initialized
+DEBUG - 2018-04-21 21:06:55 --> Model Class Initialized
+DEBUG - 2018-04-21 21:06:55 --> Model Class Initialized
+DEBUG - 2018-04-21 21:06:55 --> Model Class Initialized
+DEBUG - 2018-04-21 21:06:55 --> Model Class Initialized
+DEBUG - 2018-04-21 21:06:55 --> Model Class Initialized
+DEBUG - 2018-04-21 21:06:55 --> Model Class Initialized
+DEBUG - 2018-04-21 21:06:55 --> Model Class Initialized
+DEBUG - 2018-04-21 21:06:55 --> Model Class Initialized
+DEBUG - 2018-04-21 21:06:55 --> Model Class Initialized
+DEBUG - 2018-04-21 21:06:55 --> Model Class Initialized
+DEBUG - 2018-04-21 21:06:55 --> Model Class Initialized
+DEBUG - 2018-04-21 21:06:55 --> Model Class Initialized
+DEBUG - 2018-04-21 21:06:55 --> Final output sent to browser
+DEBUG - 2018-04-21 21:06:55 --> Total execution time: 0.0343
+DEBUG - 2018-04-21 21:07:29 --> Config Class Initialized
+DEBUG - 2018-04-21 21:07:29 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:07:29 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:07:29 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:07:29 --> URI Class Initialized
+DEBUG - 2018-04-21 21:07:29 --> Router Class Initialized
+DEBUG - 2018-04-21 21:07:29 --> Output Class Initialized
+DEBUG - 2018-04-21 21:07:29 --> Security Class Initialized
+DEBUG - 2018-04-21 21:07:29 --> Input Class Initialized
+DEBUG - 2018-04-21 21:07:29 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:07:29 --> Language Class Initialized
+DEBUG - 2018-04-21 21:07:29 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:07:29 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:07:29 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:07:29 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:07:29 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:07:29 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:07:29 --> Session Class Initialized
+DEBUG - 2018-04-21 21:07:29 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:07:29 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:07:29 --> Session routines successfully run
+DEBUG - 2018-04-21 21:07:29 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:07:29 --> Model Class Initialized
+DEBUG - 2018-04-21 21:07:29 --> Model Class Initialized
+DEBUG - 2018-04-21 21:07:29 --> Model Class Initialized
+DEBUG - 2018-04-21 21:07:29 --> Model Class Initialized
+DEBUG - 2018-04-21 21:07:29 --> Model Class Initialized
+DEBUG - 2018-04-21 21:07:29 --> Model Class Initialized
+DEBUG - 2018-04-21 21:07:29 --> Model Class Initialized
+DEBUG - 2018-04-21 21:07:29 --> Model Class Initialized
+DEBUG - 2018-04-21 21:07:29 --> Model Class Initialized
+DEBUG - 2018-04-21 21:07:29 --> Model Class Initialized
+DEBUG - 2018-04-21 21:07:29 --> Model Class Initialized
+DEBUG - 2018-04-21 21:07:29 --> Model Class Initialized
+DEBUG - 2018-04-21 21:07:29 --> Model Class Initialized
+DEBUG - 2018-04-21 21:07:29 --> Model Class Initialized
+DEBUG - 2018-04-21 21:07:29 --> Final output sent to browser
+DEBUG - 2018-04-21 21:07:29 --> Total execution time: 0.0339
+DEBUG - 2018-04-21 21:07:30 --> Config Class Initialized
+DEBUG - 2018-04-21 21:07:30 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:07:30 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:07:30 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:07:30 --> URI Class Initialized
+DEBUG - 2018-04-21 21:07:30 --> Router Class Initialized
+DEBUG - 2018-04-21 21:07:30 --> Output Class Initialized
+DEBUG - 2018-04-21 21:07:30 --> Security Class Initialized
+DEBUG - 2018-04-21 21:07:30 --> Input Class Initialized
+DEBUG - 2018-04-21 21:07:30 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:07:30 --> Language Class Initialized
+DEBUG - 2018-04-21 21:07:30 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:07:30 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:07:30 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:07:30 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:07:30 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:07:30 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:07:30 --> Session Class Initialized
+DEBUG - 2018-04-21 21:07:30 --> Config Class Initialized
+DEBUG - 2018-04-21 21:07:30 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:07:30 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:07:30 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:07:30 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:07:30 --> Session routines successfully run
+DEBUG - 2018-04-21 21:07:30 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:07:30 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:07:30 --> URI Class Initialized
+DEBUG - 2018-04-21 21:07:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:07:30 --> Router Class Initialized
+DEBUG - 2018-04-21 21:07:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:07:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:07:30 --> Output Class Initialized
+DEBUG - 2018-04-21 21:07:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:07:30 --> Security Class Initialized
+DEBUG - 2018-04-21 21:07:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:07:30 --> Input Class Initialized
+DEBUG - 2018-04-21 21:07:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:07:30 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:07:30 --> Language Class Initialized
+DEBUG - 2018-04-21 21:07:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:07:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:07:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:07:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:07:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:07:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:07:30 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:07:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:07:30 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:07:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:07:30 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:07:30 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:07:30 --> Final output sent to browser
+DEBUG - 2018-04-21 21:07:30 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:07:30 --> Total execution time: 0.0376
+DEBUG - 2018-04-21 21:07:30 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:07:30 --> Session Class Initialized
+DEBUG - 2018-04-21 21:07:30 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:07:30 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:07:30 --> Session routines successfully run
+DEBUG - 2018-04-21 21:07:30 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:07:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:07:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:07:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:07:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:07:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:07:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:07:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:07:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:07:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:07:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:07:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:07:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:07:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:07:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:07:31 --> Config Class Initialized
+DEBUG - 2018-04-21 21:07:31 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:07:31 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:07:31 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:07:31 --> URI Class Initialized
+DEBUG - 2018-04-21 21:07:31 --> Router Class Initialized
+DEBUG - 2018-04-21 21:07:31 --> Output Class Initialized
+DEBUG - 2018-04-21 21:07:31 --> Security Class Initialized
+DEBUG - 2018-04-21 21:07:31 --> Input Class Initialized
+DEBUG - 2018-04-21 21:07:31 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:07:31 --> Language Class Initialized
+DEBUG - 2018-04-21 21:07:31 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:07:31 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:07:31 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:07:31 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:07:31 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:07:31 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:07:31 --> Session Class Initialized
+DEBUG - 2018-04-21 21:07:31 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:07:31 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:07:31 --> Session routines successfully run
+DEBUG - 2018-04-21 21:07:31 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:07:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:07:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:07:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:07:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:07:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:07:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:07:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:07:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:07:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:07:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:07:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:07:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:07:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:07:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:07:31 --> Final output sent to browser
+DEBUG - 2018-04-21 21:07:31 --> Total execution time: 0.0353
+DEBUG - 2018-04-21 21:16:02 --> Config Class Initialized
+DEBUG - 2018-04-21 21:16:02 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:16:02 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:16:02 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:16:02 --> URI Class Initialized
+DEBUG - 2018-04-21 21:16:02 --> Router Class Initialized
+DEBUG - 2018-04-21 21:16:02 --> Output Class Initialized
+DEBUG - 2018-04-21 21:16:02 --> Security Class Initialized
+DEBUG - 2018-04-21 21:16:02 --> Input Class Initialized
+DEBUG - 2018-04-21 21:16:02 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:16:02 --> Language Class Initialized
+DEBUG - 2018-04-21 21:16:02 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:16:02 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:16:02 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:16:02 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:16:02 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:16:02 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:16:02 --> Session Class Initialized
+DEBUG - 2018-04-21 21:16:02 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:16:02 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:16:02 --> Session routines successfully run
+DEBUG - 2018-04-21 21:16:02 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:16:02 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:02 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:02 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:02 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:02 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:02 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:02 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:02 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:02 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:02 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:02 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:02 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:02 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:02 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:02 --> Final output sent to browser
+DEBUG - 2018-04-21 21:16:02 --> Total execution time: 0.0729
+DEBUG - 2018-04-21 21:16:04 --> Config Class Initialized
+DEBUG - 2018-04-21 21:16:04 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:16:04 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:16:04 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:16:04 --> URI Class Initialized
+DEBUG - 2018-04-21 21:16:04 --> Router Class Initialized
+DEBUG - 2018-04-21 21:16:04 --> Output Class Initialized
+DEBUG - 2018-04-21 21:16:04 --> Security Class Initialized
+DEBUG - 2018-04-21 21:16:04 --> Input Class Initialized
+DEBUG - 2018-04-21 21:16:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:16:04 --> Language Class Initialized
+DEBUG - 2018-04-21 21:16:04 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:16:04 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:16:04 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:16:04 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:16:04 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:16:04 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:16:04 --> Session Class Initialized
+DEBUG - 2018-04-21 21:16:04 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:16:04 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:16:04 --> Session routines successfully run
+DEBUG - 2018-04-21 21:16:04 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:16:04 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:04 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:04 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:04 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:04 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:04 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:04 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:04 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:04 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:04 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:04 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:04 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:04 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:04 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:04 --> Config Class Initialized
+DEBUG - 2018-04-21 21:16:04 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:16:04 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:16:04 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:16:04 --> URI Class Initialized
+DEBUG - 2018-04-21 21:16:04 --> Router Class Initialized
+DEBUG - 2018-04-21 21:16:04 --> Output Class Initialized
+DEBUG - 2018-04-21 21:16:04 --> Security Class Initialized
+DEBUG - 2018-04-21 21:16:04 --> Input Class Initialized
+DEBUG - 2018-04-21 21:16:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:16:04 --> Language Class Initialized
+DEBUG - 2018-04-21 21:16:04 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:16:04 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:16:04 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:16:04 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:16:04 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:16:04 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:16:04 --> Session Class Initialized
+DEBUG - 2018-04-21 21:16:04 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:16:04 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:16:04 --> Session routines successfully run
+DEBUG - 2018-04-21 21:16:04 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:16:04 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:04 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:04 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:04 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:04 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:04 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:04 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:04 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:04 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:04 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:04 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:04 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:04 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:04 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:04 --> Final output sent to browser
+DEBUG - 2018-04-21 21:16:04 --> Total execution time: 0.0677
+DEBUG - 2018-04-21 21:16:05 --> Config Class Initialized
+DEBUG - 2018-04-21 21:16:05 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:16:05 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:16:05 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:16:05 --> URI Class Initialized
+DEBUG - 2018-04-21 21:16:05 --> Router Class Initialized
+DEBUG - 2018-04-21 21:16:05 --> Output Class Initialized
+DEBUG - 2018-04-21 21:16:05 --> Security Class Initialized
+DEBUG - 2018-04-21 21:16:05 --> Input Class Initialized
+DEBUG - 2018-04-21 21:16:05 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:16:05 --> Language Class Initialized
+DEBUG - 2018-04-21 21:16:05 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:16:05 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:16:05 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:16:05 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:16:05 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:16:05 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:16:05 --> Session Class Initialized
+DEBUG - 2018-04-21 21:16:05 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:16:05 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:16:05 --> Session routines successfully run
+DEBUG - 2018-04-21 21:16:05 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:16:05 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:05 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:05 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:05 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:05 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:05 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:05 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:05 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:05 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:05 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:05 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:05 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:05 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:05 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:05 --> Final output sent to browser
+DEBUG - 2018-04-21 21:16:05 --> Total execution time: 0.0582
+DEBUG - 2018-04-21 21:16:23 --> Config Class Initialized
+DEBUG - 2018-04-21 21:16:23 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:16:23 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:16:23 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:16:23 --> URI Class Initialized
+DEBUG - 2018-04-21 21:16:23 --> Router Class Initialized
+DEBUG - 2018-04-21 21:16:23 --> Output Class Initialized
+DEBUG - 2018-04-21 21:16:23 --> Security Class Initialized
+DEBUG - 2018-04-21 21:16:23 --> Input Class Initialized
+DEBUG - 2018-04-21 21:16:23 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:16:23 --> Language Class Initialized
+DEBUG - 2018-04-21 21:16:23 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:16:23 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:16:23 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:16:23 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:16:23 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:16:23 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:16:23 --> Session Class Initialized
+DEBUG - 2018-04-21 21:16:23 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:16:23 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:16:23 --> Session routines successfully run
+DEBUG - 2018-04-21 21:16:23 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:16:23 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:23 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:23 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:23 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:23 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:23 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:23 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:23 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:23 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:23 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:23 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:23 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:23 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:23 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:23 --> Final output sent to browser
+DEBUG - 2018-04-21 21:16:23 --> Total execution time: 0.0631
+DEBUG - 2018-04-21 21:16:24 --> Config Class Initialized
+DEBUG - 2018-04-21 21:16:24 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:16:24 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:16:24 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:16:24 --> URI Class Initialized
+DEBUG - 2018-04-21 21:16:24 --> Router Class Initialized
+DEBUG - 2018-04-21 21:16:24 --> Output Class Initialized
+DEBUG - 2018-04-21 21:16:24 --> Security Class Initialized
+DEBUG - 2018-04-21 21:16:24 --> Input Class Initialized
+DEBUG - 2018-04-21 21:16:24 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:16:24 --> Language Class Initialized
+DEBUG - 2018-04-21 21:16:24 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:16:24 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:16:24 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:16:24 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:16:24 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:16:24 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:16:24 --> Session Class Initialized
+DEBUG - 2018-04-21 21:16:24 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:16:24 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:16:24 --> Session routines successfully run
+DEBUG - 2018-04-21 21:16:24 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:16:24 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:24 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:24 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:24 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:24 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:24 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:24 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:24 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:24 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:24 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:24 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:24 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:24 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:24 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:24 --> Final output sent to browser
+DEBUG - 2018-04-21 21:16:24 --> Total execution time: 0.1026
+DEBUG - 2018-04-21 21:16:24 --> Config Class Initialized
+DEBUG - 2018-04-21 21:16:24 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:16:24 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:16:24 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:16:24 --> URI Class Initialized
+DEBUG - 2018-04-21 21:16:24 --> Router Class Initialized
+DEBUG - 2018-04-21 21:16:24 --> Output Class Initialized
+DEBUG - 2018-04-21 21:16:24 --> Security Class Initialized
+DEBUG - 2018-04-21 21:16:24 --> Input Class Initialized
+DEBUG - 2018-04-21 21:16:24 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:16:24 --> Language Class Initialized
+DEBUG - 2018-04-21 21:16:24 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:16:24 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:16:24 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:16:24 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:16:24 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:16:24 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:16:24 --> Session Class Initialized
+DEBUG - 2018-04-21 21:16:24 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:16:24 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:16:24 --> Session routines successfully run
+DEBUG - 2018-04-21 21:16:24 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:16:24 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:24 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:24 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:24 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:24 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:24 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:24 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:24 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:24 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:24 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:24 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:24 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:24 --> Model Class Initialized
+DEBUG - 2018-04-21 21:16:24 --> Model Class Initialized
+DEBUG - 2018-04-21 21:38:02 --> Config Class Initialized
+DEBUG - 2018-04-21 21:38:02 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:38:02 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:38:02 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:38:02 --> URI Class Initialized
+DEBUG - 2018-04-21 21:38:02 --> Router Class Initialized
+DEBUG - 2018-04-21 21:38:02 --> Output Class Initialized
+DEBUG - 2018-04-21 21:38:02 --> Security Class Initialized
+DEBUG - 2018-04-21 21:38:02 --> Input Class Initialized
+DEBUG - 2018-04-21 21:38:02 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:38:02 --> Language Class Initialized
+DEBUG - 2018-04-21 21:38:02 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:38:02 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:38:02 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:38:02 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:38:02 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:38:02 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:38:02 --> Session Class Initialized
+DEBUG - 2018-04-21 21:38:02 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:38:02 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:38:02 --> Session routines successfully run
+DEBUG - 2018-04-21 21:38:02 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:38:02 --> Model Class Initialized
+DEBUG - 2018-04-21 21:38:02 --> Model Class Initialized
+DEBUG - 2018-04-21 21:38:02 --> Model Class Initialized
+DEBUG - 2018-04-21 21:38:02 --> Model Class Initialized
+DEBUG - 2018-04-21 21:38:02 --> Model Class Initialized
+DEBUG - 2018-04-21 21:38:02 --> Model Class Initialized
+DEBUG - 2018-04-21 21:38:02 --> Model Class Initialized
+DEBUG - 2018-04-21 21:38:02 --> Model Class Initialized
+DEBUG - 2018-04-21 21:38:02 --> Model Class Initialized
+DEBUG - 2018-04-21 21:38:02 --> Model Class Initialized
+DEBUG - 2018-04-21 21:38:02 --> Model Class Initialized
+DEBUG - 2018-04-21 21:38:02 --> Model Class Initialized
+DEBUG - 2018-04-21 21:38:02 --> Model Class Initialized
+DEBUG - 2018-04-21 21:38:02 --> Model Class Initialized
+DEBUG - 2018-04-21 21:38:02 --> Final output sent to browser
+DEBUG - 2018-04-21 21:38:02 --> Total execution time: 0.0358
+DEBUG - 2018-04-21 21:38:03 --> Config Class Initialized
+DEBUG - 2018-04-21 21:38:03 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:38:03 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:38:03 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:38:03 --> URI Class Initialized
+DEBUG - 2018-04-21 21:38:03 --> Router Class Initialized
+DEBUG - 2018-04-21 21:38:03 --> Output Class Initialized
+DEBUG - 2018-04-21 21:38:03 --> Config Class Initialized
+DEBUG - 2018-04-21 21:38:03 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:38:03 --> Security Class Initialized
+DEBUG - 2018-04-21 21:38:03 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:38:03 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:38:03 --> Input Class Initialized
+DEBUG - 2018-04-21 21:38:03 --> URI Class Initialized
+DEBUG - 2018-04-21 21:38:03 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:38:03 --> Language Class Initialized
+DEBUG - 2018-04-21 21:38:03 --> Router Class Initialized
+DEBUG - 2018-04-21 21:38:03 --> Output Class Initialized
+DEBUG - 2018-04-21 21:38:03 --> Security Class Initialized
+DEBUG - 2018-04-21 21:38:03 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:38:03 --> Input Class Initialized
+DEBUG - 2018-04-21 21:38:03 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:38:03 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:38:03 --> Language Class Initialized
+DEBUG - 2018-04-21 21:38:03 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:38:03 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:38:03 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:38:03 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:38:03 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:38:03 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:38:03 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:38:03 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:38:03 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:38:03 --> Session Class Initialized
+DEBUG - 2018-04-21 21:38:03 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:38:03 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:38:03 --> Session routines successfully run
+DEBUG - 2018-04-21 21:38:03 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:38:03 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:38:03 --> Model Class Initialized
+DEBUG - 2018-04-21 21:38:03 --> Model Class Initialized
+DEBUG - 2018-04-21 21:38:03 --> Model Class Initialized
+DEBUG - 2018-04-21 21:38:03 --> Model Class Initialized
+DEBUG - 2018-04-21 21:38:03 --> Session Class Initialized
+DEBUG - 2018-04-21 21:38:03 --> Model Class Initialized
+DEBUG - 2018-04-21 21:38:03 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:38:03 --> Model Class Initialized
+DEBUG - 2018-04-21 21:38:03 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:38:03 --> Session routines successfully run
+DEBUG - 2018-04-21 21:38:03 --> Model Class Initialized
+DEBUG - 2018-04-21 21:38:03 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:38:03 --> Model Class Initialized
+DEBUG - 2018-04-21 21:38:03 --> Model Class Initialized
+DEBUG - 2018-04-21 21:38:03 --> Model Class Initialized
+DEBUG - 2018-04-21 21:38:03 --> Model Class Initialized
+DEBUG - 2018-04-21 21:38:03 --> Model Class Initialized
+DEBUG - 2018-04-21 21:38:03 --> Model Class Initialized
+DEBUG - 2018-04-21 21:38:03 --> Model Class Initialized
+DEBUG - 2018-04-21 21:38:03 --> Model Class Initialized
+DEBUG - 2018-04-21 21:38:03 --> Model Class Initialized
+DEBUG - 2018-04-21 21:38:03 --> Model Class Initialized
+DEBUG - 2018-04-21 21:38:03 --> Model Class Initialized
+DEBUG - 2018-04-21 21:38:03 --> Model Class Initialized
+DEBUG - 2018-04-21 21:38:03 --> Model Class Initialized
+DEBUG - 2018-04-21 21:38:03 --> Model Class Initialized
+DEBUG - 2018-04-21 21:38:03 --> Model Class Initialized
+DEBUG - 2018-04-21 21:38:03 --> Final output sent to browser
+DEBUG - 2018-04-21 21:38:03 --> Total execution time: 0.0438
+DEBUG - 2018-04-21 21:38:03 --> Model Class Initialized
+DEBUG - 2018-04-21 21:38:03 --> Model Class Initialized
+DEBUG - 2018-04-21 21:38:03 --> Model Class Initialized
+DEBUG - 2018-04-21 21:38:03 --> Model Class Initialized
+DEBUG - 2018-04-21 21:38:03 --> Model Class Initialized
+DEBUG - 2018-04-21 21:38:03 --> Model Class Initialized
+DEBUG - 2018-04-21 21:38:04 --> Config Class Initialized
+DEBUG - 2018-04-21 21:38:04 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:38:04 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:38:04 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:38:04 --> URI Class Initialized
+DEBUG - 2018-04-21 21:38:04 --> Router Class Initialized
+DEBUG - 2018-04-21 21:38:04 --> Output Class Initialized
+DEBUG - 2018-04-21 21:38:04 --> Security Class Initialized
+DEBUG - 2018-04-21 21:38:04 --> Input Class Initialized
+DEBUG - 2018-04-21 21:38:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:38:04 --> Language Class Initialized
+DEBUG - 2018-04-21 21:38:04 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:38:04 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:38:04 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:38:04 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:38:04 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:38:04 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:38:04 --> Session Class Initialized
+DEBUG - 2018-04-21 21:38:04 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:38:04 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:38:04 --> Session routines successfully run
+DEBUG - 2018-04-21 21:38:04 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:38:04 --> Model Class Initialized
+DEBUG - 2018-04-21 21:38:04 --> Model Class Initialized
+DEBUG - 2018-04-21 21:38:04 --> Model Class Initialized
+DEBUG - 2018-04-21 21:38:04 --> Model Class Initialized
+DEBUG - 2018-04-21 21:38:04 --> Model Class Initialized
+DEBUG - 2018-04-21 21:38:04 --> Model Class Initialized
+DEBUG - 2018-04-21 21:38:04 --> Model Class Initialized
+DEBUG - 2018-04-21 21:38:04 --> Model Class Initialized
+DEBUG - 2018-04-21 21:38:04 --> Model Class Initialized
+DEBUG - 2018-04-21 21:38:04 --> Model Class Initialized
+DEBUG - 2018-04-21 21:38:04 --> Model Class Initialized
+DEBUG - 2018-04-21 21:38:04 --> Model Class Initialized
+DEBUG - 2018-04-21 21:38:04 --> Model Class Initialized
+DEBUG - 2018-04-21 21:38:04 --> Model Class Initialized
+DEBUG - 2018-04-21 21:38:04 --> Final output sent to browser
+DEBUG - 2018-04-21 21:38:04 --> Total execution time: 0.0352
+DEBUG - 2018-04-21 21:43:20 --> Config Class Initialized
+DEBUG - 2018-04-21 21:43:20 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:43:20 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:43:20 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:43:20 --> URI Class Initialized
+DEBUG - 2018-04-21 21:43:20 --> Router Class Initialized
+DEBUG - 2018-04-21 21:43:20 --> Output Class Initialized
+DEBUG - 2018-04-21 21:43:20 --> Security Class Initialized
+DEBUG - 2018-04-21 21:43:20 --> Input Class Initialized
+DEBUG - 2018-04-21 21:43:20 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:43:20 --> Language Class Initialized
+DEBUG - 2018-04-21 21:43:20 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:43:20 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:43:20 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:43:20 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:43:20 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:43:20 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:43:20 --> Session Class Initialized
+DEBUG - 2018-04-21 21:43:20 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:43:20 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:43:20 --> Session routines successfully run
+DEBUG - 2018-04-21 21:43:20 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:43:20 --> Model Class Initialized
+DEBUG - 2018-04-21 21:43:20 --> Model Class Initialized
+DEBUG - 2018-04-21 21:43:20 --> Model Class Initialized
+DEBUG - 2018-04-21 21:43:20 --> Model Class Initialized
+DEBUG - 2018-04-21 21:43:20 --> Model Class Initialized
+DEBUG - 2018-04-21 21:43:20 --> Model Class Initialized
+DEBUG - 2018-04-21 21:43:20 --> Model Class Initialized
+DEBUG - 2018-04-21 21:43:20 --> Model Class Initialized
+DEBUG - 2018-04-21 21:43:20 --> Model Class Initialized
+DEBUG - 2018-04-21 21:43:20 --> Model Class Initialized
+DEBUG - 2018-04-21 21:43:20 --> Model Class Initialized
+DEBUG - 2018-04-21 21:43:20 --> Model Class Initialized
+DEBUG - 2018-04-21 21:43:20 --> Model Class Initialized
+DEBUG - 2018-04-21 21:43:20 --> Model Class Initialized
+DEBUG - 2018-04-21 21:43:20 --> Final output sent to browser
+DEBUG - 2018-04-21 21:43:20 --> Total execution time: 0.0415
+DEBUG - 2018-04-21 21:43:21 --> Config Class Initialized
+DEBUG - 2018-04-21 21:43:21 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:43:21 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:43:21 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:43:21 --> URI Class Initialized
+DEBUG - 2018-04-21 21:43:21 --> Router Class Initialized
+DEBUG - 2018-04-21 21:43:21 --> Config Class Initialized
+DEBUG - 2018-04-21 21:43:21 --> Output Class Initialized
+DEBUG - 2018-04-21 21:43:21 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:43:21 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:43:21 --> Security Class Initialized
+DEBUG - 2018-04-21 21:43:21 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:43:21 --> Input Class Initialized
+DEBUG - 2018-04-21 21:43:21 --> URI Class Initialized
+DEBUG - 2018-04-21 21:43:21 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:43:21 --> Language Class Initialized
+DEBUG - 2018-04-21 21:43:21 --> Router Class Initialized
+DEBUG - 2018-04-21 21:43:21 --> Output Class Initialized
+DEBUG - 2018-04-21 21:43:21 --> Security Class Initialized
+DEBUG - 2018-04-21 21:43:21 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:43:21 --> Input Class Initialized
+DEBUG - 2018-04-21 21:43:21 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:43:21 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:43:21 --> Language Class Initialized
+DEBUG - 2018-04-21 21:43:21 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:43:21 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:43:21 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:43:21 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:43:21 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:43:21 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:43:21 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:43:21 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:43:21 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:43:21 --> Session Class Initialized
+DEBUG - 2018-04-21 21:43:21 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:43:21 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:43:21 --> Session routines successfully run
+DEBUG - 2018-04-21 21:43:21 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:43:21 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:43:21 --> Model Class Initialized
+DEBUG - 2018-04-21 21:43:21 --> Model Class Initialized
+DEBUG - 2018-04-21 21:43:21 --> Model Class Initialized
+DEBUG - 2018-04-21 21:43:21 --> Model Class Initialized
+DEBUG - 2018-04-21 21:43:21 --> Session Class Initialized
+DEBUG - 2018-04-21 21:43:21 --> Model Class Initialized
+DEBUG - 2018-04-21 21:43:21 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:43:21 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:43:21 --> Model Class Initialized
+DEBUG - 2018-04-21 21:43:21 --> Session routines successfully run
+DEBUG - 2018-04-21 21:43:21 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:43:21 --> Model Class Initialized
+DEBUG - 2018-04-21 21:43:21 --> Model Class Initialized
+DEBUG - 2018-04-21 21:43:21 --> Model Class Initialized
+DEBUG - 2018-04-21 21:43:21 --> Model Class Initialized
+DEBUG - 2018-04-21 21:43:21 --> Model Class Initialized
+DEBUG - 2018-04-21 21:43:21 --> Model Class Initialized
+DEBUG - 2018-04-21 21:43:21 --> Model Class Initialized
+DEBUG - 2018-04-21 21:43:21 --> Model Class Initialized
+DEBUG - 2018-04-21 21:43:21 --> Model Class Initialized
+DEBUG - 2018-04-21 21:43:21 --> Model Class Initialized
+DEBUG - 2018-04-21 21:43:21 --> Model Class Initialized
+DEBUG - 2018-04-21 21:43:21 --> Model Class Initialized
+DEBUG - 2018-04-21 21:43:21 --> Model Class Initialized
+DEBUG - 2018-04-21 21:43:21 --> Model Class Initialized
+DEBUG - 2018-04-21 21:43:21 --> Model Class Initialized
+DEBUG - 2018-04-21 21:43:21 --> Model Class Initialized
+DEBUG - 2018-04-21 21:43:21 --> Model Class Initialized
+DEBUG - 2018-04-21 21:43:21 --> Model Class Initialized
+DEBUG - 2018-04-21 21:43:21 --> Final output sent to browser
+DEBUG - 2018-04-21 21:43:21 --> Total execution time: 0.0497
+DEBUG - 2018-04-21 21:43:21 --> Model Class Initialized
+DEBUG - 2018-04-21 21:43:21 --> Model Class Initialized
+DEBUG - 2018-04-21 21:43:21 --> Model Class Initialized
+DEBUG - 2018-04-21 21:43:21 --> Model Class Initialized
+DEBUG - 2018-04-21 21:43:22 --> Config Class Initialized
+DEBUG - 2018-04-21 21:43:22 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:43:22 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:43:22 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:43:22 --> URI Class Initialized
+DEBUG - 2018-04-21 21:43:22 --> Router Class Initialized
+DEBUG - 2018-04-21 21:43:22 --> Output Class Initialized
+DEBUG - 2018-04-21 21:43:22 --> Security Class Initialized
+DEBUG - 2018-04-21 21:43:22 --> Input Class Initialized
+DEBUG - 2018-04-21 21:43:22 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:43:22 --> Language Class Initialized
+DEBUG - 2018-04-21 21:43:22 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:43:22 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:43:22 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:43:22 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:43:22 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:43:22 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:43:22 --> Session Class Initialized
+DEBUG - 2018-04-21 21:43:22 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:43:22 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:43:22 --> Session routines successfully run
+DEBUG - 2018-04-21 21:43:22 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:43:22 --> Model Class Initialized
+DEBUG - 2018-04-21 21:43:22 --> Model Class Initialized
+DEBUG - 2018-04-21 21:43:22 --> Model Class Initialized
+DEBUG - 2018-04-21 21:43:22 --> Model Class Initialized
+DEBUG - 2018-04-21 21:43:22 --> Model Class Initialized
+DEBUG - 2018-04-21 21:43:22 --> Model Class Initialized
+DEBUG - 2018-04-21 21:43:22 --> Model Class Initialized
+DEBUG - 2018-04-21 21:43:22 --> Model Class Initialized
+DEBUG - 2018-04-21 21:43:22 --> Model Class Initialized
+DEBUG - 2018-04-21 21:43:22 --> Model Class Initialized
+DEBUG - 2018-04-21 21:43:22 --> Model Class Initialized
+DEBUG - 2018-04-21 21:43:22 --> Model Class Initialized
+DEBUG - 2018-04-21 21:43:22 --> Model Class Initialized
+DEBUG - 2018-04-21 21:43:22 --> Model Class Initialized
+DEBUG - 2018-04-21 21:43:22 --> Final output sent to browser
+DEBUG - 2018-04-21 21:43:22 --> Total execution time: 0.0522
+DEBUG - 2018-04-21 21:44:01 --> Config Class Initialized
+DEBUG - 2018-04-21 21:44:01 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:44:01 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:44:01 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:44:01 --> URI Class Initialized
+DEBUG - 2018-04-21 21:44:01 --> Router Class Initialized
+DEBUG - 2018-04-21 21:44:01 --> Output Class Initialized
+DEBUG - 2018-04-21 21:44:01 --> Security Class Initialized
+DEBUG - 2018-04-21 21:44:01 --> Input Class Initialized
+DEBUG - 2018-04-21 21:44:01 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:44:01 --> Language Class Initialized
+DEBUG - 2018-04-21 21:44:01 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:44:01 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:44:01 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:44:01 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:44:01 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:44:01 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:44:01 --> Session Class Initialized
+DEBUG - 2018-04-21 21:44:01 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:44:01 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:44:01 --> Session routines successfully run
+DEBUG - 2018-04-21 21:44:01 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:44:01 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:01 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:01 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:01 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:01 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:01 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:01 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:01 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:01 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:01 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:01 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:01 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:01 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:01 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:01 --> Final output sent to browser
+DEBUG - 2018-04-21 21:44:01 --> Total execution time: 0.0369
+DEBUG - 2018-04-21 21:44:02 --> Config Class Initialized
+DEBUG - 2018-04-21 21:44:02 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:44:02 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:44:02 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:44:02 --> URI Class Initialized
+DEBUG - 2018-04-21 21:44:02 --> Router Class Initialized
+DEBUG - 2018-04-21 21:44:02 --> Output Class Initialized
+DEBUG - 2018-04-21 21:44:02 --> Security Class Initialized
+DEBUG - 2018-04-21 21:44:02 --> Input Class Initialized
+DEBUG - 2018-04-21 21:44:02 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:44:02 --> Language Class Initialized
+DEBUG - 2018-04-21 21:44:02 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:44:02 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:44:02 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:44:02 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:44:02 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:44:02 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:44:02 --> Session Class Initialized
+DEBUG - 2018-04-21 21:44:02 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:44:02 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:44:02 --> Session routines successfully run
+DEBUG - 2018-04-21 21:44:02 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:44:02 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:02 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:02 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:02 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:02 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:02 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:02 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:02 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:02 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:02 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:02 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:02 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:02 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:02 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:02 --> Config Class Initialized
+DEBUG - 2018-04-21 21:44:02 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:44:02 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:44:02 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:44:02 --> URI Class Initialized
+DEBUG - 2018-04-21 21:44:02 --> Router Class Initialized
+DEBUG - 2018-04-21 21:44:02 --> Output Class Initialized
+DEBUG - 2018-04-21 21:44:02 --> Security Class Initialized
+DEBUG - 2018-04-21 21:44:02 --> Input Class Initialized
+DEBUG - 2018-04-21 21:44:02 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:44:02 --> Language Class Initialized
+DEBUG - 2018-04-21 21:44:02 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:44:02 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:44:02 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:44:02 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:44:02 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:44:02 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:44:02 --> Session Class Initialized
+DEBUG - 2018-04-21 21:44:02 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:44:02 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:44:02 --> Session routines successfully run
+DEBUG - 2018-04-21 21:44:02 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:44:02 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:02 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:02 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:02 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:02 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:02 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:02 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:02 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:02 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:02 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:02 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:02 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:02 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:02 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:02 --> Final output sent to browser
+DEBUG - 2018-04-21 21:44:02 --> Total execution time: 0.0357
+DEBUG - 2018-04-21 21:44:03 --> Config Class Initialized
+DEBUG - 2018-04-21 21:44:03 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:44:03 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:44:03 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:44:03 --> URI Class Initialized
+DEBUG - 2018-04-21 21:44:03 --> Router Class Initialized
+DEBUG - 2018-04-21 21:44:03 --> Output Class Initialized
+DEBUG - 2018-04-21 21:44:03 --> Security Class Initialized
+DEBUG - 2018-04-21 21:44:03 --> Input Class Initialized
+DEBUG - 2018-04-21 21:44:03 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:44:03 --> Language Class Initialized
+DEBUG - 2018-04-21 21:44:03 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:44:03 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:44:03 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:44:03 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:44:03 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:44:03 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:44:03 --> Session Class Initialized
+DEBUG - 2018-04-21 21:44:03 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:44:03 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:44:03 --> Session routines successfully run
+DEBUG - 2018-04-21 21:44:03 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:44:03 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:03 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:03 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:03 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:03 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:03 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:03 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:03 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:03 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:03 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:03 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:03 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:03 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:03 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:03 --> Final output sent to browser
+DEBUG - 2018-04-21 21:44:03 --> Total execution time: 0.0356
+DEBUG - 2018-04-21 21:44:53 --> Config Class Initialized
+DEBUG - 2018-04-21 21:44:53 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:44:53 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:44:53 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:44:53 --> URI Class Initialized
+DEBUG - 2018-04-21 21:44:53 --> Router Class Initialized
+DEBUG - 2018-04-21 21:44:53 --> Output Class Initialized
+DEBUG - 2018-04-21 21:44:53 --> Security Class Initialized
+DEBUG - 2018-04-21 21:44:53 --> Input Class Initialized
+DEBUG - 2018-04-21 21:44:53 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:44:53 --> Language Class Initialized
+DEBUG - 2018-04-21 21:44:53 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:44:53 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:44:53 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:44:53 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:44:53 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:44:53 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:44:53 --> Session Class Initialized
+DEBUG - 2018-04-21 21:44:53 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:44:53 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:44:53 --> Session routines successfully run
+DEBUG - 2018-04-21 21:44:53 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:44:53 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:53 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:53 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:53 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:53 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:53 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:53 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:53 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:53 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:53 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:53 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:53 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:53 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:53 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:53 --> Final output sent to browser
+DEBUG - 2018-04-21 21:44:53 --> Total execution time: 0.0368
+DEBUG - 2018-04-21 21:44:54 --> Config Class Initialized
+DEBUG - 2018-04-21 21:44:54 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:44:54 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:44:54 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:44:54 --> URI Class Initialized
+DEBUG - 2018-04-21 21:44:54 --> Router Class Initialized
+DEBUG - 2018-04-21 21:44:54 --> Output Class Initialized
+DEBUG - 2018-04-21 21:44:54 --> Security Class Initialized
+DEBUG - 2018-04-21 21:44:54 --> Input Class Initialized
+DEBUG - 2018-04-21 21:44:54 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:44:54 --> Language Class Initialized
+DEBUG - 2018-04-21 21:44:54 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:44:54 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:44:54 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:44:54 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:44:54 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:44:54 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:44:54 --> Session Class Initialized
+DEBUG - 2018-04-21 21:44:54 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:44:54 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:44:54 --> Session routines successfully run
+DEBUG - 2018-04-21 21:44:54 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:44:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:54 --> Config Class Initialized
+DEBUG - 2018-04-21 21:44:54 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:44:54 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:44:54 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:44:54 --> URI Class Initialized
+DEBUG - 2018-04-21 21:44:54 --> Router Class Initialized
+DEBUG - 2018-04-21 21:44:54 --> Output Class Initialized
+DEBUG - 2018-04-21 21:44:54 --> Security Class Initialized
+DEBUG - 2018-04-21 21:44:54 --> Input Class Initialized
+DEBUG - 2018-04-21 21:44:54 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:44:54 --> Language Class Initialized
+DEBUG - 2018-04-21 21:44:54 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:44:54 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:44:54 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:44:54 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:44:54 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:44:54 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:44:54 --> Session Class Initialized
+DEBUG - 2018-04-21 21:44:54 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:44:54 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:44:54 --> Session routines successfully run
+DEBUG - 2018-04-21 21:44:54 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:44:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:54 --> Final output sent to browser
+DEBUG - 2018-04-21 21:44:54 --> Total execution time: 0.0458
+DEBUG - 2018-04-21 21:44:55 --> Config Class Initialized
+DEBUG - 2018-04-21 21:44:55 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:44:55 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:44:55 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:44:55 --> URI Class Initialized
+DEBUG - 2018-04-21 21:44:55 --> Router Class Initialized
+DEBUG - 2018-04-21 21:44:55 --> Output Class Initialized
+DEBUG - 2018-04-21 21:44:55 --> Security Class Initialized
+DEBUG - 2018-04-21 21:44:55 --> Input Class Initialized
+DEBUG - 2018-04-21 21:44:55 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:44:55 --> Language Class Initialized
+DEBUG - 2018-04-21 21:44:55 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:44:55 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:44:55 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:44:55 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:44:55 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:44:55 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:44:55 --> Session Class Initialized
+DEBUG - 2018-04-21 21:44:55 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:44:55 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:44:55 --> Session routines successfully run
+DEBUG - 2018-04-21 21:44:55 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:44:55 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:55 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:55 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:55 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:55 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:55 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:55 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:55 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:55 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:55 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:55 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:55 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:55 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:55 --> Model Class Initialized
+DEBUG - 2018-04-21 21:44:55 --> Final output sent to browser
+DEBUG - 2018-04-21 21:44:55 --> Total execution time: 0.0360
+DEBUG - 2018-04-21 21:45:14 --> Config Class Initialized
+DEBUG - 2018-04-21 21:45:14 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:45:14 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:45:14 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:45:14 --> URI Class Initialized
+DEBUG - 2018-04-21 21:45:14 --> Router Class Initialized
+DEBUG - 2018-04-21 21:45:14 --> Output Class Initialized
+DEBUG - 2018-04-21 21:45:14 --> Security Class Initialized
+DEBUG - 2018-04-21 21:45:14 --> Input Class Initialized
+DEBUG - 2018-04-21 21:45:14 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:45:14 --> Language Class Initialized
+DEBUG - 2018-04-21 21:45:14 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:45:14 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:45:14 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:45:14 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:45:14 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:45:14 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:45:14 --> Session Class Initialized
+DEBUG - 2018-04-21 21:45:14 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:45:14 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:45:14 --> Session routines successfully run
+DEBUG - 2018-04-21 21:45:14 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:45:14 --> Model Class Initialized
+DEBUG - 2018-04-21 21:45:14 --> Model Class Initialized
+DEBUG - 2018-04-21 21:45:14 --> Model Class Initialized
+DEBUG - 2018-04-21 21:45:14 --> Model Class Initialized
+DEBUG - 2018-04-21 21:45:14 --> Model Class Initialized
+DEBUG - 2018-04-21 21:45:14 --> Model Class Initialized
+DEBUG - 2018-04-21 21:45:14 --> Model Class Initialized
+DEBUG - 2018-04-21 21:45:14 --> Model Class Initialized
+DEBUG - 2018-04-21 21:45:14 --> Model Class Initialized
+DEBUG - 2018-04-21 21:45:14 --> Model Class Initialized
+DEBUG - 2018-04-21 21:45:14 --> Model Class Initialized
+DEBUG - 2018-04-21 21:45:14 --> Model Class Initialized
+DEBUG - 2018-04-21 21:45:14 --> Model Class Initialized
+DEBUG - 2018-04-21 21:45:14 --> Model Class Initialized
+DEBUG - 2018-04-21 21:45:14 --> Final output sent to browser
+DEBUG - 2018-04-21 21:45:14 --> Total execution time: 0.0475
+DEBUG - 2018-04-21 21:45:14 --> Config Class Initialized
+DEBUG - 2018-04-21 21:45:14 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:45:14 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:45:14 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:45:14 --> URI Class Initialized
+DEBUG - 2018-04-21 21:45:14 --> Router Class Initialized
+DEBUG - 2018-04-21 21:45:14 --> Output Class Initialized
+DEBUG - 2018-04-21 21:45:14 --> Security Class Initialized
+DEBUG - 2018-04-21 21:45:14 --> Input Class Initialized
+DEBUG - 2018-04-21 21:45:14 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:45:14 --> Language Class Initialized
+DEBUG - 2018-04-21 21:45:14 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:45:14 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:45:14 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:45:14 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:45:14 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:45:14 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:45:14 --> Session Class Initialized
+DEBUG - 2018-04-21 21:45:14 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:45:14 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:45:14 --> Session routines successfully run
+DEBUG - 2018-04-21 21:45:14 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:45:14 --> Model Class Initialized
+DEBUG - 2018-04-21 21:45:14 --> Model Class Initialized
+DEBUG - 2018-04-21 21:45:14 --> Model Class Initialized
+DEBUG - 2018-04-21 21:45:14 --> Model Class Initialized
+DEBUG - 2018-04-21 21:45:14 --> Model Class Initialized
+DEBUG - 2018-04-21 21:45:14 --> Model Class Initialized
+DEBUG - 2018-04-21 21:45:14 --> Model Class Initialized
+DEBUG - 2018-04-21 21:45:14 --> Model Class Initialized
+DEBUG - 2018-04-21 21:45:14 --> Model Class Initialized
+DEBUG - 2018-04-21 21:45:14 --> Model Class Initialized
+DEBUG - 2018-04-21 21:45:14 --> Model Class Initialized
+DEBUG - 2018-04-21 21:45:14 --> Model Class Initialized
+DEBUG - 2018-04-21 21:45:14 --> Model Class Initialized
+DEBUG - 2018-04-21 21:45:14 --> Model Class Initialized
+DEBUG - 2018-04-21 21:45:15 --> Config Class Initialized
+DEBUG - 2018-04-21 21:45:15 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:45:15 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:45:15 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:45:15 --> URI Class Initialized
+DEBUG - 2018-04-21 21:45:15 --> Router Class Initialized
+DEBUG - 2018-04-21 21:45:15 --> Output Class Initialized
+DEBUG - 2018-04-21 21:45:15 --> Security Class Initialized
+DEBUG - 2018-04-21 21:45:15 --> Input Class Initialized
+DEBUG - 2018-04-21 21:45:15 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:45:15 --> Language Class Initialized
+DEBUG - 2018-04-21 21:45:15 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:45:15 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:45:15 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:45:15 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:45:15 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:45:15 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:45:15 --> Session Class Initialized
+DEBUG - 2018-04-21 21:45:15 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:45:15 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:45:15 --> Session routines successfully run
+DEBUG - 2018-04-21 21:45:15 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:45:15 --> Model Class Initialized
+DEBUG - 2018-04-21 21:45:15 --> Model Class Initialized
+DEBUG - 2018-04-21 21:45:15 --> Model Class Initialized
+DEBUG - 2018-04-21 21:45:15 --> Model Class Initialized
+DEBUG - 2018-04-21 21:45:15 --> Model Class Initialized
+DEBUG - 2018-04-21 21:45:15 --> Model Class Initialized
+DEBUG - 2018-04-21 21:45:15 --> Model Class Initialized
+DEBUG - 2018-04-21 21:45:15 --> Model Class Initialized
+DEBUG - 2018-04-21 21:45:15 --> Model Class Initialized
+DEBUG - 2018-04-21 21:45:15 --> Model Class Initialized
+DEBUG - 2018-04-21 21:45:15 --> Model Class Initialized
+DEBUG - 2018-04-21 21:45:15 --> Model Class Initialized
+DEBUG - 2018-04-21 21:45:15 --> Model Class Initialized
+DEBUG - 2018-04-21 21:45:15 --> Model Class Initialized
+DEBUG - 2018-04-21 21:45:15 --> Final output sent to browser
+DEBUG - 2018-04-21 21:45:15 --> Total execution time: 0.0487
+DEBUG - 2018-04-21 21:45:16 --> Config Class Initialized
+DEBUG - 2018-04-21 21:45:16 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:45:16 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:45:16 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:45:16 --> URI Class Initialized
+DEBUG - 2018-04-21 21:45:16 --> Router Class Initialized
+DEBUG - 2018-04-21 21:45:16 --> Output Class Initialized
+DEBUG - 2018-04-21 21:45:16 --> Security Class Initialized
+DEBUG - 2018-04-21 21:45:16 --> Input Class Initialized
+DEBUG - 2018-04-21 21:45:16 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:45:16 --> Language Class Initialized
+DEBUG - 2018-04-21 21:45:16 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:45:16 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:45:16 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:45:16 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:45:16 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:45:16 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:45:16 --> Session Class Initialized
+DEBUG - 2018-04-21 21:45:16 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:45:16 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:45:16 --> Session routines successfully run
+DEBUG - 2018-04-21 21:45:16 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:45:16 --> Model Class Initialized
+DEBUG - 2018-04-21 21:45:16 --> Model Class Initialized
+DEBUG - 2018-04-21 21:45:16 --> Model Class Initialized
+DEBUG - 2018-04-21 21:45:16 --> Model Class Initialized
+DEBUG - 2018-04-21 21:45:16 --> Model Class Initialized
+DEBUG - 2018-04-21 21:45:16 --> Model Class Initialized
+DEBUG - 2018-04-21 21:45:16 --> Model Class Initialized
+DEBUG - 2018-04-21 21:45:16 --> Model Class Initialized
+DEBUG - 2018-04-21 21:45:16 --> Model Class Initialized
+DEBUG - 2018-04-21 21:45:16 --> Model Class Initialized
+DEBUG - 2018-04-21 21:45:16 --> Model Class Initialized
+DEBUG - 2018-04-21 21:45:16 --> Model Class Initialized
+DEBUG - 2018-04-21 21:45:16 --> Model Class Initialized
+DEBUG - 2018-04-21 21:45:16 --> Model Class Initialized
+DEBUG - 2018-04-21 21:45:16 --> Final output sent to browser
+DEBUG - 2018-04-21 21:45:16 --> Total execution time: 0.0504
+DEBUG - 2018-04-21 21:46:11 --> Config Class Initialized
+DEBUG - 2018-04-21 21:46:11 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:46:11 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:46:11 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:46:11 --> URI Class Initialized
+DEBUG - 2018-04-21 21:46:11 --> Router Class Initialized
+DEBUG - 2018-04-21 21:46:11 --> Output Class Initialized
+DEBUG - 2018-04-21 21:46:11 --> Security Class Initialized
+DEBUG - 2018-04-21 21:46:11 --> Input Class Initialized
+DEBUG - 2018-04-21 21:46:11 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:46:11 --> Language Class Initialized
+DEBUG - 2018-04-21 21:46:11 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:46:11 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:46:11 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:46:11 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:46:11 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:46:11 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:46:11 --> Session Class Initialized
+DEBUG - 2018-04-21 21:46:11 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:46:11 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:46:11 --> Session routines successfully run
+DEBUG - 2018-04-21 21:46:11 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:46:11 --> Model Class Initialized
+DEBUG - 2018-04-21 21:46:11 --> Model Class Initialized
+DEBUG - 2018-04-21 21:46:11 --> Model Class Initialized
+DEBUG - 2018-04-21 21:46:11 --> Model Class Initialized
+DEBUG - 2018-04-21 21:46:11 --> Model Class Initialized
+DEBUG - 2018-04-21 21:46:11 --> Model Class Initialized
+DEBUG - 2018-04-21 21:46:11 --> Model Class Initialized
+DEBUG - 2018-04-21 21:46:11 --> Model Class Initialized
+DEBUG - 2018-04-21 21:46:11 --> Model Class Initialized
+DEBUG - 2018-04-21 21:46:11 --> Model Class Initialized
+DEBUG - 2018-04-21 21:46:11 --> Model Class Initialized
+DEBUG - 2018-04-21 21:46:11 --> Model Class Initialized
+DEBUG - 2018-04-21 21:46:11 --> Model Class Initialized
+DEBUG - 2018-04-21 21:46:11 --> Model Class Initialized
+DEBUG - 2018-04-21 21:46:11 --> Final output sent to browser
+DEBUG - 2018-04-21 21:46:11 --> Total execution time: 0.0466
+DEBUG - 2018-04-21 21:46:11 --> Config Class Initialized
+DEBUG - 2018-04-21 21:46:11 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:46:11 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:46:11 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:46:11 --> URI Class Initialized
+DEBUG - 2018-04-21 21:46:11 --> Router Class Initialized
+DEBUG - 2018-04-21 21:46:11 --> Output Class Initialized
+DEBUG - 2018-04-21 21:46:11 --> Security Class Initialized
+DEBUG - 2018-04-21 21:46:11 --> Input Class Initialized
+DEBUG - 2018-04-21 21:46:11 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:46:11 --> Language Class Initialized
+DEBUG - 2018-04-21 21:46:11 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:46:11 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:46:11 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:46:11 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:46:11 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:46:11 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:46:11 --> Session Class Initialized
+DEBUG - 2018-04-21 21:46:11 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:46:11 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:46:11 --> Session routines successfully run
+DEBUG - 2018-04-21 21:46:11 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:46:11 --> Model Class Initialized
+DEBUG - 2018-04-21 21:46:11 --> Model Class Initialized
+DEBUG - 2018-04-21 21:46:11 --> Model Class Initialized
+DEBUG - 2018-04-21 21:46:11 --> Model Class Initialized
+DEBUG - 2018-04-21 21:46:11 --> Model Class Initialized
+DEBUG - 2018-04-21 21:46:11 --> Model Class Initialized
+DEBUG - 2018-04-21 21:46:11 --> Model Class Initialized
+DEBUG - 2018-04-21 21:46:11 --> Model Class Initialized
+DEBUG - 2018-04-21 21:46:11 --> Model Class Initialized
+DEBUG - 2018-04-21 21:46:11 --> Model Class Initialized
+DEBUG - 2018-04-21 21:46:11 --> Model Class Initialized
+DEBUG - 2018-04-21 21:46:11 --> Model Class Initialized
+DEBUG - 2018-04-21 21:46:11 --> Model Class Initialized
+DEBUG - 2018-04-21 21:46:11 --> Model Class Initialized
+DEBUG - 2018-04-21 21:46:12 --> Config Class Initialized
+DEBUG - 2018-04-21 21:46:12 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:46:12 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:46:12 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:46:12 --> URI Class Initialized
+DEBUG - 2018-04-21 21:46:12 --> Router Class Initialized
+DEBUG - 2018-04-21 21:46:12 --> Output Class Initialized
+DEBUG - 2018-04-21 21:46:12 --> Security Class Initialized
+DEBUG - 2018-04-21 21:46:12 --> Input Class Initialized
+DEBUG - 2018-04-21 21:46:12 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:46:12 --> Language Class Initialized
+DEBUG - 2018-04-21 21:46:12 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:46:12 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:46:12 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:46:12 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:46:12 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:46:12 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:46:12 --> Session Class Initialized
+DEBUG - 2018-04-21 21:46:12 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:46:12 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:46:12 --> Session routines successfully run
+DEBUG - 2018-04-21 21:46:12 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:46:12 --> Model Class Initialized
+DEBUG - 2018-04-21 21:46:12 --> Model Class Initialized
+DEBUG - 2018-04-21 21:46:12 --> Model Class Initialized
+DEBUG - 2018-04-21 21:46:12 --> Model Class Initialized
+DEBUG - 2018-04-21 21:46:12 --> Model Class Initialized
+DEBUG - 2018-04-21 21:46:12 --> Model Class Initialized
+DEBUG - 2018-04-21 21:46:12 --> Model Class Initialized
+DEBUG - 2018-04-21 21:46:12 --> Model Class Initialized
+DEBUG - 2018-04-21 21:46:12 --> Model Class Initialized
+DEBUG - 2018-04-21 21:46:12 --> Model Class Initialized
+DEBUG - 2018-04-21 21:46:12 --> Model Class Initialized
+DEBUG - 2018-04-21 21:46:12 --> Model Class Initialized
+DEBUG - 2018-04-21 21:46:12 --> Model Class Initialized
+DEBUG - 2018-04-21 21:46:12 --> Model Class Initialized
+DEBUG - 2018-04-21 21:46:12 --> Final output sent to browser
+DEBUG - 2018-04-21 21:46:12 --> Total execution time: 0.0413
+DEBUG - 2018-04-21 21:46:13 --> Config Class Initialized
+DEBUG - 2018-04-21 21:46:13 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:46:13 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:46:13 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:46:13 --> URI Class Initialized
+DEBUG - 2018-04-21 21:46:13 --> Router Class Initialized
+DEBUG - 2018-04-21 21:46:13 --> Output Class Initialized
+DEBUG - 2018-04-21 21:46:13 --> Security Class Initialized
+DEBUG - 2018-04-21 21:46:13 --> Input Class Initialized
+DEBUG - 2018-04-21 21:46:13 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:46:13 --> Language Class Initialized
+DEBUG - 2018-04-21 21:46:13 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:46:13 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:46:13 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:46:13 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:46:13 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:46:13 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:46:13 --> Session Class Initialized
+DEBUG - 2018-04-21 21:46:13 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:46:13 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:46:13 --> Session routines successfully run
+DEBUG - 2018-04-21 21:46:13 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:46:13 --> Model Class Initialized
+DEBUG - 2018-04-21 21:46:13 --> Model Class Initialized
+DEBUG - 2018-04-21 21:46:13 --> Model Class Initialized
+DEBUG - 2018-04-21 21:46:13 --> Model Class Initialized
+DEBUG - 2018-04-21 21:46:13 --> Model Class Initialized
+DEBUG - 2018-04-21 21:46:13 --> Model Class Initialized
+DEBUG - 2018-04-21 21:46:13 --> Model Class Initialized
+DEBUG - 2018-04-21 21:46:13 --> Model Class Initialized
+DEBUG - 2018-04-21 21:46:13 --> Model Class Initialized
+DEBUG - 2018-04-21 21:46:13 --> Model Class Initialized
+DEBUG - 2018-04-21 21:46:13 --> Model Class Initialized
+DEBUG - 2018-04-21 21:46:13 --> Model Class Initialized
+DEBUG - 2018-04-21 21:46:13 --> Model Class Initialized
+DEBUG - 2018-04-21 21:46:13 --> Model Class Initialized
+DEBUG - 2018-04-21 21:46:13 --> Final output sent to browser
+DEBUG - 2018-04-21 21:46:13 --> Total execution time: 0.0431
+DEBUG - 2018-04-21 21:47:32 --> Config Class Initialized
+DEBUG - 2018-04-21 21:47:32 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:47:32 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:47:32 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:47:32 --> URI Class Initialized
+DEBUG - 2018-04-21 21:47:32 --> Router Class Initialized
+DEBUG - 2018-04-21 21:47:32 --> Output Class Initialized
+DEBUG - 2018-04-21 21:47:32 --> Security Class Initialized
+DEBUG - 2018-04-21 21:47:32 --> Input Class Initialized
+DEBUG - 2018-04-21 21:47:32 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:47:32 --> Language Class Initialized
+DEBUG - 2018-04-21 21:47:32 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:47:32 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:47:32 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:47:32 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:47:32 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:47:32 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:47:32 --> Session Class Initialized
+DEBUG - 2018-04-21 21:47:32 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:47:32 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:47:32 --> Session routines successfully run
+DEBUG - 2018-04-21 21:47:32 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:47:32 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:32 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:32 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:32 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:32 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:32 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:32 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:32 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:32 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:32 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:32 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:32 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:32 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:32 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:32 --> Final output sent to browser
+DEBUG - 2018-04-21 21:47:32 --> Total execution time: 0.0386
+DEBUG - 2018-04-21 21:47:33 --> Config Class Initialized
+DEBUG - 2018-04-21 21:47:33 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:47:33 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:47:33 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:47:33 --> URI Class Initialized
+DEBUG - 2018-04-21 21:47:33 --> Router Class Initialized
+DEBUG - 2018-04-21 21:47:33 --> Output Class Initialized
+DEBUG - 2018-04-21 21:47:33 --> Security Class Initialized
+DEBUG - 2018-04-21 21:47:33 --> Input Class Initialized
+DEBUG - 2018-04-21 21:47:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:47:33 --> Language Class Initialized
+DEBUG - 2018-04-21 21:47:33 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:47:33 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:47:33 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:47:33 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:47:33 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:47:33 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:47:33 --> Session Class Initialized
+DEBUG - 2018-04-21 21:47:33 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:47:33 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:47:33 --> Session routines successfully run
+DEBUG - 2018-04-21 21:47:33 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:47:33 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:33 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:33 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:33 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:33 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:33 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:33 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:33 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:33 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:33 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:33 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:33 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:33 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:33 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:33 --> Config Class Initialized
+DEBUG - 2018-04-21 21:47:33 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:47:33 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:47:33 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:47:33 --> URI Class Initialized
+DEBUG - 2018-04-21 21:47:33 --> Router Class Initialized
+DEBUG - 2018-04-21 21:47:33 --> Output Class Initialized
+DEBUG - 2018-04-21 21:47:33 --> Security Class Initialized
+DEBUG - 2018-04-21 21:47:33 --> Input Class Initialized
+DEBUG - 2018-04-21 21:47:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:47:33 --> Language Class Initialized
+DEBUG - 2018-04-21 21:47:33 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:47:33 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:47:33 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:47:33 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:47:33 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:47:33 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:47:33 --> Session Class Initialized
+DEBUG - 2018-04-21 21:47:33 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:47:33 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:47:33 --> Session routines successfully run
+DEBUG - 2018-04-21 21:47:33 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:47:33 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:33 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:33 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:33 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:33 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:33 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:33 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:33 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:33 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:33 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:33 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:33 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:33 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:33 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:33 --> Final output sent to browser
+DEBUG - 2018-04-21 21:47:33 --> Total execution time: 0.0401
+DEBUG - 2018-04-21 21:47:34 --> Config Class Initialized
+DEBUG - 2018-04-21 21:47:34 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:47:34 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:47:34 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:47:34 --> URI Class Initialized
+DEBUG - 2018-04-21 21:47:34 --> Router Class Initialized
+DEBUG - 2018-04-21 21:47:34 --> Output Class Initialized
+DEBUG - 2018-04-21 21:47:34 --> Security Class Initialized
+DEBUG - 2018-04-21 21:47:34 --> Input Class Initialized
+DEBUG - 2018-04-21 21:47:34 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:47:34 --> Language Class Initialized
+DEBUG - 2018-04-21 21:47:34 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:47:34 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:47:34 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:47:34 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:47:34 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:47:34 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:47:34 --> Session Class Initialized
+DEBUG - 2018-04-21 21:47:34 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:47:34 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:47:34 --> Session routines successfully run
+DEBUG - 2018-04-21 21:47:34 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:47:34 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:34 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:34 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:34 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:34 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:34 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:34 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:34 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:34 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:34 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:34 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:34 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:34 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:34 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:34 --> Final output sent to browser
+DEBUG - 2018-04-21 21:47:34 --> Total execution time: 0.0409
+DEBUG - 2018-04-21 21:47:54 --> Config Class Initialized
+DEBUG - 2018-04-21 21:47:54 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:47:54 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:47:54 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:47:54 --> URI Class Initialized
+DEBUG - 2018-04-21 21:47:54 --> Router Class Initialized
+DEBUG - 2018-04-21 21:47:54 --> Output Class Initialized
+DEBUG - 2018-04-21 21:47:54 --> Security Class Initialized
+DEBUG - 2018-04-21 21:47:54 --> Input Class Initialized
+DEBUG - 2018-04-21 21:47:54 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:47:54 --> Language Class Initialized
+DEBUG - 2018-04-21 21:47:54 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:47:54 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:47:54 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:47:54 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:47:54 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:47:54 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:47:54 --> Session Class Initialized
+DEBUG - 2018-04-21 21:47:54 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:47:54 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:47:54 --> Session routines successfully run
+DEBUG - 2018-04-21 21:47:54 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:47:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:54 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:54 --> Final output sent to browser
+DEBUG - 2018-04-21 21:47:54 --> Total execution time: 0.0483
+DEBUG - 2018-04-21 21:47:55 --> Config Class Initialized
+DEBUG - 2018-04-21 21:47:55 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:47:55 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:47:55 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:47:55 --> URI Class Initialized
+DEBUG - 2018-04-21 21:47:55 --> Router Class Initialized
+DEBUG - 2018-04-21 21:47:55 --> Output Class Initialized
+DEBUG - 2018-04-21 21:47:55 --> Security Class Initialized
+DEBUG - 2018-04-21 21:47:55 --> Input Class Initialized
+DEBUG - 2018-04-21 21:47:55 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:47:55 --> Language Class Initialized
+DEBUG - 2018-04-21 21:47:55 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:47:55 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:47:55 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:47:55 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:47:55 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:47:55 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:47:55 --> Session Class Initialized
+DEBUG - 2018-04-21 21:47:55 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:47:55 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:47:55 --> Session routines successfully run
+DEBUG - 2018-04-21 21:47:55 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:47:55 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:55 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:55 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:55 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:55 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:55 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:55 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:55 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:55 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:55 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:55 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:55 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:55 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:55 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:55 --> Config Class Initialized
+DEBUG - 2018-04-21 21:47:55 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:47:55 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:47:55 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:47:55 --> URI Class Initialized
+DEBUG - 2018-04-21 21:47:55 --> Router Class Initialized
+DEBUG - 2018-04-21 21:47:55 --> Output Class Initialized
+DEBUG - 2018-04-21 21:47:55 --> Security Class Initialized
+DEBUG - 2018-04-21 21:47:55 --> Input Class Initialized
+DEBUG - 2018-04-21 21:47:55 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:47:55 --> Language Class Initialized
+DEBUG - 2018-04-21 21:47:55 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:47:55 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:47:55 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:47:55 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:47:55 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:47:55 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:47:55 --> Session Class Initialized
+DEBUG - 2018-04-21 21:47:55 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:47:55 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:47:55 --> Session routines successfully run
+DEBUG - 2018-04-21 21:47:55 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:47:55 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:55 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:55 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:55 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:55 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:55 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:55 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:55 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:55 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:55 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:55 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:55 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:55 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:55 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:55 --> Final output sent to browser
+DEBUG - 2018-04-21 21:47:55 --> Total execution time: 0.0387
+DEBUG - 2018-04-21 21:47:56 --> Config Class Initialized
+DEBUG - 2018-04-21 21:47:56 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:47:56 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:47:56 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:47:56 --> URI Class Initialized
+DEBUG - 2018-04-21 21:47:56 --> Router Class Initialized
+DEBUG - 2018-04-21 21:47:56 --> Output Class Initialized
+DEBUG - 2018-04-21 21:47:56 --> Security Class Initialized
+DEBUG - 2018-04-21 21:47:56 --> Input Class Initialized
+DEBUG - 2018-04-21 21:47:56 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:47:56 --> Language Class Initialized
+DEBUG - 2018-04-21 21:47:56 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:47:56 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:47:56 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:47:56 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:47:56 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:47:56 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:47:56 --> Session Class Initialized
+DEBUG - 2018-04-21 21:47:56 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:47:56 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:47:56 --> Session routines successfully run
+DEBUG - 2018-04-21 21:47:56 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:47:56 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:56 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:56 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:56 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:56 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:56 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:56 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:56 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:56 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:56 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:56 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:56 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:56 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:56 --> Model Class Initialized
+DEBUG - 2018-04-21 21:47:56 --> Final output sent to browser
+DEBUG - 2018-04-21 21:47:56 --> Total execution time: 0.0503
+DEBUG - 2018-04-21 21:49:16 --> Config Class Initialized
+DEBUG - 2018-04-21 21:49:16 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:49:16 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:49:16 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:49:16 --> URI Class Initialized
+DEBUG - 2018-04-21 21:49:16 --> Router Class Initialized
+DEBUG - 2018-04-21 21:49:16 --> Output Class Initialized
+DEBUG - 2018-04-21 21:49:16 --> Security Class Initialized
+DEBUG - 2018-04-21 21:49:16 --> Input Class Initialized
+DEBUG - 2018-04-21 21:49:16 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:49:16 --> Language Class Initialized
+DEBUG - 2018-04-21 21:49:16 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:49:16 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:49:16 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:49:16 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:49:16 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:49:16 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:49:16 --> Session Class Initialized
+DEBUG - 2018-04-21 21:49:16 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:49:16 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:49:16 --> Session routines successfully run
+DEBUG - 2018-04-21 21:49:16 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:49:16 --> Model Class Initialized
+DEBUG - 2018-04-21 21:49:16 --> Model Class Initialized
+DEBUG - 2018-04-21 21:49:16 --> Model Class Initialized
+DEBUG - 2018-04-21 21:49:16 --> Model Class Initialized
+DEBUG - 2018-04-21 21:49:16 --> Model Class Initialized
+DEBUG - 2018-04-21 21:49:16 --> Model Class Initialized
+DEBUG - 2018-04-21 21:49:16 --> Model Class Initialized
+DEBUG - 2018-04-21 21:49:16 --> Model Class Initialized
+DEBUG - 2018-04-21 21:49:16 --> Model Class Initialized
+DEBUG - 2018-04-21 21:49:16 --> Model Class Initialized
+DEBUG - 2018-04-21 21:49:16 --> Model Class Initialized
+DEBUG - 2018-04-21 21:49:16 --> Model Class Initialized
+DEBUG - 2018-04-21 21:49:16 --> Model Class Initialized
+DEBUG - 2018-04-21 21:49:16 --> Model Class Initialized
+DEBUG - 2018-04-21 21:49:16 --> Final output sent to browser
+DEBUG - 2018-04-21 21:49:16 --> Total execution time: 0.0358
+DEBUG - 2018-04-21 21:49:17 --> Config Class Initialized
+DEBUG - 2018-04-21 21:49:17 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:49:17 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:49:17 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:49:17 --> URI Class Initialized
+DEBUG - 2018-04-21 21:49:17 --> Router Class Initialized
+DEBUG - 2018-04-21 21:49:17 --> Output Class Initialized
+DEBUG - 2018-04-21 21:49:17 --> Security Class Initialized
+DEBUG - 2018-04-21 21:49:17 --> Input Class Initialized
+DEBUG - 2018-04-21 21:49:17 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:49:17 --> Language Class Initialized
+DEBUG - 2018-04-21 21:49:17 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:49:17 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:49:17 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:49:17 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:49:17 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:49:17 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:49:17 --> Session Class Initialized
+DEBUG - 2018-04-21 21:49:17 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:49:17 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:49:17 --> Session routines successfully run
+DEBUG - 2018-04-21 21:49:17 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:49:17 --> Model Class Initialized
+DEBUG - 2018-04-21 21:49:17 --> Model Class Initialized
+DEBUG - 2018-04-21 21:49:17 --> Model Class Initialized
+DEBUG - 2018-04-21 21:49:17 --> Model Class Initialized
+DEBUG - 2018-04-21 21:49:17 --> Model Class Initialized
+DEBUG - 2018-04-21 21:49:17 --> Model Class Initialized
+DEBUG - 2018-04-21 21:49:17 --> Model Class Initialized
+DEBUG - 2018-04-21 21:49:17 --> Model Class Initialized
+DEBUG - 2018-04-21 21:49:17 --> Model Class Initialized
+DEBUG - 2018-04-21 21:49:17 --> Model Class Initialized
+DEBUG - 2018-04-21 21:49:17 --> Model Class Initialized
+DEBUG - 2018-04-21 21:49:17 --> Model Class Initialized
+DEBUG - 2018-04-21 21:49:17 --> Model Class Initialized
+DEBUG - 2018-04-21 21:49:17 --> Model Class Initialized
+DEBUG - 2018-04-21 21:49:17 --> Config Class Initialized
+DEBUG - 2018-04-21 21:49:17 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:49:17 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:49:17 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:49:17 --> URI Class Initialized
+DEBUG - 2018-04-21 21:49:17 --> Router Class Initialized
+DEBUG - 2018-04-21 21:49:17 --> Output Class Initialized
+DEBUG - 2018-04-21 21:49:17 --> Security Class Initialized
+DEBUG - 2018-04-21 21:49:17 --> Input Class Initialized
+DEBUG - 2018-04-21 21:49:17 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:49:17 --> Language Class Initialized
+DEBUG - 2018-04-21 21:49:17 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:49:17 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:49:17 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:49:17 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:49:17 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:49:17 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:49:17 --> Session Class Initialized
+DEBUG - 2018-04-21 21:49:17 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:49:17 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:49:17 --> Session routines successfully run
+DEBUG - 2018-04-21 21:49:17 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:49:17 --> Model Class Initialized
+DEBUG - 2018-04-21 21:49:17 --> Model Class Initialized
+DEBUG - 2018-04-21 21:49:17 --> Model Class Initialized
+DEBUG - 2018-04-21 21:49:17 --> Model Class Initialized
+DEBUG - 2018-04-21 21:49:17 --> Model Class Initialized
+DEBUG - 2018-04-21 21:49:17 --> Model Class Initialized
+DEBUG - 2018-04-21 21:49:17 --> Model Class Initialized
+DEBUG - 2018-04-21 21:49:17 --> Model Class Initialized
+DEBUG - 2018-04-21 21:49:17 --> Model Class Initialized
+DEBUG - 2018-04-21 21:49:17 --> Model Class Initialized
+DEBUG - 2018-04-21 21:49:17 --> Model Class Initialized
+DEBUG - 2018-04-21 21:49:17 --> Model Class Initialized
+DEBUG - 2018-04-21 21:49:17 --> Model Class Initialized
+DEBUG - 2018-04-21 21:49:17 --> Model Class Initialized
+DEBUG - 2018-04-21 21:49:17 --> Final output sent to browser
+DEBUG - 2018-04-21 21:49:17 --> Total execution time: 0.0353
+DEBUG - 2018-04-21 21:49:18 --> Config Class Initialized
+DEBUG - 2018-04-21 21:49:18 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:49:18 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:49:18 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:49:18 --> URI Class Initialized
+DEBUG - 2018-04-21 21:49:18 --> Router Class Initialized
+DEBUG - 2018-04-21 21:49:18 --> Output Class Initialized
+DEBUG - 2018-04-21 21:49:18 --> Security Class Initialized
+DEBUG - 2018-04-21 21:49:18 --> Input Class Initialized
+DEBUG - 2018-04-21 21:49:18 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:49:18 --> Language Class Initialized
+DEBUG - 2018-04-21 21:49:18 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:49:18 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:49:18 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:49:18 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:49:18 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:49:18 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:49:18 --> Session Class Initialized
+DEBUG - 2018-04-21 21:49:18 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:49:18 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:49:18 --> Session routines successfully run
+DEBUG - 2018-04-21 21:49:18 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:49:18 --> Model Class Initialized
+DEBUG - 2018-04-21 21:49:18 --> Model Class Initialized
+DEBUG - 2018-04-21 21:49:18 --> Model Class Initialized
+DEBUG - 2018-04-21 21:49:18 --> Model Class Initialized
+DEBUG - 2018-04-21 21:49:18 --> Model Class Initialized
+DEBUG - 2018-04-21 21:49:18 --> Model Class Initialized
+DEBUG - 2018-04-21 21:49:18 --> Model Class Initialized
+DEBUG - 2018-04-21 21:49:18 --> Model Class Initialized
+DEBUG - 2018-04-21 21:49:18 --> Model Class Initialized
+DEBUG - 2018-04-21 21:49:18 --> Model Class Initialized
+DEBUG - 2018-04-21 21:49:18 --> Model Class Initialized
+DEBUG - 2018-04-21 21:49:18 --> Model Class Initialized
+DEBUG - 2018-04-21 21:49:18 --> Model Class Initialized
+DEBUG - 2018-04-21 21:49:18 --> Model Class Initialized
+DEBUG - 2018-04-21 21:49:18 --> Final output sent to browser
+DEBUG - 2018-04-21 21:49:18 --> Total execution time: 0.0348
+DEBUG - 2018-04-21 21:50:16 --> Config Class Initialized
+DEBUG - 2018-04-21 21:50:16 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:50:16 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:50:16 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:50:16 --> URI Class Initialized
+DEBUG - 2018-04-21 21:50:16 --> Router Class Initialized
+DEBUG - 2018-04-21 21:50:16 --> Output Class Initialized
+DEBUG - 2018-04-21 21:50:16 --> Security Class Initialized
+DEBUG - 2018-04-21 21:50:16 --> Input Class Initialized
+DEBUG - 2018-04-21 21:50:16 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:50:16 --> Language Class Initialized
+DEBUG - 2018-04-21 21:50:16 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:50:16 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:50:16 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:50:16 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:50:16 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:50:16 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:50:16 --> Session Class Initialized
+DEBUG - 2018-04-21 21:50:16 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:50:16 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:50:16 --> Session routines successfully run
+DEBUG - 2018-04-21 21:50:16 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:50:16 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:16 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:16 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:16 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:16 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:16 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:16 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:16 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:16 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:16 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:16 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:16 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:16 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:16 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:16 --> Final output sent to browser
+DEBUG - 2018-04-21 21:50:16 --> Total execution time: 0.0523
+DEBUG - 2018-04-21 21:50:17 --> Config Class Initialized
+DEBUG - 2018-04-21 21:50:17 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:50:17 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:50:17 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:50:17 --> URI Class Initialized
+DEBUG - 2018-04-21 21:50:17 --> Router Class Initialized
+DEBUG - 2018-04-21 21:50:17 --> Output Class Initialized
+DEBUG - 2018-04-21 21:50:17 --> Security Class Initialized
+DEBUG - 2018-04-21 21:50:17 --> Input Class Initialized
+DEBUG - 2018-04-21 21:50:17 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:50:17 --> Language Class Initialized
+DEBUG - 2018-04-21 21:50:17 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:50:17 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:50:17 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:50:17 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:50:17 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:50:17 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:50:17 --> Session Class Initialized
+DEBUG - 2018-04-21 21:50:17 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:50:17 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:50:17 --> Session routines successfully run
+DEBUG - 2018-04-21 21:50:17 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:50:17 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:17 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:17 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:17 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:17 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:17 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:17 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:17 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:17 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:17 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:17 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:17 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:17 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:17 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:17 --> Config Class Initialized
+DEBUG - 2018-04-21 21:50:17 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:50:17 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:50:17 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:50:17 --> URI Class Initialized
+DEBUG - 2018-04-21 21:50:17 --> Router Class Initialized
+DEBUG - 2018-04-21 21:50:17 --> Output Class Initialized
+DEBUG - 2018-04-21 21:50:17 --> Security Class Initialized
+DEBUG - 2018-04-21 21:50:17 --> Input Class Initialized
+DEBUG - 2018-04-21 21:50:17 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:50:17 --> Language Class Initialized
+DEBUG - 2018-04-21 21:50:17 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:50:17 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:50:17 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:50:17 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:50:17 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:50:17 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:50:17 --> Session Class Initialized
+DEBUG - 2018-04-21 21:50:17 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:50:17 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:50:17 --> Session routines successfully run
+DEBUG - 2018-04-21 21:50:17 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:50:17 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:17 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:17 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:17 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:17 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:17 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:17 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:17 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:17 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:17 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:17 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:17 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:17 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:17 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:17 --> Final output sent to browser
+DEBUG - 2018-04-21 21:50:17 --> Total execution time: 0.0377
+DEBUG - 2018-04-21 21:50:18 --> Config Class Initialized
+DEBUG - 2018-04-21 21:50:18 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:50:18 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:50:18 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:50:18 --> URI Class Initialized
+DEBUG - 2018-04-21 21:50:18 --> Router Class Initialized
+DEBUG - 2018-04-21 21:50:18 --> Output Class Initialized
+DEBUG - 2018-04-21 21:50:18 --> Security Class Initialized
+DEBUG - 2018-04-21 21:50:18 --> Input Class Initialized
+DEBUG - 2018-04-21 21:50:18 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:50:18 --> Language Class Initialized
+DEBUG - 2018-04-21 21:50:18 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:50:18 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:50:18 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:50:18 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:50:18 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:50:18 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:50:18 --> Session Class Initialized
+DEBUG - 2018-04-21 21:50:18 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:50:18 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:50:18 --> Session routines successfully run
+DEBUG - 2018-04-21 21:50:18 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:50:18 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:18 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:18 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:18 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:18 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:18 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:18 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:18 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:18 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:18 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:18 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:18 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:18 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:18 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:18 --> Final output sent to browser
+DEBUG - 2018-04-21 21:50:18 --> Total execution time: 0.0360
+DEBUG - 2018-04-21 21:50:25 --> Config Class Initialized
+DEBUG - 2018-04-21 21:50:25 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:50:25 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:50:25 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:50:25 --> URI Class Initialized
+DEBUG - 2018-04-21 21:50:25 --> Router Class Initialized
+DEBUG - 2018-04-21 21:50:25 --> Output Class Initialized
+DEBUG - 2018-04-21 21:50:25 --> Security Class Initialized
+DEBUG - 2018-04-21 21:50:25 --> Input Class Initialized
+DEBUG - 2018-04-21 21:50:25 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:50:25 --> Language Class Initialized
+DEBUG - 2018-04-21 21:50:25 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:50:25 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:50:25 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:50:25 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:50:25 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:50:25 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:50:25 --> Session Class Initialized
+DEBUG - 2018-04-21 21:50:25 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:50:25 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:50:25 --> Session routines successfully run
+DEBUG - 2018-04-21 21:50:25 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:50:25 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:25 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:25 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:25 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:25 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:25 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:25 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:25 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:25 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:25 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:25 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:25 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:25 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:25 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:25 --> Final output sent to browser
+DEBUG - 2018-04-21 21:50:25 --> Total execution time: 0.0351
+DEBUG - 2018-04-21 21:50:25 --> Config Class Initialized
+DEBUG - 2018-04-21 21:50:25 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:50:25 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:50:25 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:50:25 --> URI Class Initialized
+DEBUG - 2018-04-21 21:50:25 --> Router Class Initialized
+DEBUG - 2018-04-21 21:50:25 --> Output Class Initialized
+DEBUG - 2018-04-21 21:50:25 --> Security Class Initialized
+DEBUG - 2018-04-21 21:50:25 --> Input Class Initialized
+DEBUG - 2018-04-21 21:50:25 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:50:25 --> Language Class Initialized
+DEBUG - 2018-04-21 21:50:25 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:50:25 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:50:25 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:50:25 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:50:25 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:50:25 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:50:25 --> Session Class Initialized
+DEBUG - 2018-04-21 21:50:25 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:50:25 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:50:25 --> Session routines successfully run
+DEBUG - 2018-04-21 21:50:25 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:50:25 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:25 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:25 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:25 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:25 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:25 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:25 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:25 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:25 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:25 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:25 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:25 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:25 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:25 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:26 --> Config Class Initialized
+DEBUG - 2018-04-21 21:50:26 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:50:26 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:50:26 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:50:26 --> URI Class Initialized
+DEBUG - 2018-04-21 21:50:26 --> Router Class Initialized
+DEBUG - 2018-04-21 21:50:26 --> Output Class Initialized
+DEBUG - 2018-04-21 21:50:26 --> Security Class Initialized
+DEBUG - 2018-04-21 21:50:26 --> Input Class Initialized
+DEBUG - 2018-04-21 21:50:26 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:50:26 --> Language Class Initialized
+DEBUG - 2018-04-21 21:50:26 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:50:26 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:50:26 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:50:26 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:50:26 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:50:26 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:50:26 --> Session Class Initialized
+DEBUG - 2018-04-21 21:50:26 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:50:26 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:50:26 --> Session routines successfully run
+DEBUG - 2018-04-21 21:50:26 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:50:26 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:26 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:26 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:26 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:26 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:26 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:26 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:26 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:26 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:26 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:26 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:26 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:26 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:26 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:26 --> Final output sent to browser
+DEBUG - 2018-04-21 21:50:26 --> Total execution time: 0.0357
+DEBUG - 2018-04-21 21:50:27 --> Config Class Initialized
+DEBUG - 2018-04-21 21:50:27 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:50:27 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:50:27 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:50:27 --> URI Class Initialized
+DEBUG - 2018-04-21 21:50:27 --> Router Class Initialized
+DEBUG - 2018-04-21 21:50:27 --> Output Class Initialized
+DEBUG - 2018-04-21 21:50:27 --> Security Class Initialized
+DEBUG - 2018-04-21 21:50:27 --> Input Class Initialized
+DEBUG - 2018-04-21 21:50:27 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:50:27 --> Language Class Initialized
+DEBUG - 2018-04-21 21:50:27 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:50:27 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:50:27 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:50:27 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:50:27 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:50:27 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:50:27 --> Session Class Initialized
+DEBUG - 2018-04-21 21:50:27 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:50:27 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:50:27 --> Session routines successfully run
+DEBUG - 2018-04-21 21:50:27 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:50:27 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:27 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:27 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:27 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:27 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:27 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:27 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:27 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:27 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:27 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:27 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:27 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:27 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:27 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:27 --> Final output sent to browser
+DEBUG - 2018-04-21 21:50:27 --> Total execution time: 0.0348
+DEBUG - 2018-04-21 21:50:30 --> Config Class Initialized
+DEBUG - 2018-04-21 21:50:30 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:50:30 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:50:30 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:50:30 --> URI Class Initialized
+DEBUG - 2018-04-21 21:50:30 --> Router Class Initialized
+DEBUG - 2018-04-21 21:50:30 --> Output Class Initialized
+DEBUG - 2018-04-21 21:50:30 --> Security Class Initialized
+DEBUG - 2018-04-21 21:50:30 --> Input Class Initialized
+DEBUG - 2018-04-21 21:50:30 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:50:30 --> Language Class Initialized
+DEBUG - 2018-04-21 21:50:30 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:50:30 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:50:30 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:50:30 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:50:30 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:50:30 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:50:30 --> Session Class Initialized
+DEBUG - 2018-04-21 21:50:30 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:50:30 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:50:30 --> Session routines successfully run
+DEBUG - 2018-04-21 21:50:30 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:50:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:30 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:30 --> Final output sent to browser
+DEBUG - 2018-04-21 21:50:30 --> Total execution time: 0.0375
+DEBUG - 2018-04-21 21:50:31 --> Config Class Initialized
+DEBUG - 2018-04-21 21:50:31 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:50:31 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:50:31 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:50:31 --> URI Class Initialized
+DEBUG - 2018-04-21 21:50:31 --> Router Class Initialized
+DEBUG - 2018-04-21 21:50:31 --> Output Class Initialized
+DEBUG - 2018-04-21 21:50:31 --> Security Class Initialized
+DEBUG - 2018-04-21 21:50:31 --> Input Class Initialized
+DEBUG - 2018-04-21 21:50:31 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:50:31 --> Language Class Initialized
+DEBUG - 2018-04-21 21:50:31 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:50:31 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:50:31 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:50:31 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:50:31 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:50:31 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:50:31 --> Session Class Initialized
+DEBUG - 2018-04-21 21:50:31 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:50:31 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:50:31 --> Session routines successfully run
+DEBUG - 2018-04-21 21:50:31 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:50:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:31 --> Config Class Initialized
+DEBUG - 2018-04-21 21:50:31 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:50:31 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:50:31 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:50:31 --> URI Class Initialized
+DEBUG - 2018-04-21 21:50:31 --> Router Class Initialized
+DEBUG - 2018-04-21 21:50:31 --> Output Class Initialized
+DEBUG - 2018-04-21 21:50:31 --> Security Class Initialized
+DEBUG - 2018-04-21 21:50:31 --> Input Class Initialized
+DEBUG - 2018-04-21 21:50:31 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:50:31 --> Language Class Initialized
+DEBUG - 2018-04-21 21:50:31 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:50:31 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:50:31 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:50:31 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:50:31 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:50:31 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:50:31 --> Session Class Initialized
+DEBUG - 2018-04-21 21:50:31 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:50:31 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:50:31 --> Session routines successfully run
+DEBUG - 2018-04-21 21:50:31 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:50:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:31 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:31 --> Final output sent to browser
+DEBUG - 2018-04-21 21:50:31 --> Total execution time: 0.0494
+DEBUG - 2018-04-21 21:50:32 --> Config Class Initialized
+DEBUG - 2018-04-21 21:50:32 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:50:32 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:50:32 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:50:32 --> URI Class Initialized
+DEBUG - 2018-04-21 21:50:32 --> Router Class Initialized
+DEBUG - 2018-04-21 21:50:32 --> Output Class Initialized
+DEBUG - 2018-04-21 21:50:32 --> Security Class Initialized
+DEBUG - 2018-04-21 21:50:32 --> Input Class Initialized
+DEBUG - 2018-04-21 21:50:32 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:50:32 --> Language Class Initialized
+DEBUG - 2018-04-21 21:50:32 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:50:32 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:50:32 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:50:32 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:50:32 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:50:32 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:50:32 --> Session Class Initialized
+DEBUG - 2018-04-21 21:50:32 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:50:32 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:50:32 --> Session routines successfully run
+DEBUG - 2018-04-21 21:50:32 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:50:32 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:32 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:32 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:32 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:32 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:32 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:32 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:32 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:32 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:32 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:32 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:32 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:32 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:32 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:32 --> Final output sent to browser
+DEBUG - 2018-04-21 21:50:32 --> Total execution time: 0.0419
+DEBUG - 2018-04-21 21:50:35 --> Config Class Initialized
+DEBUG - 2018-04-21 21:50:35 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:50:35 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:50:35 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:50:35 --> URI Class Initialized
+DEBUG - 2018-04-21 21:50:35 --> Router Class Initialized
+DEBUG - 2018-04-21 21:50:35 --> Output Class Initialized
+DEBUG - 2018-04-21 21:50:35 --> Security Class Initialized
+DEBUG - 2018-04-21 21:50:35 --> Input Class Initialized
+DEBUG - 2018-04-21 21:50:35 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:50:35 --> Language Class Initialized
+DEBUG - 2018-04-21 21:50:35 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:50:35 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:50:35 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:50:35 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:50:35 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:50:35 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:50:35 --> Session Class Initialized
+DEBUG - 2018-04-21 21:50:35 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:50:35 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:50:35 --> Session routines successfully run
+DEBUG - 2018-04-21 21:50:35 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:50:35 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:35 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:35 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:35 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:35 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:35 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:35 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:35 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:35 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:35 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:35 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:35 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:35 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:35 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:35 --> Final output sent to browser
+DEBUG - 2018-04-21 21:50:35 --> Total execution time: 0.0451
+DEBUG - 2018-04-21 21:50:36 --> Config Class Initialized
+DEBUG - 2018-04-21 21:50:36 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:50:36 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:50:36 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:50:36 --> URI Class Initialized
+DEBUG - 2018-04-21 21:50:36 --> Router Class Initialized
+DEBUG - 2018-04-21 21:50:36 --> Output Class Initialized
+DEBUG - 2018-04-21 21:50:36 --> Security Class Initialized
+DEBUG - 2018-04-21 21:50:36 --> Input Class Initialized
+DEBUG - 2018-04-21 21:50:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:50:36 --> Language Class Initialized
+DEBUG - 2018-04-21 21:50:36 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:50:36 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:50:36 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:50:36 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:50:36 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:50:36 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:50:36 --> Session Class Initialized
+DEBUG - 2018-04-21 21:50:36 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:50:36 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:50:36 --> Session routines successfully run
+DEBUG - 2018-04-21 21:50:36 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:50:36 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:36 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:36 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:36 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:36 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:36 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:36 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:36 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:36 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:36 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:36 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:36 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:36 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:36 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:36 --> Config Class Initialized
+DEBUG - 2018-04-21 21:50:36 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:50:36 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:50:36 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:50:36 --> URI Class Initialized
+DEBUG - 2018-04-21 21:50:36 --> Router Class Initialized
+DEBUG - 2018-04-21 21:50:36 --> Output Class Initialized
+DEBUG - 2018-04-21 21:50:36 --> Security Class Initialized
+DEBUG - 2018-04-21 21:50:36 --> Input Class Initialized
+DEBUG - 2018-04-21 21:50:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:50:36 --> Language Class Initialized
+DEBUG - 2018-04-21 21:50:36 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:50:36 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:50:36 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:50:36 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:50:36 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:50:36 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:50:36 --> Session Class Initialized
+DEBUG - 2018-04-21 21:50:36 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:50:36 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:50:36 --> Session routines successfully run
+DEBUG - 2018-04-21 21:50:36 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:50:36 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:36 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:36 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:36 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:36 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:36 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:36 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:36 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:36 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:36 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:36 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:36 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:36 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:36 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:36 --> Final output sent to browser
+DEBUG - 2018-04-21 21:50:36 --> Total execution time: 0.0357
+DEBUG - 2018-04-21 21:50:37 --> Config Class Initialized
+DEBUG - 2018-04-21 21:50:37 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:50:37 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:50:37 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:50:37 --> URI Class Initialized
+DEBUG - 2018-04-21 21:50:37 --> Router Class Initialized
+DEBUG - 2018-04-21 21:50:37 --> Output Class Initialized
+DEBUG - 2018-04-21 21:50:37 --> Security Class Initialized
+DEBUG - 2018-04-21 21:50:37 --> Input Class Initialized
+DEBUG - 2018-04-21 21:50:37 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:50:37 --> Language Class Initialized
+DEBUG - 2018-04-21 21:50:37 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:50:37 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:50:37 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:50:37 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:50:37 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:50:37 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:50:37 --> Session Class Initialized
+DEBUG - 2018-04-21 21:50:37 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:50:37 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:50:37 --> Session routines successfully run
+DEBUG - 2018-04-21 21:50:37 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:50:37 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:37 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:37 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:37 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:37 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:37 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:37 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:37 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:37 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:37 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:37 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:37 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:37 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:37 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:37 --> Final output sent to browser
+DEBUG - 2018-04-21 21:50:37 --> Total execution time: 0.0365
+DEBUG - 2018-04-21 21:50:43 --> Config Class Initialized
+DEBUG - 2018-04-21 21:50:43 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:50:43 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:50:43 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:50:43 --> URI Class Initialized
+DEBUG - 2018-04-21 21:50:43 --> Router Class Initialized
+DEBUG - 2018-04-21 21:50:43 --> Output Class Initialized
+DEBUG - 2018-04-21 21:50:43 --> Security Class Initialized
+DEBUG - 2018-04-21 21:50:43 --> Input Class Initialized
+DEBUG - 2018-04-21 21:50:43 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:50:43 --> Language Class Initialized
+DEBUG - 2018-04-21 21:50:43 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:50:43 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:50:43 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:50:43 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:50:43 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:50:43 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:50:43 --> Session Class Initialized
+DEBUG - 2018-04-21 21:50:43 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:50:43 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:50:43 --> Session routines successfully run
+DEBUG - 2018-04-21 21:50:43 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:50:43 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:43 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:43 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:43 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:43 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:43 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:43 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:43 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:43 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:43 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:43 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:43 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:43 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:43 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:43 --> Final output sent to browser
+DEBUG - 2018-04-21 21:50:43 --> Total execution time: 0.0369
+DEBUG - 2018-04-21 21:50:44 --> Config Class Initialized
+DEBUG - 2018-04-21 21:50:44 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:50:44 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:50:44 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:50:44 --> URI Class Initialized
+DEBUG - 2018-04-21 21:50:44 --> Router Class Initialized
+DEBUG - 2018-04-21 21:50:44 --> Output Class Initialized
+DEBUG - 2018-04-21 21:50:44 --> Security Class Initialized
+DEBUG - 2018-04-21 21:50:44 --> Input Class Initialized
+DEBUG - 2018-04-21 21:50:44 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:50:44 --> Language Class Initialized
+DEBUG - 2018-04-21 21:50:44 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:50:44 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:50:44 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:50:44 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:50:44 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:50:44 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:50:44 --> Session Class Initialized
+DEBUG - 2018-04-21 21:50:44 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:50:44 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:50:44 --> Session routines successfully run
+DEBUG - 2018-04-21 21:50:44 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:50:44 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:44 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:44 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:44 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:44 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:44 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:44 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:44 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:44 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:44 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:44 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:44 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:44 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:44 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:44 --> Config Class Initialized
+DEBUG - 2018-04-21 21:50:44 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:50:44 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:50:44 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:50:44 --> URI Class Initialized
+DEBUG - 2018-04-21 21:50:44 --> Router Class Initialized
+DEBUG - 2018-04-21 21:50:44 --> Output Class Initialized
+DEBUG - 2018-04-21 21:50:44 --> Security Class Initialized
+DEBUG - 2018-04-21 21:50:44 --> Input Class Initialized
+DEBUG - 2018-04-21 21:50:44 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:50:44 --> Language Class Initialized
+DEBUG - 2018-04-21 21:50:44 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:50:44 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:50:44 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:50:44 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:50:44 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:50:44 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:50:44 --> Session Class Initialized
+DEBUG - 2018-04-21 21:50:44 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:50:44 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:50:44 --> Session routines successfully run
+DEBUG - 2018-04-21 21:50:44 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:50:44 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:44 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:44 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:44 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:44 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:44 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:44 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:44 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:44 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:44 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:44 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:44 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:44 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:44 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:44 --> Final output sent to browser
+DEBUG - 2018-04-21 21:50:44 --> Total execution time: 0.0368
+DEBUG - 2018-04-21 21:50:45 --> Config Class Initialized
+DEBUG - 2018-04-21 21:50:45 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:50:45 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:50:45 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:50:45 --> URI Class Initialized
+DEBUG - 2018-04-21 21:50:45 --> Router Class Initialized
+DEBUG - 2018-04-21 21:50:45 --> Output Class Initialized
+DEBUG - 2018-04-21 21:50:45 --> Security Class Initialized
+DEBUG - 2018-04-21 21:50:45 --> Input Class Initialized
+DEBUG - 2018-04-21 21:50:45 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:50:45 --> Language Class Initialized
+DEBUG - 2018-04-21 21:50:45 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:50:45 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:50:45 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:50:45 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:50:45 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:50:45 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:50:45 --> Session Class Initialized
+DEBUG - 2018-04-21 21:50:45 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:50:45 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:50:45 --> Session routines successfully run
+DEBUG - 2018-04-21 21:50:45 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:50:45 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:45 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:45 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:45 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:45 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:45 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:45 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:45 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:45 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:45 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:45 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:45 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:45 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:45 --> Model Class Initialized
+DEBUG - 2018-04-21 21:50:45 --> Final output sent to browser
+DEBUG - 2018-04-21 21:50:45 --> Total execution time: 0.0355
+DEBUG - 2018-04-21 21:56:26 --> Config Class Initialized
+DEBUG - 2018-04-21 21:56:26 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:56:26 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:56:26 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:56:26 --> URI Class Initialized
+DEBUG - 2018-04-21 21:56:26 --> Router Class Initialized
+DEBUG - 2018-04-21 21:56:26 --> Output Class Initialized
+DEBUG - 2018-04-21 21:56:26 --> Security Class Initialized
+DEBUG - 2018-04-21 21:56:26 --> Input Class Initialized
+DEBUG - 2018-04-21 21:56:26 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:56:26 --> Language Class Initialized
+DEBUG - 2018-04-21 21:56:26 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:56:26 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:56:26 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:56:26 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:56:26 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:56:26 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:56:26 --> Session Class Initialized
+DEBUG - 2018-04-21 21:56:26 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:56:26 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:56:26 --> Session routines successfully run
+DEBUG - 2018-04-21 21:56:26 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:56:26 --> Model Class Initialized
+DEBUG - 2018-04-21 21:56:26 --> Model Class Initialized
+DEBUG - 2018-04-21 21:56:26 --> Model Class Initialized
+DEBUG - 2018-04-21 21:56:26 --> Model Class Initialized
+DEBUG - 2018-04-21 21:56:26 --> Model Class Initialized
+DEBUG - 2018-04-21 21:56:26 --> Model Class Initialized
+DEBUG - 2018-04-21 21:56:26 --> Model Class Initialized
+DEBUG - 2018-04-21 21:56:26 --> Model Class Initialized
+DEBUG - 2018-04-21 21:56:26 --> Model Class Initialized
+DEBUG - 2018-04-21 21:56:26 --> Model Class Initialized
+DEBUG - 2018-04-21 21:56:26 --> Model Class Initialized
+DEBUG - 2018-04-21 21:56:26 --> Model Class Initialized
+DEBUG - 2018-04-21 21:56:26 --> Model Class Initialized
+DEBUG - 2018-04-21 21:56:26 --> Model Class Initialized
+DEBUG - 2018-04-21 21:56:26 --> Final output sent to browser
+DEBUG - 2018-04-21 21:56:26 --> Total execution time: 0.0347
+DEBUG - 2018-04-21 21:56:27 --> Config Class Initialized
+DEBUG - 2018-04-21 21:56:27 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:56:27 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:56:27 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:56:27 --> URI Class Initialized
+DEBUG - 2018-04-21 21:56:27 --> Router Class Initialized
+DEBUG - 2018-04-21 21:56:27 --> Output Class Initialized
+DEBUG - 2018-04-21 21:56:27 --> Security Class Initialized
+DEBUG - 2018-04-21 21:56:27 --> Input Class Initialized
+DEBUG - 2018-04-21 21:56:27 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:56:27 --> Language Class Initialized
+DEBUG - 2018-04-21 21:56:27 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:56:27 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:56:27 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:56:27 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:56:27 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:56:27 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:56:27 --> Session Class Initialized
+DEBUG - 2018-04-21 21:56:27 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:56:27 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:56:27 --> Session routines successfully run
+DEBUG - 2018-04-21 21:56:27 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:56:27 --> Model Class Initialized
+DEBUG - 2018-04-21 21:56:27 --> Model Class Initialized
+DEBUG - 2018-04-21 21:56:27 --> Model Class Initialized
+DEBUG - 2018-04-21 21:56:27 --> Model Class Initialized
+DEBUG - 2018-04-21 21:56:27 --> Model Class Initialized
+DEBUG - 2018-04-21 21:56:27 --> Model Class Initialized
+DEBUG - 2018-04-21 21:56:27 --> Model Class Initialized
+DEBUG - 2018-04-21 21:56:27 --> Model Class Initialized
+DEBUG - 2018-04-21 21:56:27 --> Model Class Initialized
+DEBUG - 2018-04-21 21:56:27 --> Model Class Initialized
+DEBUG - 2018-04-21 21:56:27 --> Model Class Initialized
+DEBUG - 2018-04-21 21:56:27 --> Model Class Initialized
+DEBUG - 2018-04-21 21:56:27 --> Model Class Initialized
+DEBUG - 2018-04-21 21:56:27 --> Model Class Initialized
+DEBUG - 2018-04-21 21:56:27 --> Config Class Initialized
+DEBUG - 2018-04-21 21:56:27 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:56:27 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:56:27 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:56:27 --> URI Class Initialized
+DEBUG - 2018-04-21 21:56:27 --> Router Class Initialized
+DEBUG - 2018-04-21 21:56:27 --> Output Class Initialized
+DEBUG - 2018-04-21 21:56:27 --> Security Class Initialized
+DEBUG - 2018-04-21 21:56:27 --> Input Class Initialized
+DEBUG - 2018-04-21 21:56:27 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:56:27 --> Language Class Initialized
+DEBUG - 2018-04-21 21:56:27 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:56:27 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:56:27 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:56:27 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:56:27 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:56:27 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:56:27 --> Session Class Initialized
+DEBUG - 2018-04-21 21:56:27 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:56:27 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:56:27 --> Session routines successfully run
+DEBUG - 2018-04-21 21:56:27 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:56:27 --> Model Class Initialized
+DEBUG - 2018-04-21 21:56:27 --> Model Class Initialized
+DEBUG - 2018-04-21 21:56:27 --> Model Class Initialized
+DEBUG - 2018-04-21 21:56:27 --> Model Class Initialized
+DEBUG - 2018-04-21 21:56:27 --> Model Class Initialized
+DEBUG - 2018-04-21 21:56:27 --> Model Class Initialized
+DEBUG - 2018-04-21 21:56:27 --> Model Class Initialized
+DEBUG - 2018-04-21 21:56:27 --> Model Class Initialized
+DEBUG - 2018-04-21 21:56:27 --> Model Class Initialized
+DEBUG - 2018-04-21 21:56:27 --> Model Class Initialized
+DEBUG - 2018-04-21 21:56:27 --> Model Class Initialized
+DEBUG - 2018-04-21 21:56:27 --> Model Class Initialized
+DEBUG - 2018-04-21 21:56:27 --> Model Class Initialized
+DEBUG - 2018-04-21 21:56:27 --> Model Class Initialized
+DEBUG - 2018-04-21 21:56:27 --> Final output sent to browser
+DEBUG - 2018-04-21 21:56:27 --> Total execution time: 0.0507
+DEBUG - 2018-04-21 21:56:28 --> Config Class Initialized
+DEBUG - 2018-04-21 21:56:28 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:56:28 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:56:28 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:56:28 --> URI Class Initialized
+DEBUG - 2018-04-21 21:56:28 --> Router Class Initialized
+DEBUG - 2018-04-21 21:56:28 --> Output Class Initialized
+DEBUG - 2018-04-21 21:56:28 --> Security Class Initialized
+DEBUG - 2018-04-21 21:56:28 --> Input Class Initialized
+DEBUG - 2018-04-21 21:56:28 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:56:28 --> Language Class Initialized
+DEBUG - 2018-04-21 21:56:28 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:56:28 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:56:28 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:56:28 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:56:28 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:56:28 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:56:28 --> Session Class Initialized
+DEBUG - 2018-04-21 21:56:28 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:56:28 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:56:28 --> Session routines successfully run
+DEBUG - 2018-04-21 21:56:28 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:56:28 --> Model Class Initialized
+DEBUG - 2018-04-21 21:56:28 --> Model Class Initialized
+DEBUG - 2018-04-21 21:56:28 --> Model Class Initialized
+DEBUG - 2018-04-21 21:56:28 --> Model Class Initialized
+DEBUG - 2018-04-21 21:56:28 --> Model Class Initialized
+DEBUG - 2018-04-21 21:56:28 --> Model Class Initialized
+DEBUG - 2018-04-21 21:56:28 --> Model Class Initialized
+DEBUG - 2018-04-21 21:56:28 --> Model Class Initialized
+DEBUG - 2018-04-21 21:56:28 --> Model Class Initialized
+DEBUG - 2018-04-21 21:56:28 --> Model Class Initialized
+DEBUG - 2018-04-21 21:56:28 --> Model Class Initialized
+DEBUG - 2018-04-21 21:56:28 --> Model Class Initialized
+DEBUG - 2018-04-21 21:56:28 --> Model Class Initialized
+DEBUG - 2018-04-21 21:56:28 --> Model Class Initialized
+DEBUG - 2018-04-21 21:56:28 --> Final output sent to browser
+DEBUG - 2018-04-21 21:56:28 --> Total execution time: 0.0363
+DEBUG - 2018-04-21 21:57:37 --> Config Class Initialized
+DEBUG - 2018-04-21 21:57:37 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:57:37 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:57:37 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:57:37 --> URI Class Initialized
+DEBUG - 2018-04-21 21:57:37 --> Router Class Initialized
+DEBUG - 2018-04-21 21:57:37 --> Output Class Initialized
+DEBUG - 2018-04-21 21:57:37 --> Security Class Initialized
+DEBUG - 2018-04-21 21:57:37 --> Input Class Initialized
+DEBUG - 2018-04-21 21:57:37 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:57:37 --> Language Class Initialized
+DEBUG - 2018-04-21 21:57:37 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:57:37 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:57:37 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:57:37 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:57:37 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:57:37 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:57:37 --> Session Class Initialized
+DEBUG - 2018-04-21 21:57:37 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:57:37 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:57:37 --> Session routines successfully run
+DEBUG - 2018-04-21 21:57:37 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:57:37 --> Model Class Initialized
+DEBUG - 2018-04-21 21:57:37 --> Model Class Initialized
+DEBUG - 2018-04-21 21:57:37 --> Model Class Initialized
+DEBUG - 2018-04-21 21:57:37 --> Model Class Initialized
+DEBUG - 2018-04-21 21:57:37 --> Model Class Initialized
+DEBUG - 2018-04-21 21:57:37 --> Model Class Initialized
+DEBUG - 2018-04-21 21:57:37 --> Model Class Initialized
+DEBUG - 2018-04-21 21:57:37 --> Model Class Initialized
+DEBUG - 2018-04-21 21:57:37 --> Model Class Initialized
+DEBUG - 2018-04-21 21:57:37 --> Model Class Initialized
+DEBUG - 2018-04-21 21:57:37 --> Model Class Initialized
+DEBUG - 2018-04-21 21:57:37 --> Model Class Initialized
+DEBUG - 2018-04-21 21:57:37 --> Model Class Initialized
+DEBUG - 2018-04-21 21:57:38 --> Model Class Initialized
+DEBUG - 2018-04-21 21:57:38 --> Final output sent to browser
+DEBUG - 2018-04-21 21:57:38 --> Total execution time: 0.0344
+DEBUG - 2018-04-21 21:57:38 --> Config Class Initialized
+DEBUG - 2018-04-21 21:57:38 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:57:38 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:57:38 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:57:38 --> URI Class Initialized
+DEBUG - 2018-04-21 21:57:38 --> Router Class Initialized
+DEBUG - 2018-04-21 21:57:38 --> Output Class Initialized
+DEBUG - 2018-04-21 21:57:38 --> Security Class Initialized
+DEBUG - 2018-04-21 21:57:38 --> Input Class Initialized
+DEBUG - 2018-04-21 21:57:38 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:57:38 --> Language Class Initialized
+DEBUG - 2018-04-21 21:57:38 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:57:38 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:57:38 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:57:38 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:57:38 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:57:38 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:57:38 --> Session Class Initialized
+DEBUG - 2018-04-21 21:57:38 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:57:38 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:57:38 --> Session routines successfully run
+DEBUG - 2018-04-21 21:57:38 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:57:38 --> Model Class Initialized
+DEBUG - 2018-04-21 21:57:38 --> Model Class Initialized
+DEBUG - 2018-04-21 21:57:38 --> Model Class Initialized
+DEBUG - 2018-04-21 21:57:38 --> Model Class Initialized
+DEBUG - 2018-04-21 21:57:38 --> Model Class Initialized
+DEBUG - 2018-04-21 21:57:38 --> Model Class Initialized
+DEBUG - 2018-04-21 21:57:38 --> Model Class Initialized
+DEBUG - 2018-04-21 21:57:38 --> Model Class Initialized
+DEBUG - 2018-04-21 21:57:38 --> Model Class Initialized
+DEBUG - 2018-04-21 21:57:38 --> Model Class Initialized
+DEBUG - 2018-04-21 21:57:38 --> Model Class Initialized
+DEBUG - 2018-04-21 21:57:38 --> Model Class Initialized
+DEBUG - 2018-04-21 21:57:38 --> Model Class Initialized
+DEBUG - 2018-04-21 21:57:38 --> Model Class Initialized
+DEBUG - 2018-04-21 21:57:38 --> Final output sent to browser
+DEBUG - 2018-04-21 21:57:38 --> Total execution time: 0.0363
+DEBUG - 2018-04-21 21:57:39 --> Config Class Initialized
+DEBUG - 2018-04-21 21:57:39 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:57:39 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:57:39 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:57:39 --> URI Class Initialized
+DEBUG - 2018-04-21 21:57:39 --> Router Class Initialized
+DEBUG - 2018-04-21 21:57:39 --> Output Class Initialized
+DEBUG - 2018-04-21 21:57:39 --> Security Class Initialized
+DEBUG - 2018-04-21 21:57:39 --> Input Class Initialized
+DEBUG - 2018-04-21 21:57:39 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:57:39 --> Language Class Initialized
+DEBUG - 2018-04-21 21:57:39 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:57:39 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:57:39 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:57:39 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:57:39 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:57:39 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:57:39 --> Session Class Initialized
+DEBUG - 2018-04-21 21:57:39 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:57:39 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:57:39 --> Session routines successfully run
+DEBUG - 2018-04-21 21:57:39 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:57:39 --> Model Class Initialized
+DEBUG - 2018-04-21 21:57:39 --> Model Class Initialized
+DEBUG - 2018-04-21 21:57:39 --> Model Class Initialized
+DEBUG - 2018-04-21 21:57:39 --> Model Class Initialized
+DEBUG - 2018-04-21 21:57:39 --> Model Class Initialized
+DEBUG - 2018-04-21 21:57:39 --> Model Class Initialized
+DEBUG - 2018-04-21 21:57:39 --> Model Class Initialized
+DEBUG - 2018-04-21 21:57:39 --> Model Class Initialized
+DEBUG - 2018-04-21 21:57:39 --> Model Class Initialized
+DEBUG - 2018-04-21 21:57:39 --> Model Class Initialized
+DEBUG - 2018-04-21 21:57:39 --> Model Class Initialized
+DEBUG - 2018-04-21 21:57:39 --> Model Class Initialized
+DEBUG - 2018-04-21 21:57:39 --> Model Class Initialized
+DEBUG - 2018-04-21 21:57:39 --> Model Class Initialized
+DEBUG - 2018-04-21 21:57:40 --> Config Class Initialized
+DEBUG - 2018-04-21 21:57:40 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:57:40 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:57:40 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:57:40 --> URI Class Initialized
+DEBUG - 2018-04-21 21:57:40 --> Router Class Initialized
+DEBUG - 2018-04-21 21:57:40 --> Output Class Initialized
+DEBUG - 2018-04-21 21:57:40 --> Security Class Initialized
+DEBUG - 2018-04-21 21:57:40 --> Input Class Initialized
+DEBUG - 2018-04-21 21:57:40 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:57:40 --> Language Class Initialized
+DEBUG - 2018-04-21 21:57:40 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:57:40 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:57:40 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:57:40 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:57:40 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:57:40 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:57:40 --> Session Class Initialized
+DEBUG - 2018-04-21 21:57:40 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:57:40 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:57:40 --> Session routines successfully run
+DEBUG - 2018-04-21 21:57:40 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:57:40 --> Model Class Initialized
+DEBUG - 2018-04-21 21:57:40 --> Model Class Initialized
+DEBUG - 2018-04-21 21:57:40 --> Model Class Initialized
+DEBUG - 2018-04-21 21:57:40 --> Model Class Initialized
+DEBUG - 2018-04-21 21:57:40 --> Model Class Initialized
+DEBUG - 2018-04-21 21:57:40 --> Model Class Initialized
+DEBUG - 2018-04-21 21:57:40 --> Model Class Initialized
+DEBUG - 2018-04-21 21:57:40 --> Model Class Initialized
+DEBUG - 2018-04-21 21:57:40 --> Model Class Initialized
+DEBUG - 2018-04-21 21:57:40 --> Model Class Initialized
+DEBUG - 2018-04-21 21:57:40 --> Model Class Initialized
+DEBUG - 2018-04-21 21:57:40 --> Model Class Initialized
+DEBUG - 2018-04-21 21:57:40 --> Model Class Initialized
+DEBUG - 2018-04-21 21:57:40 --> Model Class Initialized
+DEBUG - 2018-04-21 21:57:40 --> Final output sent to browser
+DEBUG - 2018-04-21 21:57:40 --> Total execution time: 0.0513
+DEBUG - 2018-04-21 21:59:18 --> Config Class Initialized
+DEBUG - 2018-04-21 21:59:18 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:59:18 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:59:18 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:59:18 --> URI Class Initialized
+DEBUG - 2018-04-21 21:59:18 --> Router Class Initialized
+DEBUG - 2018-04-21 21:59:18 --> Output Class Initialized
+DEBUG - 2018-04-21 21:59:18 --> Security Class Initialized
+DEBUG - 2018-04-21 21:59:18 --> Input Class Initialized
+DEBUG - 2018-04-21 21:59:18 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:59:18 --> Language Class Initialized
+DEBUG - 2018-04-21 21:59:18 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:59:18 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:59:18 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:59:18 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:59:18 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:59:18 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:59:18 --> Session Class Initialized
+DEBUG - 2018-04-21 21:59:18 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:59:18 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:59:18 --> Session routines successfully run
+DEBUG - 2018-04-21 21:59:18 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:59:18 --> Model Class Initialized
+DEBUG - 2018-04-21 21:59:18 --> Model Class Initialized
+DEBUG - 2018-04-21 21:59:18 --> Model Class Initialized
+DEBUG - 2018-04-21 21:59:18 --> Model Class Initialized
+DEBUG - 2018-04-21 21:59:18 --> Model Class Initialized
+DEBUG - 2018-04-21 21:59:18 --> Model Class Initialized
+DEBUG - 2018-04-21 21:59:18 --> Model Class Initialized
+DEBUG - 2018-04-21 21:59:18 --> Model Class Initialized
+DEBUG - 2018-04-21 21:59:18 --> Model Class Initialized
+DEBUG - 2018-04-21 21:59:18 --> Model Class Initialized
+DEBUG - 2018-04-21 21:59:18 --> Model Class Initialized
+DEBUG - 2018-04-21 21:59:18 --> Model Class Initialized
+DEBUG - 2018-04-21 21:59:18 --> Model Class Initialized
+DEBUG - 2018-04-21 21:59:18 --> Model Class Initialized
+DEBUG - 2018-04-21 21:59:18 --> Final output sent to browser
+DEBUG - 2018-04-21 21:59:18 --> Total execution time: 0.0354
+DEBUG - 2018-04-21 21:59:19 --> Config Class Initialized
+DEBUG - 2018-04-21 21:59:19 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:59:19 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:59:19 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:59:19 --> URI Class Initialized
+DEBUG - 2018-04-21 21:59:19 --> Router Class Initialized
+DEBUG - 2018-04-21 21:59:19 --> Output Class Initialized
+DEBUG - 2018-04-21 21:59:19 --> Security Class Initialized
+DEBUG - 2018-04-21 21:59:19 --> Input Class Initialized
+DEBUG - 2018-04-21 21:59:19 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:59:19 --> Language Class Initialized
+DEBUG - 2018-04-21 21:59:19 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:59:19 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:59:19 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:59:19 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:59:19 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:59:19 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:59:19 --> Session Class Initialized
+DEBUG - 2018-04-21 21:59:19 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:59:19 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:59:19 --> Session routines successfully run
+DEBUG - 2018-04-21 21:59:19 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:59:19 --> Model Class Initialized
+DEBUG - 2018-04-21 21:59:19 --> Model Class Initialized
+DEBUG - 2018-04-21 21:59:19 --> Model Class Initialized
+DEBUG - 2018-04-21 21:59:19 --> Model Class Initialized
+DEBUG - 2018-04-21 21:59:19 --> Model Class Initialized
+DEBUG - 2018-04-21 21:59:19 --> Model Class Initialized
+DEBUG - 2018-04-21 21:59:19 --> Model Class Initialized
+DEBUG - 2018-04-21 21:59:19 --> Model Class Initialized
+DEBUG - 2018-04-21 21:59:19 --> Model Class Initialized
+DEBUG - 2018-04-21 21:59:19 --> Model Class Initialized
+DEBUG - 2018-04-21 21:59:19 --> Model Class Initialized
+DEBUG - 2018-04-21 21:59:19 --> Model Class Initialized
+DEBUG - 2018-04-21 21:59:19 --> Model Class Initialized
+DEBUG - 2018-04-21 21:59:19 --> Model Class Initialized
+DEBUG - 2018-04-21 21:59:20 --> Config Class Initialized
+DEBUG - 2018-04-21 21:59:20 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:59:20 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:59:20 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:59:20 --> URI Class Initialized
+DEBUG - 2018-04-21 21:59:20 --> Router Class Initialized
+DEBUG - 2018-04-21 21:59:20 --> Output Class Initialized
+DEBUG - 2018-04-21 21:59:20 --> Security Class Initialized
+DEBUG - 2018-04-21 21:59:20 --> Input Class Initialized
+DEBUG - 2018-04-21 21:59:20 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:59:20 --> Language Class Initialized
+DEBUG - 2018-04-21 21:59:20 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:59:20 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:59:20 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:59:20 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:59:20 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:59:20 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:59:20 --> Session Class Initialized
+DEBUG - 2018-04-21 21:59:20 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:59:20 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:59:20 --> Session routines successfully run
+DEBUG - 2018-04-21 21:59:20 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:59:20 --> Model Class Initialized
+DEBUG - 2018-04-21 21:59:20 --> Model Class Initialized
+DEBUG - 2018-04-21 21:59:20 --> Model Class Initialized
+DEBUG - 2018-04-21 21:59:20 --> Model Class Initialized
+DEBUG - 2018-04-21 21:59:20 --> Model Class Initialized
+DEBUG - 2018-04-21 21:59:20 --> Model Class Initialized
+DEBUG - 2018-04-21 21:59:20 --> Model Class Initialized
+DEBUG - 2018-04-21 21:59:20 --> Model Class Initialized
+DEBUG - 2018-04-21 21:59:20 --> Model Class Initialized
+DEBUG - 2018-04-21 21:59:20 --> Model Class Initialized
+DEBUG - 2018-04-21 21:59:20 --> Model Class Initialized
+DEBUG - 2018-04-21 21:59:20 --> Model Class Initialized
+DEBUG - 2018-04-21 21:59:20 --> Model Class Initialized
+DEBUG - 2018-04-21 21:59:20 --> Model Class Initialized
+DEBUG - 2018-04-21 21:59:20 --> Final output sent to browser
+DEBUG - 2018-04-21 21:59:20 --> Total execution time: 0.0477
+DEBUG - 2018-04-21 21:59:21 --> Config Class Initialized
+DEBUG - 2018-04-21 21:59:21 --> Hooks Class Initialized
+DEBUG - 2018-04-21 21:59:21 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 21:59:21 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 21:59:21 --> URI Class Initialized
+DEBUG - 2018-04-21 21:59:21 --> Router Class Initialized
+DEBUG - 2018-04-21 21:59:21 --> Output Class Initialized
+DEBUG - 2018-04-21 21:59:21 --> Security Class Initialized
+DEBUG - 2018-04-21 21:59:21 --> Input Class Initialized
+DEBUG - 2018-04-21 21:59:21 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 21:59:21 --> Language Class Initialized
+DEBUG - 2018-04-21 21:59:21 --> Loader Class Initialized
+DEBUG - 2018-04-21 21:59:21 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 21:59:21 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 21:59:21 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 21:59:21 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 21:59:21 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 21:59:21 --> Session Class Initialized
+DEBUG - 2018-04-21 21:59:21 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 21:59:21 --> A session cookie was not found.
+DEBUG - 2018-04-21 21:59:21 --> Session routines successfully run
+DEBUG - 2018-04-21 21:59:21 --> Controller Class Initialized
+DEBUG - 2018-04-21 21:59:21 --> Model Class Initialized
+DEBUG - 2018-04-21 21:59:21 --> Model Class Initialized
+DEBUG - 2018-04-21 21:59:21 --> Model Class Initialized
+DEBUG - 2018-04-21 21:59:21 --> Model Class Initialized
+DEBUG - 2018-04-21 21:59:21 --> Model Class Initialized
+DEBUG - 2018-04-21 21:59:21 --> Model Class Initialized
+DEBUG - 2018-04-21 21:59:21 --> Model Class Initialized
+DEBUG - 2018-04-21 21:59:21 --> Model Class Initialized
+DEBUG - 2018-04-21 21:59:21 --> Model Class Initialized
+DEBUG - 2018-04-21 21:59:21 --> Model Class Initialized
+DEBUG - 2018-04-21 21:59:21 --> Model Class Initialized
+DEBUG - 2018-04-21 21:59:21 --> Model Class Initialized
+DEBUG - 2018-04-21 21:59:21 --> Model Class Initialized
+DEBUG - 2018-04-21 21:59:21 --> Model Class Initialized
+DEBUG - 2018-04-21 21:59:21 --> Final output sent to browser
+DEBUG - 2018-04-21 21:59:21 --> Total execution time: 0.0345
+DEBUG - 2018-04-21 22:01:38 --> Config Class Initialized
+DEBUG - 2018-04-21 22:01:38 --> Hooks Class Initialized
+DEBUG - 2018-04-21 22:01:38 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 22:01:38 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 22:01:38 --> URI Class Initialized
+DEBUG - 2018-04-21 22:01:38 --> Router Class Initialized
+DEBUG - 2018-04-21 22:01:38 --> Output Class Initialized
+DEBUG - 2018-04-21 22:01:38 --> Security Class Initialized
+DEBUG - 2018-04-21 22:01:38 --> Input Class Initialized
+DEBUG - 2018-04-21 22:01:38 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 22:01:38 --> Language Class Initialized
+DEBUG - 2018-04-21 22:01:38 --> Loader Class Initialized
+DEBUG - 2018-04-21 22:01:38 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 22:01:38 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 22:01:38 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 22:01:38 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 22:01:38 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 22:01:38 --> Session Class Initialized
+DEBUG - 2018-04-21 22:01:38 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 22:01:38 --> A session cookie was not found.
+DEBUG - 2018-04-21 22:01:38 --> Session routines successfully run
+DEBUG - 2018-04-21 22:01:38 --> Controller Class Initialized
+DEBUG - 2018-04-21 22:01:38 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:38 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:38 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:38 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:38 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:38 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:38 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:38 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:38 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:38 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:38 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:38 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:38 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:38 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:38 --> Final output sent to browser
+DEBUG - 2018-04-21 22:01:38 --> Total execution time: 0.0450
+DEBUG - 2018-04-21 22:01:39 --> Config Class Initialized
+DEBUG - 2018-04-21 22:01:39 --> Hooks Class Initialized
+DEBUG - 2018-04-21 22:01:39 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 22:01:39 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 22:01:39 --> URI Class Initialized
+DEBUG - 2018-04-21 22:01:39 --> Router Class Initialized
+DEBUG - 2018-04-21 22:01:39 --> Output Class Initialized
+DEBUG - 2018-04-21 22:01:39 --> Security Class Initialized
+DEBUG - 2018-04-21 22:01:39 --> Input Class Initialized
+DEBUG - 2018-04-21 22:01:39 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 22:01:39 --> Language Class Initialized
+DEBUG - 2018-04-21 22:01:39 --> Loader Class Initialized
+DEBUG - 2018-04-21 22:01:39 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 22:01:39 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 22:01:39 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 22:01:39 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 22:01:39 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 22:01:39 --> Session Class Initialized
+DEBUG - 2018-04-21 22:01:39 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 22:01:39 --> A session cookie was not found.
+DEBUG - 2018-04-21 22:01:39 --> Session routines successfully run
+DEBUG - 2018-04-21 22:01:39 --> Controller Class Initialized
+DEBUG - 2018-04-21 22:01:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:40 --> Config Class Initialized
+DEBUG - 2018-04-21 22:01:40 --> Hooks Class Initialized
+DEBUG - 2018-04-21 22:01:40 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 22:01:40 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 22:01:40 --> URI Class Initialized
+DEBUG - 2018-04-21 22:01:40 --> Router Class Initialized
+DEBUG - 2018-04-21 22:01:40 --> Output Class Initialized
+DEBUG - 2018-04-21 22:01:40 --> Security Class Initialized
+DEBUG - 2018-04-21 22:01:40 --> Input Class Initialized
+DEBUG - 2018-04-21 22:01:40 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 22:01:40 --> Language Class Initialized
+DEBUG - 2018-04-21 22:01:40 --> Loader Class Initialized
+DEBUG - 2018-04-21 22:01:40 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 22:01:40 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 22:01:40 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 22:01:40 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 22:01:40 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 22:01:40 --> Session Class Initialized
+DEBUG - 2018-04-21 22:01:40 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 22:01:40 --> A session cookie was not found.
+DEBUG - 2018-04-21 22:01:40 --> Session routines successfully run
+DEBUG - 2018-04-21 22:01:40 --> Controller Class Initialized
+DEBUG - 2018-04-21 22:01:40 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:40 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:40 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:40 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:40 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:40 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:40 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:40 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:40 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:40 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:40 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:40 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:40 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:40 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:40 --> Final output sent to browser
+DEBUG - 2018-04-21 22:01:40 --> Total execution time: 0.0426
+DEBUG - 2018-04-21 22:01:41 --> Config Class Initialized
+DEBUG - 2018-04-21 22:01:41 --> Hooks Class Initialized
+DEBUG - 2018-04-21 22:01:41 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 22:01:41 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 22:01:41 --> URI Class Initialized
+DEBUG - 2018-04-21 22:01:41 --> Router Class Initialized
+DEBUG - 2018-04-21 22:01:41 --> Output Class Initialized
+DEBUG - 2018-04-21 22:01:41 --> Security Class Initialized
+DEBUG - 2018-04-21 22:01:41 --> Input Class Initialized
+DEBUG - 2018-04-21 22:01:41 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 22:01:41 --> Language Class Initialized
+DEBUG - 2018-04-21 22:01:41 --> Loader Class Initialized
+DEBUG - 2018-04-21 22:01:41 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 22:01:41 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 22:01:41 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 22:01:41 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 22:01:41 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 22:01:41 --> Session Class Initialized
+DEBUG - 2018-04-21 22:01:41 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 22:01:41 --> A session cookie was not found.
+DEBUG - 2018-04-21 22:01:41 --> Session routines successfully run
+DEBUG - 2018-04-21 22:01:41 --> Controller Class Initialized
+DEBUG - 2018-04-21 22:01:41 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:41 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:41 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:41 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:41 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:41 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:41 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:41 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:41 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:41 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:41 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:41 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:41 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:41 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:41 --> Final output sent to browser
+DEBUG - 2018-04-21 22:01:41 --> Total execution time: 0.0405
+DEBUG - 2018-04-21 22:01:46 --> Config Class Initialized
+DEBUG - 2018-04-21 22:01:46 --> Hooks Class Initialized
+DEBUG - 2018-04-21 22:01:46 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 22:01:46 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 22:01:46 --> URI Class Initialized
+DEBUG - 2018-04-21 22:01:46 --> Router Class Initialized
+DEBUG - 2018-04-21 22:01:46 --> Output Class Initialized
+DEBUG - 2018-04-21 22:01:46 --> Security Class Initialized
+DEBUG - 2018-04-21 22:01:46 --> Input Class Initialized
+DEBUG - 2018-04-21 22:01:46 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 22:01:46 --> Language Class Initialized
+DEBUG - 2018-04-21 22:01:46 --> Loader Class Initialized
+DEBUG - 2018-04-21 22:01:46 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 22:01:46 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 22:01:46 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 22:01:46 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 22:01:46 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 22:01:46 --> Session Class Initialized
+DEBUG - 2018-04-21 22:01:46 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 22:01:46 --> A session cookie was not found.
+DEBUG - 2018-04-21 22:01:46 --> Session routines successfully run
+DEBUG - 2018-04-21 22:01:46 --> Controller Class Initialized
+DEBUG - 2018-04-21 22:01:46 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:46 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:46 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:46 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:46 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:46 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:46 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:46 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:46 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:46 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:46 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:46 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:46 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:46 --> Model Class Initialized
+DEBUG - 2018-04-21 22:01:46 --> Final output sent to browser
+DEBUG - 2018-04-21 22:01:46 --> Total execution time: 0.0624
+DEBUG - 2018-04-21 22:05:30 --> Config Class Initialized
+DEBUG - 2018-04-21 22:05:30 --> Hooks Class Initialized
+DEBUG - 2018-04-21 22:05:30 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 22:05:30 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 22:05:30 --> URI Class Initialized
+DEBUG - 2018-04-21 22:05:30 --> Router Class Initialized
+DEBUG - 2018-04-21 22:05:30 --> Output Class Initialized
+DEBUG - 2018-04-21 22:05:30 --> Security Class Initialized
+DEBUG - 2018-04-21 22:05:30 --> Input Class Initialized
+DEBUG - 2018-04-21 22:05:30 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 22:05:30 --> Language Class Initialized
+DEBUG - 2018-04-21 22:05:30 --> Loader Class Initialized
+DEBUG - 2018-04-21 22:05:30 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 22:05:30 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 22:05:30 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 22:05:30 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 22:05:30 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 22:05:30 --> Session Class Initialized
+DEBUG - 2018-04-21 22:05:30 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 22:05:30 --> A session cookie was not found.
+DEBUG - 2018-04-21 22:05:30 --> Session routines successfully run
+DEBUG - 2018-04-21 22:05:30 --> Controller Class Initialized
+DEBUG - 2018-04-21 22:05:30 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:30 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:30 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:30 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:30 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:30 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:30 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:30 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:30 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:30 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:30 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:30 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:30 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:30 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:30 --> Final output sent to browser
+DEBUG - 2018-04-21 22:05:30 --> Total execution time: 0.0458
+DEBUG - 2018-04-21 22:05:31 --> Config Class Initialized
+DEBUG - 2018-04-21 22:05:31 --> Hooks Class Initialized
+DEBUG - 2018-04-21 22:05:31 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 22:05:31 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 22:05:31 --> URI Class Initialized
+DEBUG - 2018-04-21 22:05:31 --> Router Class Initialized
+DEBUG - 2018-04-21 22:05:31 --> Output Class Initialized
+DEBUG - 2018-04-21 22:05:31 --> Security Class Initialized
+DEBUG - 2018-04-21 22:05:31 --> Input Class Initialized
+DEBUG - 2018-04-21 22:05:31 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 22:05:31 --> Language Class Initialized
+DEBUG - 2018-04-21 22:05:31 --> Loader Class Initialized
+DEBUG - 2018-04-21 22:05:31 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 22:05:31 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 22:05:31 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 22:05:31 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 22:05:31 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 22:05:31 --> Session Class Initialized
+DEBUG - 2018-04-21 22:05:31 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 22:05:31 --> A session cookie was not found.
+DEBUG - 2018-04-21 22:05:31 --> Session routines successfully run
+DEBUG - 2018-04-21 22:05:31 --> Controller Class Initialized
+DEBUG - 2018-04-21 22:05:31 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:31 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:31 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:31 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:31 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:31 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:31 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:31 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:31 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:31 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:31 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:31 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:31 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:31 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:32 --> Config Class Initialized
+DEBUG - 2018-04-21 22:05:32 --> Hooks Class Initialized
+DEBUG - 2018-04-21 22:05:32 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 22:05:32 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 22:05:32 --> URI Class Initialized
+DEBUG - 2018-04-21 22:05:32 --> Router Class Initialized
+DEBUG - 2018-04-21 22:05:32 --> Output Class Initialized
+DEBUG - 2018-04-21 22:05:32 --> Security Class Initialized
+DEBUG - 2018-04-21 22:05:32 --> Input Class Initialized
+DEBUG - 2018-04-21 22:05:32 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 22:05:32 --> Language Class Initialized
+DEBUG - 2018-04-21 22:05:32 --> Loader Class Initialized
+DEBUG - 2018-04-21 22:05:32 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 22:05:32 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 22:05:32 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 22:05:32 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 22:05:32 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 22:05:32 --> Session Class Initialized
+DEBUG - 2018-04-21 22:05:32 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 22:05:32 --> A session cookie was not found.
+DEBUG - 2018-04-21 22:05:32 --> Session routines successfully run
+DEBUG - 2018-04-21 22:05:32 --> Controller Class Initialized
+DEBUG - 2018-04-21 22:05:32 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:32 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:32 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:32 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:32 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:32 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:32 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:32 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:32 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:32 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:32 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:32 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:32 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:32 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:32 --> Final output sent to browser
+DEBUG - 2018-04-21 22:05:32 --> Total execution time: 0.0357
+DEBUG - 2018-04-21 22:05:33 --> Config Class Initialized
+DEBUG - 2018-04-21 22:05:33 --> Hooks Class Initialized
+DEBUG - 2018-04-21 22:05:33 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 22:05:33 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 22:05:33 --> URI Class Initialized
+DEBUG - 2018-04-21 22:05:33 --> Router Class Initialized
+DEBUG - 2018-04-21 22:05:33 --> Output Class Initialized
+DEBUG - 2018-04-21 22:05:33 --> Security Class Initialized
+DEBUG - 2018-04-21 22:05:33 --> Input Class Initialized
+DEBUG - 2018-04-21 22:05:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 22:05:33 --> Language Class Initialized
+DEBUG - 2018-04-21 22:05:33 --> Loader Class Initialized
+DEBUG - 2018-04-21 22:05:33 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 22:05:33 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 22:05:33 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 22:05:33 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 22:05:33 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 22:05:33 --> Session Class Initialized
+DEBUG - 2018-04-21 22:05:33 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 22:05:33 --> A session cookie was not found.
+DEBUG - 2018-04-21 22:05:33 --> Session routines successfully run
+DEBUG - 2018-04-21 22:05:33 --> Controller Class Initialized
+DEBUG - 2018-04-21 22:05:33 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:33 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:33 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:33 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:33 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:33 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:33 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:33 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:33 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:33 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:33 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:33 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:33 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:33 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:33 --> Final output sent to browser
+DEBUG - 2018-04-21 22:05:33 --> Total execution time: 0.0452
+DEBUG - 2018-04-21 22:05:37 --> Config Class Initialized
+DEBUG - 2018-04-21 22:05:37 --> Hooks Class Initialized
+DEBUG - 2018-04-21 22:05:37 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 22:05:37 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 22:05:37 --> URI Class Initialized
+DEBUG - 2018-04-21 22:05:37 --> Router Class Initialized
+DEBUG - 2018-04-21 22:05:37 --> Output Class Initialized
+DEBUG - 2018-04-21 22:05:37 --> Security Class Initialized
+DEBUG - 2018-04-21 22:05:37 --> Input Class Initialized
+DEBUG - 2018-04-21 22:05:37 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 22:05:37 --> Language Class Initialized
+DEBUG - 2018-04-21 22:05:37 --> Loader Class Initialized
+DEBUG - 2018-04-21 22:05:37 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 22:05:37 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 22:05:37 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 22:05:37 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 22:05:37 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 22:05:37 --> Session Class Initialized
+DEBUG - 2018-04-21 22:05:37 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 22:05:37 --> A session cookie was not found.
+DEBUG - 2018-04-21 22:05:37 --> Session routines successfully run
+DEBUG - 2018-04-21 22:05:37 --> Controller Class Initialized
+DEBUG - 2018-04-21 22:05:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:37 --> Final output sent to browser
+DEBUG - 2018-04-21 22:05:37 --> Total execution time: 0.0360
+DEBUG - 2018-04-21 22:05:55 --> Config Class Initialized
+DEBUG - 2018-04-21 22:05:55 --> Hooks Class Initialized
+DEBUG - 2018-04-21 22:05:55 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 22:05:55 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 22:05:55 --> URI Class Initialized
+DEBUG - 2018-04-21 22:05:55 --> Router Class Initialized
+DEBUG - 2018-04-21 22:05:55 --> Output Class Initialized
+DEBUG - 2018-04-21 22:05:55 --> Security Class Initialized
+DEBUG - 2018-04-21 22:05:55 --> Input Class Initialized
+DEBUG - 2018-04-21 22:05:55 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 22:05:55 --> Language Class Initialized
+DEBUG - 2018-04-21 22:05:55 --> Loader Class Initialized
+DEBUG - 2018-04-21 22:05:55 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 22:05:55 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 22:05:55 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 22:05:55 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 22:05:55 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 22:05:55 --> Session Class Initialized
+DEBUG - 2018-04-21 22:05:55 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 22:05:55 --> A session cookie was not found.
+DEBUG - 2018-04-21 22:05:55 --> Session routines successfully run
+DEBUG - 2018-04-21 22:05:55 --> Controller Class Initialized
+DEBUG - 2018-04-21 22:05:55 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:55 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:55 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:55 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:55 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:55 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:55 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:55 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:55 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:55 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:55 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:55 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:55 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:55 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:55 --> Final output sent to browser
+DEBUG - 2018-04-21 22:05:55 --> Total execution time: 0.0356
+DEBUG - 2018-04-21 22:05:55 --> Config Class Initialized
+DEBUG - 2018-04-21 22:05:55 --> Hooks Class Initialized
+DEBUG - 2018-04-21 22:05:55 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 22:05:55 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 22:05:55 --> URI Class Initialized
+DEBUG - 2018-04-21 22:05:55 --> Router Class Initialized
+DEBUG - 2018-04-21 22:05:55 --> Output Class Initialized
+DEBUG - 2018-04-21 22:05:55 --> Security Class Initialized
+DEBUG - 2018-04-21 22:05:55 --> Input Class Initialized
+DEBUG - 2018-04-21 22:05:55 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 22:05:55 --> Language Class Initialized
+DEBUG - 2018-04-21 22:05:55 --> Loader Class Initialized
+DEBUG - 2018-04-21 22:05:55 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 22:05:55 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 22:05:55 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 22:05:55 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 22:05:55 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 22:05:55 --> Session Class Initialized
+DEBUG - 2018-04-21 22:05:55 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 22:05:55 --> A session cookie was not found.
+DEBUG - 2018-04-21 22:05:55 --> Session routines successfully run
+DEBUG - 2018-04-21 22:05:55 --> Controller Class Initialized
+DEBUG - 2018-04-21 22:05:55 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:55 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:55 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:55 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:55 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:55 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:55 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:55 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:55 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:55 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:55 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:55 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:55 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:55 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:56 --> Config Class Initialized
+DEBUG - 2018-04-21 22:05:56 --> Hooks Class Initialized
+DEBUG - 2018-04-21 22:05:56 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 22:05:56 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 22:05:56 --> URI Class Initialized
+DEBUG - 2018-04-21 22:05:56 --> Router Class Initialized
+DEBUG - 2018-04-21 22:05:56 --> Output Class Initialized
+DEBUG - 2018-04-21 22:05:56 --> Security Class Initialized
+DEBUG - 2018-04-21 22:05:56 --> Input Class Initialized
+DEBUG - 2018-04-21 22:05:56 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 22:05:56 --> Language Class Initialized
+DEBUG - 2018-04-21 22:05:56 --> Loader Class Initialized
+DEBUG - 2018-04-21 22:05:56 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 22:05:56 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 22:05:56 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 22:05:56 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 22:05:56 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 22:05:56 --> Session Class Initialized
+DEBUG - 2018-04-21 22:05:56 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 22:05:56 --> A session cookie was not found.
+DEBUG - 2018-04-21 22:05:56 --> Session routines successfully run
+DEBUG - 2018-04-21 22:05:56 --> Controller Class Initialized
+DEBUG - 2018-04-21 22:05:56 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:56 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:56 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:56 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:56 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:56 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:56 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:56 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:56 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:56 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:56 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:56 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:56 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:56 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:56 --> Final output sent to browser
+DEBUG - 2018-04-21 22:05:56 --> Total execution time: 0.0389
+DEBUG - 2018-04-21 22:05:57 --> Config Class Initialized
+DEBUG - 2018-04-21 22:05:57 --> Hooks Class Initialized
+DEBUG - 2018-04-21 22:05:57 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 22:05:57 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 22:05:57 --> URI Class Initialized
+DEBUG - 2018-04-21 22:05:57 --> Router Class Initialized
+DEBUG - 2018-04-21 22:05:57 --> Output Class Initialized
+DEBUG - 2018-04-21 22:05:57 --> Security Class Initialized
+DEBUG - 2018-04-21 22:05:57 --> Input Class Initialized
+DEBUG - 2018-04-21 22:05:57 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 22:05:57 --> Language Class Initialized
+DEBUG - 2018-04-21 22:05:57 --> Loader Class Initialized
+DEBUG - 2018-04-21 22:05:57 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 22:05:57 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 22:05:57 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 22:05:57 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 22:05:57 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 22:05:57 --> Session Class Initialized
+DEBUG - 2018-04-21 22:05:57 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 22:05:57 --> A session cookie was not found.
+DEBUG - 2018-04-21 22:05:57 --> Session routines successfully run
+DEBUG - 2018-04-21 22:05:57 --> Controller Class Initialized
+DEBUG - 2018-04-21 22:05:57 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:57 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:57 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:57 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:57 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:57 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:57 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:57 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:57 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:57 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:57 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:57 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:57 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:57 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:57 --> Final output sent to browser
+DEBUG - 2018-04-21 22:05:57 --> Total execution time: 0.0385
+DEBUG - 2018-04-21 22:05:59 --> Config Class Initialized
+DEBUG - 2018-04-21 22:05:59 --> Hooks Class Initialized
+DEBUG - 2018-04-21 22:05:59 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 22:05:59 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 22:05:59 --> URI Class Initialized
+DEBUG - 2018-04-21 22:05:59 --> Router Class Initialized
+DEBUG - 2018-04-21 22:05:59 --> Output Class Initialized
+DEBUG - 2018-04-21 22:05:59 --> Security Class Initialized
+DEBUG - 2018-04-21 22:05:59 --> Input Class Initialized
+DEBUG - 2018-04-21 22:05:59 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 22:05:59 --> Language Class Initialized
+DEBUG - 2018-04-21 22:05:59 --> Loader Class Initialized
+DEBUG - 2018-04-21 22:05:59 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 22:05:59 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 22:05:59 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 22:05:59 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 22:05:59 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 22:05:59 --> Session Class Initialized
+DEBUG - 2018-04-21 22:05:59 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 22:05:59 --> A session cookie was not found.
+DEBUG - 2018-04-21 22:05:59 --> Session routines successfully run
+DEBUG - 2018-04-21 22:05:59 --> Controller Class Initialized
+DEBUG - 2018-04-21 22:05:59 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:59 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:59 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:59 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:59 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:59 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:59 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:59 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:59 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:59 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:59 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:59 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:59 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:59 --> Model Class Initialized
+DEBUG - 2018-04-21 22:05:59 --> Final output sent to browser
+DEBUG - 2018-04-21 22:05:59 --> Total execution time: 0.0516
+DEBUG - 2018-04-21 22:06:38 --> Config Class Initialized
+DEBUG - 2018-04-21 22:06:38 --> Hooks Class Initialized
+DEBUG - 2018-04-21 22:06:38 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 22:06:38 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 22:06:38 --> URI Class Initialized
+DEBUG - 2018-04-21 22:06:38 --> Router Class Initialized
+DEBUG - 2018-04-21 22:06:38 --> Output Class Initialized
+DEBUG - 2018-04-21 22:06:38 --> Security Class Initialized
+DEBUG - 2018-04-21 22:06:38 --> Input Class Initialized
+DEBUG - 2018-04-21 22:06:38 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 22:06:38 --> Language Class Initialized
+DEBUG - 2018-04-21 22:06:38 --> Loader Class Initialized
+DEBUG - 2018-04-21 22:06:38 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 22:06:38 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 22:06:38 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 22:06:38 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 22:06:38 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 22:06:38 --> Session Class Initialized
+DEBUG - 2018-04-21 22:06:38 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 22:06:38 --> A session cookie was not found.
+DEBUG - 2018-04-21 22:06:38 --> Session routines successfully run
+DEBUG - 2018-04-21 22:06:38 --> Controller Class Initialized
+DEBUG - 2018-04-21 22:06:38 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:38 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:38 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:38 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:38 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:38 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:38 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:38 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:38 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:38 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:38 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:38 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:38 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:38 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:38 --> Final output sent to browser
+DEBUG - 2018-04-21 22:06:38 --> Total execution time: 0.0461
+DEBUG - 2018-04-21 22:06:38 --> Config Class Initialized
+DEBUG - 2018-04-21 22:06:38 --> Hooks Class Initialized
+DEBUG - 2018-04-21 22:06:38 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 22:06:38 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 22:06:38 --> URI Class Initialized
+DEBUG - 2018-04-21 22:06:38 --> Router Class Initialized
+DEBUG - 2018-04-21 22:06:38 --> Output Class Initialized
+DEBUG - 2018-04-21 22:06:38 --> Security Class Initialized
+DEBUG - 2018-04-21 22:06:38 --> Input Class Initialized
+DEBUG - 2018-04-21 22:06:38 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 22:06:38 --> Language Class Initialized
+DEBUG - 2018-04-21 22:06:38 --> Loader Class Initialized
+DEBUG - 2018-04-21 22:06:38 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 22:06:38 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 22:06:38 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 22:06:38 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 22:06:38 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 22:06:38 --> Session Class Initialized
+DEBUG - 2018-04-21 22:06:38 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 22:06:38 --> A session cookie was not found.
+DEBUG - 2018-04-21 22:06:38 --> Session routines successfully run
+DEBUG - 2018-04-21 22:06:38 --> Controller Class Initialized
+DEBUG - 2018-04-21 22:06:38 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:38 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:38 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:38 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:38 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:38 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:38 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:38 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:38 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:38 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:38 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:38 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:38 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:38 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:39 --> Config Class Initialized
+DEBUG - 2018-04-21 22:06:39 --> Hooks Class Initialized
+DEBUG - 2018-04-21 22:06:39 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 22:06:39 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 22:06:39 --> URI Class Initialized
+DEBUG - 2018-04-21 22:06:39 --> Router Class Initialized
+DEBUG - 2018-04-21 22:06:39 --> Output Class Initialized
+DEBUG - 2018-04-21 22:06:39 --> Security Class Initialized
+DEBUG - 2018-04-21 22:06:39 --> Input Class Initialized
+DEBUG - 2018-04-21 22:06:39 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 22:06:39 --> Language Class Initialized
+DEBUG - 2018-04-21 22:06:39 --> Loader Class Initialized
+DEBUG - 2018-04-21 22:06:39 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 22:06:39 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 22:06:39 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 22:06:39 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 22:06:39 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 22:06:39 --> Session Class Initialized
+DEBUG - 2018-04-21 22:06:39 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 22:06:39 --> A session cookie was not found.
+DEBUG - 2018-04-21 22:06:39 --> Session routines successfully run
+DEBUG - 2018-04-21 22:06:39 --> Controller Class Initialized
+DEBUG - 2018-04-21 22:06:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:39 --> Final output sent to browser
+DEBUG - 2018-04-21 22:06:39 --> Total execution time: 0.0438
+DEBUG - 2018-04-21 22:06:40 --> Config Class Initialized
+DEBUG - 2018-04-21 22:06:40 --> Hooks Class Initialized
+DEBUG - 2018-04-21 22:06:40 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 22:06:40 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 22:06:40 --> URI Class Initialized
+DEBUG - 2018-04-21 22:06:40 --> Router Class Initialized
+DEBUG - 2018-04-21 22:06:40 --> Output Class Initialized
+DEBUG - 2018-04-21 22:06:40 --> Security Class Initialized
+DEBUG - 2018-04-21 22:06:40 --> Input Class Initialized
+DEBUG - 2018-04-21 22:06:40 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 22:06:40 --> Language Class Initialized
+DEBUG - 2018-04-21 22:06:40 --> Loader Class Initialized
+DEBUG - 2018-04-21 22:06:40 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 22:06:40 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 22:06:40 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 22:06:40 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 22:06:40 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 22:06:40 --> Session Class Initialized
+DEBUG - 2018-04-21 22:06:40 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 22:06:40 --> A session cookie was not found.
+DEBUG - 2018-04-21 22:06:40 --> Session routines successfully run
+DEBUG - 2018-04-21 22:06:40 --> Controller Class Initialized
+DEBUG - 2018-04-21 22:06:40 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:40 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:40 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:40 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:40 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:40 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:40 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:40 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:40 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:40 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:40 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:40 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:40 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:40 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:40 --> Final output sent to browser
+DEBUG - 2018-04-21 22:06:40 --> Total execution time: 0.0367
+DEBUG - 2018-04-21 22:06:41 --> Config Class Initialized
+DEBUG - 2018-04-21 22:06:41 --> Hooks Class Initialized
+DEBUG - 2018-04-21 22:06:41 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 22:06:41 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 22:06:41 --> URI Class Initialized
+DEBUG - 2018-04-21 22:06:41 --> Router Class Initialized
+DEBUG - 2018-04-21 22:06:41 --> Output Class Initialized
+DEBUG - 2018-04-21 22:06:41 --> Security Class Initialized
+DEBUG - 2018-04-21 22:06:41 --> Input Class Initialized
+DEBUG - 2018-04-21 22:06:41 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 22:06:41 --> Language Class Initialized
+DEBUG - 2018-04-21 22:06:41 --> Loader Class Initialized
+DEBUG - 2018-04-21 22:06:41 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 22:06:41 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 22:06:41 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 22:06:41 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 22:06:41 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 22:06:41 --> Session Class Initialized
+DEBUG - 2018-04-21 22:06:41 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 22:06:41 --> A session cookie was not found.
+DEBUG - 2018-04-21 22:06:41 --> Session routines successfully run
+DEBUG - 2018-04-21 22:06:41 --> Controller Class Initialized
+DEBUG - 2018-04-21 22:06:41 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:41 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:41 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:41 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:41 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:41 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:41 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:41 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:41 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:41 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:41 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:41 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:41 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:41 --> Model Class Initialized
+DEBUG - 2018-04-21 22:06:41 --> Final output sent to browser
+DEBUG - 2018-04-21 22:06:41 --> Total execution time: 0.0430
+DEBUG - 2018-04-21 22:07:32 --> Config Class Initialized
+DEBUG - 2018-04-21 22:07:32 --> Hooks Class Initialized
+DEBUG - 2018-04-21 22:07:32 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 22:07:32 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 22:07:32 --> URI Class Initialized
+DEBUG - 2018-04-21 22:07:32 --> Router Class Initialized
+DEBUG - 2018-04-21 22:07:32 --> Output Class Initialized
+DEBUG - 2018-04-21 22:07:32 --> Security Class Initialized
+DEBUG - 2018-04-21 22:07:32 --> Input Class Initialized
+DEBUG - 2018-04-21 22:07:32 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 22:07:32 --> Language Class Initialized
+DEBUG - 2018-04-21 22:07:32 --> Loader Class Initialized
+DEBUG - 2018-04-21 22:07:32 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 22:07:32 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 22:07:32 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 22:07:32 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 22:07:32 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 22:07:32 --> Session Class Initialized
+DEBUG - 2018-04-21 22:07:32 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 22:07:32 --> A session cookie was not found.
+DEBUG - 2018-04-21 22:07:32 --> Session routines successfully run
+DEBUG - 2018-04-21 22:07:32 --> Controller Class Initialized
+DEBUG - 2018-04-21 22:07:32 --> Model Class Initialized
+DEBUG - 2018-04-21 22:07:32 --> Model Class Initialized
+DEBUG - 2018-04-21 22:07:32 --> Model Class Initialized
+DEBUG - 2018-04-21 22:07:32 --> Model Class Initialized
+DEBUG - 2018-04-21 22:07:32 --> Model Class Initialized
+DEBUG - 2018-04-21 22:07:32 --> Model Class Initialized
+DEBUG - 2018-04-21 22:07:32 --> Model Class Initialized
+DEBUG - 2018-04-21 22:07:32 --> Model Class Initialized
+DEBUG - 2018-04-21 22:07:32 --> Model Class Initialized
+DEBUG - 2018-04-21 22:07:32 --> Model Class Initialized
+DEBUG - 2018-04-21 22:07:32 --> Model Class Initialized
+DEBUG - 2018-04-21 22:07:32 --> Model Class Initialized
+DEBUG - 2018-04-21 22:07:32 --> Model Class Initialized
+DEBUG - 2018-04-21 22:07:32 --> Model Class Initialized
+DEBUG - 2018-04-21 22:07:32 --> Final output sent to browser
+DEBUG - 2018-04-21 22:07:32 --> Total execution time: 0.0461
+DEBUG - 2018-04-21 22:07:33 --> Config Class Initialized
+DEBUG - 2018-04-21 22:07:33 --> Hooks Class Initialized
+DEBUG - 2018-04-21 22:07:33 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 22:07:33 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 22:07:33 --> URI Class Initialized
+DEBUG - 2018-04-21 22:07:33 --> Router Class Initialized
+DEBUG - 2018-04-21 22:07:33 --> Output Class Initialized
+DEBUG - 2018-04-21 22:07:33 --> Security Class Initialized
+DEBUG - 2018-04-21 22:07:33 --> Input Class Initialized
+DEBUG - 2018-04-21 22:07:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 22:07:33 --> Language Class Initialized
+DEBUG - 2018-04-21 22:07:33 --> Loader Class Initialized
+DEBUG - 2018-04-21 22:07:33 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 22:07:33 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 22:07:33 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 22:07:33 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 22:07:33 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 22:07:33 --> Session Class Initialized
+DEBUG - 2018-04-21 22:07:33 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 22:07:33 --> A session cookie was not found.
+DEBUG - 2018-04-21 22:07:33 --> Session routines successfully run
+DEBUG - 2018-04-21 22:07:33 --> Controller Class Initialized
+DEBUG - 2018-04-21 22:07:33 --> Model Class Initialized
+DEBUG - 2018-04-21 22:07:33 --> Model Class Initialized
+DEBUG - 2018-04-21 22:07:33 --> Model Class Initialized
+DEBUG - 2018-04-21 22:07:33 --> Model Class Initialized
+DEBUG - 2018-04-21 22:07:33 --> Model Class Initialized
+DEBUG - 2018-04-21 22:07:33 --> Model Class Initialized
+DEBUG - 2018-04-21 22:07:33 --> Model Class Initialized
+DEBUG - 2018-04-21 22:07:33 --> Model Class Initialized
+DEBUG - 2018-04-21 22:07:33 --> Model Class Initialized
+DEBUG - 2018-04-21 22:07:33 --> Model Class Initialized
+DEBUG - 2018-04-21 22:07:33 --> Model Class Initialized
+DEBUG - 2018-04-21 22:07:33 --> Model Class Initialized
+DEBUG - 2018-04-21 22:07:33 --> Model Class Initialized
+DEBUG - 2018-04-21 22:07:33 --> Model Class Initialized
+DEBUG - 2018-04-21 22:07:33 --> Config Class Initialized
+DEBUG - 2018-04-21 22:07:33 --> Hooks Class Initialized
+DEBUG - 2018-04-21 22:07:33 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 22:07:33 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 22:07:33 --> URI Class Initialized
+DEBUG - 2018-04-21 22:07:33 --> Router Class Initialized
+DEBUG - 2018-04-21 22:07:33 --> Output Class Initialized
+DEBUG - 2018-04-21 22:07:33 --> Security Class Initialized
+DEBUG - 2018-04-21 22:07:33 --> Input Class Initialized
+DEBUG - 2018-04-21 22:07:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 22:07:33 --> Language Class Initialized
+DEBUG - 2018-04-21 22:07:33 --> Loader Class Initialized
+DEBUG - 2018-04-21 22:07:33 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 22:07:33 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 22:07:33 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 22:07:33 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 22:07:33 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 22:07:33 --> Session Class Initialized
+DEBUG - 2018-04-21 22:07:33 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 22:07:33 --> A session cookie was not found.
+DEBUG - 2018-04-21 22:07:33 --> Session routines successfully run
+DEBUG - 2018-04-21 22:07:33 --> Controller Class Initialized
+DEBUG - 2018-04-21 22:07:33 --> Model Class Initialized
+DEBUG - 2018-04-21 22:07:33 --> Model Class Initialized
+DEBUG - 2018-04-21 22:07:33 --> Model Class Initialized
+DEBUG - 2018-04-21 22:07:33 --> Model Class Initialized
+DEBUG - 2018-04-21 22:07:33 --> Model Class Initialized
+DEBUG - 2018-04-21 22:07:33 --> Model Class Initialized
+DEBUG - 2018-04-21 22:07:33 --> Model Class Initialized
+DEBUG - 2018-04-21 22:07:33 --> Model Class Initialized
+DEBUG - 2018-04-21 22:07:33 --> Model Class Initialized
+DEBUG - 2018-04-21 22:07:33 --> Model Class Initialized
+DEBUG - 2018-04-21 22:07:33 --> Model Class Initialized
+DEBUG - 2018-04-21 22:07:33 --> Model Class Initialized
+DEBUG - 2018-04-21 22:07:33 --> Model Class Initialized
+DEBUG - 2018-04-21 22:07:33 --> Model Class Initialized
+DEBUG - 2018-04-21 22:07:33 --> Final output sent to browser
+DEBUG - 2018-04-21 22:07:33 --> Total execution time: 0.0447
+DEBUG - 2018-04-21 22:07:35 --> Config Class Initialized
+DEBUG - 2018-04-21 22:07:35 --> Hooks Class Initialized
+DEBUG - 2018-04-21 22:07:35 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 22:07:35 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 22:07:35 --> URI Class Initialized
+DEBUG - 2018-04-21 22:07:35 --> Router Class Initialized
+DEBUG - 2018-04-21 22:07:35 --> Output Class Initialized
+DEBUG - 2018-04-21 22:07:35 --> Security Class Initialized
+DEBUG - 2018-04-21 22:07:35 --> Input Class Initialized
+DEBUG - 2018-04-21 22:07:35 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 22:07:35 --> Language Class Initialized
+DEBUG - 2018-04-21 22:07:35 --> Loader Class Initialized
+DEBUG - 2018-04-21 22:07:35 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 22:07:35 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 22:07:35 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 22:07:35 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 22:07:35 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 22:07:35 --> Session Class Initialized
+DEBUG - 2018-04-21 22:07:35 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 22:07:35 --> A session cookie was not found.
+DEBUG - 2018-04-21 22:07:35 --> Session routines successfully run
+DEBUG - 2018-04-21 22:07:35 --> Controller Class Initialized
+DEBUG - 2018-04-21 22:07:35 --> Model Class Initialized
+DEBUG - 2018-04-21 22:07:35 --> Model Class Initialized
+DEBUG - 2018-04-21 22:07:35 --> Model Class Initialized
+DEBUG - 2018-04-21 22:07:35 --> Model Class Initialized
+DEBUG - 2018-04-21 22:07:35 --> Model Class Initialized
+DEBUG - 2018-04-21 22:07:35 --> Model Class Initialized
+DEBUG - 2018-04-21 22:07:35 --> Model Class Initialized
+DEBUG - 2018-04-21 22:07:35 --> Model Class Initialized
+DEBUG - 2018-04-21 22:07:35 --> Model Class Initialized
+DEBUG - 2018-04-21 22:07:35 --> Model Class Initialized
+DEBUG - 2018-04-21 22:07:35 --> Model Class Initialized
+DEBUG - 2018-04-21 22:07:35 --> Model Class Initialized
+DEBUG - 2018-04-21 22:07:35 --> Model Class Initialized
+DEBUG - 2018-04-21 22:07:35 --> Model Class Initialized
+DEBUG - 2018-04-21 22:07:35 --> Final output sent to browser
+DEBUG - 2018-04-21 22:07:35 --> Total execution time: 0.0343
+DEBUG - 2018-04-21 22:08:49 --> Config Class Initialized
+DEBUG - 2018-04-21 22:08:49 --> Hooks Class Initialized
+DEBUG - 2018-04-21 22:08:49 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 22:08:49 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 22:08:49 --> URI Class Initialized
+DEBUG - 2018-04-21 22:08:49 --> Router Class Initialized
+DEBUG - 2018-04-21 22:08:49 --> Output Class Initialized
+DEBUG - 2018-04-21 22:08:49 --> Security Class Initialized
+DEBUG - 2018-04-21 22:08:49 --> Input Class Initialized
+DEBUG - 2018-04-21 22:08:49 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 22:08:49 --> Language Class Initialized
+DEBUG - 2018-04-21 22:08:49 --> Loader Class Initialized
+DEBUG - 2018-04-21 22:08:49 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 22:08:49 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 22:08:49 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 22:08:49 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 22:08:49 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 22:08:49 --> Session Class Initialized
+DEBUG - 2018-04-21 22:08:49 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 22:08:49 --> A session cookie was not found.
+DEBUG - 2018-04-21 22:08:49 --> Session routines successfully run
+DEBUG - 2018-04-21 22:08:49 --> Controller Class Initialized
+DEBUG - 2018-04-21 22:08:49 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:49 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:49 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:49 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:49 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:49 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:49 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:49 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:49 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:49 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:49 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:49 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:49 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:49 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:49 --> Final output sent to browser
+DEBUG - 2018-04-21 22:08:49 --> Total execution time: 0.0356
+DEBUG - 2018-04-21 22:08:50 --> Config Class Initialized
+DEBUG - 2018-04-21 22:08:50 --> Hooks Class Initialized
+DEBUG - 2018-04-21 22:08:50 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 22:08:50 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 22:08:50 --> URI Class Initialized
+DEBUG - 2018-04-21 22:08:50 --> Router Class Initialized
+DEBUG - 2018-04-21 22:08:50 --> Output Class Initialized
+DEBUG - 2018-04-21 22:08:50 --> Security Class Initialized
+DEBUG - 2018-04-21 22:08:50 --> Input Class Initialized
+DEBUG - 2018-04-21 22:08:50 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 22:08:50 --> Language Class Initialized
+DEBUG - 2018-04-21 22:08:50 --> Loader Class Initialized
+DEBUG - 2018-04-21 22:08:50 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 22:08:50 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 22:08:50 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 22:08:50 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 22:08:50 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 22:08:50 --> Session Class Initialized
+DEBUG - 2018-04-21 22:08:50 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 22:08:50 --> A session cookie was not found.
+DEBUG - 2018-04-21 22:08:50 --> Session routines successfully run
+DEBUG - 2018-04-21 22:08:50 --> Controller Class Initialized
+DEBUG - 2018-04-21 22:08:50 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:50 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:50 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:50 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:50 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:50 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:50 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:50 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:50 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:50 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:50 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:50 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:50 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:50 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:50 --> Config Class Initialized
+DEBUG - 2018-04-21 22:08:50 --> Hooks Class Initialized
+DEBUG - 2018-04-21 22:08:50 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 22:08:50 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 22:08:50 --> URI Class Initialized
+DEBUG - 2018-04-21 22:08:50 --> Router Class Initialized
+DEBUG - 2018-04-21 22:08:50 --> Output Class Initialized
+DEBUG - 2018-04-21 22:08:50 --> Security Class Initialized
+DEBUG - 2018-04-21 22:08:50 --> Input Class Initialized
+DEBUG - 2018-04-21 22:08:50 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 22:08:50 --> Language Class Initialized
+DEBUG - 2018-04-21 22:08:50 --> Loader Class Initialized
+DEBUG - 2018-04-21 22:08:50 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 22:08:50 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 22:08:50 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 22:08:50 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 22:08:50 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 22:08:50 --> Session Class Initialized
+DEBUG - 2018-04-21 22:08:50 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 22:08:50 --> A session cookie was not found.
+DEBUG - 2018-04-21 22:08:50 --> Session routines successfully run
+DEBUG - 2018-04-21 22:08:50 --> Controller Class Initialized
+DEBUG - 2018-04-21 22:08:50 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:50 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:50 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:50 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:50 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:50 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:50 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:50 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:50 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:50 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:50 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:50 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:50 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:50 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:50 --> Final output sent to browser
+DEBUG - 2018-04-21 22:08:50 --> Total execution time: 0.0463
+DEBUG - 2018-04-21 22:08:51 --> Config Class Initialized
+DEBUG - 2018-04-21 22:08:51 --> Hooks Class Initialized
+DEBUG - 2018-04-21 22:08:51 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 22:08:51 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 22:08:51 --> URI Class Initialized
+DEBUG - 2018-04-21 22:08:51 --> Router Class Initialized
+DEBUG - 2018-04-21 22:08:51 --> Output Class Initialized
+DEBUG - 2018-04-21 22:08:51 --> Security Class Initialized
+DEBUG - 2018-04-21 22:08:51 --> Input Class Initialized
+DEBUG - 2018-04-21 22:08:51 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 22:08:51 --> Language Class Initialized
+DEBUG - 2018-04-21 22:08:51 --> Loader Class Initialized
+DEBUG - 2018-04-21 22:08:51 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 22:08:51 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 22:08:51 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 22:08:51 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 22:08:51 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 22:08:51 --> Session Class Initialized
+DEBUG - 2018-04-21 22:08:51 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 22:08:51 --> A session cookie was not found.
+DEBUG - 2018-04-21 22:08:51 --> Session routines successfully run
+DEBUG - 2018-04-21 22:08:51 --> Controller Class Initialized
+DEBUG - 2018-04-21 22:08:51 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:51 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:51 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:51 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:51 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:51 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:51 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:51 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:51 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:51 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:51 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:51 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:51 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:51 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:51 --> Final output sent to browser
+DEBUG - 2018-04-21 22:08:51 --> Total execution time: 0.0364
+DEBUG - 2018-04-21 22:08:53 --> Config Class Initialized
+DEBUG - 2018-04-21 22:08:53 --> Hooks Class Initialized
+DEBUG - 2018-04-21 22:08:53 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 22:08:53 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 22:08:53 --> URI Class Initialized
+DEBUG - 2018-04-21 22:08:53 --> Router Class Initialized
+DEBUG - 2018-04-21 22:08:53 --> Output Class Initialized
+DEBUG - 2018-04-21 22:08:53 --> Security Class Initialized
+DEBUG - 2018-04-21 22:08:53 --> Input Class Initialized
+DEBUG - 2018-04-21 22:08:53 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 22:08:53 --> Language Class Initialized
+DEBUG - 2018-04-21 22:08:53 --> Loader Class Initialized
+DEBUG - 2018-04-21 22:08:53 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 22:08:53 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 22:08:53 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 22:08:53 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 22:08:53 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 22:08:53 --> Session Class Initialized
+DEBUG - 2018-04-21 22:08:53 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 22:08:53 --> A session cookie was not found.
+DEBUG - 2018-04-21 22:08:53 --> Session routines successfully run
+DEBUG - 2018-04-21 22:08:53 --> Controller Class Initialized
+DEBUG - 2018-04-21 22:08:53 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:53 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:53 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:53 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:53 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:53 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:53 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:53 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:53 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:53 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:53 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:53 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:53 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:53 --> Model Class Initialized
+DEBUG - 2018-04-21 22:08:53 --> Final output sent to browser
+DEBUG - 2018-04-21 22:08:53 --> Total execution time: 0.0346
+DEBUG - 2018-04-21 22:10:38 --> Config Class Initialized
+DEBUG - 2018-04-21 22:10:38 --> Hooks Class Initialized
+DEBUG - 2018-04-21 22:10:38 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 22:10:38 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 22:10:38 --> URI Class Initialized
+DEBUG - 2018-04-21 22:10:38 --> Router Class Initialized
+DEBUG - 2018-04-21 22:10:38 --> Output Class Initialized
+DEBUG - 2018-04-21 22:10:38 --> Security Class Initialized
+DEBUG - 2018-04-21 22:10:38 --> Input Class Initialized
+DEBUG - 2018-04-21 22:10:38 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 22:10:38 --> Language Class Initialized
+DEBUG - 2018-04-21 22:10:38 --> Loader Class Initialized
+DEBUG - 2018-04-21 22:10:38 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 22:10:38 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 22:10:38 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 22:10:38 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 22:10:38 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 22:10:38 --> Session Class Initialized
+DEBUG - 2018-04-21 22:10:38 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 22:10:38 --> A session cookie was not found.
+DEBUG - 2018-04-21 22:10:38 --> Session routines successfully run
+DEBUG - 2018-04-21 22:10:38 --> Controller Class Initialized
+DEBUG - 2018-04-21 22:10:38 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:38 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:38 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:38 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:38 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:38 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:38 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:38 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:38 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:38 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:38 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:38 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:38 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:38 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:38 --> Final output sent to browser
+DEBUG - 2018-04-21 22:10:38 --> Total execution time: 0.0337
+DEBUG - 2018-04-21 22:10:39 --> Config Class Initialized
+DEBUG - 2018-04-21 22:10:39 --> Hooks Class Initialized
+DEBUG - 2018-04-21 22:10:39 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 22:10:39 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 22:10:39 --> URI Class Initialized
+DEBUG - 2018-04-21 22:10:39 --> Router Class Initialized
+DEBUG - 2018-04-21 22:10:39 --> Output Class Initialized
+DEBUG - 2018-04-21 22:10:39 --> Security Class Initialized
+DEBUG - 2018-04-21 22:10:39 --> Input Class Initialized
+DEBUG - 2018-04-21 22:10:39 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 22:10:39 --> Language Class Initialized
+DEBUG - 2018-04-21 22:10:39 --> Loader Class Initialized
+DEBUG - 2018-04-21 22:10:39 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 22:10:39 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 22:10:39 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 22:10:39 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 22:10:39 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 22:10:39 --> Session Class Initialized
+DEBUG - 2018-04-21 22:10:39 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 22:10:39 --> A session cookie was not found.
+DEBUG - 2018-04-21 22:10:39 --> Session routines successfully run
+DEBUG - 2018-04-21 22:10:39 --> Controller Class Initialized
+DEBUG - 2018-04-21 22:10:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:39 --> Config Class Initialized
+DEBUG - 2018-04-21 22:10:39 --> Hooks Class Initialized
+DEBUG - 2018-04-21 22:10:39 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 22:10:39 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 22:10:39 --> URI Class Initialized
+DEBUG - 2018-04-21 22:10:39 --> Router Class Initialized
+DEBUG - 2018-04-21 22:10:39 --> Output Class Initialized
+DEBUG - 2018-04-21 22:10:39 --> Security Class Initialized
+DEBUG - 2018-04-21 22:10:39 --> Input Class Initialized
+DEBUG - 2018-04-21 22:10:39 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 22:10:39 --> Language Class Initialized
+DEBUG - 2018-04-21 22:10:39 --> Loader Class Initialized
+DEBUG - 2018-04-21 22:10:39 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 22:10:39 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 22:10:39 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 22:10:39 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 22:10:39 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 22:10:39 --> Session Class Initialized
+DEBUG - 2018-04-21 22:10:39 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 22:10:39 --> A session cookie was not found.
+DEBUG - 2018-04-21 22:10:39 --> Session routines successfully run
+DEBUG - 2018-04-21 22:10:39 --> Controller Class Initialized
+DEBUG - 2018-04-21 22:10:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:39 --> Final output sent to browser
+DEBUG - 2018-04-21 22:10:39 --> Total execution time: 0.0368
+DEBUG - 2018-04-21 22:10:40 --> Config Class Initialized
+DEBUG - 2018-04-21 22:10:40 --> Hooks Class Initialized
+DEBUG - 2018-04-21 22:10:40 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 22:10:40 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 22:10:40 --> URI Class Initialized
+DEBUG - 2018-04-21 22:10:40 --> Router Class Initialized
+DEBUG - 2018-04-21 22:10:40 --> Output Class Initialized
+DEBUG - 2018-04-21 22:10:40 --> Security Class Initialized
+DEBUG - 2018-04-21 22:10:40 --> Input Class Initialized
+DEBUG - 2018-04-21 22:10:40 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 22:10:40 --> Language Class Initialized
+DEBUG - 2018-04-21 22:10:40 --> Loader Class Initialized
+DEBUG - 2018-04-21 22:10:40 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 22:10:40 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 22:10:40 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 22:10:40 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 22:10:40 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 22:10:40 --> Session Class Initialized
+DEBUG - 2018-04-21 22:10:40 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 22:10:40 --> A session cookie was not found.
+DEBUG - 2018-04-21 22:10:40 --> Session routines successfully run
+DEBUG - 2018-04-21 22:10:40 --> Controller Class Initialized
+DEBUG - 2018-04-21 22:10:40 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:40 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:40 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:40 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:40 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:40 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:40 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:40 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:40 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:40 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:40 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:40 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:40 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:40 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:40 --> Final output sent to browser
+DEBUG - 2018-04-21 22:10:40 --> Total execution time: 0.0400
+DEBUG - 2018-04-21 22:10:44 --> Config Class Initialized
+DEBUG - 2018-04-21 22:10:44 --> Hooks Class Initialized
+DEBUG - 2018-04-21 22:10:44 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 22:10:44 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 22:10:44 --> URI Class Initialized
+DEBUG - 2018-04-21 22:10:44 --> Router Class Initialized
+DEBUG - 2018-04-21 22:10:44 --> Output Class Initialized
+DEBUG - 2018-04-21 22:10:44 --> Security Class Initialized
+DEBUG - 2018-04-21 22:10:44 --> Input Class Initialized
+DEBUG - 2018-04-21 22:10:44 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 22:10:44 --> Language Class Initialized
+DEBUG - 2018-04-21 22:10:44 --> Loader Class Initialized
+DEBUG - 2018-04-21 22:10:44 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 22:10:44 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 22:10:44 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 22:10:44 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 22:10:44 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 22:10:44 --> Session Class Initialized
+DEBUG - 2018-04-21 22:10:44 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 22:10:44 --> A session cookie was not found.
+DEBUG - 2018-04-21 22:10:44 --> Session routines successfully run
+DEBUG - 2018-04-21 22:10:44 --> Controller Class Initialized
+DEBUG - 2018-04-21 22:10:44 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:44 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:44 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:44 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:44 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:44 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:44 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:44 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:44 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:44 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:44 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:44 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:44 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:44 --> Model Class Initialized
+DEBUG - 2018-04-21 22:10:44 --> Final output sent to browser
+DEBUG - 2018-04-21 22:10:44 --> Total execution time: 0.0352
+DEBUG - 2018-04-21 22:12:36 --> Config Class Initialized
+DEBUG - 2018-04-21 22:12:36 --> Hooks Class Initialized
+DEBUG - 2018-04-21 22:12:36 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 22:12:36 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 22:12:36 --> URI Class Initialized
+DEBUG - 2018-04-21 22:12:36 --> Router Class Initialized
+DEBUG - 2018-04-21 22:12:36 --> Output Class Initialized
+DEBUG - 2018-04-21 22:12:36 --> Security Class Initialized
+DEBUG - 2018-04-21 22:12:36 --> Input Class Initialized
+DEBUG - 2018-04-21 22:12:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 22:12:36 --> Language Class Initialized
+DEBUG - 2018-04-21 22:12:36 --> Loader Class Initialized
+DEBUG - 2018-04-21 22:12:36 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 22:12:36 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 22:12:36 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 22:12:36 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 22:12:36 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 22:12:36 --> Session Class Initialized
+DEBUG - 2018-04-21 22:12:36 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 22:12:36 --> A session cookie was not found.
+DEBUG - 2018-04-21 22:12:36 --> Session routines successfully run
+DEBUG - 2018-04-21 22:12:36 --> Controller Class Initialized
+DEBUG - 2018-04-21 22:12:36 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:36 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:36 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:36 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:36 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:36 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:36 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:36 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:36 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:36 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:36 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:36 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:36 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:36 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:36 --> Final output sent to browser
+DEBUG - 2018-04-21 22:12:36 --> Total execution time: 0.0368
+DEBUG - 2018-04-21 22:12:37 --> Config Class Initialized
+DEBUG - 2018-04-21 22:12:37 --> Hooks Class Initialized
+DEBUG - 2018-04-21 22:12:37 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 22:12:37 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 22:12:37 --> URI Class Initialized
+DEBUG - 2018-04-21 22:12:37 --> Router Class Initialized
+DEBUG - 2018-04-21 22:12:37 --> Output Class Initialized
+DEBUG - 2018-04-21 22:12:37 --> Security Class Initialized
+DEBUG - 2018-04-21 22:12:37 --> Input Class Initialized
+DEBUG - 2018-04-21 22:12:37 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 22:12:37 --> Language Class Initialized
+DEBUG - 2018-04-21 22:12:37 --> Loader Class Initialized
+DEBUG - 2018-04-21 22:12:37 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 22:12:37 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 22:12:37 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 22:12:37 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 22:12:37 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 22:12:37 --> Session Class Initialized
+DEBUG - 2018-04-21 22:12:37 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 22:12:37 --> A session cookie was not found.
+DEBUG - 2018-04-21 22:12:37 --> Session routines successfully run
+DEBUG - 2018-04-21 22:12:37 --> Controller Class Initialized
+DEBUG - 2018-04-21 22:12:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:37 --> Config Class Initialized
+DEBUG - 2018-04-21 22:12:37 --> Hooks Class Initialized
+DEBUG - 2018-04-21 22:12:37 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 22:12:37 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 22:12:37 --> URI Class Initialized
+DEBUG - 2018-04-21 22:12:37 --> Router Class Initialized
+DEBUG - 2018-04-21 22:12:37 --> Output Class Initialized
+DEBUG - 2018-04-21 22:12:37 --> Security Class Initialized
+DEBUG - 2018-04-21 22:12:37 --> Input Class Initialized
+DEBUG - 2018-04-21 22:12:37 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 22:12:37 --> Language Class Initialized
+DEBUG - 2018-04-21 22:12:37 --> Loader Class Initialized
+DEBUG - 2018-04-21 22:12:37 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 22:12:37 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 22:12:37 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 22:12:37 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 22:12:37 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 22:12:37 --> Session Class Initialized
+DEBUG - 2018-04-21 22:12:37 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 22:12:37 --> A session cookie was not found.
+DEBUG - 2018-04-21 22:12:37 --> Session routines successfully run
+DEBUG - 2018-04-21 22:12:37 --> Controller Class Initialized
+DEBUG - 2018-04-21 22:12:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:37 --> Final output sent to browser
+DEBUG - 2018-04-21 22:12:37 --> Total execution time: 0.0389
+DEBUG - 2018-04-21 22:12:39 --> Config Class Initialized
+DEBUG - 2018-04-21 22:12:39 --> Hooks Class Initialized
+DEBUG - 2018-04-21 22:12:39 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 22:12:39 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 22:12:39 --> URI Class Initialized
+DEBUG - 2018-04-21 22:12:39 --> Router Class Initialized
+DEBUG - 2018-04-21 22:12:39 --> Output Class Initialized
+DEBUG - 2018-04-21 22:12:39 --> Security Class Initialized
+DEBUG - 2018-04-21 22:12:39 --> Input Class Initialized
+DEBUG - 2018-04-21 22:12:39 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 22:12:39 --> Language Class Initialized
+DEBUG - 2018-04-21 22:12:39 --> Loader Class Initialized
+DEBUG - 2018-04-21 22:12:39 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 22:12:39 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 22:12:39 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 22:12:39 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 22:12:39 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 22:12:39 --> Session Class Initialized
+DEBUG - 2018-04-21 22:12:39 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 22:12:39 --> A session cookie was not found.
+DEBUG - 2018-04-21 22:12:39 --> Session routines successfully run
+DEBUG - 2018-04-21 22:12:39 --> Controller Class Initialized
+DEBUG - 2018-04-21 22:12:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:39 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:39 --> Final output sent to browser
+DEBUG - 2018-04-21 22:12:39 --> Total execution time: 0.0376
+DEBUG - 2018-04-21 22:12:43 --> Config Class Initialized
+DEBUG - 2018-04-21 22:12:43 --> Hooks Class Initialized
+DEBUG - 2018-04-21 22:12:43 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 22:12:43 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 22:12:43 --> URI Class Initialized
+DEBUG - 2018-04-21 22:12:43 --> Router Class Initialized
+DEBUG - 2018-04-21 22:12:43 --> Output Class Initialized
+DEBUG - 2018-04-21 22:12:43 --> Security Class Initialized
+DEBUG - 2018-04-21 22:12:43 --> Input Class Initialized
+DEBUG - 2018-04-21 22:12:43 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 22:12:43 --> Language Class Initialized
+DEBUG - 2018-04-21 22:12:43 --> Loader Class Initialized
+DEBUG - 2018-04-21 22:12:43 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 22:12:43 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 22:12:43 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 22:12:43 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 22:12:43 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 22:12:43 --> Session Class Initialized
+DEBUG - 2018-04-21 22:12:43 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 22:12:43 --> A session cookie was not found.
+DEBUG - 2018-04-21 22:12:43 --> Session routines successfully run
+DEBUG - 2018-04-21 22:12:43 --> Controller Class Initialized
+DEBUG - 2018-04-21 22:12:43 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:43 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:43 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:43 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:43 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:43 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:43 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:43 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:43 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:43 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:43 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:43 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:43 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:43 --> Model Class Initialized
+DEBUG - 2018-04-21 22:12:43 --> Final output sent to browser
+DEBUG - 2018-04-21 22:12:43 --> Total execution time: 0.0415
+DEBUG - 2018-04-21 22:23:50 --> Config Class Initialized
+DEBUG - 2018-04-21 22:23:50 --> Hooks Class Initialized
+DEBUG - 2018-04-21 22:23:50 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 22:23:50 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 22:23:50 --> URI Class Initialized
+DEBUG - 2018-04-21 22:23:50 --> Router Class Initialized
+DEBUG - 2018-04-21 22:23:50 --> Output Class Initialized
+DEBUG - 2018-04-21 22:23:50 --> Security Class Initialized
+DEBUG - 2018-04-21 22:23:50 --> Input Class Initialized
+DEBUG - 2018-04-21 22:23:50 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 22:23:50 --> Language Class Initialized
+DEBUG - 2018-04-21 22:23:50 --> Loader Class Initialized
+DEBUG - 2018-04-21 22:23:50 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 22:23:50 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 22:23:50 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 22:23:50 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 22:23:50 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 22:23:50 --> Session Class Initialized
+DEBUG - 2018-04-21 22:23:50 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 22:23:50 --> A session cookie was not found.
+DEBUG - 2018-04-21 22:23:50 --> Session routines successfully run
+DEBUG - 2018-04-21 22:23:50 --> Controller Class Initialized
+DEBUG - 2018-04-21 22:23:50 --> Model Class Initialized
+DEBUG - 2018-04-21 22:23:50 --> Model Class Initialized
+DEBUG - 2018-04-21 22:23:50 --> Model Class Initialized
+DEBUG - 2018-04-21 22:23:50 --> Model Class Initialized
+DEBUG - 2018-04-21 22:23:50 --> Model Class Initialized
+DEBUG - 2018-04-21 22:23:50 --> Model Class Initialized
+DEBUG - 2018-04-21 22:23:50 --> Model Class Initialized
+DEBUG - 2018-04-21 22:23:50 --> Model Class Initialized
+DEBUG - 2018-04-21 22:23:50 --> Model Class Initialized
+DEBUG - 2018-04-21 22:23:50 --> Model Class Initialized
+DEBUG - 2018-04-21 22:23:50 --> Model Class Initialized
+DEBUG - 2018-04-21 22:23:50 --> Model Class Initialized
+DEBUG - 2018-04-21 22:23:50 --> Model Class Initialized
+DEBUG - 2018-04-21 22:23:50 --> Model Class Initialized
+DEBUG - 2018-04-21 22:23:50 --> Final output sent to browser
+DEBUG - 2018-04-21 22:23:50 --> Total execution time: 0.0346
+DEBUG - 2018-04-21 22:23:52 --> Config Class Initialized
+DEBUG - 2018-04-21 22:23:52 --> Hooks Class Initialized
+DEBUG - 2018-04-21 22:23:52 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 22:23:52 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 22:23:52 --> URI Class Initialized
+DEBUG - 2018-04-21 22:23:52 --> Router Class Initialized
+DEBUG - 2018-04-21 22:23:52 --> Output Class Initialized
+DEBUG - 2018-04-21 22:23:52 --> Security Class Initialized
+DEBUG - 2018-04-21 22:23:52 --> Input Class Initialized
+DEBUG - 2018-04-21 22:23:52 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 22:23:52 --> Language Class Initialized
+DEBUG - 2018-04-21 22:23:52 --> Loader Class Initialized
+DEBUG - 2018-04-21 22:23:52 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 22:23:52 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 22:23:52 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 22:23:52 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 22:23:52 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 22:23:52 --> Session Class Initialized
+DEBUG - 2018-04-21 22:23:52 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 22:23:52 --> A session cookie was not found.
+DEBUG - 2018-04-21 22:23:52 --> Session routines successfully run
+DEBUG - 2018-04-21 22:23:52 --> Controller Class Initialized
+DEBUG - 2018-04-21 22:23:52 --> Model Class Initialized
+DEBUG - 2018-04-21 22:23:52 --> Model Class Initialized
+DEBUG - 2018-04-21 22:23:52 --> Model Class Initialized
+DEBUG - 2018-04-21 22:23:52 --> Model Class Initialized
+DEBUG - 2018-04-21 22:23:52 --> Model Class Initialized
+DEBUG - 2018-04-21 22:23:52 --> Model Class Initialized
+DEBUG - 2018-04-21 22:23:52 --> Model Class Initialized
+DEBUG - 2018-04-21 22:23:52 --> Model Class Initialized
+DEBUG - 2018-04-21 22:23:52 --> Model Class Initialized
+DEBUG - 2018-04-21 22:23:52 --> Model Class Initialized
+DEBUG - 2018-04-21 22:23:52 --> Model Class Initialized
+DEBUG - 2018-04-21 22:23:52 --> Model Class Initialized
+DEBUG - 2018-04-21 22:23:52 --> Model Class Initialized
+DEBUG - 2018-04-21 22:23:52 --> Model Class Initialized
+DEBUG - 2018-04-21 22:23:52 --> Final output sent to browser
+DEBUG - 2018-04-21 22:23:52 --> Total execution time: 0.0459
+DEBUG - 2018-04-21 22:23:52 --> Config Class Initialized
+DEBUG - 2018-04-21 22:23:52 --> Hooks Class Initialized
+DEBUG - 2018-04-21 22:23:52 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 22:23:52 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 22:23:52 --> URI Class Initialized
+DEBUG - 2018-04-21 22:23:52 --> Router Class Initialized
+DEBUG - 2018-04-21 22:23:52 --> Output Class Initialized
+DEBUG - 2018-04-21 22:23:52 --> Security Class Initialized
+DEBUG - 2018-04-21 22:23:52 --> Input Class Initialized
+DEBUG - 2018-04-21 22:23:52 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 22:23:52 --> Language Class Initialized
+DEBUG - 2018-04-21 22:23:52 --> Loader Class Initialized
+DEBUG - 2018-04-21 22:23:52 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 22:23:52 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 22:23:52 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 22:23:52 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 22:23:52 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 22:23:52 --> Session Class Initialized
+DEBUG - 2018-04-21 22:23:52 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 22:23:52 --> A session cookie was not found.
+DEBUG - 2018-04-21 22:23:52 --> Session routines successfully run
+DEBUG - 2018-04-21 22:23:52 --> Controller Class Initialized
+DEBUG - 2018-04-21 22:23:52 --> Model Class Initialized
+DEBUG - 2018-04-21 22:23:52 --> Model Class Initialized
+DEBUG - 2018-04-21 22:23:52 --> Model Class Initialized
+DEBUG - 2018-04-21 22:23:52 --> Model Class Initialized
+DEBUG - 2018-04-21 22:23:52 --> Model Class Initialized
+DEBUG - 2018-04-21 22:23:52 --> Model Class Initialized
+DEBUG - 2018-04-21 22:23:52 --> Model Class Initialized
+DEBUG - 2018-04-21 22:23:52 --> Model Class Initialized
+DEBUG - 2018-04-21 22:23:52 --> Model Class Initialized
+DEBUG - 2018-04-21 22:23:52 --> Model Class Initialized
+DEBUG - 2018-04-21 22:23:52 --> Model Class Initialized
+DEBUG - 2018-04-21 22:23:52 --> Model Class Initialized
+DEBUG - 2018-04-21 22:23:52 --> Model Class Initialized
+DEBUG - 2018-04-21 22:23:52 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:32 --> Config Class Initialized
+DEBUG - 2018-04-21 22:43:32 --> Hooks Class Initialized
+DEBUG - 2018-04-21 22:43:32 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 22:43:32 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 22:43:32 --> URI Class Initialized
+DEBUG - 2018-04-21 22:43:32 --> Router Class Initialized
+DEBUG - 2018-04-21 22:43:32 --> Output Class Initialized
+DEBUG - 2018-04-21 22:43:32 --> Security Class Initialized
+DEBUG - 2018-04-21 22:43:32 --> Input Class Initialized
+DEBUG - 2018-04-21 22:43:32 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 22:43:32 --> Language Class Initialized
+DEBUG - 2018-04-21 22:43:32 --> Loader Class Initialized
+DEBUG - 2018-04-21 22:43:32 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 22:43:32 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 22:43:32 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 22:43:32 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 22:43:32 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 22:43:32 --> Session Class Initialized
+DEBUG - 2018-04-21 22:43:32 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 22:43:32 --> A session cookie was not found.
+DEBUG - 2018-04-21 22:43:32 --> Session routines successfully run
+DEBUG - 2018-04-21 22:43:32 --> Controller Class Initialized
+DEBUG - 2018-04-21 22:43:32 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:32 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:32 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:32 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:32 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:32 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:32 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:32 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:32 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:32 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:32 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:32 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:32 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:32 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:32 --> Final output sent to browser
+DEBUG - 2018-04-21 22:43:32 --> Total execution time: 0.0405
+DEBUG - 2018-04-21 22:43:36 --> Config Class Initialized
+DEBUG - 2018-04-21 22:43:36 --> Hooks Class Initialized
+DEBUG - 2018-04-21 22:43:36 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 22:43:36 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 22:43:36 --> URI Class Initialized
+DEBUG - 2018-04-21 22:43:36 --> Router Class Initialized
+DEBUG - 2018-04-21 22:43:36 --> Output Class Initialized
+DEBUG - 2018-04-21 22:43:36 --> Security Class Initialized
+DEBUG - 2018-04-21 22:43:36 --> Input Class Initialized
+DEBUG - 2018-04-21 22:43:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 22:43:36 --> Language Class Initialized
+DEBUG - 2018-04-21 22:43:36 --> Loader Class Initialized
+DEBUG - 2018-04-21 22:43:36 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 22:43:36 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 22:43:36 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 22:43:36 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 22:43:36 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 22:43:36 --> Session Class Initialized
+DEBUG - 2018-04-21 22:43:36 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 22:43:36 --> A session cookie was not found.
+DEBUG - 2018-04-21 22:43:36 --> Session routines successfully run
+DEBUG - 2018-04-21 22:43:36 --> Controller Class Initialized
+DEBUG - 2018-04-21 22:43:36 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:36 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:36 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:36 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:36 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:36 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:36 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:36 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:36 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:36 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:36 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:36 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:36 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:36 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:36 --> Final output sent to browser
+DEBUG - 2018-04-21 22:43:36 --> Total execution time: 0.0378
+DEBUG - 2018-04-21 22:43:37 --> Config Class Initialized
+DEBUG - 2018-04-21 22:43:37 --> Hooks Class Initialized
+DEBUG - 2018-04-21 22:43:37 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 22:43:37 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 22:43:37 --> URI Class Initialized
+DEBUG - 2018-04-21 22:43:37 --> Router Class Initialized
+DEBUG - 2018-04-21 22:43:37 --> Output Class Initialized
+DEBUG - 2018-04-21 22:43:37 --> Config Class Initialized
+DEBUG - 2018-04-21 22:43:37 --> Security Class Initialized
+DEBUG - 2018-04-21 22:43:37 --> Hooks Class Initialized
+DEBUG - 2018-04-21 22:43:37 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 22:43:37 --> Input Class Initialized
+DEBUG - 2018-04-21 22:43:37 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 22:43:37 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 22:43:37 --> Language Class Initialized
+DEBUG - 2018-04-21 22:43:37 --> URI Class Initialized
+DEBUG - 2018-04-21 22:43:37 --> Router Class Initialized
+DEBUG - 2018-04-21 22:43:37 --> Output Class Initialized
+DEBUG - 2018-04-21 22:43:37 --> Security Class Initialized
+DEBUG - 2018-04-21 22:43:37 --> Loader Class Initialized
+DEBUG - 2018-04-21 22:43:37 --> Input Class Initialized
+DEBUG - 2018-04-21 22:43:37 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 22:43:37 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 22:43:37 --> Language Class Initialized
+DEBUG - 2018-04-21 22:43:37 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 22:43:37 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 22:43:37 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 22:43:37 --> Loader Class Initialized
+DEBUG - 2018-04-21 22:43:37 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 22:43:37 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 22:43:37 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 22:43:37 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 22:43:37 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 22:43:37 --> Session Class Initialized
+DEBUG - 2018-04-21 22:43:37 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 22:43:37 --> A session cookie was not found.
+DEBUG - 2018-04-21 22:43:37 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 22:43:37 --> Session routines successfully run
+DEBUG - 2018-04-21 22:43:37 --> Controller Class Initialized
+DEBUG - 2018-04-21 22:43:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:37 --> Session Class Initialized
+DEBUG - 2018-04-21 22:43:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:37 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 22:43:37 --> A session cookie was not found.
+DEBUG - 2018-04-21 22:43:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:37 --> Session routines successfully run
+DEBUG - 2018-04-21 22:43:37 --> Controller Class Initialized
+DEBUG - 2018-04-21 22:43:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:37 --> Final output sent to browser
+DEBUG - 2018-04-21 22:43:37 --> Total execution time: 0.0446
+DEBUG - 2018-04-21 22:43:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:37 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:40 --> Config Class Initialized
+DEBUG - 2018-04-21 22:43:40 --> Hooks Class Initialized
+DEBUG - 2018-04-21 22:43:40 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 22:43:40 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 22:43:40 --> URI Class Initialized
+DEBUG - 2018-04-21 22:43:40 --> Router Class Initialized
+DEBUG - 2018-04-21 22:43:40 --> Output Class Initialized
+DEBUG - 2018-04-21 22:43:40 --> Security Class Initialized
+DEBUG - 2018-04-21 22:43:40 --> Input Class Initialized
+DEBUG - 2018-04-21 22:43:40 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 22:43:40 --> Language Class Initialized
+DEBUG - 2018-04-21 22:43:40 --> Loader Class Initialized
+DEBUG - 2018-04-21 22:43:40 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 22:43:40 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 22:43:40 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 22:43:40 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 22:43:40 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 22:43:40 --> Session Class Initialized
+DEBUG - 2018-04-21 22:43:40 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 22:43:40 --> A session cookie was not found.
+DEBUG - 2018-04-21 22:43:40 --> Session routines successfully run
+DEBUG - 2018-04-21 22:43:40 --> Controller Class Initialized
+DEBUG - 2018-04-21 22:43:40 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:40 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:40 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:40 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:40 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:40 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:40 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:40 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:40 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:40 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:40 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:40 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:40 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:40 --> Model Class Initialized
+DEBUG - 2018-04-21 22:43:40 --> Final output sent to browser
+DEBUG - 2018-04-21 22:43:40 --> Total execution time: 0.0429
+DEBUG - 2018-04-21 22:50:08 --> Config Class Initialized
+DEBUG - 2018-04-21 22:50:08 --> Hooks Class Initialized
+DEBUG - 2018-04-21 22:50:08 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 22:50:08 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 22:50:08 --> URI Class Initialized
+DEBUG - 2018-04-21 22:50:08 --> Router Class Initialized
+DEBUG - 2018-04-21 22:50:08 --> Output Class Initialized
+DEBUG - 2018-04-21 22:50:08 --> Security Class Initialized
+DEBUG - 2018-04-21 22:50:08 --> Input Class Initialized
+DEBUG - 2018-04-21 22:50:08 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 22:50:08 --> Language Class Initialized
+DEBUG - 2018-04-21 22:50:08 --> Loader Class Initialized
+DEBUG - 2018-04-21 22:50:08 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 22:50:08 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 22:50:08 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 22:50:08 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 22:50:08 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 22:50:08 --> Session Class Initialized
+DEBUG - 2018-04-21 22:50:08 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 22:50:08 --> A session cookie was not found.
+DEBUG - 2018-04-21 22:50:08 --> Session routines successfully run
+DEBUG - 2018-04-21 22:50:08 --> Controller Class Initialized
+DEBUG - 2018-04-21 22:50:08 --> Model Class Initialized
+DEBUG - 2018-04-21 22:50:08 --> Model Class Initialized
+DEBUG - 2018-04-21 22:50:08 --> Model Class Initialized
+DEBUG - 2018-04-21 22:50:08 --> Model Class Initialized
+DEBUG - 2018-04-21 22:50:08 --> Model Class Initialized
+DEBUG - 2018-04-21 22:50:08 --> Model Class Initialized
+DEBUG - 2018-04-21 22:50:08 --> Model Class Initialized
+DEBUG - 2018-04-21 22:50:08 --> Model Class Initialized
+DEBUG - 2018-04-21 22:50:08 --> Model Class Initialized
+DEBUG - 2018-04-21 22:50:08 --> Model Class Initialized
+DEBUG - 2018-04-21 22:50:08 --> Model Class Initialized
+DEBUG - 2018-04-21 22:50:08 --> Model Class Initialized
+DEBUG - 2018-04-21 22:50:08 --> Model Class Initialized
+DEBUG - 2018-04-21 22:50:08 --> Model Class Initialized
+ERROR - 2018-04-21 22:50:08 --> Severity: Notice  --> Undefined variable: result D:\xampp1\htdocs\Backend\application\controllers\api\data_manage.php 1088
+DEBUG - 2018-04-21 22:50:08 --> Final output sent to browser
+DEBUG - 2018-04-21 22:50:08 --> Total execution time: 0.0368
+DEBUG - 2018-04-21 22:50:09 --> Config Class Initialized
+DEBUG - 2018-04-21 22:50:09 --> Hooks Class Initialized
+DEBUG - 2018-04-21 22:50:09 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 22:50:09 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 22:50:09 --> URI Class Initialized
+DEBUG - 2018-04-21 22:50:09 --> Router Class Initialized
+DEBUG - 2018-04-21 22:50:09 --> Output Class Initialized
+DEBUG - 2018-04-21 22:50:09 --> Security Class Initialized
+DEBUG - 2018-04-21 22:50:09 --> Input Class Initialized
+DEBUG - 2018-04-21 22:50:09 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 22:50:09 --> Language Class Initialized
+DEBUG - 2018-04-21 22:50:09 --> Loader Class Initialized
+DEBUG - 2018-04-21 22:50:09 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 22:50:09 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 22:50:09 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 22:50:09 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 22:50:09 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 22:50:09 --> Session Class Initialized
+DEBUG - 2018-04-21 22:50:09 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 22:50:09 --> A session cookie was not found.
+DEBUG - 2018-04-21 22:50:09 --> Session routines successfully run
+DEBUG - 2018-04-21 22:50:09 --> Controller Class Initialized
+DEBUG - 2018-04-21 22:50:09 --> Model Class Initialized
+DEBUG - 2018-04-21 22:50:09 --> Model Class Initialized
+DEBUG - 2018-04-21 22:50:09 --> Model Class Initialized
+DEBUG - 2018-04-21 22:50:09 --> Model Class Initialized
+DEBUG - 2018-04-21 22:50:09 --> Model Class Initialized
+DEBUG - 2018-04-21 22:50:09 --> Model Class Initialized
+DEBUG - 2018-04-21 22:50:09 --> Model Class Initialized
+DEBUG - 2018-04-21 22:50:09 --> Model Class Initialized
+DEBUG - 2018-04-21 22:50:09 --> Model Class Initialized
+DEBUG - 2018-04-21 22:50:09 --> Model Class Initialized
+DEBUG - 2018-04-21 22:50:09 --> Model Class Initialized
+DEBUG - 2018-04-21 22:50:09 --> Model Class Initialized
+DEBUG - 2018-04-21 22:50:09 --> Model Class Initialized
+DEBUG - 2018-04-21 22:50:09 --> Model Class Initialized
+DEBUG - 2018-04-21 22:50:09 --> Final output sent to browser
+DEBUG - 2018-04-21 22:50:09 --> Total execution time: 0.0452
+DEBUG - 2018-04-21 22:50:09 --> Config Class Initialized
+DEBUG - 2018-04-21 22:50:09 --> Hooks Class Initialized
+DEBUG - 2018-04-21 22:50:09 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 22:50:09 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 22:50:09 --> URI Class Initialized
+DEBUG - 2018-04-21 22:50:09 --> Router Class Initialized
+DEBUG - 2018-04-21 22:50:09 --> Output Class Initialized
+DEBUG - 2018-04-21 22:50:09 --> Security Class Initialized
+DEBUG - 2018-04-21 22:50:09 --> Input Class Initialized
+DEBUG - 2018-04-21 22:50:09 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 22:50:09 --> Language Class Initialized
+DEBUG - 2018-04-21 22:50:09 --> Loader Class Initialized
+DEBUG - 2018-04-21 22:50:09 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 22:50:09 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 22:50:09 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 22:50:09 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 22:50:09 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 22:50:09 --> Session Class Initialized
+DEBUG - 2018-04-21 22:50:09 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 22:50:09 --> A session cookie was not found.
+DEBUG - 2018-04-21 22:50:09 --> Session routines successfully run
+DEBUG - 2018-04-21 22:50:09 --> Controller Class Initialized
+DEBUG - 2018-04-21 22:50:09 --> Model Class Initialized
+DEBUG - 2018-04-21 22:50:09 --> Model Class Initialized
+DEBUG - 2018-04-21 22:50:09 --> Model Class Initialized
+DEBUG - 2018-04-21 22:50:09 --> Model Class Initialized
+DEBUG - 2018-04-21 22:50:09 --> Model Class Initialized
+DEBUG - 2018-04-21 22:50:09 --> Model Class Initialized
+DEBUG - 2018-04-21 22:50:09 --> Model Class Initialized
+DEBUG - 2018-04-21 22:50:09 --> Model Class Initialized
+DEBUG - 2018-04-21 22:50:09 --> Model Class Initialized
+DEBUG - 2018-04-21 22:50:09 --> Model Class Initialized
+DEBUG - 2018-04-21 22:50:09 --> Model Class Initialized
+DEBUG - 2018-04-21 22:50:09 --> Model Class Initialized
+DEBUG - 2018-04-21 22:50:09 --> Model Class Initialized
+DEBUG - 2018-04-21 22:50:09 --> Model Class Initialized
+DEBUG - 2018-04-21 22:55:33 --> Config Class Initialized
+DEBUG - 2018-04-21 22:55:33 --> Hooks Class Initialized
+DEBUG - 2018-04-21 22:55:33 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 22:55:33 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 22:55:33 --> URI Class Initialized
+DEBUG - 2018-04-21 22:55:33 --> Router Class Initialized
+DEBUG - 2018-04-21 22:55:33 --> Output Class Initialized
+DEBUG - 2018-04-21 22:55:33 --> Security Class Initialized
+DEBUG - 2018-04-21 22:55:33 --> Input Class Initialized
+DEBUG - 2018-04-21 22:55:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 22:55:33 --> Language Class Initialized
+DEBUG - 2018-04-21 22:55:33 --> Loader Class Initialized
+DEBUG - 2018-04-21 22:55:33 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 22:55:33 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 22:55:33 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 22:55:33 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 22:55:33 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 22:55:33 --> Session Class Initialized
+DEBUG - 2018-04-21 22:55:33 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 22:55:33 --> A session cookie was not found.
+DEBUG - 2018-04-21 22:55:33 --> Session routines successfully run
+DEBUG - 2018-04-21 22:55:33 --> Controller Class Initialized
+DEBUG - 2018-04-21 22:55:33 --> Model Class Initialized
+DEBUG - 2018-04-21 22:55:33 --> Model Class Initialized
+DEBUG - 2018-04-21 22:55:33 --> Model Class Initialized
+DEBUG - 2018-04-21 22:55:33 --> Model Class Initialized
+DEBUG - 2018-04-21 22:55:33 --> Model Class Initialized
+DEBUG - 2018-04-21 22:55:33 --> Model Class Initialized
+DEBUG - 2018-04-21 22:55:33 --> Model Class Initialized
+DEBUG - 2018-04-21 22:55:33 --> Model Class Initialized
+DEBUG - 2018-04-21 22:55:33 --> Model Class Initialized
+DEBUG - 2018-04-21 22:55:33 --> Model Class Initialized
+DEBUG - 2018-04-21 22:55:33 --> Model Class Initialized
+DEBUG - 2018-04-21 22:55:33 --> Model Class Initialized
+DEBUG - 2018-04-21 22:55:33 --> Model Class Initialized
+DEBUG - 2018-04-21 22:55:33 --> Model Class Initialized
+DEBUG - 2018-04-21 22:55:33 --> Final output sent to browser
+DEBUG - 2018-04-21 22:55:33 --> Total execution time: 0.0353
+DEBUG - 2018-04-21 22:55:34 --> Config Class Initialized
+DEBUG - 2018-04-21 22:55:34 --> Hooks Class Initialized
+DEBUG - 2018-04-21 22:55:34 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 22:55:34 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 22:55:34 --> URI Class Initialized
+DEBUG - 2018-04-21 22:55:34 --> Router Class Initialized
+DEBUG - 2018-04-21 22:55:34 --> Output Class Initialized
+DEBUG - 2018-04-21 22:55:34 --> Security Class Initialized
+DEBUG - 2018-04-21 22:55:34 --> Input Class Initialized
+DEBUG - 2018-04-21 22:55:34 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 22:55:34 --> Language Class Initialized
+DEBUG - 2018-04-21 22:55:34 --> Loader Class Initialized
+DEBUG - 2018-04-21 22:55:34 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 22:55:34 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 22:55:34 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 22:55:34 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 22:55:34 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 22:55:34 --> Session Class Initialized
+DEBUG - 2018-04-21 22:55:34 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 22:55:34 --> A session cookie was not found.
+DEBUG - 2018-04-21 22:55:34 --> Session routines successfully run
+DEBUG - 2018-04-21 22:55:34 --> Controller Class Initialized
+DEBUG - 2018-04-21 22:55:34 --> Model Class Initialized
+DEBUG - 2018-04-21 22:55:34 --> Model Class Initialized
+DEBUG - 2018-04-21 22:55:34 --> Model Class Initialized
+DEBUG - 2018-04-21 22:55:34 --> Model Class Initialized
+DEBUG - 2018-04-21 22:55:34 --> Model Class Initialized
+DEBUG - 2018-04-21 22:55:34 --> Model Class Initialized
+DEBUG - 2018-04-21 22:55:34 --> Model Class Initialized
+DEBUG - 2018-04-21 22:55:34 --> Model Class Initialized
+DEBUG - 2018-04-21 22:55:34 --> Model Class Initialized
+DEBUG - 2018-04-21 22:55:34 --> Model Class Initialized
+DEBUG - 2018-04-21 22:55:34 --> Model Class Initialized
+DEBUG - 2018-04-21 22:55:34 --> Model Class Initialized
+DEBUG - 2018-04-21 22:55:34 --> Model Class Initialized
+DEBUG - 2018-04-21 22:55:34 --> Model Class Initialized
+DEBUG - 2018-04-21 22:55:34 --> Final output sent to browser
+DEBUG - 2018-04-21 22:55:34 --> Total execution time: 0.0361
+DEBUG - 2018-04-21 22:55:34 --> Config Class Initialized
+DEBUG - 2018-04-21 22:55:34 --> Hooks Class Initialized
+DEBUG - 2018-04-21 22:55:34 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 22:55:34 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 22:55:34 --> URI Class Initialized
+DEBUG - 2018-04-21 22:55:34 --> Router Class Initialized
+DEBUG - 2018-04-21 22:55:34 --> Output Class Initialized
+DEBUG - 2018-04-21 22:55:34 --> Security Class Initialized
+DEBUG - 2018-04-21 22:55:34 --> Input Class Initialized
+DEBUG - 2018-04-21 22:55:34 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 22:55:34 --> Language Class Initialized
+DEBUG - 2018-04-21 22:55:34 --> Loader Class Initialized
+DEBUG - 2018-04-21 22:55:34 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 22:55:34 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 22:55:34 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 22:55:34 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 22:55:34 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 22:55:34 --> Session Class Initialized
+DEBUG - 2018-04-21 22:55:34 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 22:55:34 --> A session cookie was not found.
+DEBUG - 2018-04-21 22:55:34 --> Session routines successfully run
+DEBUG - 2018-04-21 22:55:34 --> Controller Class Initialized
+DEBUG - 2018-04-21 22:55:34 --> Model Class Initialized
+DEBUG - 2018-04-21 22:55:34 --> Model Class Initialized
+DEBUG - 2018-04-21 22:55:34 --> Model Class Initialized
+DEBUG - 2018-04-21 22:55:34 --> Model Class Initialized
+DEBUG - 2018-04-21 22:55:34 --> Model Class Initialized
+DEBUG - 2018-04-21 22:55:34 --> Model Class Initialized
+DEBUG - 2018-04-21 22:55:34 --> Model Class Initialized
+DEBUG - 2018-04-21 22:55:34 --> Model Class Initialized
+DEBUG - 2018-04-21 22:55:34 --> Model Class Initialized
+DEBUG - 2018-04-21 22:55:34 --> Model Class Initialized
+DEBUG - 2018-04-21 22:55:34 --> Model Class Initialized
+DEBUG - 2018-04-21 22:55:34 --> Model Class Initialized
+DEBUG - 2018-04-21 22:55:34 --> Model Class Initialized
+DEBUG - 2018-04-21 22:55:34 --> Model Class Initialized
+DEBUG - 2018-04-21 23:00:58 --> Config Class Initialized
+DEBUG - 2018-04-21 23:00:58 --> Hooks Class Initialized
+DEBUG - 2018-04-21 23:00:58 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 23:00:58 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 23:00:58 --> URI Class Initialized
+DEBUG - 2018-04-21 23:00:58 --> Router Class Initialized
+DEBUG - 2018-04-21 23:00:58 --> Output Class Initialized
+DEBUG - 2018-04-21 23:00:58 --> Security Class Initialized
+DEBUG - 2018-04-21 23:00:58 --> Input Class Initialized
+DEBUG - 2018-04-21 23:00:58 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 23:00:58 --> Language Class Initialized
+DEBUG - 2018-04-21 23:00:58 --> Loader Class Initialized
+DEBUG - 2018-04-21 23:00:58 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 23:00:58 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 23:00:58 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 23:00:58 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 23:00:58 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 23:00:58 --> Session Class Initialized
+DEBUG - 2018-04-21 23:00:58 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 23:00:58 --> A session cookie was not found.
+DEBUG - 2018-04-21 23:00:58 --> Session routines successfully run
+DEBUG - 2018-04-21 23:00:58 --> Controller Class Initialized
+DEBUG - 2018-04-21 23:00:58 --> Helper loaded: form_helper
+DEBUG - 2018-04-21 23:00:58 --> File loaded: application/views/login.php
+DEBUG - 2018-04-21 23:00:58 --> Final output sent to browser
+DEBUG - 2018-04-21 23:00:58 --> Total execution time: 0.0263
+DEBUG - 2018-04-21 23:00:59 --> Config Class Initialized
+DEBUG - 2018-04-21 23:00:59 --> Hooks Class Initialized
+DEBUG - 2018-04-21 23:00:59 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 23:00:59 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 23:00:59 --> URI Class Initialized
+DEBUG - 2018-04-21 23:00:59 --> Router Class Initialized
+DEBUG - 2018-04-21 23:00:59 --> Output Class Initialized
+DEBUG - 2018-04-21 23:00:59 --> Security Class Initialized
+DEBUG - 2018-04-21 23:00:59 --> Input Class Initialized
+DEBUG - 2018-04-21 23:00:59 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 23:00:59 --> Language Class Initialized
+DEBUG - 2018-04-21 23:00:59 --> Loader Class Initialized
+DEBUG - 2018-04-21 23:00:59 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 23:00:59 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 23:00:59 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 23:00:59 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 23:00:59 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 23:00:59 --> Session Class Initialized
+DEBUG - 2018-04-21 23:00:59 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 23:00:59 --> A session cookie was not found.
+DEBUG - 2018-04-21 23:00:59 --> Session routines successfully run
+DEBUG - 2018-04-21 23:00:59 --> Controller Class Initialized
+DEBUG - 2018-04-21 23:00:59 --> Helper loaded: form_helper
+DEBUG - 2018-04-21 23:00:59 --> File loaded: application/views/login.php
+DEBUG - 2018-04-21 23:00:59 --> Final output sent to browser
+DEBUG - 2018-04-21 23:00:59 --> Total execution time: 0.0355
+DEBUG - 2018-04-21 23:00:59 --> Config Class Initialized
+DEBUG - 2018-04-21 23:00:59 --> Hooks Class Initialized
+DEBUG - 2018-04-21 23:00:59 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 23:00:59 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 23:00:59 --> URI Class Initialized
+DEBUG - 2018-04-21 23:00:59 --> Router Class Initialized
+DEBUG - 2018-04-21 23:00:59 --> Output Class Initialized
+DEBUG - 2018-04-21 23:00:59 --> Security Class Initialized
+DEBUG - 2018-04-21 23:00:59 --> Input Class Initialized
+DEBUG - 2018-04-21 23:00:59 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 23:00:59 --> Language Class Initialized
+DEBUG - 2018-04-21 23:00:59 --> Loader Class Initialized
+DEBUG - 2018-04-21 23:00:59 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 23:00:59 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 23:00:59 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 23:00:59 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 23:00:59 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 23:00:59 --> Session Class Initialized
+DEBUG - 2018-04-21 23:00:59 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 23:00:59 --> A session cookie was not found.
+DEBUG - 2018-04-21 23:00:59 --> Session routines successfully run
+DEBUG - 2018-04-21 23:00:59 --> Controller Class Initialized
+DEBUG - 2018-04-21 23:00:59 --> Helper loaded: form_helper
+DEBUG - 2018-04-21 23:00:59 --> File loaded: application/views/login.php
+DEBUG - 2018-04-21 23:00:59 --> Final output sent to browser
+DEBUG - 2018-04-21 23:00:59 --> Total execution time: 0.0345
+DEBUG - 2018-04-21 23:01:22 --> Config Class Initialized
+DEBUG - 2018-04-21 23:01:22 --> Hooks Class Initialized
+DEBUG - 2018-04-21 23:01:22 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 23:01:22 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 23:01:22 --> URI Class Initialized
+DEBUG - 2018-04-21 23:01:22 --> Router Class Initialized
+DEBUG - 2018-04-21 23:01:22 --> Output Class Initialized
+DEBUG - 2018-04-21 23:01:22 --> Security Class Initialized
+DEBUG - 2018-04-21 23:01:22 --> Input Class Initialized
+DEBUG - 2018-04-21 23:01:22 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 23:01:22 --> Language Class Initialized
+DEBUG - 2018-04-21 23:01:22 --> Loader Class Initialized
+DEBUG - 2018-04-21 23:01:22 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 23:01:22 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 23:01:22 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 23:01:22 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 23:01:22 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 23:01:22 --> Session Class Initialized
+DEBUG - 2018-04-21 23:01:22 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 23:01:22 --> A session cookie was not found.
+DEBUG - 2018-04-21 23:01:22 --> Session routines successfully run
+DEBUG - 2018-04-21 23:01:22 --> Controller Class Initialized
+DEBUG - 2018-04-21 23:01:22 --> Helper loaded: form_helper
+DEBUG - 2018-04-21 23:01:22 --> File loaded: application/views/login.php
+DEBUG - 2018-04-21 23:01:22 --> Final output sent to browser
+DEBUG - 2018-04-21 23:01:22 --> Total execution time: 0.0233
+DEBUG - 2018-04-21 23:01:23 --> Config Class Initialized
+DEBUG - 2018-04-21 23:01:23 --> Hooks Class Initialized
+DEBUG - 2018-04-21 23:01:23 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 23:01:23 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 23:01:23 --> URI Class Initialized
+DEBUG - 2018-04-21 23:01:23 --> Router Class Initialized
+DEBUG - 2018-04-21 23:01:23 --> Output Class Initialized
+DEBUG - 2018-04-21 23:01:23 --> Security Class Initialized
+DEBUG - 2018-04-21 23:01:23 --> Input Class Initialized
+DEBUG - 2018-04-21 23:01:23 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 23:01:23 --> Language Class Initialized
+DEBUG - 2018-04-21 23:01:23 --> Loader Class Initialized
+DEBUG - 2018-04-21 23:01:23 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 23:01:23 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 23:01:23 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 23:01:23 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 23:01:23 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 23:01:23 --> Session Class Initialized
+DEBUG - 2018-04-21 23:01:23 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 23:01:23 --> A session cookie was not found.
+DEBUG - 2018-04-21 23:01:23 --> Session routines successfully run
+DEBUG - 2018-04-21 23:01:23 --> Controller Class Initialized
+DEBUG - 2018-04-21 23:01:23 --> Helper loaded: form_helper
+DEBUG - 2018-04-21 23:01:23 --> File loaded: application/views/login.php
+DEBUG - 2018-04-21 23:01:23 --> Final output sent to browser
+DEBUG - 2018-04-21 23:01:23 --> Total execution time: 0.0240
+DEBUG - 2018-04-21 23:01:23 --> Config Class Initialized
+DEBUG - 2018-04-21 23:01:23 --> Hooks Class Initialized
+DEBUG - 2018-04-21 23:01:23 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 23:01:23 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 23:01:23 --> URI Class Initialized
+DEBUG - 2018-04-21 23:01:23 --> Router Class Initialized
+DEBUG - 2018-04-21 23:01:23 --> Output Class Initialized
+DEBUG - 2018-04-21 23:01:23 --> Security Class Initialized
+DEBUG - 2018-04-21 23:01:23 --> Input Class Initialized
+DEBUG - 2018-04-21 23:01:23 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 23:01:23 --> Language Class Initialized
+DEBUG - 2018-04-21 23:01:23 --> Loader Class Initialized
+DEBUG - 2018-04-21 23:01:23 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 23:01:23 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 23:01:23 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 23:01:23 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 23:01:23 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 23:01:23 --> Session Class Initialized
+DEBUG - 2018-04-21 23:01:23 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 23:01:23 --> A session cookie was not found.
+DEBUG - 2018-04-21 23:01:23 --> Session routines successfully run
+DEBUG - 2018-04-21 23:01:23 --> Controller Class Initialized
+DEBUG - 2018-04-21 23:01:23 --> Helper loaded: form_helper
+DEBUG - 2018-04-21 23:01:23 --> File loaded: application/views/login.php
+DEBUG - 2018-04-21 23:01:23 --> Final output sent to browser
+DEBUG - 2018-04-21 23:01:23 --> Total execution time: 0.0270
+DEBUG - 2018-04-21 23:03:35 --> Config Class Initialized
+DEBUG - 2018-04-21 23:03:35 --> Hooks Class Initialized
+DEBUG - 2018-04-21 23:03:35 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 23:03:35 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 23:03:35 --> URI Class Initialized
+DEBUG - 2018-04-21 23:03:35 --> Router Class Initialized
+DEBUG - 2018-04-21 23:03:35 --> Output Class Initialized
+DEBUG - 2018-04-21 23:03:35 --> Security Class Initialized
+DEBUG - 2018-04-21 23:03:35 --> Input Class Initialized
+DEBUG - 2018-04-21 23:03:35 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 23:03:35 --> Language Class Initialized
+DEBUG - 2018-04-21 23:03:35 --> Loader Class Initialized
+DEBUG - 2018-04-21 23:03:35 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 23:03:35 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 23:03:35 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 23:03:35 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 23:03:35 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 23:03:35 --> Session Class Initialized
+DEBUG - 2018-04-21 23:03:35 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 23:03:35 --> A session cookie was not found.
+DEBUG - 2018-04-21 23:03:35 --> Session routines successfully run
+DEBUG - 2018-04-21 23:03:35 --> Controller Class Initialized
+DEBUG - 2018-04-21 23:03:35 --> Helper loaded: form_helper
+DEBUG - 2018-04-21 23:03:35 --> File loaded: application/views/login.php
+DEBUG - 2018-04-21 23:03:35 --> Final output sent to browser
+DEBUG - 2018-04-21 23:03:35 --> Total execution time: 0.0249
+DEBUG - 2018-04-21 23:03:36 --> Config Class Initialized
+DEBUG - 2018-04-21 23:03:36 --> Hooks Class Initialized
+DEBUG - 2018-04-21 23:03:36 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 23:03:36 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 23:03:36 --> URI Class Initialized
+DEBUG - 2018-04-21 23:03:36 --> Router Class Initialized
+DEBUG - 2018-04-21 23:03:36 --> Output Class Initialized
+DEBUG - 2018-04-21 23:03:36 --> Security Class Initialized
+DEBUG - 2018-04-21 23:03:36 --> Input Class Initialized
+DEBUG - 2018-04-21 23:03:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 23:03:36 --> Language Class Initialized
+DEBUG - 2018-04-21 23:03:36 --> Loader Class Initialized
+DEBUG - 2018-04-21 23:03:36 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 23:03:36 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 23:03:36 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 23:03:36 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 23:03:36 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 23:03:36 --> Session Class Initialized
+DEBUG - 2018-04-21 23:03:36 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 23:03:36 --> A session cookie was not found.
+DEBUG - 2018-04-21 23:03:36 --> Session routines successfully run
+DEBUG - 2018-04-21 23:03:36 --> Controller Class Initialized
+DEBUG - 2018-04-21 23:03:36 --> Helper loaded: form_helper
+DEBUG - 2018-04-21 23:03:36 --> File loaded: application/views/login.php
+DEBUG - 2018-04-21 23:03:36 --> Final output sent to browser
+DEBUG - 2018-04-21 23:03:36 --> Total execution time: 0.0232
+DEBUG - 2018-04-21 23:03:36 --> Config Class Initialized
+DEBUG - 2018-04-21 23:03:36 --> Hooks Class Initialized
+DEBUG - 2018-04-21 23:03:36 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 23:03:36 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 23:03:36 --> URI Class Initialized
+DEBUG - 2018-04-21 23:03:36 --> Router Class Initialized
+DEBUG - 2018-04-21 23:03:36 --> Output Class Initialized
+DEBUG - 2018-04-21 23:03:36 --> Security Class Initialized
+DEBUG - 2018-04-21 23:03:36 --> Input Class Initialized
+DEBUG - 2018-04-21 23:03:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 23:03:36 --> Language Class Initialized
+DEBUG - 2018-04-21 23:03:36 --> Loader Class Initialized
+DEBUG - 2018-04-21 23:03:36 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 23:03:36 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 23:03:36 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 23:03:36 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 23:03:36 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 23:03:36 --> Session Class Initialized
+DEBUG - 2018-04-21 23:03:36 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 23:03:36 --> A session cookie was not found.
+DEBUG - 2018-04-21 23:03:36 --> Session routines successfully run
+DEBUG - 2018-04-21 23:03:36 --> Controller Class Initialized
+DEBUG - 2018-04-21 23:03:36 --> Helper loaded: form_helper
+DEBUG - 2018-04-21 23:03:36 --> File loaded: application/views/login.php
+DEBUG - 2018-04-21 23:03:36 --> Final output sent to browser
+DEBUG - 2018-04-21 23:03:36 --> Total execution time: 0.0341
+DEBUG - 2018-04-21 23:03:58 --> Config Class Initialized
+DEBUG - 2018-04-21 23:03:58 --> Hooks Class Initialized
+DEBUG - 2018-04-21 23:03:58 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 23:03:58 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 23:03:58 --> URI Class Initialized
+DEBUG - 2018-04-21 23:03:58 --> Router Class Initialized
+DEBUG - 2018-04-21 23:03:58 --> Output Class Initialized
+DEBUG - 2018-04-21 23:03:58 --> Security Class Initialized
+DEBUG - 2018-04-21 23:03:58 --> Input Class Initialized
+DEBUG - 2018-04-21 23:03:58 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 23:03:58 --> Language Class Initialized
+DEBUG - 2018-04-21 23:03:58 --> Loader Class Initialized
+DEBUG - 2018-04-21 23:03:58 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 23:03:58 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 23:03:58 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 23:03:58 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 23:03:58 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 23:03:58 --> Session Class Initialized
+DEBUG - 2018-04-21 23:03:58 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 23:03:58 --> A session cookie was not found.
+DEBUG - 2018-04-21 23:03:58 --> Session routines successfully run
+DEBUG - 2018-04-21 23:03:58 --> Controller Class Initialized
+DEBUG - 2018-04-21 23:03:58 --> Model Class Initialized
+DEBUG - 2018-04-21 23:03:58 --> Model Class Initialized
+DEBUG - 2018-04-21 23:03:58 --> Model Class Initialized
+DEBUG - 2018-04-21 23:03:58 --> Model Class Initialized
+DEBUG - 2018-04-21 23:03:58 --> Model Class Initialized
+DEBUG - 2018-04-21 23:03:58 --> Model Class Initialized
+DEBUG - 2018-04-21 23:03:58 --> Model Class Initialized
+DEBUG - 2018-04-21 23:03:58 --> Model Class Initialized
+DEBUG - 2018-04-21 23:03:58 --> Model Class Initialized
+DEBUG - 2018-04-21 23:03:58 --> Model Class Initialized
+DEBUG - 2018-04-21 23:03:58 --> Model Class Initialized
+DEBUG - 2018-04-21 23:03:58 --> Model Class Initialized
+DEBUG - 2018-04-21 23:03:58 --> Model Class Initialized
+DEBUG - 2018-04-21 23:03:58 --> Model Class Initialized
+DEBUG - 2018-04-21 23:03:58 --> Final output sent to browser
+DEBUG - 2018-04-21 23:03:58 --> Total execution time: 0.0440
+DEBUG - 2018-04-21 23:03:59 --> Config Class Initialized
+DEBUG - 2018-04-21 23:03:59 --> Hooks Class Initialized
+DEBUG - 2018-04-21 23:03:59 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 23:03:59 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 23:03:59 --> URI Class Initialized
+DEBUG - 2018-04-21 23:03:59 --> Router Class Initialized
+DEBUG - 2018-04-21 23:03:59 --> Output Class Initialized
+DEBUG - 2018-04-21 23:03:59 --> Security Class Initialized
+DEBUG - 2018-04-21 23:03:59 --> Input Class Initialized
+DEBUG - 2018-04-21 23:03:59 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 23:03:59 --> Language Class Initialized
+DEBUG - 2018-04-21 23:03:59 --> Loader Class Initialized
+DEBUG - 2018-04-21 23:03:59 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 23:03:59 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 23:03:59 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 23:03:59 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 23:03:59 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 23:03:59 --> Session Class Initialized
+DEBUG - 2018-04-21 23:03:59 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 23:03:59 --> A session cookie was not found.
+DEBUG - 2018-04-21 23:03:59 --> Session routines successfully run
+DEBUG - 2018-04-21 23:03:59 --> Controller Class Initialized
+DEBUG - 2018-04-21 23:03:59 --> Model Class Initialized
+DEBUG - 2018-04-21 23:03:59 --> Model Class Initialized
+DEBUG - 2018-04-21 23:03:59 --> Model Class Initialized
+DEBUG - 2018-04-21 23:03:59 --> Model Class Initialized
+DEBUG - 2018-04-21 23:03:59 --> Model Class Initialized
+DEBUG - 2018-04-21 23:03:59 --> Model Class Initialized
+DEBUG - 2018-04-21 23:03:59 --> Model Class Initialized
+DEBUG - 2018-04-21 23:03:59 --> Model Class Initialized
+DEBUG - 2018-04-21 23:03:59 --> Model Class Initialized
+DEBUG - 2018-04-21 23:03:59 --> Model Class Initialized
+DEBUG - 2018-04-21 23:03:59 --> Model Class Initialized
+DEBUG - 2018-04-21 23:03:59 --> Model Class Initialized
+DEBUG - 2018-04-21 23:03:59 --> Model Class Initialized
+DEBUG - 2018-04-21 23:03:59 --> Model Class Initialized
+DEBUG - 2018-04-21 23:03:59 --> Final output sent to browser
+DEBUG - 2018-04-21 23:03:59 --> Total execution time: 0.0334
+DEBUG - 2018-04-21 23:03:59 --> Config Class Initialized
+DEBUG - 2018-04-21 23:03:59 --> Hooks Class Initialized
+DEBUG - 2018-04-21 23:03:59 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 23:03:59 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 23:03:59 --> URI Class Initialized
+DEBUG - 2018-04-21 23:03:59 --> Router Class Initialized
+DEBUG - 2018-04-21 23:03:59 --> Output Class Initialized
+DEBUG - 2018-04-21 23:03:59 --> Security Class Initialized
+DEBUG - 2018-04-21 23:03:59 --> Input Class Initialized
+DEBUG - 2018-04-21 23:03:59 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 23:03:59 --> Language Class Initialized
+DEBUG - 2018-04-21 23:03:59 --> Loader Class Initialized
+DEBUG - 2018-04-21 23:03:59 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 23:03:59 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 23:03:59 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 23:03:59 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 23:03:59 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 23:03:59 --> Session Class Initialized
+DEBUG - 2018-04-21 23:03:59 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 23:03:59 --> A session cookie was not found.
+DEBUG - 2018-04-21 23:03:59 --> Session routines successfully run
+DEBUG - 2018-04-21 23:03:59 --> Controller Class Initialized
+DEBUG - 2018-04-21 23:03:59 --> Model Class Initialized
+DEBUG - 2018-04-21 23:03:59 --> Model Class Initialized
+DEBUG - 2018-04-21 23:03:59 --> Model Class Initialized
+DEBUG - 2018-04-21 23:03:59 --> Model Class Initialized
+DEBUG - 2018-04-21 23:03:59 --> Model Class Initialized
+DEBUG - 2018-04-21 23:03:59 --> Model Class Initialized
+DEBUG - 2018-04-21 23:03:59 --> Model Class Initialized
+DEBUG - 2018-04-21 23:03:59 --> Model Class Initialized
+DEBUG - 2018-04-21 23:03:59 --> Model Class Initialized
+DEBUG - 2018-04-21 23:03:59 --> Model Class Initialized
+DEBUG - 2018-04-21 23:03:59 --> Model Class Initialized
+DEBUG - 2018-04-21 23:03:59 --> Model Class Initialized
+DEBUG - 2018-04-21 23:03:59 --> Model Class Initialized
+DEBUG - 2018-04-21 23:03:59 --> Model Class Initialized
+DEBUG - 2018-04-21 23:04:03 --> Config Class Initialized
+DEBUG - 2018-04-21 23:04:03 --> Hooks Class Initialized
+DEBUG - 2018-04-21 23:04:03 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 23:04:03 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 23:04:03 --> URI Class Initialized
+DEBUG - 2018-04-21 23:04:03 --> Router Class Initialized
+DEBUG - 2018-04-21 23:04:03 --> No URI present. Default controller set.
+DEBUG - 2018-04-21 23:04:03 --> Output Class Initialized
+DEBUG - 2018-04-21 23:04:03 --> Security Class Initialized
+DEBUG - 2018-04-21 23:04:03 --> Input Class Initialized
+DEBUG - 2018-04-21 23:04:03 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 23:04:03 --> Language Class Initialized
+DEBUG - 2018-04-21 23:04:03 --> Loader Class Initialized
+DEBUG - 2018-04-21 23:04:03 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 23:04:03 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 23:04:03 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 23:04:03 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 23:04:03 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 23:04:03 --> Session Class Initialized
+DEBUG - 2018-04-21 23:04:03 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 23:04:03 --> A session cookie was not found.
+DEBUG - 2018-04-21 23:04:03 --> Session routines successfully run
+DEBUG - 2018-04-21 23:04:03 --> Controller Class Initialized
+DEBUG - 2018-04-21 23:04:03 --> Model Class Initialized
+DEBUG - 2018-04-21 23:04:03 --> Model Class Initialized
+DEBUG - 2018-04-21 23:04:03 --> Model Class Initialized
+DEBUG - 2018-04-21 23:04:03 --> Helper loaded: form_helper
+DEBUG - 2018-04-21 23:04:03 --> File loaded: application/views/login.php
+DEBUG - 2018-04-21 23:04:03 --> Final output sent to browser
+DEBUG - 2018-04-21 23:04:03 --> Total execution time: 0.0267
+DEBUG - 2018-04-21 23:04:32 --> Config Class Initialized
+DEBUG - 2018-04-21 23:04:32 --> Hooks Class Initialized
+DEBUG - 2018-04-21 23:04:32 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 23:04:32 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 23:04:32 --> URI Class Initialized
+DEBUG - 2018-04-21 23:04:32 --> Router Class Initialized
+DEBUG - 2018-04-21 23:04:32 --> Output Class Initialized
+DEBUG - 2018-04-21 23:04:32 --> Security Class Initialized
+DEBUG - 2018-04-21 23:04:32 --> Input Class Initialized
+DEBUG - 2018-04-21 23:04:32 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 23:04:32 --> Language Class Initialized
+DEBUG - 2018-04-21 23:04:32 --> Loader Class Initialized
+DEBUG - 2018-04-21 23:04:32 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 23:04:32 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 23:04:32 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 23:04:32 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 23:04:32 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 23:04:32 --> Session Class Initialized
+DEBUG - 2018-04-21 23:04:32 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 23:04:32 --> A session cookie was not found.
+DEBUG - 2018-04-21 23:04:32 --> Session routines successfully run
+DEBUG - 2018-04-21 23:04:32 --> Controller Class Initialized
+DEBUG - 2018-04-21 23:04:32 --> Helper loaded: form_helper
+DEBUG - 2018-04-21 23:04:32 --> File loaded: application/views/login.php
+DEBUG - 2018-04-21 23:04:32 --> Final output sent to browser
+DEBUG - 2018-04-21 23:04:32 --> Total execution time: 0.0343
+DEBUG - 2018-04-21 23:04:33 --> Config Class Initialized
+DEBUG - 2018-04-21 23:04:33 --> Hooks Class Initialized
+DEBUG - 2018-04-21 23:04:33 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 23:04:33 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 23:04:33 --> URI Class Initialized
+DEBUG - 2018-04-21 23:04:33 --> Router Class Initialized
+DEBUG - 2018-04-21 23:04:33 --> Output Class Initialized
+DEBUG - 2018-04-21 23:04:33 --> Security Class Initialized
+DEBUG - 2018-04-21 23:04:33 --> Input Class Initialized
+DEBUG - 2018-04-21 23:04:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 23:04:33 --> Language Class Initialized
+DEBUG - 2018-04-21 23:04:33 --> Loader Class Initialized
+DEBUG - 2018-04-21 23:04:33 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 23:04:33 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 23:04:33 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 23:04:33 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 23:04:33 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 23:04:33 --> Session Class Initialized
+DEBUG - 2018-04-21 23:04:33 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 23:04:33 --> A session cookie was not found.
+DEBUG - 2018-04-21 23:04:33 --> Session routines successfully run
+DEBUG - 2018-04-21 23:04:33 --> Controller Class Initialized
+DEBUG - 2018-04-21 23:04:33 --> Helper loaded: form_helper
+DEBUG - 2018-04-21 23:04:33 --> File loaded: application/views/login.php
+DEBUG - 2018-04-21 23:04:33 --> Final output sent to browser
+DEBUG - 2018-04-21 23:04:33 --> Total execution time: 0.0244
+DEBUG - 2018-04-21 23:04:33 --> Config Class Initialized
+DEBUG - 2018-04-21 23:04:33 --> Hooks Class Initialized
+DEBUG - 2018-04-21 23:04:33 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 23:04:33 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 23:04:33 --> URI Class Initialized
+DEBUG - 2018-04-21 23:04:33 --> Router Class Initialized
+DEBUG - 2018-04-21 23:04:33 --> Output Class Initialized
+DEBUG - 2018-04-21 23:04:33 --> Security Class Initialized
+DEBUG - 2018-04-21 23:04:33 --> Input Class Initialized
+DEBUG - 2018-04-21 23:04:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 23:04:33 --> Language Class Initialized
+DEBUG - 2018-04-21 23:04:33 --> Loader Class Initialized
+DEBUG - 2018-04-21 23:04:33 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 23:04:33 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 23:04:33 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 23:04:33 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 23:04:33 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 23:04:33 --> Session Class Initialized
+DEBUG - 2018-04-21 23:04:33 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 23:04:33 --> A session cookie was not found.
+DEBUG - 2018-04-21 23:04:33 --> Session routines successfully run
+DEBUG - 2018-04-21 23:04:33 --> Controller Class Initialized
+DEBUG - 2018-04-21 23:04:33 --> Helper loaded: form_helper
+DEBUG - 2018-04-21 23:04:33 --> File loaded: application/views/login.php
+DEBUG - 2018-04-21 23:04:33 --> Final output sent to browser
+DEBUG - 2018-04-21 23:04:33 --> Total execution time: 0.0325
+DEBUG - 2018-04-21 23:05:38 --> Config Class Initialized
+DEBUG - 2018-04-21 23:05:38 --> Hooks Class Initialized
+DEBUG - 2018-04-21 23:05:38 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 23:05:38 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 23:05:38 --> URI Class Initialized
+DEBUG - 2018-04-21 23:05:38 --> Router Class Initialized
+DEBUG - 2018-04-21 23:05:38 --> Output Class Initialized
+DEBUG - 2018-04-21 23:05:38 --> Security Class Initialized
+DEBUG - 2018-04-21 23:05:38 --> Input Class Initialized
+DEBUG - 2018-04-21 23:05:38 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 23:05:38 --> Language Class Initialized
+DEBUG - 2018-04-21 23:05:38 --> Loader Class Initialized
+DEBUG - 2018-04-21 23:05:38 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 23:05:38 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 23:05:38 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 23:05:38 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 23:05:38 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 23:05:38 --> Session Class Initialized
+DEBUG - 2018-04-21 23:05:38 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 23:05:38 --> A session cookie was not found.
+DEBUG - 2018-04-21 23:05:38 --> Session routines successfully run
+DEBUG - 2018-04-21 23:05:38 --> Controller Class Initialized
+DEBUG - 2018-04-21 23:05:38 --> Helper loaded: form_helper
+DEBUG - 2018-04-21 23:05:38 --> File loaded: application/views/login.php
+DEBUG - 2018-04-21 23:05:38 --> Final output sent to browser
+DEBUG - 2018-04-21 23:05:38 --> Total execution time: 0.0357
+DEBUG - 2018-04-21 23:05:39 --> Config Class Initialized
+DEBUG - 2018-04-21 23:05:39 --> Hooks Class Initialized
+DEBUG - 2018-04-21 23:05:39 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 23:05:39 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 23:05:39 --> URI Class Initialized
+DEBUG - 2018-04-21 23:05:39 --> Router Class Initialized
+DEBUG - 2018-04-21 23:05:39 --> Output Class Initialized
+DEBUG - 2018-04-21 23:05:39 --> Security Class Initialized
+DEBUG - 2018-04-21 23:05:39 --> Input Class Initialized
+DEBUG - 2018-04-21 23:05:39 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 23:05:39 --> Language Class Initialized
+DEBUG - 2018-04-21 23:05:39 --> Loader Class Initialized
+DEBUG - 2018-04-21 23:05:39 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 23:05:39 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 23:05:39 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 23:05:39 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 23:05:39 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 23:05:39 --> Session Class Initialized
+DEBUG - 2018-04-21 23:05:39 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 23:05:39 --> A session cookie was not found.
+DEBUG - 2018-04-21 23:05:39 --> Session routines successfully run
+DEBUG - 2018-04-21 23:05:39 --> Controller Class Initialized
+DEBUG - 2018-04-21 23:05:39 --> Helper loaded: form_helper
+DEBUG - 2018-04-21 23:05:39 --> File loaded: application/views/login.php
+DEBUG - 2018-04-21 23:05:39 --> Final output sent to browser
+DEBUG - 2018-04-21 23:05:39 --> Total execution time: 0.0362
+DEBUG - 2018-04-21 23:05:40 --> Config Class Initialized
+DEBUG - 2018-04-21 23:05:40 --> Hooks Class Initialized
+DEBUG - 2018-04-21 23:05:40 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 23:05:40 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 23:05:40 --> URI Class Initialized
+DEBUG - 2018-04-21 23:05:40 --> Router Class Initialized
+DEBUG - 2018-04-21 23:05:40 --> Output Class Initialized
+DEBUG - 2018-04-21 23:05:40 --> Security Class Initialized
+DEBUG - 2018-04-21 23:05:40 --> Input Class Initialized
+DEBUG - 2018-04-21 23:05:40 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 23:05:40 --> Language Class Initialized
+DEBUG - 2018-04-21 23:05:40 --> Loader Class Initialized
+DEBUG - 2018-04-21 23:05:40 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 23:05:40 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 23:05:40 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 23:05:40 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 23:05:40 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 23:05:40 --> Session Class Initialized
+DEBUG - 2018-04-21 23:05:40 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 23:05:40 --> A session cookie was not found.
+DEBUG - 2018-04-21 23:05:40 --> Session routines successfully run
+DEBUG - 2018-04-21 23:05:40 --> Controller Class Initialized
+DEBUG - 2018-04-21 23:05:40 --> Helper loaded: form_helper
+DEBUG - 2018-04-21 23:05:40 --> File loaded: application/views/login.php
+DEBUG - 2018-04-21 23:05:40 --> Final output sent to browser
+DEBUG - 2018-04-21 23:05:40 --> Total execution time: 0.0243
+DEBUG - 2018-04-21 23:05:52 --> Config Class Initialized
+DEBUG - 2018-04-21 23:05:52 --> Hooks Class Initialized
+DEBUG - 2018-04-21 23:05:52 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 23:05:52 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 23:05:52 --> URI Class Initialized
+DEBUG - 2018-04-21 23:05:52 --> Router Class Initialized
+DEBUG - 2018-04-21 23:05:52 --> Output Class Initialized
+DEBUG - 2018-04-21 23:05:52 --> Security Class Initialized
+DEBUG - 2018-04-21 23:05:52 --> Input Class Initialized
+DEBUG - 2018-04-21 23:05:52 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 23:05:52 --> Language Class Initialized
+DEBUG - 2018-04-21 23:05:52 --> Loader Class Initialized
+DEBUG - 2018-04-21 23:05:52 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 23:05:52 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 23:05:52 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 23:05:52 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 23:05:52 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 23:05:52 --> Session Class Initialized
+DEBUG - 2018-04-21 23:05:52 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 23:05:52 --> A session cookie was not found.
+DEBUG - 2018-04-21 23:05:52 --> Session routines successfully run
+DEBUG - 2018-04-21 23:05:52 --> Controller Class Initialized
+DEBUG - 2018-04-21 23:05:52 --> Model Class Initialized
+DEBUG - 2018-04-21 23:05:52 --> Model Class Initialized
+DEBUG - 2018-04-21 23:05:52 --> Model Class Initialized
+DEBUG - 2018-04-21 23:05:52 --> Model Class Initialized
+DEBUG - 2018-04-21 23:05:52 --> Model Class Initialized
+DEBUG - 2018-04-21 23:05:52 --> Model Class Initialized
+DEBUG - 2018-04-21 23:05:52 --> Model Class Initialized
+DEBUG - 2018-04-21 23:05:52 --> Model Class Initialized
+DEBUG - 2018-04-21 23:05:52 --> Model Class Initialized
+DEBUG - 2018-04-21 23:05:52 --> Model Class Initialized
+DEBUG - 2018-04-21 23:05:52 --> Model Class Initialized
+DEBUG - 2018-04-21 23:05:52 --> Model Class Initialized
+DEBUG - 2018-04-21 23:05:52 --> Model Class Initialized
+DEBUG - 2018-04-21 23:05:52 --> Model Class Initialized
+DEBUG - 2018-04-21 23:05:52 --> Final output sent to browser
+DEBUG - 2018-04-21 23:05:52 --> Total execution time: 0.0349
+DEBUG - 2018-04-21 23:05:53 --> Config Class Initialized
+DEBUG - 2018-04-21 23:05:53 --> Hooks Class Initialized
+DEBUG - 2018-04-21 23:05:53 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 23:05:53 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 23:05:53 --> URI Class Initialized
+DEBUG - 2018-04-21 23:05:53 --> Router Class Initialized
+DEBUG - 2018-04-21 23:05:53 --> Output Class Initialized
+DEBUG - 2018-04-21 23:05:53 --> Security Class Initialized
+DEBUG - 2018-04-21 23:05:53 --> Input Class Initialized
+DEBUG - 2018-04-21 23:05:53 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 23:05:53 --> Language Class Initialized
+DEBUG - 2018-04-21 23:05:53 --> Loader Class Initialized
+DEBUG - 2018-04-21 23:05:53 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 23:05:53 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 23:05:53 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 23:05:53 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 23:05:53 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 23:05:53 --> Session Class Initialized
+DEBUG - 2018-04-21 23:05:53 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 23:05:53 --> A session cookie was not found.
+DEBUG - 2018-04-21 23:05:53 --> Session routines successfully run
+DEBUG - 2018-04-21 23:05:53 --> Controller Class Initialized
+DEBUG - 2018-04-21 23:05:53 --> Model Class Initialized
+DEBUG - 2018-04-21 23:05:53 --> Model Class Initialized
+DEBUG - 2018-04-21 23:05:53 --> Model Class Initialized
+DEBUG - 2018-04-21 23:05:53 --> Model Class Initialized
+DEBUG - 2018-04-21 23:05:53 --> Model Class Initialized
+DEBUG - 2018-04-21 23:05:53 --> Model Class Initialized
+DEBUG - 2018-04-21 23:05:53 --> Model Class Initialized
+DEBUG - 2018-04-21 23:05:53 --> Model Class Initialized
+DEBUG - 2018-04-21 23:05:53 --> Model Class Initialized
+DEBUG - 2018-04-21 23:05:53 --> Model Class Initialized
+DEBUG - 2018-04-21 23:05:53 --> Model Class Initialized
+DEBUG - 2018-04-21 23:05:53 --> Model Class Initialized
+DEBUG - 2018-04-21 23:05:53 --> Model Class Initialized
+DEBUG - 2018-04-21 23:05:53 --> Model Class Initialized
+DEBUG - 2018-04-21 23:05:53 --> Config Class Initialized
+DEBUG - 2018-04-21 23:05:53 --> Hooks Class Initialized
+DEBUG - 2018-04-21 23:05:53 --> Utf8 Class Initialized
+DEBUG - 2018-04-21 23:05:53 --> UTF-8 Support Enabled
+DEBUG - 2018-04-21 23:05:53 --> URI Class Initialized
+DEBUG - 2018-04-21 23:05:53 --> Router Class Initialized
+DEBUG - 2018-04-21 23:05:53 --> Output Class Initialized
+DEBUG - 2018-04-21 23:05:53 --> Security Class Initialized
+DEBUG - 2018-04-21 23:05:53 --> Input Class Initialized
+DEBUG - 2018-04-21 23:05:53 --> Global POST and COOKIE data sanitized
+DEBUG - 2018-04-21 23:05:53 --> Language Class Initialized
+DEBUG - 2018-04-21 23:05:53 --> Loader Class Initialized
+DEBUG - 2018-04-21 23:05:53 --> Helper loaded: url_helper
+DEBUG - 2018-04-21 23:05:53 --> Helper loaded: file_helper
+DEBUG - 2018-04-21 23:05:53 --> Helper loaded: cias_helper
+DEBUG - 2018-04-21 23:05:53 --> Helper loaded: date_helper
+DEBUG - 2018-04-21 23:05:53 --> Database Driver Class Initialized
+DEBUG - 2018-04-21 23:05:53 --> Session Class Initialized
+DEBUG - 2018-04-21 23:05:53 --> Helper loaded: string_helper
+DEBUG - 2018-04-21 23:05:53 --> A session cookie was not found.
+DEBUG - 2018-04-21 23:05:53 --> Session routines successfully run
+DEBUG - 2018-04-21 23:05:53 --> Controller Class Initialized
+DEBUG - 2018-04-21 23:05:53 --> Model Class Initialized
+DEBUG - 2018-04-21 23:05:53 --> Model Class Initialized
+DEBUG - 2018-04-21 23:05:53 --> Model Class Initialized
+DEBUG - 2018-04-21 23:05:53 --> Model Class Initialized
+DEBUG - 2018-04-21 23:05:53 --> Model Class Initialized
+DEBUG - 2018-04-21 23:05:53 --> Model Class Initialized
+DEBUG - 2018-04-21 23:05:53 --> Model Class Initialized
+DEBUG - 2018-04-21 23:05:53 --> Model Class Initialized
+DEBUG - 2018-04-21 23:05:53 --> Model Class Initialized
+DEBUG - 2018-04-21 23:05:53 --> Model Class Initialized
+DEBUG - 2018-04-21 23:05:53 --> Model Class Initialized
+DEBUG - 2018-04-21 23:05:53 --> Model Class Initialized
+DEBUG - 2018-04-21 23:05:53 --> Model Class Initialized
+DEBUG - 2018-04-21 23:05:53 --> Model Class Initialized
+DEBUG - 2018-04-21 23:05:53 --> Final output sent to browser
+DEBUG - 2018-04-21 23:05:53 --> Total execution time: 0.0358

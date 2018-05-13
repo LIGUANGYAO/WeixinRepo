@@ -4,58 +4,63 @@
   <view class="tab">
     <view class="tab-bar">
       <view id="tab-btn1" class="tab-item tab-item1 {{active1}}" bindtap='selectTab'>
-        <label class="tab-label1">热门活动</label>
+        热门活动
       </view>
       <view id="tab-btn2" class="tab-item tab-item2 {{active2}}" bindtap='selectTab'>
-        <label class="tab-label2">关注场馆活动</label>
+        关注场馆活动
       </view>
     </view>
     <image class='tab-detail-open' bindtap="On_click_modal_open" src='../../image/filter@2x.png'></image>
   </view>
-  <scroll-view class="activities">
-<<<<<<< HEAD
+  <scroll-view scroll-y class="activities">
     <view wx:for="{{events}}" wx:item="item" wx:key="index">
-      <view wx:if="{{select_tab==item.is_favourite && select_role==item.role && select_type==item.type}}">
-        <template is="act-template" data="{{item, userRole, eventType, eventState}}" />
+      <view wx:if="{{active1 == 'active'}}">
+        <view wx:if="{{!isfilterset}}">
+          <template is="act-template" data="{{item, userRole, eventType, eventState, favor, index}}" />
+        </view>
+        <view wx:if = "{{isfilterset && select_role==item.role && select_type==item.type && select_start <= item.start_time_now && item.end_time_now <= select_end}}">
+          <template is="act-template" data="{{item, userRole, eventType, eventState, favor, index}}" />
+        </view>
       </view>
-=======
-    <view wx:for="{{array}}">
-      <template is="act-template" data="{{item}}" />
->>>>>>> d9384fb835d96b6b8c2290b24abda7c6e82c36cd
+      <view wx:if="{{active2 == 'active'}}">
+        <view wx:if="{{!isfilterset && item.is_favor != '0'}}">
+          <template is="act-template" data="{{item, userRole, eventType, eventState, favor, index}}" />
+        </view>
+        <view wx:if="{{isfilterset && select_role==item.role && select_type==item.type && select_start <= item.start_time_now && item.end_time_now <= select_end && item.is_favor != '0'}}">
+          <template is="act-template" data="{{item, userRole, eventType, eventState, favor, index}}" />
+        </view>
+      </view>
     </view>
   </scroll-view>
 
   <view class="modal-mask" bindtap="hideModal" catchtouchmove="preventTouchMove" wx:if="{{showModal}}"></view>
   <view class="modal-dialog" wx:if="{{showModal}}">
     <view class='modal-title'>
-      <image bindtap='On_click_hide' class='modal-title-image' src='../../image/filter@2x.png'></image>
-      <view class='modal-title-text'>筛选</view>
-      <text class='modal-text-select'>请选择发起类型</text>
+      <view bindtap='On_click_hide' class='modal-title-image'>{{'<'}}</view>
+      <view class='modal-title-text' style="font-weight: bold;">筛选</view>
+      <text class='modal-text-select'>请选择发起人类型</text>
       <view class="modal-tab-bar">
         <view id="modla-btn1" class="modal-tab-item modal-tab-item1 {{modal_active1}}" id="{{1}}" bindtap='on_click_role'>
-          <label class="modal-tab-label1">场馆主</label>
+          场馆主
         </view>
         <view id="modal-btn2" class="modal-tab-item modal-tab-item2 {{modal_active2}}" id="{{2}}" bindtap='on_click_role'>
-          <label class="modal-tab-label2">个人</label>
+          个人
         </view>
       </view>
     </view>
     <view class='modal-selkind'>
       <text class='modal-selkind-text'>活动类型</text>
       <view class="modal-kind-view">
-        <button class="modal-kind-btn {{(filter_type==index)?'selected':''}}" wx:for="{{sport_kind_text}}" wx:key="index" bindtap="on_click_type" id="{{index}}">{{item}}</button>
+        <view class="modal-kind-btn {{(filter_type==index)?'selected':''}}" wx:for="{{sport_kind_text}}" wx:key="index" bindtap="on_click_type" id="{{index}}">{{item}}</view>
       </view>
       <view class='modal-actual-time'>活动时间</view>
+      <picker class='modal-start-time' mode="date" start="1999-01-01" end="2999-12-12" bindchange="starttime_picker">{{starttime}}</picker>
+      <view class='model-time-symbol'></view>
+      <picker class='modal-end-time' mode="date" start="1999-01-01" end="2999-12-12" bindchange="endtime_picker">{{endtime}}</picker>
       <view class='modal-date'>
-        <picker class='modal-start-time' mode="date" start="1999-01-01" end="2999-12-12" bindchange="starttime_picker">{{starttime}}</picker>
-        <text class='model-time-symbol'></text>
-        <button class='modal-end-time'>结束时间</button>
-        <picker class='modal-end-time' mode="date" start="1999-01-01" end="2999-12-12" bindchange="endtime_picker">{{endtime}}</picker>
       </view>
-      <button class='modal-cancel' bindtap="hideModal">取消</button>
+      <button class='modal-cancel' bindtap="click_cancel">全部</button>
       <button class='modal-ok' bindtap="change_filter">确定</button>
     </view>
   </view>
-
-  <include src="../footer/footer" />
 </view>

@@ -11,10 +11,27 @@
   background-color: #f4f4f4;
   font-family: PingFangSC-Semibold;
   font-size: 32rpx;
+  font-weight: bold;
   letter-spacing: 1.54rpx;
   text-align: center;
 }
-
+.auth-scroll-view
+{
+  position: fixed;
+  top: 98rpx;
+  left: 0;
+  bottom: 88rpx;
+  width: 100%;
+  height:  auto;
+}
+auth-scroll-view1{
+    position: fixed;
+  top: 98rpx;
+  left: 0;
+  bottom: 0rpx;
+  width: 100%;
+  height:  auto;
+}
 .auth-text {
   width: calc(100%-33rpx);
   height: 88rpx;
@@ -30,8 +47,11 @@
 .auth-text-auto {
   width: calc(100%-33rpx);
   height: auto;
+  min-height: 88rpx;
+  word-break: break-all;
+  overflow: visible;
   padding-left: 30rpx;
-  line-height: 60rpx;
+  line-height: 88rpx;
   font-family: PingFangSC-Regular;
   font-size: 30rpx;
   color: #333;
@@ -41,12 +61,13 @@
 .text-auto1{
   display: inline-block;
   line-height: 100%;
-  width: 170rpx;
 }
 .text-auto2{
   vertical-align: middle;
   display: inline-block;
-  width: 530rpx;
+  width: auto;
+  height: auto;
+  word-break: break-all;
 }
 .auth-image-view {
   width: calc(100%-33rpx);
@@ -70,9 +91,11 @@
   margin-top: 20rpx;
 }
 .submit-btn {
+  position: fixed;
+  bottom: 0;
   width: 100%;
   height: 88rpx;
-  background: #E6B53C;
+  background-color: #E6B53C;
   font-family: PingFangSC-Semibold;
   font-size: 32rpx;
   color: #fff;

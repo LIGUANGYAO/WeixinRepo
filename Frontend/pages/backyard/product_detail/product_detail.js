@@ -1,4 +1,5 @@
 // pages/backyard/product_detail/product_detail.js
+var WxParse = require('../../../wxParse/wxParse.js');
 var app = getApp()
 Page({
 
@@ -8,7 +9,8 @@ Page({
   data: {
     id:0,
     disable: 0,
-    btn_text:"立即兑换"
+    btn_text:"立即兑换",
+    comment: ''
   },
 
   /**
@@ -16,7 +18,6 @@ Page({
    */
   onLoad: function (options) {
     var that = this
-    console.log(options.id)
     wx.request({
       url: app.globalData.mainURL + 'api/getGoodDetail',
       data: {
@@ -27,27 +28,28 @@ Page({
         'content-type': 'application/json'
       },
       success: function (res) {
+        console.log(res.data.result[0])
+        if (!res.data.status) return;
         that.data.id = res.data.result[0].id
         that.data.cost = res.data.result[0].cost
-<<<<<<< HEAD
-        if (res.data.result[0].cost > app.globalData.honey_info.total_honey)
-=======
-        /*
-        if (res.data.result[0].cost > app.globalData.total_honey)
->>>>>>> d9384fb835d96b6b8c2290b24abda7c6e82c36cd
+        var comment = res.data.result[0].comment
+        WxParse.wxParse('comment', 'html', comment, that)
+        if ( 1 * res.data.result[0].cost > 1 * app.globalData.honey_info.total_honey)
         {
           that.setData({ btn_text: "蜂蜜不足", disable: 1})
         }
-        if (res.data.result[0].number == 0)
+        if(res.data.result[0].amount==0){
+          that.setData({ btn_text: "缺货", disable: 1 })
+        }
+        var url = app.globalData.uploadURL + res.data.result[0].pic ;
+        res.data.result[0].pic = url
+        /*
+        if (res.data.result[0].amount == '0')
         {
           that.setData({ btn_text: "缺货", disable: 1})
         }
-<<<<<<< HEAD
-=======
         */
->>>>>>> d9384fb835d96b6b8c2290b24abda7c6e82c36cd
         that.setData({product: res.data.result[0]})
-        that.setData({ upload_url: app.globalData.uploadURL })
       },
       fail: function () {
       }

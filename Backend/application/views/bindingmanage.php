@@ -9,7 +9,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
-                    <form action="<?php echo base_url(); ?>index.php/bindingListingByFilter" method="POST" id="searchList">
+                    <form action="<?php echo base_url(); ?>bindingListingByFilter" method="POST" id="searchList">
                         <div class="col-xs-12 col-sm-4 form-inline">
                             <div class="form-group">
                                 <select class="form-control" id="searchStatus" name="searchStatus">
@@ -62,7 +62,7 @@
                         </thead>
                         <tbody>
                        <?php
-                        $state = ["提现中", "提现成功", "提现失败"];
+                        $state = array("提现中", "提现成功", "提现失败");
                         if (!empty($bindingList)) {
                             $i = 0;
                             foreach ($bindingList as $record) {
@@ -109,5 +109,5 @@
         </div>
     </section>
 </div>
-<script type="text/javascript" src="<?php echo base_url(); ?>index.php/assets/js/common.js" charset="utf-8"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/js/common.js" charset="utf-8"></script>
 </script>

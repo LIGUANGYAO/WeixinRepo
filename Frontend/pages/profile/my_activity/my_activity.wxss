@@ -14,10 +14,6 @@
   left: 73rpx;
   width: 612rpx;
   height: 64rpx;
-  border-radius: 15rpx;
-  border-width: 3rpx;
-  border-color: #E6B53C;
-  border-style: solid;
   font-size: 28rpx;
   color: #E6B53C;
 }
@@ -26,6 +22,7 @@
   position: absolute;
   width:204rpx;
   height: 64rpx;
+  line-height: 64rpx;
   vertical-align: center;
   text-align: center;
 }
@@ -33,25 +30,23 @@
 .tab-item1{
   left:0;
   top:0;
-  border-bottom-left-radius: 3rpx;
-  border-top-left-radius: 3rpx;
+  border: solid 3rpx #E6B53C;
+  border-radius: 15rpx 0rpx 0rpx 15rpx;
 }
 
 .tab-item2{
   left: 204rpx;
   top: 0;
-  border-color: #E6B53C;
-  border-left-width: 3rpx;
-  border-left-style: solid;
-  border-right-width: 3rpx;
-  border-right-style: solid;
+  border: solid 3rpx #E6B53C;
+  border-left-width: 0rpx;
 }
 
 .tab-item3{
   left: 408rpx;
   top: 0;
-  border-bottom-right-radius: 3rpx;
-  border-top-right-radius: 3rpx;
+  border: solid 3rpx #E6B53C;
+  border-left-width: 0rpx;
+  border-radius: 0rpx 15rpx 15rpx 0rpx;
 }
 
 .active{
@@ -79,11 +74,9 @@
   height: 95rpx;
 }
 .activity-button {
-  size: default;
   float: right;
   margin-right: 30rpx;
   margin-top: 14rpx;
-  width: 150rpx;
   height: 67rpx;
   background-color: #e6b53c;
   border-radius: 10rpx;

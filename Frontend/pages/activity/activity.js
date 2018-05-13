@@ -4,59 +4,79 @@ const app = getApp()
 
 Page({
   data: {
-    activity: ["../../image/activity_n@2x.png", "../../image/activity_s@2x.png"],
-    fengti: ["../../image/Home_n@2x.png", "../../image/Home_s@2x.png"],
-    garden: ["../../image/garden_n@2x.png", "../../image/garden_s@2x.png"],
-    mine: ["../../image/my_n@2x.png", "../../image/my_s@2x.png"],
     sport_kind_text: ["足球", "篮球", "排球", "羽毛球", "乒乓球", "台球", "网球", "保龄球", "健身馆", "瑜伽", "游泳", "射击射箭", "跆拳道", "滑冰", "滑雪", "休闲桌游", "运动装备", "其他"],
-    selected: [0, 1, 0, 0],
     active1: "active",
     active2: "",
     modal_active1: "active",
     modal_active2: "",
-    array: [{ "phonenumber": 17642518820, "status": "进行中", "kind": "football", "user": "user", "match": "football", "membernum": "5", "cost": 12, "date": "2018", "place": "bejing", "iscomment": 0, "favourite": 200 }],
     showModal: 0,
-<<<<<<< HEAD
-    active1: "active",
-    active2: "",
-    active3: "",
-    bookingArray: new Array(),
     events: [],
     selected_state: 0,
     userInfo: [],
     eventType: [],
     userRole: [],
     eventState: [],
+    favor: [],
     select_tab: 0,
     filter_role: 1,
     filter_type: 0,
-    filter_start: '',
-    filter_end: '',
     select_type: 0,
     select_role: 1,
     select_start: '',
     select_end: '',
     starttime: '开始时间',
-    endtime: '结束时间'
+    endtime: '结束时间',
+    isfilterset: 0,
   },
   onLoad: function () {
-    this.setData({
-      userInfo: app.globalData.userInfo,
-      eventType: app.globalData.eventType,
-      userRole: app.globalData.userRole,
-      eventState: app.globalData.eventState
-    });
+  },
+  onShow: function () {
     var that = this;
-    //http://restapi.amap.com/v3/geocode/regeo?key=Your key&location=116.481488,39.990464&poitype=&radius=&extensions=all&batch=false&roadlevel=0
+    that.data.active1 = "active"
+    that.data.active2 = ""
+    that.data.modal_active1 = "active"
+    that.data.modal_active2 = ""
+    that.data.showModal = 0
+    that.data.select_tab = 0
+    that.data.filter_role = 1
+    that.data.filter_type = 0
+    that.data.select_type = 0
+    that.data.select_role = 1
+    that.data.select_start = ''
+    that.data.select_end = ''
+    that.data.starttime = '开始时间'
+    that.data.endtime = '结束时间'
+    that.data.isfilterset = 0
+    that.data.selected_state = 0
+    this.setData({
+    active1 : that.data.active1,
+    active2: that.data.active2,
+    modal_active1:that.data.modal_active1,
+    modal_active2:that.data.modal_active2,
+    showModal:that.data.showModal,
+    select_tab:that.data.select_tab,
+    filter_role:that.data.filter_role,
+    filter_type:that.data.filter_type,
+    select_type:that.data.select_type,
+    select_role:that.data.select_role,
+    select_start:that.data.select_start,
+    select_end:that.data.select_end,
+    starttime:that.data.starttime,
+    endtime:that.data.endtime,
+    isfilterset:that.data.isfilterset,
+    selected_state:that.data.selected_state
+    })
     wx.getLocation({
       success: function (res) {
         var longitude = res.longitude;
         var latitude = res.latitude;
-        var url = 'http://restapi.amap.com/v3/geocode/regeo?key=8eb63e36d0b6d7d29a392503a4a80f6c&location=' + longitude + ',' + latitude + '&poitype=&radius=&extensions=all&batch=false&roadlevel=0';
+        var url = 'https://restapi.amap.com/v3/geocode/regeo?key=8eb63e36d0b6d7d29a392503a4a80f6c&location=' + longitude + ',' + latitude + '&poitype=&radius=&extensions=all&batch=false&roadlevel=0';
         wx.request({
           url: url,
           success: function (res) {
+            var city = res.data.regeocode.addressComponent.city
             var province = res.data.regeocode.addressComponent.province
+            console.log(res)
             wx.request({
               url: app.globalData.mainURL + 'api/getEventsByProvince',
               method: 'POST',
@@ -64,6 +84,7 @@ Page({
                 'content-type': 'application/json'
               },
               data: {
+                city: city,
                 province: province,
                 user_id: app.globalData.userInfo.user_id
               },
@@ -74,13 +95,27 @@ Page({
                   for (var index = 0; index < event_buf.length; index++) {
                     var time = event_buf[index].start_time.split(':');
                     event_buf[index].start_time = time[0] + ':' + time[1];
+                    time = event_buf[index].end_time.split(':');
+                    event_buf[index].end_time = time[0] + ':' + time[1];
+                    var start_date = event_buf[index].start_time.split(' ')
+                    event_buf[index].start_time_now = Date.parse(start_date[0].replace(/-/g, '/'))
+                    event_buf[index].end_time_now = Date.parse(event_buf[index].end_time.replace(/-/g, '/'))
                     if (event_buf[index].current_member == null) {
                       event_buf[index].current_member = 0;
                     }
+                    if (event_buf[index].name.length > 10) {
+                      var name = event_buf[index].name
+                      name = name.slice(0, 10) + '..'
+                      event_buf[index].name = name
+                    }
                   }
-                  console.log(event_buf)
                   that.setData({
                     events: event_buf,
+                    favor: res.data.favor,
+                    userInfo: app.globalData.userInfo,
+                    eventType: app.globalData.eventType,
+                    userRole: app.globalData.userRole,
+                    eventState: app.globalData.eventState
                   })
                 }
               }
@@ -89,74 +124,32 @@ Page({
         })
       },
     })
-=======
-  },
-  onLoad: function () {
->>>>>>> d9384fb835d96b6b8c2290b24abda7c6e82c36cd
-  },
-  select: function (event) {
-    if (app.globalData.currentpage != event.currentTarget.id) {
-      if (event.currentTarget.id != '') {
-        wx.redirectTo({
-          url: "../" + event.currentTarget.id + '/' + event.currentTarget.id,
-          success: function (res) {
-            app.globalData.currentpage = event.currentTarget.id
-          }
-        })
-      }
-    }
-  },
-  on_click_create_event: function () {
-    console.log(app.globalData.userInfo.state)
-    if (app.globalData.userInfo.state == 0 || app.globalData.userInfo.state == 3) {
-      wx.showModal({
-        title: '提示',
-        content: '是未注册的使用者',
-        success: function (res) {
-          if (res.confirm) {
-            wx.navigateTo({
-              url: '../profile/auth/auth',
-            })
-          } else if (res.cancel) {
-          }
-        }
-      })
-      return;
-    }
-    if (app.globalData.userInfo.state == 1) {
-      wx.showModal({
-        title: '提示',
-        content: '正在注册。 请稍等。',
-        showCancel: false,
-      })
-      return;
-    }
-    wx.navigateTo({
-      url: '../other/create_event/create_event',
-    })
   },
   On_click_favourite: function (e) {
 
   },
   On_click_modal_open: function (e) {
     this.data.showModal = 1
+    wx.hideTabBar({
+      
+    })
     this.setData({ showModal: this.data.showModal })
   },
   selectTab: function (e) {
     if (e.currentTarget.id == 'tab-btn1' & this.data.active1 == "") {
-      this.setData({ active1: "active" })
-      this.setData({ active2: "" })
-      this.setData({ select_tab: 0 })
+      this.setData({ active1: "active", active2: "" })
+      this.setData({ select_tab: 0, isfilterset: 0 })
     }
     if (e.currentTarget.id == 'tab-btn2' & this.data.active2 == "") {
-      this.setData({ active1: "" })
-      this.setData({ active2: "active" })
-      this.setData({ select_tab: 1 })
+      this.setData({ active1: "", active2: "active" })
+      this.setData({ select_tab: 1, isfilterset: 0 })
     }
   },
   On_click_hide: function () {
     this.data.showModal = 0;
-<<<<<<< HEAD
+    wx.showTabBar({
+      
+    })
     this.setData({ showModal: 0 })
   },
   click_detail_event: function (event) {
@@ -164,8 +157,18 @@ Page({
       url: '../index/detail_event/detail_event?id=' + event.currentTarget.id,
     })
   },
+  click_cancel: function(){
+    this.setData({
+      isfilterset : 0
+    })
+    this.hideModal()
+  },
   hideModal: function () {
     this.data.showModal = 0;
+
+    wx.showTabBar({
+      animation: false
+    })
     this.setData({ showModal: 0 })
   },
   on_click_role: function (event) {
@@ -191,11 +194,31 @@ Page({
     })
   },
   change_filter: function () {
+    var isstarttime = 0
+    var isendtime = 0
+    if (this.data.starttime == '开始时间') {
+      isstarttime = Date.parse('2000-01-01')
+    }
+    else {
+      isstarttime = Date.parse(this.data.starttime.replace(/-/g, '/'))
+    }
+    console.log(this.data.starttime)
+    console.log(isstarttime)
+    if (this.data.endtime == '结束时间') {
+      isendtime = Date.parse('2100-01-01')
+    }
+    else {
+      isendtime = Date.parse(this.data.endtime.replace(/-/g, '/')) + 86400000
+    }
+    console.log(this.data.endtime)
+    console.log(isendtime)
+    console.log(Date.parse("2018-05-13"))
     this.setData({
-      select_type: this.data.filter_type,
-      select_role: this.data.filter_role,
-      select_start: this.data.filter_start,
-      select_end: this.data.filter_end
+      select_type: this.data.filter_type.toString(),
+      select_role: this.data.filter_role.toString(),
+      select_start: isstarttime,
+      select_end: isendtime,
+      isfilterset: 1
     })
     this.hideModal()
   },
@@ -208,8 +231,5 @@ Page({
     this.setData({
       endtime: e.detail.value
     })
-=======
-    this.setData({ showModal: 0})
->>>>>>> d9384fb835d96b6b8c2290b24abda7c6e82c36cd
   }
 })

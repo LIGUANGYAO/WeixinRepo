@@ -9,13 +9,13 @@ $(document).ready(function () {
 
 function confirmForbidden(id,action) {
     $('#userId').html(id);
-    $('#userAction').html("正确要"+action+"?");
+    $('#userAction').html("确定要"+action+"?");
     $('#custom-confirm-delete-view').show();
 }
 
 function changeForbidden(url) { 
     var userId = $('#userId').text();
-    console.log(userId);
+    console.log(url);
     $.ajax({
         type: 'POST',
         url: url + 'usermanage/changeForbidden',
@@ -29,7 +29,7 @@ function changeForbidden(url) {
         },
         error: function (jqXHR, textStatus, errorThrown) {
             // Handle errors here
-            console.log('ERRORS: ' + textStatus);
+            console.log('ERRORS: ' + errorThrown);
             // STOP LOADING SPINNER
         }
     });

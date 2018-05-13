@@ -3,13 +3,18 @@
 class boss_model extends CI_Model
 {
     
-    function addNewBoss($bossInfo)
+    function addNewBoss($bossInfo, $user_id)
     {
-        $this->db->trans_start();
-        $this->db->insert('boss', $bossInfo);
-        $insert_id = $this->db->insert_id();
-        $this->db->trans_complete();
-        return $insert_id;
+        $result = $this->db->query("select no from boss where boss_id=".$user_id)->result();
+        if(count($result)>0){
+            $this->db->where("boss_id", $user_id);
+            $this->db->update("boss", $bossInfo);
+        }
+        else{
+            $userInfo['boss_id'] = $user_id;
+            $this->db->insert("boss",$bossInfo);
+        }
+        return true;
     }
 
     
@@ -61,7 +66,6 @@ class boss_model extends CI_Model
     {
         $this->db->select("boss.detail_address, boss.site_name, boss.site_introduction, boss.site_service,user.phone, boss.boss_id");
         $this->db->select("avg(rating.point) as point, count(rating.id) as rating_amount");
-        $this->db->select("(count(favourite.no)>0) as fav_state");
         $this->db->select("provinces.province, cities.city, areas.area");
         $this->db->from("boss");
         $this->db->join("provinces","provinces.id = boss.province");
@@ -70,7 +74,6 @@ class boss_model extends CI_Model
         $this->db->join("user", "user.no = boss.boss_id");
         $this->db->join("event", 'event.organizer_id = boss.boss_id','left');
         $this->db->join("rating", "rating.event_id = event.id",'left');
-        $this->db->join("favourite","favourite.boss_id = boss.boss_id and favourite.user_id =".$userId, "left");
         $this->db->where("boss.boss_id", $bossId);
         $query = $this->db->get();
         return $query->result();
@@ -173,11 +176,9 @@ class boss_model extends CI_Model
      */
     function addSitePicture($bossId, $picture)
     {
-        $this->db->trans_start();
         $info['boss_id'] = $bossId;
         $info['picture'] = $picture;
         $this->db->insert('site_picture', $info);
-        $this->db->trans_complete();
         $result = $this->db->affected_rows();
         return ($result>0)?true:false;
     }
@@ -190,11 +191,11 @@ class boss_model extends CI_Model
      */
     function getSiteByDistance($longitude, $latitude)
     {
-        $this->db->select("boss_id, longitude, latitude, site_icon");
+        $this->db->select("boss_id, longitude, latitude, map_icon as site_icon");
         $this->db->from("boss");
         $this->db->where("( 6371 * acos( cos( radians($latitude) ) * cos( radians( latitude) ) 
    * cos( radians(longitude) - radians($longitude)) + sin(radians($latitude)) 
-   * sin( radians(latitude))))<=5");
+   * sin( radians(latitude))))<=10");
         $query = $this->db->get();
         return $query->result();
     }

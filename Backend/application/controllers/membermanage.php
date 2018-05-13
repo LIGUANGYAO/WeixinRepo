@@ -9,7 +9,7 @@ require APPPATH . '/libraries/basecontroller.php';
  * @version : 1.0
  * @since : 12 August 2017
  */
-class MemberManage extends basecontroller
+class membermanage extends basecontroller
 {
     /**
      * This is default constructor of the class

@@ -93,7 +93,7 @@ class rating_model extends CI_Model
      */
     function ratingListingCount($searchStatus = null, $searchName = '')
     {
-        $query = "select user.name, user.phone, rating.point, rating.comment, booking.id, rating.id as ratingId
+        $query = "select user.name, user.phone, rating.point, rating.comment, booking.id, rating.id as ratingId, rating.submit_time
             from rating, user, booking, event where rating.user_id = user.no and booking.user_id = rating.user_id and booking.event_id = event.id and event.id = rating.event_id";
         if (!empty($searchText)) {
             if(isset($searchStatus)){
@@ -117,7 +117,7 @@ class rating_model extends CI_Model
      */
     function ratingListing($searchStatus = null, $searchText = '', $page, $segment)
     {
-        $query = "select user.name, user.phone, rating.point, rating.comment, booking.id, rating.id as ratingId
+        $query = "select user.name, user.phone, rating.point, rating.comment, booking.id, rating.id as ratingId, rating.submit_time
             from rating, user, booking where rating.user_id = user.no and booking.user_id = rating.user_id and booking.event_id = rating.event_id";
         if (!empty($searchText)) {
             if(isset($searchStatus)){
@@ -130,6 +130,7 @@ class rating_model extends CI_Model
                 }
             }
         }
+        $query=$query." order by booking.id desc";
         if($segment!=""){
             $query = $query." limit ".$segment.", ".$page;
         }

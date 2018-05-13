@@ -10,7 +10,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
-                    <form action="<?php echo base_url(); ?>index.php/goodsListingByFilter" method="POST" id="searchList">
+                    <form action="<?php echo base_url(); ?>goodsListingByFilter" method="POST" id="searchList">
                         <div class="col-xs-12 col-sm-4 form-inline">
                             <div class="form-group">
                                 <label>商品名称</label>
@@ -25,8 +25,8 @@
                             <div class="form-group">
                                 <select class="form-control" id="searchState" name="searchState">
                                     <option value="10"<?php if ($searchState == 10) echo ' selected'; ?>>状态</option>
-                                    <option value="0"<?php if ($searchState == 0) echo ' selected'; ?>>已上架</option>
-                                    <option value="1"<?php if ($searchState == 1) echo ' selected'; ?>>已下架</option>
+                                    <option value="0"<?php if ($searchState == 0) echo ' selected'; ?>>已下架</option>
+                                    <option value="1"<?php if ($searchState == 1) echo ' selected'; ?>>已上架</option>
                                 </select>
                             </div>
                         </div>
@@ -38,7 +38,7 @@
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-2 form-inline">
-                            <a class="btn btn-primary" href="<?php echo base_url(); ?>index.php/goodAdd">
+                            <a class="btn btn-primary" href="<?php echo base_url(); ?>goodAdd">
                                 新增
                             </a>
                         </div>
@@ -76,7 +76,7 @@
                                        <?php 
                                             if($record->state == 0){
                                         ?>
-                                        <a href="<?php echo base_url().'goodsDetail/'.$record->id; ?>">
+                                        <a href="<?php echo base_url().'goodsEdit/'.$record->id; ?>">
                                             编辑 &nbsp;
                                         </a>
                                         <a onclick="confirmDelete('<?php echo $record->id; ?>');">
@@ -108,7 +108,7 @@
                             </div>
                             <div class="form-group">
                                 <button class="btn btn-default" onclick="$('#custom-confirm-delete-view').hide();">取消</button>
-                                <button class="btn btn-primary" onclick="deleteGood('<?php echo base_url(); ?>index.php/');">确定</button>
+                                <button class="btn btn-primary" onclick="deleteGood('<?php echo base_url(); ?>');">确定</button>
                                 <div id="goodId" style="display: none;"></div>
                             </div>
                         </div>
@@ -141,5 +141,5 @@
         </div>
     </section>
 </div>
-<script type="text/javascript" src="<?php echo base_url(); ?>index.php/assets/js/common.js" charset="utf-8"></script>
-<script type="text/javascript" src="<?php echo base_url(); ?>index.php/assets/js/goods.js" charset="utf-8"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/js/common.js" charset="utf-8"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/js/goods.js" charset="utf-8"></script>

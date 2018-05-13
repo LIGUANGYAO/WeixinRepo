@@ -7,10 +7,11 @@
     </section>
     <section class="content" style="min-height: 800px;">
         <div class="container">
+            <input type="text" style="display: none;" id="clicked" value="1"/>
             <div>
                 <form role="form" action="<?php echo base_url() ?>bindingConfirmed"
                       method="post">
-                    <input name="binding_id" value="<?= $bindingDetail[0]->no; ?>" type="hidden"/>
+                    <input name="binding_id" value="<?php echo $bindingDetail[0]->no; ?>" type="hidden"/>
                     <div class="row form-inline">
                         <label>提现账号 : </label>
                         <div class="input-group margin">
@@ -71,7 +72,7 @@
                                 </label>
                             </div>
                         </div>
-                        <input name="option_status" id="option_status" value="1" type="hidden">
+                        <input name="option_status" id="option_status" type="hidden">
                     </div>
                     <div class="row form-inline">
                         <label> *备注 : </label>
@@ -84,7 +85,7 @@
                     <div class="row form-inline">
                         <div class="row" style="padding-left: 200px;">
                             <div class="col-xs-12 col-sm-12 form-inline">
-                                <a class="btn btn-default form-control" href="<?php echo base_url(); ?>index.php/binding">
+                                <a class="btn btn-default form-control" href="<?php echo base_url(); ?>binding">
                                     <span>返回</span>
                                 </a>
                                 <input class="btn btn-primary form-control" type="button" value="保存" onclick="OnShowMessage()">
@@ -144,6 +145,6 @@
 
 
 <!-- Course Management JS-->
-<script type="text/javascript" src="<?php echo base_url(); ?>index.php/assets/js/binding.js"
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/js/binding.js"
         charset="utf-8"></script>
 

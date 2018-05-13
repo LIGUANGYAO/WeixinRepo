@@ -136,13 +136,12 @@ class systemmanage extends basecontroller
             $this->load->library('form_validation');
 
             $this->form_validation->set_rules('fname', '账号', 'trim|required|max_length[20]|xss_clean');
-            $this->form_validation->set_rules('email', '姓名', 'trim|required|xss_clean|max_length[20]');
+            $this->form_validation->set_rules('email', '姓名', 'trim|required|max_length[20]|xss_clean');
             $this->form_validation->set_rules('password', '密码', 'required|matches[cpassword]|min_length[6]|max_length[20]');
-            $this->form_validation->set_rules('cpassword', '确认密码', 'required|matches[password]|min_length[6]|max_length[20]');
+            $this->form_validation->set_rules('cpassword', '确认密码', 'required|min_length[6]|max_length[20]');
             $this->form_validation->set_rules('role', '用户角色', 'trim|required|numeric|is_natural_no_zero');
 //            $this->form_validation->set_rules('mobile','Mobile Number','required|min_length[10]|xss_clean');
-
-            $name = ucwords(strtolower($this->input->post('fname')));
+            $name = $this->input->post('fname');
             $email = $this->input->post('email');
             $password = $this->input->post('password');
             $cpassword = $this->input->post('cpassword');
@@ -206,7 +205,7 @@ class systemmanage extends basecontroller
         if ($this->isAdmin() == TRUE) {
             $this->loadThis();
         } else {
-            $roleId = $this->input->post('roleId');
+            $roleId = $this->input->post('id');
             $permission = $this->input->post('permission');
             $result = $this->admin_model->updateRole($permission, $roleId);
 
@@ -256,35 +255,24 @@ class systemmanage extends basecontroller
 
             $this->form_validation->set_rules('fname', '账号', 'trim|required|max_length[20]|xss_clean');
             $this->form_validation->set_rules('email', '姓名', 'trim|required|xss_clean|max_length[20]');
-            $this->form_validation->set_rules('password', '密码', 'required|matches[cpassword]|min_length[6]|max_length[20]');
-            $this->form_validation->set_rules('cpassword', '确认密码', 'required|matches[password]|min_length[6]|max_length[20]');
             $this->form_validation->set_rules('role', '用户角色', 'trim|required|numeric|is_natural_no_zero');
 //            $this->form_validation->set_rules('mobile','Mobile Number','required|min_length[10]|xss_clean');
 
             $name = ucwords(strtolower($this->input->post('fname')));
             $name = ucwords(strtolower($this->input->post('fname')));
             $email = $this->input->post('email');
-            $password = $this->input->post('password');
-            $cpassword = $this->input->post('cpassword');
             $roleId = $this->input->post('role');
              if ($this->form_validation->run() == FALSE) {
                 $this->global['fname'] = $name;
                 $this->global['email'] = $email;
-                $this->global['password'] = $password;
-                $this->global['cpassword'] = $cpassword;
                 $this->global['roleId'] = $roleId;
                 $this->editOld($userId);
             } else {
                 $userInfo = array();
 
-                if (empty($password)) {
-                    $userInfo = array('email' => $email, 'roleId' => $roleId, 'name' => $name,
-                        'mobile' => $mobile, 'updatedBy' => $this->vendorId, 'updatedDtm' => date('Y-m-d H:i:s'));
-                } else {
-                    $userInfo = array('email' => $email, 'password' => md5($password), 'roleId' => $roleId,
+                    $userInfo = array('email' => $email,  'roleId' => $roleId,
                         'name' => ucwords($name), 'updatedBy' => $this->vendorId,
                         'updatedDtm' => date('Y-m-d H:i:s'));
-                }
 
                 $result = $this->admin_model->editUser($userInfo, $userId);
 
@@ -307,22 +295,16 @@ class systemmanage extends basecontroller
      */
     function deleteUser($id)
     {
-        if ($this->isAdmin() == TRUE || $id == 1) {
-            $this->loadThis();
-            //echo(json_encode(array('status' => 'access')));
-        } else {
-            $userId = $id;
-            $userInfo = array(
-                'email' => '',
-                'isDeleted' => 1,
-                'roleId' => 0,
-                'updatedBy' => $this->vendorId,
-                'updatedDtm' => date('Y-m-d H:i:s')
-            );
-
-            $result = $this->admin_model->deleteUser($userId, $userInfo);
-            redirect('userListing');
-        }
+        $userId = $id;
+        $userInfo = array(
+            'email' => '',
+            'isDeleted' => 1,
+            'roleId' => 0,
+            'updatedBy' => $this->vendorId,
+            'updatedDtm' => date('Y-m-d H:i:s')
+        );
+        $result = $this->admin_model->deleteUser($userId, $userInfo);
+        redirect('systemmanage');
     }
 
     /**
@@ -345,6 +327,17 @@ class systemmanage extends basecontroller
             redirect('roleListing');
 
         }
+    }
+
+    /**
+     * This function is used to delete the user using userId
+     * @return boolean $result : TRUE / FALSE
+     */
+    function roleInfos()
+    {
+        $id = $this->input->post('id');
+        $result = $this->db->query("select permission from role where roleId=".$id)->result();
+        echo(json_encode(array('status' => true, 'result' => $result)));
     }
 
     /**

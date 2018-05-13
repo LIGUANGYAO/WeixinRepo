@@ -9,14 +9,14 @@
 class WeixinPay {  
   
   
-    protected $appid;  
-    protected $mch_id;  
-    protected $key;  
-    protected $openid;  
-    protected $out_trade_no;  
-    protected $body;  
-    protected $total_fee;  
-            function __construct($appid, $openid, $mch_id, $key,$out_trade_no,$body,$total_fee) {  
+    public $appid;  
+    public $mch_id;  
+    public $key;  
+    public $openid;  
+    public $out_trade_no;  
+    public $body;  
+    public $total_fee;  
+    function __construct($appid, $openid, $mch_id, $key,$out_trade_no,$body,$total_fee) {  
         $this->appid = $appid;  
         $this->openid = $openid;  
         $this->mch_id = $mch_id;  
@@ -49,7 +49,7 @@ class WeixinPay {
             'total_fee' => $this->total_fee,  
 //            'spbill_create_ip' => $_SERVER['REMOTE_ADDR'], //终端IP  
             'spbill_create_ip' => $_SERVER['REMOTE_ADDR'], //终端IP  
-            'notify_url' => 'http://www.weixin.qq.com/wxpay/pay.php', //通知地址  确保外网能正常访问  
+            'notify_url' => 'https://www.fengteam.cn/backend/api/notify', //通知地址  确保外网能正常访问  
             'openid' => $this->openid, //用户id  
             'trade_type' => 'JSAPI'//交易类型  
         );  
@@ -80,15 +80,15 @@ class WeixinPay {
   
         curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 20);  
         curl_setopt($ch, CURLOPT_TIMEOUT, 40);  
-        set_time_limit(0);  
   
+        set_time_limit(0); 
   
         //运行curl  
-        $data = curl_exec($ch);  
+        $data = curl_exec($ch);   
         //返回结果  
         if ($data) {  
             curl_close($ch);  
-            return $data;  
+            return $data; 
         } else {  
             $error = curl_errno($ch);  
             curl_close($ch);  

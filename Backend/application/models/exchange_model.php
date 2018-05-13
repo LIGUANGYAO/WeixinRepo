@@ -9,7 +9,7 @@ class exchange_model extends CI_Model
      */
     function getStateById($userId)
     {
-        $this->db->select("date(expire_time)>=current_date() as state");
+        $this->db->select("date(expire_time)>=now() as state");
         $this->db->from('exchange');
         $this->db->where('user_id', $userId);
         $this->db->order_by('date(expire_time)','DESC');
@@ -25,15 +25,14 @@ class exchange_model extends CI_Model
      */
     function getExchangeDetailById($exchangeId)
     {
-        $this->db->select("goods.name as good_name,goods.cost");
+        $this->db->select("goods.name as good_name,goods.cost, goods.pic");
         $this->db->select("accept_address.name, accept_address.phone, accept_address.detail_address, accept_address.email, accept_address.state as address_state");
         $this->db->select("exchange.*");
         $this->db->select("provinces.province, cities.city, areas.area");
         $this->db->from('provinces, cities, areas, exchange');
         $this->db->join('goods','goods.id = exchange.good_id');
-        $this->db->join('accept_address','exchange.user_id = accept_address.user_id');
+        $this->db->join('accept_address','exchange.address_no = accept_address.no');
         $this->db->where('exchange.no', $exchangeId);
-        $this->db->where('accept_address.state', 1);
         $this->db->where("provinces.id = accept_address.province");
         $this->db->where("cities.id = accept_address.city");
         $this->db->where("areas.id = accept_address.area");
@@ -41,10 +40,22 @@ class exchange_model extends CI_Model
         return $query->result();
     }
 
+    /*
+    This function is used to end exchange automatically
+    */
+    function setAutoEndExchange()
+    {
+        $info['state'] = 2;
+        $info['accept_time'] = date("Y-m-d H:i:s");
+        $this->db->where("send_time <> ''");
+        $this->db->where("TIME_TO_SEC(TIMEDIFF(NOW(), send_time))>126000");
+        $this->db->update('exchange', $info);
+    }
+
     function getExchangeInfo($userId)
     {
         $this->db->select("*");
-        $this->db->select("date(expire_time)>=current_date() as state");
+        $this->db->select("date(expire_time)>=now() as state");
         $query = $this->db->get();
         return $query->result();
     }
@@ -67,6 +78,11 @@ class exchange_model extends CI_Model
         if (!empty($searchText)) {
             if(isset($searchStatus)){
                 if ($searchStatus == '0') {
+                    for($index = 0; $index< strlen($searchText); $index++){
+                        if($searchText[$index] == '0'){
+                            $searchText = ltrim($searchText, '0');
+                        }
+                    }
                     $query = $query." and (exchange.no LIKE '%" . $searchText . "%')";
                 } else if ($searchStatus == '1') {
                     $query = $query." and (user.name LIKE '%" . $searchText . "%')";
@@ -75,6 +91,8 @@ class exchange_model extends CI_Model
                 }
             }
         }
+        $query=$query." group by exchange.no";
+        $query=$query." order by exchange.submit_time desc";
         $result = $this->db->query($query);
 
         return count($result->result());
@@ -90,14 +108,19 @@ class exchange_model extends CI_Model
         $query = "select exchange.no, exchange.state, exchange.submit_time,
                     user.name, user.phone,
                     goods.name as good_name, goods.cost
-                    from exchange, user, goods 
+                    from exchange, `user`, goods 
                     where exchange.user_id = user.no and exchange.good_id = goods.id";
         if($searchState != 10){
-            $query = $query . " and exchange.state LIKE '%" . $searchState ."%'";
+            $query = $query . " and exchange.state like '%" . $searchState ."%'";
         }
         if (!empty($searchText)) {
             if(isset($searchStatus)){
                 if ($searchStatus == '0') {
+                    for($index = 0; $index< strlen($searchText); $index++){
+                        if($searchText[$index] == '0'){
+                            $searchText = ltrim($searchText, '0');
+                        }
+                    }
                     $query = $query." and (exchange.no LIKE '%" . $searchText . "%')";
                 } else if ($searchStatus == '1') {
                     $query = $query." and (user.name LIKE '%" . $searchText . "%')";
@@ -106,7 +129,14 @@ class exchange_model extends CI_Model
                 }
             }
         }
-        $this->db->limit($page, $segment);
+        $query=$query." group by exchange.no";
+        $query=$query." order by exchange.submit_time desc";
+        if($segment!=""){
+            $query = $query." limit ".$segment.", ".$page;
+        }
+        else{
+            $query = $query." limit 0, ".$page;
+        }
         $result = $this->db->query($query);
 
         return $result->result();
@@ -133,6 +163,7 @@ class exchange_model extends CI_Model
      */
     function addExchange($info)
     {
+        $this->db->query("update goods set amount=amount-1 where id=". $info['good_id']);
         $this->db->insert("exchange", $info);
         $result = $this->db->affected_rows();
         return $result;
@@ -150,8 +181,23 @@ class exchange_model extends CI_Model
         $this->db->from("exchange, goods");
         $this->db->where("exchange.user_id", $userId);
         $this->db->where("goods.id = exchange.good_id");
+        $this->db->order_by("exchange.no", "desc");
         $result = $this->db->get()->result();
         return $result;
+    }
+
+    /**
+     * This function is used to set information of exchange ends
+     *@param number $no: this is the no of exchange
+     * @return boolean $result : This is state of update information
+     */
+    function endExchange($no)
+    {
+        $info['accept_time'] = date("Y-m-d H:i:s");
+        $info['state'] = 2;
+        $this->db->where("no", $no);
+        $this->db->update("exchange", $info);
+        return true;
     }
 
     /**
@@ -164,11 +210,15 @@ class exchange_model extends CI_Model
         $this->db->select("exchange.*");
         $this->db->select("goods.avatar, goods.cost, goods.name");
         $this->db->select("accept_address.name as address_name, accept_address.phone, accept_address.detail_address");
+        $this->db->select("provinces.province, cities.city, areas.area");
         $this->db->from("exchange, goods, accept_address");
+        $this->db->join("provinces","provinces.id = accept_address.province");
+        $this->db->join("cities","cities.id = accept_address.city");
+        $this->db->join("areas","areas.id = accept_address.area");
         $this->db->where("exchange.no", $exchangeId);
         $this->db->where("goods.id = exchange.good_id");
         $this->db->where("accept_address.user_id", $userId);
-        $this->db->where("accept_address.state", 1);
+        $this->db->where("accept_address.no = exchange.address_no");
         $result = $this->db->get()->result();
         return $result;
     }

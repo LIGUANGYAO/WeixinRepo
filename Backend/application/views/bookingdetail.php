@@ -9,17 +9,23 @@
         <div class="container">
             <div class="row custom-info-row">
                 <label class="col-sm-2">订单编号:</label>
-                <label class="col-sm-4" id="nickname"><?php echo $bookingDetail[0]->id; ?></label>
+                <label class="col-sm-4" id="nickname">
+                <?php
+                $no = "";
+                for($index = 0; $index < (10 - strlen($bookingDetail[0]->id."")); $index++)
+                    $no = $no."0";
+                $no = $no.$bookingDetail[0]->id;
+                 echo $no; ?></label>
             </div>
             <div class="row custom-info-row">
-                <label class="col-sm-2">活动信息:</label>
+                <label class="col-sm-2" style="font-size: 24px;">活动信息:</label>
             </div>
             <div class="row custom-info-row">
-                <div class="col-sm-4">
+                <div class="col-sm-8">
                     <table class="table table-bordered area-result-view">
                         <thead>
                         <tr style="background-color: lightslategrey;">
-                            <th>活动名称</th>
+                            <th style="width: 400px;">活动名称</th>
                             <th>发起人</th>
                             <th>角色类型</th>
                             <th>操作</th>
@@ -38,14 +44,14 @@
                 </div>
             </div>
             <div class="row custom-info-row">
-                <label class="col-sm-2">个人信息</label>
+                <label class="col-sm-2" style="font-size: 24px;">个人信息</label>
             </div>
             <div class="row custom-info-row">
                 <label class="col-sm-2">真实姓名:</label>
                 <label class="col-sm-4" id="nickname"><?php echo $bookingDetail[0]->name; ?>人</label>
             </div>
             <div class="row custom-info-row">
-                <label class="col-sm-2">l联系方式:</label>
+                <label class="col-sm-2">联系方式:</label>
                 <label class="col-sm-4" id="nickname"><?php echo $bookingDetail[0]->phone; ?></label>
             </div>
             <div class="row custom-info-row">
@@ -54,7 +60,7 @@
             </div>
             <div class="row custom-info-row">
                 <label class="col-sm-2">支付方式:</label>
-                <label class="col-sm-4" id="site_name"><?php echo ($bookingDetail[0]->pay_type==0)?"线上支付":"线下支付"; ?></label>
+                <label class="col-sm-4" id="site_name"><?php echo ($bookingDetail[0]->pay_type==0)?"线下支付":"线上支付"; ?></label>
             </div>
             <div class="row custom-info-row">
                 <label class="col-sm-2">金额:</label>
@@ -83,9 +89,9 @@
             </div>
             <div class="row custom-info-row">
                 <label class="col-sm-2">内容:</label>
+                <label class="col-sm-2"><?php if($rating!=null) echo $rating[0]->comment;?></label>
             </div>
             <div class="row custom-info-row">
-                <label class="col-sm-2"><?php if($rating!=null) echo $rating[0]->comment;?></label>
             </div>
            <?php
                 }
@@ -104,6 +110,6 @@
 
 
 <!-- Course Management JS-->
-<script type="text/javascript" src="<?php echo base_url(); ?>index.php/assets/js/shop.js" charset="utf-8"></script>
-<script type="text/javascript" src="<?php echo base_url(); ?>index.php/assets/js/jquery.qrcode.js" charset="utf-8"></script>
-<script type="text/javascript" src="<?php echo base_url(); ?>index.php/assets/js/qrcode.js" charset="utf-8"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/js/shop.js" charset="utf-8"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery.qrcode.js" charset="utf-8"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/js/qrcode.js" charset="utf-8"></script>

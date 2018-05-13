@@ -54,7 +54,9 @@ $route['logout'] = 'systemmanage/logout';
 $route['roleListing'] = 'systemmanage/roleListing';
 $route['userListing'] = 'systemmanage/userListing';
 $route['userListing/(:num)'] = "systemmanage/userListing/$1";
-$route['addNew'] = "systemmanage/addNewUser";
+$route['addNewUser'] = "systemmanage/addNewUser";
+$route['addNew'] = "systemmanage/addNew";
+
 
 $route['usermanage'] = 'usermanage';
 $route['usermanage/(:num)'] = 'usermanage';
@@ -87,6 +89,8 @@ $route['goods'] = 'goodsmanage';
 $route['goods/(:num)'] = 'goodsmanage';
 $route['goodsListingByFilter'] = 'goodsmanage/goodsListingByFilter';
 $route['goodAdd'] = 'goodsmanage/goodAdd';
+$route['goodsDetail/(:num)'] = "goodsmanage/goodsDetail/$1";
+$route['goodsEdit/(:num)'] = "goodsmanage/goodsEdit/$1";
 
 $route['binding'] = 'binding';
 $route['binding/(:num)'] = 'binding';
@@ -102,6 +106,7 @@ $route['rulemanage'] = "rule";
 $route['saveRule'] = "rule/saveRule";
 
 $route['alarm'] = "alarm";
+$route['alarm/(:num)'] = "alarm";
 
 $route['editOld'] = "systemmanage/editOld";
 $route['editOld/(:num)'] = "systemmanage/editOld/$1";
@@ -114,80 +119,92 @@ $route['updateUserPassword'] = "systemmanage/updateUserPassword";
 $route['pageNotFound'] = "systemmanage/pageNotFound";
 $route['checkEmailExists'] = "systemmanage/checkEmailExists";
 
-$route['forgotPassword'] = "Login/forgotPassword";
-$route['resetPasswordUser'] = "Login/resetPasswordUser";
-$route['resetPasswordConfirmUser'] = "Login/resetPasswordConfirmUser";
-$route['resetPasswordConfirmUser/(:any)'] = "Login/resetPasswordConfirmUser/$1";
-$route['resetPasswordConfirmUser/(:any)/(:any)'] = "Login/resetPasswordConfirmUser/$1/$2";
-$route['createPasswordUser'] = "Login/createPasswordUser";
+$route['forgotPassword'] = "login/forgotPassword";
+$route['resetPasswordUser'] = "login/resetPasswordUser";
+$route['resetPasswordConfirmUser'] = "login/resetPasswordConfirmUser";
+$route['resetPasswordConfirmUser/(:any)'] = "login/resetPasswordConfirmUser/$1";
+$route['resetPasswordConfirmUser/(:any)/(:any)'] = "login/resetPasswordConfirmUser/$1/$2";
+$route['createPasswordUser'] = "login/createPasswordUser";
 /*-----------------------API-------------------------*/
-$route['api/addNewUser'] = "api/Data_Manage/addNewUser";
-$route['api/getUserState'] = "api/Data_Manage/getState";
-$route['api/getUserDetail'] = "api/Data_Manage/getUserDetail";
+$route['api/addNewUser'] = "api/datamanage/addNewUser";
+$route['api/getUserState'] = "api/datamanage/getState";
+$route['api/getUserStateByOpenId'] = "api/datamanage/getUserStateByOpenId";
+$route['api/getUserDetail'] = "api/datamanage/getUserDetail";
 
-$route['api/getMyBooking'] = "api/Data_Manage/getMyBooking";
-$route['api/getBookingDetail'] = "api/Data_Manage/getBookingDetail";
-$route['api/cancelBooking'] = "api/Data_Manage/cancelBooking";
-$route['api/addRating'] = "api/Data_Manage/addRating";
-$route['api/getAllEvents'] = "api/Data_Manage/getEventByUser";
-$route['api/getEventDetail'] = "api/Data_Manage/getEventDetail";
-$route['api/getBookingDetailByEvent'] = "api/Data_Manage/getBookingDetailByEvent";
-$route['api/cancelEvent'] = "api/Data_Manage/cancelEvent";
-$route['api/getEventsByProvince'] = "api/Data_Manage/getEventByProvince";
+$route['api/getMyBooking'] = "api/datamanage/getMyBooking";
+$route['api/getBookingDetail'] = "api/datamanage/getBookingDetail";
+$route['api/cancelBooking'] = "api/datamanage/cancelBooking";
+$route['api/addRating'] = "api/datamanage/addRating";
+$route['api/getAllEvents'] = "api/datamanage/getEventByUser";
+$route['api/getEventDetail'] = "api/datamanage/getEventDetail";
+$route['api/getBookingDetailByEvent'] = "api/datamanage/getBookingDetailByEvent";
+$route['api/cancelEvent'] = "api/datamanage/cancelEvent";
+$route['api/getEventsByProvince'] = "api/datamanage/getEventByProvince";
+$route['api/setFavouriteEvent'] = "api/datamanage/setFavouriteEvent";
 
-$route['api/getMemberState'] = "api/Data_Manage/getMemberState";
-$route['api/setMember'] = "api/Data_Manage/setMember";
+$route['api/getMemberState'] = "api/datamanage/getMemberState";
+$route['api/setMember'] = "api/datamanage/setMember";
 
-$route['api/getFavouriteSite'] = "api/Data_Manage/getFavouriteSite";
-$route['api/getSiteDetail'] = "api/Data_Manage/getSiteDetail";
-$route['api/cancelFavouriteSite'] = "api/Data_Manage/cancelFavouriteSite";
+$route['api/getFavouriteSite'] = "api/datamanage/getFavouriteSite";
+$route['api/getSiteDetail'] = "api/datamanage/getSiteDetail";
+$route['api/cancelFavouriteSite'] = "api/datamanage/cancelFavouriteSite";
 
-$route['api/getRatingCountBySite'] = "api/Data_Manage/getRatingCountBySite";
-$route['api/getRatingBySite'] = "api/Data_Manage/getRatingBySite";
-$route['api/getRatingByEvent'] = "api/Data_Manage/getRatingByEvent";
+$route['api/getRatingCountBySite'] = "api/datamanage/getRatingCountBySite";
+$route['api/getRatingBySite'] = "api/datamanage/getRatingBySite";
+$route['api/getRatingByEvent'] = "api/datamanage/getRatingByEvent";
 
-$route['api/registerUser'] = "api/Data_Manage/registerUser";
-$route['api/registerBoss'] = "api/Data_Manage/registerBoss";
-$route['api/addAllowPic'] = "api/Data_Manage/addAllowPic";
-$route['api/addIDPic1'] = "api/Data_Manage/addIDPic1";
-$route['api/addIDPic2'] = "api/Data_Manage/addIDPic2";
+$route['api/registerUser'] = "api/datamanage/registerUser";
+$route['api/registerBoss'] = "api/datamanage/registerBoss";
+$route['api/addAllowPic'] = "api/datamanage/addAllowPic";
+$route['api/addIDPic1'] = "api/datamanage/addIDPic1";
+$route['api/addIDPic2'] = "api/datamanage/addIDPic2";
 
-$route['api/addAcceptAddress'] = "api/Data_Manage/addAcceptAddress";
-$route['api/getAcceptAddress'] = "api/Data_Manage/getAcceptAddress";
-$route['api/changeAcceptAddress'] = "api/Data_Manage/changeAcceptAddress";
-$route['api/checkAcceptAddress'] = "api/Data_Manage/checkAcceptAddress";
-$route['api/deleteAcceptAddress'] = "api/Data_Manage/deleteAcceptAddress";
+$route['api/addAcceptAddress'] = "api/datamanage/addAcceptAddress";
+$route['api/getAcceptAddress'] = "api/datamanage/getAcceptAddress";
+$route['api/changeAcceptAddress'] = "api/datamanage/changeAcceptAddress";
+$route['api/checkAcceptAddress'] = "api/datamanage/checkAcceptAddress";
+$route['api/deleteAcceptAddress'] = "api/datamanage/deleteAcceptAddress";
 
-$route['api/getSiteStatus'] = "api/Data_Manage/getSiteStatus";
-$route['api/addSiteInfo'] = "api/Data_Manage/addSiteInfo";
-$route['api/addSitePicture'] = "api/Data_Manage/addSitePicture";
-$route['api/editSiteInfo'] = "api/Data_Manage/editSiteInfo";
-$route['api/editSiteInfo1'] = "api/Data_Manage/editSiteInfo1";
-$route['api/addSitePictureURL'] = "api/Data_Manage/addSitePictureURL";
+$route['api/getSiteStatus'] = "api/datamanage/getSiteStatus";
+$route['api/addSiteInfo'] = "api/datamanage/addSiteInfo";
+$route['api/addSitePicture'] = "api/datamanage/addSitePicture";
+$route['api/editSiteInfo'] = "api/datamanage/editSiteInfo";
+$route['api/editSiteInfo1'] = "api/datamanage/editSiteInfo1";
+$route['api/addSitePictureURL'] = "api/datamanage/addSitePictureURL";
 
-$route['api/getBindingInfo'] = "api/Data_Manage/getBinding";
-$route['api/addBindingInfo'] = "api/Data_Manage/addBinding";
-$route['api/getPaymentHistory'] = "api/Data_Manage/getPaymentHistory";
-$route['api/addBindingHistory'] = "api/Data_Manage/addBindingHistory";
+$route['api/getBindingInfo'] = "api/datamanage/getBinding";
+$route['api/addBindingInfo'] = "api/datamanage/addBinding";
+$route['api/getPaymentHistory'] = "api/datamanage/getPaymentHistory";
+$route['api/addBindingHistory'] = "api/datamanage/addBindingHistory";
 
-$route['api/pay'] = "api/Data_Manage/pay";
-$route['api/notify'] = "api/Data_Manage/notify";
+$route['api/pay'] = "api/datamanage/pay";
+$route['api/refund'] = "api/datamanage/refund";
+$route['api/notify'] = "api/datamanage/notify";
+$route['api/addBooking'] = "api/datamanage/addBooking";
 
-$route['api/getProvinces'] = "api/Data_Manage/getProvinces";
-$route['api/getCities'] = "api/Data_Manage/getCities";
-$route['api/getAreas'] = "api/Data_Manage/getAreas";
+$route['api/getProvinces'] = "api/datamanage/getProvinces";
+$route['api/getCities'] = "api/datamanage/getCities";
+$route['api/getAreas'] = "api/datamanage/getAreas";
 
-$route['api/getGoodsList'] = "api/Data_Manage/getGoodsList";
-$route['api/getGoodDetail'] = "api/Data_Manage/getGoodDetail";
-$route['api/orderExchange'] = "api/Data_Manage/orderExchange";
-$route['api/setExchange'] = "api/Data_Manage/setExchange";
-$route['api/getExchange'] = "api/Data_Manage/getExchange";
-$route['api/getExchangeDetail'] = "api/Data_Manage/getExchangeDetail";
+$route['api/getGoodsList'] = "api/datamanage/getGoodsList";
+$route['api/getGoodDetail'] = "api/datamanage/getGoodDetail";
+$route['api/orderExchange'] = "api/datamanage/orderExchange";
+$route['api/setExchange'] = "api/datamanage/setExchange";
+$route['api/getExchange'] = "api/datamanage/getExchange";
+$route['api/getExchangeDetail'] = "api/datamanage/getExchangeDetail";
+$route['api/endExchange'] = "api/datamanage/endExchange";
 
-$route['api/getItemsOnMap'] = "api/Data_Manage/getItemsOnMap";
-$route['api/catchHoney'] = "api/Data_Manage/catchHoney";
+$route['api/getItemsOnMap'] = "api/datamanage/getItemsOnMap";
+$route['api/catchHoney'] = "api/datamanage/catchHoney";
 
-$route['api/createEvent'] = "api/Data_Manage/addEvent";
-$route['api/getRules'] = "api/Data_Manage/getRules";
+$route['api/createEvent'] = "api/datamanage/addEvent";
+$route['api/getRules'] = "api/datamanage/getRules";
+$route['api/getopenid'] = "api/datamanage/getOpenid";
+
+$route['api/getNewBookingAlarm'] = "api/datamanage/getNewBookingAlarm";
+$route['api/getNewAlarm'] = "api/datamanage/getNewAlarm";
+$route['api/getAlarm'] = "api/datamanage/getAlarm";
+$route['api/getAllBoss'] = "api/datamanage/getAllBoss";
+
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

@@ -16,16 +16,22 @@
             </div>
             <div class="row custom-info-row">
                 <label class="col-sm-2">活动类型:</label>
-                <label class="col-sm-4" id="nickname"><?php echo $eventType[$eventDetail[0]->type]->name; ?></label>
+                <label class="col-sm-4" id="nickname"><?php echo $eventType[$eventDetail[0]->type]; ?></label>
             </div>
             <div class="row custom-info-row">
                 <label class="col-sm-2">人数上限:</label>
                 <label class="col-sm-4" id="nickname">不超过<?php echo $eventDetail[0]->limit; ?>人</label>
             </div>
+           <?php
+                if($eventDetail[0]->role == 1){
+            ?>
             <div class="row custom-info-row">
                 <label class="col-sm-2">活动费用:</label>
                 <label class="col-sm-4" id="nickname"><?php echo $eventDetail[0]->cost; ?>元/人</label>
             </div>
+           <?php
+                }
+            ?>
             <div class="row custom-info-row">
                 <label class="col-sm-2">活动时间:</label>
                 <label class="col-sm-4" id="nickname"><?php echo $eventDetail[0]->start_time."-".$eventDetail[0]->end_time; ?></label>
@@ -66,7 +72,7 @@
                     }
                     else
                     {
-                        echo "不是";
+                        echo "否";
                     }
                     ?>
                 </label>
@@ -103,22 +109,23 @@
             </div>
             <div class="row custom-info-row">
                 <label class="col-sm-2">报名人数:</label>
-                <label class="col-sm-4" id="nickname"> <?php echo ($booking[0]->register_num!=null)?$booking[0]->register_num."人":"无"; ?></label>
+                <label class="col-sm-4" id="nickname"> <?php echo (count($booking)>0)?$booking[0]->register_num."人":"无"; ?></label>
             </div>
             <div class="row custom-info-row">
-                <div class="col-sm-4">
+                <div class="col-sm-6">
                     <table class="table table-bordered area-result-view">
                         <thead>
                         <tr style="background-color: lightslategrey;">
                             <th></th>
-                            <th>姓名</th>
-                            <th>联系方式</th>
-                            <th>报名人数</th>
-                            <th>支付方式</th>
+                            <th style="width: 100px;">姓名</th>
+                            <th style="width: 120px;">联系方式</th>
+                            <th style="width: 100px;">报名人数</th>
+                            <th style="width: 100px;">支付方式</th>
                         </tr>
                         </thead>
                         <tbody id="content_tbl">
                        <?php 
+                            $pay_type= array("线下支付", "线上支付");
                             if(count($booking) > 0){
                                 foreach($booking as $booking_element)
                                 {
@@ -127,7 +134,7 @@
                                     echo "<td>".$booking_element->name."</td>";
                                     echo "<td>".$booking_element->phone."</td>";
                                     echo "<td>".$booking_element->reg_num."</td>";
-                                    echo "<td>".$booking_element->pay_type."</td>";
+                                    echo "<td>".$pay_type[$booking_element->pay_type]."</td>";
                                     echo "</tr>";
                                 }
                             }
@@ -151,6 +158,6 @@
 
 
 <!-- Course Management JS-->
-<script type="text/javascript" src="<?php echo base_url(); ?>index.php/assets/js/shop.js" charset="utf-8"></script>
-<script type="text/javascript" src="<?php echo base_url(); ?>index.php/assets/js/jquery.qrcode.js" charset="utf-8"></script>
-<script type="text/javascript" src="<?php echo base_url(); ?>index.php/assets/js/qrcode.js" charset="utf-8"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/js/shop.js" charset="utf-8"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery.qrcode.js" charset="utf-8"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/js/qrcode.js" charset="utf-8"></script>

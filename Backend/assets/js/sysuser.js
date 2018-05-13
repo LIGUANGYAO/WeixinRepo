@@ -9,11 +9,11 @@ $(document).ready(function () {
 });
 
 function confirmDelete(id) {
-    $('#userid').html(id);
+    $('#userId').html(id);
     $('#custom-confirm-delete-view').show();
 }
 function deleteUser(url) {
-    location.href = url + 'deleteUser/' + $('#userid').html();
+    location.href = url + 'deleteUser/' + $('#userId').html();
 
 }
 function confirmPassword(id) {

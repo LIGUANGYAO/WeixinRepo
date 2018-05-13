@@ -10,7 +10,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
-                    <form action="<?php echo base_url(); ?>index.php/bookingListingByFilter" method="POST" id="searchList">
+                    <form action="<?php echo base_url(); ?>bookingListingByFilter" method="POST" id="searchList">
                         <div class="col-xs-2 col-sm-4 form-inline">
                             <div class="form-group">
                                 <select class="form-control" id="searchStatus" name="searchStatus">
@@ -31,11 +31,11 @@
                                 <select class="form-control" id="searchType" name="searchType">
                                     <option value="100"<?php if ($searchType == 100) echo ' selected'; ?>>活动类型</option>
                                    <?php
-                                        foreach($eventType as $eventName){
+                                    for($index = 0; $index<count($eventType) ; $index++){
                                     ?>
-                                    <option value="<?php echo $eventName->no; ?>"<?php if ($searchType == $eventName->no) echo ' selected'; ?>><?php echo $eventName->name; ?></option>
+                                    <option value="<?php echo $index; ?>" <?php if ($searchType == $index) echo ' selected'; ?>><?php echo $eventType[$index]; ?></option>
                                    <?php
-                                        }
+                                    }
                                     ?>
                                 </select>
                             </div>
@@ -45,7 +45,7 @@
                                 <select class="form-control" id="searchState" name="searchState">
                                     <option value="10"<?php if ($searchState == 10) echo ' selected'; ?>>活动状态</option>
                                     <option value="0"<?php if ($searchState == 0) echo ' selected'; ?>>进行中</option>
-                                    <option value="1"<?php if ($searchState == 1) echo ' selected'; ?>>已进行</option>
+                                    <option value="1"<?php if ($searchState == 1) echo ' selected'; ?>>已完成</option>
                                     <option value="2"<?php if ($searchState == 2) echo ' selected'; ?>>已取消</option>
                                 </select>
                             </div>
@@ -54,8 +54,8 @@
                             <div class="form-group">
                                 <select class="form-control" id="searchPay" name="searchPay">
                                     <option value="10"<?php if ($searchPay == 10) echo ' selected'; ?>>支付方式</option>
-                                    <option value="0"<?php if ($searchPay == 0) echo ' selected'; ?>>线上支付</option>
-                                    <option value="1"<?php if ($searchPay == 1) echo ' selected'; ?>>线下支付</option>
+                                    <option value="0"<?php if ($searchPay == 0) echo ' selected'; ?>>线下支付</option>
+                                    <option value="1"<?php if ($searchPay == 1) echo ' selected'; ?>>线上支付</option>
                                 </select>
                             </div>
                         </div>
@@ -97,19 +97,23 @@
                         <tbody>
                        <?php
                         if (!empty($creation_name)) {
-                            $pay = ['线上支付','线下支付'];
-                            $bookingState = ['进行中', '已进行', '已取消'];
+                            $pay = array('线下支付','线上支付');
+                            $bookingState = array('进行中', '已完成', '已取消');
                             foreach ($bookingList as $record) {
+                                $no = "";
+                                for($index = 0; $index < (10 - strlen($record->id."")); $index++)
+                                    $no = $no."0";
+                                $no = $no.$record->id;
                                 ?>
                                 <tr>
-                                    <td><?php echo $record->id; ?></td>
+                                    <td><?php echo $no; ?></td>
                                     <td><?php echo $record->name; ?></td>
                                     <td><?php echo $record->phone; ?></td>
                                     <td><?php echo $record->reg_num; ?></td>
                                     <td><?php echo $pay[$record->pay_type]; ?></td>
                                     <td><?php echo ($record->reg_num * $record->cost); ?></td>
                                     <td><?php echo $record->event_name; ?></td>
-                                    <td><?php echo $eventType[$record->type]->name ?></td>
+                                    <td><?php echo $eventType[$record->type]; ?></td>
                                     <td><?php echo current($creation_name)->creation_name; ?></td>
                                     <td><?php echo $bookingState[$record->state]; ?></td>
                                     <td><?php echo $record->submit_time; ?></td>
@@ -134,5 +138,5 @@
         </div>
     </section>
 </div>
-<script type="text/javascript" src="<?php echo base_url(); ?>index.php/assets/js/common.js" charset="utf-8"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/js/common.js" charset="utf-8"></script>
 </script>

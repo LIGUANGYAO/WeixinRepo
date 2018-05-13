@@ -7,7 +7,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-    booking:[]
+    booking:[],
+    pay_content: ['线下支付','线上支付']
   },
 
   /**
@@ -30,7 +31,16 @@ Page({
         that.setData({
           booking: books
         })
-        console.log(that.data.booking);
+
+      }
+    })
+  },
+  phone_call: function (res) {
+    var that = this
+    wx.makePhoneCall({
+      phoneNumber: that.data.booking[res.currentTarget.id].phone,
+      complete: function () {
+        return
       }
     })
   },

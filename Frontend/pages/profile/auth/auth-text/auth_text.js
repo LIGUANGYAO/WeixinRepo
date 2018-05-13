@@ -18,7 +18,10 @@ Page({
     this.setData({
       userRole: app.globalData.userRole
     })
+    console.log(app.globalData.userRole)
     var that = this
+    console.log("auth-text")
+    console.log(app.globalData.userInfo.user_id)
     wx.request({
       url: app.globalData.mainURL + 'api/getUserDetail',
       method: 'POST',
@@ -38,18 +41,33 @@ Page({
             user_info.id_pic1 = app.globalData.uploadURL + user_info.id_pic1
             user_info.id_pic2 = app.globalData.uploadURL + user_info.id_pic2
           }
-          that.setData({
-            user_info: user_info
-          })
+          console.log(user_info)
+          if(user_info.state==0){
+            wx.showModal({
+              title: '下载身份认证资料失败',
+              showCancel: false,
+              complete: function(){
+                wx.redirectTo({
+                  url: '../../profile',
+                })
+              }
+            })
+          }
+          else{
+            that.setData({
+              user_info: user_info
+            })
+          }
         }
       }
     })
+
   },
   On_click_submit: function (e) {
     if(this.data.user_info.state==3)
     {
       wx.redirectTo({
-        url: '../../auth/auth',
+        url: '../../auth/auth?method=rewrite',
       })
     }
     else{

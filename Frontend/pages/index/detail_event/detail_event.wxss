@@ -4,6 +4,17 @@
 
 .container {
   height: auto;
+  margin-bottom: 98rpx;
+}
+
+.postadd-view
+{
+  position: fixed;
+  width: 100%;
+  top: 0rpx;
+  left: 0rpx;
+  bottom: 98rpx;
+  background-color: #F4F4F4;
 }
 
 .personal-img-wrapper {
@@ -17,8 +28,9 @@
 }
 
 .event-info {
+  padding-bottom: 5rpx;
   width: 100%;
-  height: 250rpx;
+  height: auto;
   background-color: white;
 }
 
@@ -108,13 +120,11 @@
 .favor_text {
   position: absolute;
   top: 507rpx;
-  right: 50rpx;
-  width: 42rpx;
+  right: 51.1rpx;
+  width: 37.8rpx;
   font-size: 22rpx;
   color: #472e00;
   font-family: PingFangSC-Regular;
-  font-size: 22rpx;
-  color: #472e00;
   letter-spacing: 0.47rpx;
   text-align: center;
 }
@@ -125,11 +135,21 @@
   font-size: 26rpx;
   color: #333;
 }
-
+.detail-add{
+  width: 10%;
+  float: left;
+  display: inline-block;
+}
+.detail-add1{
+  margin-left: 3rpx;
+  width: 85%;
+  display: inline-block;
+  vertical-align: top;
+}
 .place-info {
   margin-top: 20rpx;
   padding-top: 20rpx;
-  height: 264rpx;
+  height: auto;
   width: calc(100%-40rpx);
   background-color: white;
 }
@@ -140,26 +160,25 @@
 }
 
 .place-info-text {
-  padding-top: 23rpx;
+  line-height: 88rpx;
   color: #333;
   font-size: 30rpx;
 }
 
 .introduce {
   margin-top: 20rpx;
+  padding-bottom: 10rpx;
   width: (100% - 20rpx);
   height: auto;
   background-color: white;
 }
 
 .introduce-view {
-  padding-top: 23rpx;
-  height: 88rpx;
+  line-height: 70rpx;
   margin-left: 30rpx;
 }
 
 .introduce-border {
-  margin-left: 10rpx;
   border-left: 6rpx solid #e6b53c;
   padding-left: 12rpx;
   font-size: 30rpx;
@@ -168,12 +187,11 @@
 .introduce-detail {
   background-color: white;
   word-break: break-all;
-  padding: 19rpx 37rpx 31rpx 30rpx;
   font-family: PingFangSC-Regular;
   font-size: 30rpx;
   color: #333;
   letter-spacing: 1.04rpx;
-  line-height: 50rpx;
+  line-height: 70rpx;
 }
 
 .member_detail {
@@ -195,6 +213,7 @@
 .applicant-view {
   width: 100%;
   height: auto;
+  min-height: 98rpx;
   margin-top: 20rpx;
   background-color: white;
 }
@@ -213,7 +232,7 @@
 
 .applicant-each-view {
   display: inline-block;
-  width: 200rpx;
+  width: 150rpx;
   height: 150rpx;
   margin-top: 30rpx;
   margin-left: 30rpx;
@@ -221,20 +240,22 @@
 
 .applicant-image {
   display: block;
-  margin-left: 20rpx;
-  width: 100rpx;
-  height: 100rpx;
+  margin: auto;
+  width: 70rpx;
+  height: 70rpx;
   border-radius: 50%;
 }
 
 .applicant-name {
-  margin-left: 10rpx;
-  width: 200rpx;
+  display: inline-block;
+  width: 150rpx;
   font-size: 24rpx;
   text-align: center;
 }
 
 .btn-footer {
+  position:fixed;
+  bottom: 0rpx;
   width: 100%;
   height: 98rpx;
   margin-bottom: 0rpx;
@@ -245,25 +266,27 @@
 .btn-gym-info {
   display: inline-block;
   width: 50%;
-  height: 98rpx;
+  line-height: 98rpx;
   background-color: white;
   font-size: 34rpx;
   color: #e6b53c;
+  overflow: visible;
 }
 
 .btn-final-participate {
   display: inline-block;
   width: 50%;
-  height: 98rpx;
+  line-height: 98rpx;
   background-color: #e6b53c;
   font-size: 34rpx;
   color: white;
+  overflow: visible;
 }
 .btn-personal-participate{
   width: 100%;
-  height: 98rpx;
+  line-height: 98rpx;
   background-color: #e6b53c;
   font-size: 34rpx;
   color: white;
-  line-height: 98rpx;
+  overflow: visible;
 }

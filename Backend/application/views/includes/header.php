@@ -34,7 +34,6 @@
     <script src="<?php echo base_url(); ?>assets/js/jQuery-2.1.4.min.js"></script>
     <script src="<?php echo base_url(); ?>assets/bootstrap/js/bootstrap.min.js"></script>
 
-
 </head>
 <body id="main_page_body" class="skin-blue sidebar-mini">
 <div>
@@ -154,7 +153,7 @@
                     style="<?php echo(($menu_acc != '') ? ($menu_acc->p_80 == '1' ? '' : 'display:none;') : 'display:none'); ?>">
                     <a href="<?php echo base_url(); ?>rating">
                         <i class="fa fa-files-o"></i>
-                        <span>评论管理</span>
+                        <span>评价管理</span>
                     </a>
                 </li>
                 <li class="treeview"
@@ -203,7 +202,12 @@
                     style="<?php echo(($menu_acc != '') ? ($menu_acc->p_120 == '1' ? '' : 'display:none;') : 'display:none'); ?>">
                     <a href="<?php echo base_url(); ?>alarm">
                         <i class="fa fa-book"></i>
-                        <span>系统信息</span>
+                        <span>系统信息<?php if($news>0){ ?>
+                        <span class="badge badge-default">
+                        <?php echo $news; ?>
+                        </span>
+                        <?php } ?></span>
+                        
                     </a>
                 </li>
             </ul>

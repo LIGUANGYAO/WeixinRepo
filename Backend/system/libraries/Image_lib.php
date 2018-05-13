@@ -1161,8 +1161,10 @@ class CI_Image_lib {
 							$this->set_error(array('imglib_unsupported_imagecreate', 'imglib_png_not_supported'));
 							return FALSE;
 						}
-
-						return imagecreatefrompng($path);
+						$dest = imagecreatefrompng($path);
+				        $black = imagecolorallocate($dest, 0, 0, 0);
+				        imagecolortransparent($dest, $black);
+						return $dest;
 				break;
 
 		}

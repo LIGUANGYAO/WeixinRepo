@@ -1,8 +1,7 @@
-@import "../footer/footer.wxss";
-
 .content-view {
   width: 100%;
-  height: calc(100% - 98rpx);
+  height: 100%;
+  position: fixed;
 }
 
 .content-background-image {
@@ -25,9 +24,10 @@
   position: absolute;
   top: 60rpx;
   left: 96rpx;
-  width: 150rpx;
+  width: auto;
   height: 50rpx;
   padding-left: 30rpx;
+  padding-right: 10rpx;
   background-color: #e6b53c;
   border: 2rpx solid #472e00;
   border-radius: 6rpx;
@@ -39,15 +39,15 @@
 .content-shop-imagebtn{
   position: absolute;
   width: 90rpx;
-  height: 90rpx;
+  height: 96rpx;
   top: 40rpx;
   left: 375rpx;
 }
 
 .content-list-imagebtn{
-   position: absolute;
-  width: 90rpx;
-  height: 90rpx;
+  position: absolute;
+  width: 98rpx;
+  height: 96rpx;
   top: 40rpx;
   left: 502rpx;
 }
@@ -55,7 +55,7 @@
 .content-explain-imagebtn{
   position: absolute;
   width: 90rpx;
-  height: 90rpx;
+  height: 96rpx;
   top: 40rpx;
   left: 630rpx;
 }

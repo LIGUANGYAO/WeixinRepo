@@ -3,7 +3,7 @@
 require APPPATH . '/libraries/basecontroller.php';
 
 
-class Rule extends basecontroller
+class rule extends basecontroller
 {
     /**
      * This is default constructor of the class

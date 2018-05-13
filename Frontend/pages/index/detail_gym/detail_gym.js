@@ -8,10 +8,7 @@ Page({
     eventType: [],
     userRole: [],
     eventState: [],
-<<<<<<< HEAD
-    favourite_image: ['../../../image/good_n@2x.png', '../../../image/good_s@2x.png'],
-=======
->>>>>>> d9384fb835d96b6b8c2290b24abda7c6e82c36cd
+    favourite_image: ['../../../image/Collection_N@2x.png', '../../../image/Collection_s@2x.png'],
     starparam: {
       stars: [0, 1, 2, 3, 4],
 
@@ -29,7 +26,8 @@ Page({
     this.setData({
       eventType: app.globalData.eventType,
       userRole: app.globalData.userRole,
-      bookingState: app.globalData.eventState
+      bookingState: app.globalData.eventState,
+      eventState: app.globalData.eventState
     });
     var id = options.id;
     var that = this;
@@ -46,16 +44,10 @@ Page({
       success: function (res) {
         if (res.data.status) {
           var site_buf = res.data.site[0];
-<<<<<<< HEAD
           if (site_buf != null) {
             if (site_buf.point == null) site_buf.point = 0;
             if (site_buf.fav_state == null) site_buf.fav_state = 0;
             else site_buf.fav_state = 1;
-=======
-          if(site_buf!=null)
-          {
-            if(site_buf.point==null) site_buf.point = 0;
->>>>>>> d9384fb835d96b6b8c2290b24abda7c6e82c36cd
             var star = that.data.starparam;
             star.score = site_buf.point * 1;
             that.setData({
@@ -70,21 +62,25 @@ Page({
             }
           }
           var event_buf = res.data.event;
+          for( var index=0; index<event_buf.length; index++){
+            if (event_buf[index].name.length > 15) {
+              var name = event_buf[index].name
+              name = name.slice(0, 15) + '..'
+              event_buf[index].name = name
+            }
+          }
           var is_favourite = res.data.isFavourite;
-<<<<<<< HEAD
+          if(is_favourite) site_buf.fav_state = 1
           for (var index = 0; index < event_buf.length; index++) {
             if (event_buf[index].register_num == null) {
               event_buf[index].register_num = 0;
             }
-=======
-          for (var index = 0; index < event_buf.length; index++){
-            event_buf[index].avatar = app.globalData.uploadURL + event_buf[index].avatar
->>>>>>> d9384fb835d96b6b8c2290b24abda7c6e82c36cd
           }
-          console.log(site_buf)
+          /*
           wx.setNavigationBarTitle({
             title: site_buf.site_name
           })
+          */
           that.setData({
             site: site_buf,
             pictures: images,
@@ -94,17 +90,37 @@ Page({
         }
       }
     })
+    // set swiper image
   },
+  phone_call: function () {
+    var that = this
+    wx.makePhoneCall({
+      phoneNumber: that.data.site.phone,
+      complete: function () {
+        return
+      }
+    })
+  },
+
+  show_preview:function(res){
+    console.log(res)
+    var that = this
+    wx.previewImage({
+      current: that.data.pictures[1*res.currentTarget.id],
+      urls: that.data.pictures,
+    })
+  },
+
   click_detail_event: function (event) {
     wx.navigateTo({
       url: '../detail_event/detail_event?id=' + event.currentTarget.id,
     })
   },
   on_Clicked_Comment: function (event) {
+    if(this.data.site.rating_amount == "0") return;
     wx.navigateTo({
       url: '../../other/comment/comment?id=' + event.currentTarget.id + '&kind=site',
     })
-<<<<<<< HEAD
   },
   on_click_favourite: function () {
     var site_buf = this.data.site
@@ -126,7 +142,5 @@ Page({
       success: function (res) {
       }
     })
-=======
->>>>>>> d9384fb835d96b6b8c2290b24abda7c6e82c36cd
-  }
+  },
 })  

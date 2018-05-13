@@ -3,7 +3,7 @@
 require APPPATH . '/libraries/basecontroller.php';
 
 
-class Rating extends basecontroller
+class rating extends basecontroller
 {
     /**
      * This is default constructor of the class
@@ -29,7 +29,7 @@ class Rating extends basecontroller
      */
     function ratingCollectListing($searchType = null, $searchName = '', $searchStatus = 10)
     {
-        $this->global['pageTitle'] = '提现管理';
+        $this->global['pageTitle'] = '评价列表';
         $count = $this->rating_model->ratingListingCount($searchType, $searchName);
         $returns = $this->paginationCompress("rating/", $count, 10);
         $data['ratingList'] = $this->rating_model->ratingListing($searchType, $searchName, $returns['page'], $returns['segment']);

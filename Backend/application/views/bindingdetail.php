@@ -12,7 +12,7 @@
                 <label class="col-sm-2" id="nickname"><?php echo $bindingDetail[0]->no; ?></label>
                 <label class="col-sm-1" id="nickname" style="background-color: red; color:white;" align="center">
                <?php
-                    $state = ["提现中", "提现成功", "提现失败"];
+                    $state = array("提现中", "提现成功", "提现失败");
                     echo $state[$bindingDetail[0]->state]; 
                 ?></label>
             </div>

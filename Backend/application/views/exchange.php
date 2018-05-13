@@ -10,7 +10,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
-                    <form action="<?php echo base_url(); ?>index.php/exchangeListingByFilter" method="POST" id="searchList">
+                    <form action="<?php echo base_url(); ?>exchangeListingByFilter" method="POST" id="searchList">
                         <div class="col-xs-12 col-sm-4 form-inline">
                             <div class="form-group">
                                 <select class="form-control" id="searchStatus" name="searchStatus">
@@ -68,13 +68,19 @@
                         </thead>
                         <tbody>
                        <?php
-                        $state = ["待发货", "待收货", "交易完成"];
+                        $state = array("待发货", "待收货", "交易完成");
                         if (!empty($exchangeList)) {
                             $i = 0;
                             foreach ($exchangeList as $record) {
                                 ?>
                                 <tr>
-                                    <td><?php echo $record->no; ?></td>
+                                    <td>
+                                    <?php
+                                    $no = "";
+                                    for($index = 0; $index < (10 - strlen($record->no."")); $index++)
+                                        $no = $no."0";
+                                    $no = $no.$record->no;
+                                     echo $no; ?></td>
                                     <td><?php echo $record->name; ?></td>
                                     <td><?php echo $record->phone; ?></td>
                                     <td><?php echo $record->good_name; ?></td>
@@ -117,7 +123,7 @@
                             </div>
                             <div class="form-group">
                                 <button class="btn btn-default" onclick="$('#custom-confirm-delete-view').hide();">取消</button>
-                                <button class="btn btn-primary" onclick="send('<?php echo base_url(); ?>index.php/');">确定</button>
+                                <button class="btn btn-primary" onclick="send('<?php echo base_url(); ?>');">确定</button>
                                 <div id="exchangeId" style="display: none;"></div>
                             </div>
                         </div>
@@ -130,5 +136,5 @@
         </div>
     </section>
 </div>
-<script type="text/javascript" src="<?php echo base_url(); ?>index.php/assets/js/exchange.js" charset="utf-8"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/js/exchange.js" charset="utf-8"></script>
 </script>

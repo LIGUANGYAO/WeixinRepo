@@ -13,7 +13,7 @@ class login_model extends CI_Model
         $this->db->select('BaseTbl.userId, BaseTbl.password, BaseTbl.name, BaseTbl.roleId, Roles.role');
         $this->db->from('admin as BaseTbl');
         $this->db->join('role as Roles','Roles.roleId = BaseTbl.roleId');
-        $this->db->where('BaseTbl.email', $email);
+        $this->db->where('BaseTbl.name', $email);
         $this->db->where('BaseTbl.isDeleted', 0);
         $query = $this->db->get();
         

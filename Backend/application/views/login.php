@@ -48,7 +48,7 @@
             </div>
        <?php } ?>
 
-        <form action="<?php echo base_url(); ?>index.php/loginme" method="post">
+        <form action="<?php echo base_url(); ?>loginme" method="post">
             <div class="form-group has-feedback">
                 <input type="account" class="form-control" placeholder="账号" name="account" required autocomplete="on"/>
                 <span class="glyphicon glyphicon-user form-control-feedback"></span>

@@ -1,11 +1,11 @@
-@import "../footer/footer.wxss";
+@import "../profile/template/act_template.wxss";
 
 .container {
   background-color: white;
 }
 
 .tab {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -19,8 +19,6 @@
   left: 123rpx;
   width: 508rpx;
   height: 64rpx;
-  border-radius: 15rpx;
-  border: solid 3rpx #e6b53c;
   font-size: 28rpx;
   color: #e6b53c;
   font-family: PingFangSC-Semibold;
@@ -31,6 +29,7 @@
   position: absolute;
   width: 254rpx;
   height: 64rpx;
+  line-height: 64rpx;
   vertical-align: middle;
   text-align: center;
 }
@@ -38,16 +37,15 @@
 .tab-item1 {
   left: 0;
   top: 0;
-  border-bottom-left-radius: 3rpx;
-  border-top-left-radius: 3rpx;
+  border-radius: 15rpx 0rpx 0rpx 15rpx;
+  border: solid 3rpx #e6b53c;
 }
 
 .tab-item2 {
   left: 254rpx;
   top: 0;
-  border-color: #e6b53c;
-  border-left-width: 3rpx;
-  border-left-style: solid;
+  border-radius: 0rpx 15rpx 15rpx 0rpx;
+  border: solid 3rpx #e6b53c;
 }
 
 .active {
@@ -74,12 +72,12 @@
   left: 34rpx;
   top: 12rpx;
 }
-
 .activities {
-  position: absolute;
+  position: fixed;
   left: 0;
   top: 100rpx;
   width: 100%;
+  bottom: 0rpx;
   background-color: #f4f4f4;
   color: #333;
 }
@@ -133,10 +131,11 @@
 
 .modal-title-image {
   position: absolute;
+  font-size: 32rpx;
   left: 30rpx;
   top: 33rpx;
   width: 45rpx;
-  height: 38rpx;
+  height: 34rpx;
 }
 
 .modal-title-text {
@@ -144,7 +143,7 @@
   width: auto;
   height: auto;
   padding-top: 31rpx;
-  padding-left: 194rpx;
+  padding-left: 255rpx;
   font-family: PingFangSC-Semibold;
   font-size: 30rpx;
   color: #333;
@@ -167,8 +166,6 @@
   left: 28rpx;
   width: 498rpx;
   height: 64rpx;
-  border-radius: 15rpx;
-  border: solid 3rpx #e6b53c;
   font-size: 28rpx;
   color: #e6b53c;
   font-family: PingFangSC-Semibold;
@@ -179,6 +176,7 @@
   position: absolute;
   width: 249rpx;
   height: 64rpx;
+  line-height: 64rpx;
   vertical-align: middle;
   text-align: center;
 }
@@ -186,16 +184,15 @@
 .modal-tab-item1 {
   left: 0;
   top: 0;
-  border-bottom-left-radius: 3rpx;
-  border-top-left-radius: 3rpx;
+  border-radius: 15rpx 0rpx 0rpx 15rpx;
+  border: solid 3rpx #e6b53c;
 }
 
 .modal-tab-item2 {
-  left: 245rpx;
+  left: 249rpx;
   top: 0;
-  border-color: #e6b53c;
-  border-left-width: 3rpx;
-  border-left-style: solid;
+  border-radius: 0rpx 15rpx 15rpx 0rpx;
+  border: solid 3rpx #e6b53c;
 }
 
 .modal-active {
@@ -229,7 +226,6 @@
 
 .modal-kind-view {
   width: 100%;
-  height: 200rpx;
 }
 
 .modal-kind-btn {
@@ -245,6 +241,7 @@
   font-size: 24rpx;
   color: #333;
   letter-spacing: 1.8rpx;
+  text-align: center;
 }
 .selected{
   width: 140rpx;
@@ -258,11 +255,8 @@
   letter-spacing: 1.8rpx;
 }
 .modal-actual-time {
-  position: absolute;
-  top: 910rpx;
-  left: 30rpx;
+  margin-top: 50rpx;
   width: 100%;
-  height: 80rpx;
   font-family: PingFangSC-Regular;
   font-size: 28rpx;
   color: #333;
@@ -270,13 +264,13 @@
 }
 
 .modal-start-time {
-  position: absolute;
+  display: inline-block;
+  margin-top: 30rpx;
+  margin-right: 20rpx;
   background-color: #e8e8e8;
   border-radius: 10rpx;
   width: 200rpx;
   height: 54rpx;
-  top: 990rpx;
-  left: 37rpx;
   text-align: center;
   font-family: PingFangSC-Regular;
   font-size: 24rpx;
@@ -286,24 +280,23 @@
 }
 
 .modal-end-time {
-  position: absolute;
-  width: 200rpx;
-  height: 54rpx;
-  top: 990rpx;
-  left: 313rpx;
-  line-height: 54rpx;
+  display: inline-block;
+  margin-top: 30rpx;
   background-color: #e8e8e8;
   border-radius: 10rpx;
+  width: 200rpx;
+  height: 54rpx;
   text-align: center;
   font-family: PingFangSC-Regular;
   font-size: 24rpx;
+  line-height: 54rpx;
   color: #333;
   letter-spacing: 1.8rpx;
 }
 .model-time-symbol {
-  position: absolute;
-  top: 1016rpx;
-  left: 254rpx;
+  display: inline-block;
+  margin-top: 20rpx;
+  margin-right: 20rpx;
   width: 40rpx;
   height: 3rpx;
   background-color: #e8e8e8;
@@ -314,7 +307,7 @@
   left: 200rpx;
   bottom: 0rpx;
   width: 275rpx;
-  height: 98rpx;
+  line-height: 98rpx;
   background-color: #fff;
   font-family: PingFangSC-Regular;
   font-size: 28rpx;
@@ -327,7 +320,7 @@
   bottom: 0rpx;
   left: 475rpx;
   width: 275rpx;
-  height: 98rpx;
+  line-height: 98rpx;
   font-family: PingFangSC-Regular;
   font-size: 28rpx;
   color: white;

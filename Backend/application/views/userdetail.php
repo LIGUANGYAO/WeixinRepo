@@ -6,8 +6,8 @@
         </h1>
     </section>
     <?php 
-        $userRole = ['无', '场馆主', '个人'];
-        $userState = ['未认证', '认证中', '认证通过', '认证未通过'];
+        $userRole = array('无', '场馆主', '个人');
+        $userState = array('未认证', '认证中', '认证通过', '认证未通过');
     ?>
     <section class="content">
         <div class="container">
@@ -50,13 +50,12 @@
             </div>
             <div class="row custom-info-row">
                 <label class="col-sm-2">场馆地址:</label>
-                <label class="col-sm-4" id="site_address"><?php echo $userDetail[0]->site_address; ?></label>
+                <label class="col-sm-4" id="site_address"><?php echo $userDetail[0]->province.$userDetail[0]->city.$userDetail[0]->area.$userDetail[0]->detail_address; ?></label>
             </div>
             <div class="row custom-info-row">
                 <label class="col-sm-2">营业执照照片:</label>
-            </div>
-            <div class="row custom-info-row">
-                <label class="col-sm-4" id="allow_pic"><?php echo $userDetail[0]->allow_pic; ?></label>
+                <img id="product_logo_image" src="<?php echo  base_url().'uploads/'.$userDetail[0]->allow_pic; ?>" class="online"
+                                 style="height: 200px; width:300px; padding: 20px; padding-bottom:2px;"">
             </div>
             <div class="row custom-info-row">
                 <label class="col-sm-2">身份证号:</label>
@@ -67,8 +66,10 @@
                 <label class="col-sm-2">身份证照:</label>
             </div>
             <div class="row custom-info-row">
-                <label class="col-sm-4" id="nickname"><?php echo $userDetail[0]->id_pic1; ?></label>
-                <label class="col-sm-4" id="nickname"><?php echo $userDetail[0]->id_pic1; ?></label>
+                <img id="product_logo_image" src="<?php echo   base_url().'uploads/'.$userDetail[0]->id_pic1; ?>" class="online"
+                                 style="height: 200px; width:300px; padding: 20px; padding-bottom:2px;"">
+                <img id="product_logo_image" src="<?php echo   base_url().'uploads/'.$userDetail[0]->id_pic2; ?>" class="online"
+                                 style="height: 200px; width:300px; padding: 20px; padding-bottom:2px;"">
             </div>
            <?php
                 }
@@ -159,6 +160,6 @@
 
 
 <!-- Course Management JS-->
-<script type="text/javascript" src="<?php echo base_url(); ?>index.php/assets/js/shop.js" charset="utf-8"></script>
-<script type="text/javascript" src="<?php echo base_url(); ?>index.php/assets/js/jquery.qrcode.js" charset="utf-8"></script>
-<script type="text/javascript" src="<?php echo base_url(); ?>index.php/assets/js/qrcode.js" charset="utf-8"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/js/shop.js" charset="utf-8"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery.qrcode.js" charset="utf-8"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/js/qrcode.js" charset="utf-8"></script>

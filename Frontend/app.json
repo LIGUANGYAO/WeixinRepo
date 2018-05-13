@@ -20,13 +20,10 @@
     "pages/profile/my_membership/my_membership",
     "pages/profile/my_focus/my_focus",
     "pages/profile/auth/auth",
-    "pages/profile/auth/auth_text",
     "pages/profile/delivery/delivery",
     "pages/profile/delivery/editdelivery",
     "pages/profile/register_stadium/register_stadium",
     "pages/activity/activity",
-    "pages/activity/detail_event/detail_event",
-    "pages/activity/personal_input/personal_input",
     "pages/backyard/backyard",
     "pages/backyard/mainbeeshop/mainbeeshop",
     "pages/backyard/product_detail/product_detail",
@@ -38,13 +35,50 @@
     "pages/other/evaluation/evaluation",
     "pages/other/comment/comment",
     "pages/other/create_event/create_event",
-    "pages/other/select_location/select_location",
-    "pages/profile/auth/auth-text/auth_text"
+    "pages/other/create_event/createfirst",
+    "pages/profile/auth/auth-text/auth_text",
+    "pages/index/detail_event/detail_event1"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#222222",
+    "navigationBarBackgroundColor": "#ffffff",
     "navigationBarTitleText": "蜂体",
-    "navigationBarTextStyle": "white"
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "backgroundColor": "#FBFBFB",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "蜂巢",
+        "iconPath": "image/Home_n@2x.png",
+        "selectedIconPath": "image/Home_s@2x.png"
+      },
+      {
+        "pagePath": "pages/activity/activity",
+        "text": "活动",
+        "iconPath": "image/activity_n@2x.png",
+        "selectedIconPath": "image/activity_s@2x.png"
+      },
+      {
+        "pagePath": "pages/other/create_event/createfirst",
+        "text": "发布",
+        "iconPath": "image/add@2x.png",
+        "selectedIconPath": "image/add@2x.png"
+      },
+      {
+        "pagePath": "pages/backyard/backyard",
+        "text": "后花园",
+        "iconPath": "image/garden_n@2x.png",
+        "selectedIconPath": "image/garden_s@2x.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我的",
+        "iconPath": "image/my_n@2x.png",
+        "selectedIconPath": "image/my_s@2x.png"
+      }
+    ]
   }
 }

@@ -4,49 +4,21 @@
  */
 
 // Code included inside $( document ).ready() will only run once the page Document Object Model (DOM) is ready for JavaScript code to execute
-var tree_data = [];
+var tree_data;
 
 $(document).ready(function () {
-    loadingRoleData();
-
-    $('#show-values').on('click', function(){
-        $('#values').text(
-            $('#treeview-container').treeview('selectedValues')
-        );
+    $("div input").on('change', function(object)
+    {
+        console.log(object.currentTarget.id);
+        if(object.currentTarget.checked){
+            tree_data[object.currentTarget.id] = 1;
+        }
+        else{
+            tree_data[object.currentTarget.id] = 0;
+        }
     });
-    showList();
 });
 
-function showList() {
-    $.ajax({
-        type: 'POST',
-        url: baseURL + 'systemmanage/item_listing',
-        dataType: 'json',
-        data:{ id : 1 },
-        success: function(res){
-            if (res.status == 'success') {
-                $('#header_tbl').html(res.header);
-                $('#content_tbl').html(res.content);
-                $('#footer_tbl').html(res.footer);
-                //executionPageNation();
-            } else {
-                // alert('search failed!');
-                console.log(res.data);
-            }
-        }
-    });
-}
-
-function loadingRoleData(){
-    $.ajax({
-        type: 'POST',
-        url: baseURL + 'systemmanage/roleInfos',
-        dataType: 'json',
-        success: function(data){
-            tree_data = data;
-        }
-    });
-}
 
 function makeContent(data){
     var content_html = '';
@@ -73,30 +45,117 @@ function confirmDelete(id) {
     $('#custom-confirm-delete-view').show();
 }
 
+function hideRoleEdit()
+{
+    $('#custom-generate-auth-view').hide();
+}
+
 function showRoleEdit(roleId) {
     $('#roleId').html(roleId);
+    $.ajax({
+        type: 'POST',
+        url: baseURL + 'systemmanage/roleInfos',
+        dataType: 'json',
+        data:{
+            id: roleId
+        },
+        success: function(data){
+            tree_data = JSON.parse(data.result[0].permission);
+            console.log(tree_data);
+            if(tree_data.p_10==1){
+                $("#p_10").attr('checked', true);
+            }
+            else{
+                $("#p_10").attr('checked', false);
+            }
+            if(tree_data.p_20==1){
+                $("#p_20").attr('checked', true);
+            }
+            else{
+                $("#p_20").attr('checked', false);
+            }
+            if(tree_data.p_30==1){
+                $("#p_30").attr('checked', true);
+                console.log("here");
+            }
+            else{
+                $("#p_30").attr('checked', false);
+            }
+            if(tree_data.p_40==1){
+                $("#p_40").attr('checked', true);
+            }
+            else{
+                $("#p_40").attr('checked', false);
+            }
+            if(tree_data.p_50==1){
+                $("#p_50").attr('checked', true);
+            }
+            else{
+                $("#p_50").attr('checked', false);
+            }
+            if(tree_data.p_60==1){
+                $("#p_60").attr('checked', true);
+            }
+            else{
+                $("#p_60").attr('checked', false);
+            }
+            if(tree_data.p_70==1){
+                $("#p_70").attr('checked', true);
+            }
+            else{
+                $("#p_70").attr('checked', false);
+            }
+            if(tree_data.p_80==1){
+                $("#p_80").attr('checked', true);
+            }
+            else{
+                $("#p_80").attr('checked', false);
+            }
+            if(tree_data.p_90==1){
+                $("#p_90").attr('checked', true);
+            }
+            else{
+                $("#p_90").attr('checked', false);
+            }
+            if(tree_data.p_100==1){
+                $("#p_100").attr('checked', true);
+            }
+            else{
+                $("#p_100").attr('checked', false);
+            }
+            if(tree_data.p_110==1){
+                $("#p_110").attr('checked', true);
+            }
+            else{
+                $("#p_110").attr('checked', false);
+            }
+            if(tree_data.p_120==1){
+                $("#p_120").attr('checked', true);
+            }
+            else{
+                $("#p_120").attr('checked', false);
+            }
+        }
+    });
     $('#custom-generate-auth-view').show();
 }
 
-function updateRole(url, role) {
+function updateRole(url) {
     var roleId = $('#roleId').html();
-    var permission =  $('#treeview-container').treeview('selectedValues');
-    $('#custom-generate-auth-view').hide();
-
-    $('#permission' + roleId).html(JSON.stringify(permission));
+    console.log(JSON.stringify(tree_data));
+    console.log(roleId);
     $.ajax({
         type: 'POST',
         url: url + 'systemmanage/updateRole',
         dataType: 'json',
         data: {
             'id': roleId,
-            'permission': JSON.stringify(permission)
+            'permission': JSON.stringify(tree_data)
         },
         success: function (data, textStatus, jqXHR) {
             console.log(data);
-            if (data['status']) {
-                if(role == roleId) location.href = url+'logout';
-                else location.reload();
+            if (data.status) {
+                location.reload();
             }
         },
         error: function (jqXHR, textStatus, errorThrown) {

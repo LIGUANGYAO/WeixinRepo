@@ -1,16 +1,15 @@
 .activity {
   margin-top: 20rpx;
+  padding-bottom: 5rpx;
   background-color: white;
   width: 100%;
-  height: 302rpx;
-  border-bottom: 2rpx solid #f4f4f4;
+  height: auto;
+  border-bottom: 3rpx solid #f4f4f4;
 }
 
 .activity-bar {
   padding-left: 30rpx;
-  padding-top: 15rpx;
-  height: 52rpx;
-  border-bottom: solid 3rpx #f4f4f4;
+  line-height: 60rpx;
   font-size: 26rpx;
   font-family: "PingFangSC-Semibold";
 }
@@ -21,8 +20,7 @@
 }
 
 .activity-detail {
-  height: 234rpx;
-  border-bottom: solid 3rpx #f4f4f4;
+  height: auto;
   padding-top: 20rpx;
   padding-left: 30rpx;
 }
@@ -33,11 +31,12 @@
   height: 100rpx;
 }
 .activity-role{
-  margin-left: 20rpx;
-  display: inline-block;
+  margin-left: 120rpx;
 }
 .activity-name {
   font-size: 32rpx;
+  display: inline-block;
+  vertical-align: top;
 }
 
 .activity-role-text{
@@ -47,19 +46,22 @@
   border-radius: 10rpx;
   color: #E6B53C;
   font-size: 24rpx;
+  display: inline-block;
+  vertical-align: top;
 }
 
 
 .activity-content {
+  margin-top: 10rpx;
   height: 36rpx;
   font-size: 26rpx;
   margin-left: 120rpx;
-  margin-top: 18rpx;
   font-family: "PingFangSC-Regular";
 }
 
 .activity-content image {
   vertical-align: bottom;
+  margin-right: 10rpx;
 }
 
 .activity-type {
@@ -80,13 +82,25 @@
 }
 
 .activity-time {
-  margin-top: 20rpx;
+  margin-top: 30rpx;
   display: block;
   font-size: 26rpx;
   font-family: "PingFangSC-Regular";
 }
 
 .activity-address {
+  display: inline-block;
+  float: left;
+  width: 10%;
+  margin-top: 10rpx;
+  font-size: 26rpx;
+  font-family: "PingFangSC-Regular";
+}
+
+.activity-address1 {
+  vertical-align: top;
+  width: 80%;
+  display: inline-block;
   margin-top: 10rpx;
   font-size: 26rpx;
   font-family: "PingFangSC-Regular";

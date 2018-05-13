@@ -7,13 +7,23 @@ Page({
    * 页面的初始数据
    */
   data: {
-    address:[]
+    address:[],
+    isback: 0,
+    id: 0,
+    showModal1: 0,
+    deleteid: 0
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    if(options.kind == 'beebuy')
+    {
+      console.log("ok")
+      this.data.id = options.id
+      this.data.isback = 1
+    }
     this.getData();  
   },
   getData: function()
@@ -29,9 +39,16 @@ Page({
         'user_id': app.globalData.userInfo.user_id
       },
       success: function (res) {
-        that.setData({
-          address: res.data.result
-        });
+        if(res.data.result!=null){
+          var temparray = res.data.result
+          for(var iter = 0; iter < temparray.length; iter ++)
+          {
+            temparray[iter].showphone = temparray[iter].phone.slice(0, 3) + "*****" + temparray[iter].phone.slice(8, 11)
+          }
+          that.setData({
+            address: temparray
+          });
+        }
       },
       fail: function (res) {
       }
@@ -39,8 +56,8 @@ Page({
   },
   checkMainAddress:function(event){
     var that = this;
-    var id = event.target.id;
-    var address_buf = that.data.address;
+    var id=event.currentTarget.id;
+    var address_buf=that.data.address;
     var no = address_buf[id].no;
     wx.request({
       url:app.globalData.mainURL+"api/checkAcceptAddress",
@@ -55,9 +72,10 @@ Page({
       success:function(res){
       }
     })
-    for(var index = 0; index<address_buf.length; index++)
+
+    for(var index=0; index<address_buf.length; index++)
     {
-      if(index == id) 
+      if(index==id) 
       {
         address_buf[index].state = 1
       }
@@ -69,68 +87,48 @@ Page({
     that.setData({
       address:address_buf
     })
-  },
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
     
   },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
   
-  },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-  
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-  
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-  
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-  
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-  
-  },
   on_click_edit: function(e)
   {
-    var id = e.target.id;
+    var id = e.currentTarget.id;
     var address = this.data.address[id]
+    console.log(address)
     wx.navigateTo({
       url: 'editdelivery?no='+address.no+'&name='+address.name+'&phone='
-      +address.phone+'&address='+address.address+'&email='+address.email,
+      + address.phone + '&detail_address=' + address.detail_address + '&province=' + address.province + '&city=' + address.city + '&area=' + address.area + '&email=' + address.email + '&pid=' + address.province_id + '&cid=' + address.city_id + '&aid=' + address.area_id,
     })
   },
   on_click_delete: function(e)
   {
     var that = this;
-    var id = e.target.id;
+    that.data.deleteid = e.currentTarget.id;
+    this.setData({
+      showModal1: true
+    });
+  },
+  on_click_new: function(event){
+    var that = this
+    if(that.data.isback == 1)
+    {
+      wx.navigateTo({
+        url: 'editdelivery?kind=' + 'edit&id=' + that.data.id
+      })
+    }
+    else{
+      wx.navigateTo({
+        url: 'editdelivery?no=' + '0'
+      })
+    }
+  },
+  onCancel1: function () {
+    this.setData({
+      showModal1: false
+    });
+  },
+  onConfirm1: function (id) {
+    var that = this
     wx.request({
       url: app.globalData.mainURL+'api/deleteAcceptAddress',
       method: 'POST',
@@ -138,20 +136,30 @@ Page({
         'content-type': 'application/json'
       },
       data:{
-        'address_id': id,
+        'address_id': that.data.deleteid,
         'user_id': app.globalData.userInfo.user_id
       },
       success: function(res)
       {
-        that.setData({
-          address: res.data.result
-        })
+        if(res.data.status == false)
+        {
+          that.setData({
+            address: []
+          })
+        }
+        else{
+          var temparray = res.data.result
+          for (var iter = 0; iter < temparray.length; iter++) {
+            temparray[iter].showphone = temparray[iter].phone.slice(0, 3) + "*****" + temparray[iter].phone.slice(8, 11)
+          }
+          that.setData({
+            address: temparray
+          })
+        }
       }
     })
+    this.setData({
+      showModal1: false
+    });
   },
-  on_click_new: function(event){
-    wx.navigateTo({
-      url: 'editdelivery?no='+ '0'
-    })
-  }
 })

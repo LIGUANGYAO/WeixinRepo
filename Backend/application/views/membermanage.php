@@ -2,7 +2,7 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
         <h1>
-            兑换订单列表
+            会员购买订单
         </h1>
         <input id="pageTitle" value="<?php echo $pageTitle ?>" type="hidden">
     </section>
@@ -10,7 +10,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
-                    <form action="<?php echo base_url(); ?>index.php/memberListingByFilter" method="POST" id="searchList">
+                    <form action="<?php echo base_url(); ?>memberListingByFilter" method="POST" id="searchList">
                         <div class="col-xs-12 col-sm-5 form-inline">
                             <div class="form-group">
                                 <select class="form-control" id="searchStatus" name="searchStatus">
@@ -69,9 +69,15 @@
                         if (!empty($memberList)) {
                             $i = 0;
                             foreach ($memberList as $record) {
+                                $no = "";
+                                for($index = 0; $index < (10 - strlen($record->no."")); $index++)
+                                    $no = $no."0";
+                                $no = $no.$record->no;
+
+
                                 ?>
                                 <tr>
-                                    <td><?php echo $record->no; ?></td>
+                                    <td><?php echo $no; ?></td>
                                     <td><?php echo $record->name; ?></td>
                                     <td><?php echo $record->phone; ?></td>
                                     <td><?php echo $record->cost; ?></td>
@@ -90,4 +96,4 @@
         </div>
     </section>
 </div>
-<script type="text/javascript" src="<?php echo base_url(); ?>index.php/assets/js/common.js" charset="utf-8"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/js/common.js" charset="utf-8"></script>

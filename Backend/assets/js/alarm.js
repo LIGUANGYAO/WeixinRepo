@@ -5,12 +5,6 @@
 
 // Code included inside $( document ).ready() will only run once the page Document Object Model (DOM) is ready for JavaScript code to execute
 $(document).ready(function () {
-    $('#selectAll').on('change',function(){
-        $('.alarm-select').each(function(object){
-            console.log(object);
-            object.checked = true;
-        });
-    });
 });
 
 function readAlarm(id, url)

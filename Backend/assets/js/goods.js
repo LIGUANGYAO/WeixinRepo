@@ -37,11 +37,11 @@ function confirmUpDown(id, state) {
     $('#goodId').html(id);
     if(state==1)
     {
-        $("#caption").text("确定要上架？");
+        $("#caption").text("确定要下架？");
     }
     else
     {
-        $("#caption").text("确定要下架？");
+        $("#caption").text("确定要上架？");
     }
     $('#custom-generate-auth-view').show();
 }

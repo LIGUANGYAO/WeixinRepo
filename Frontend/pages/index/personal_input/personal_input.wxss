@@ -1,3 +1,12 @@
+.container {
+  position: fixed;
+  left: 0;
+  top: 0rpx;
+  width: 100vw;
+  bottom: 100rpx;
+  background-color: #f4f4f4;
+  color: #333;
+}
 .userinfo {
   width: 100%;
   height: 220rpx;
@@ -33,9 +42,8 @@
 }
 
 .add-info-title {
-  padding-top: 20rpx;
+  line-height: 88rpx;
   width: 100%;
-  height: 68rpx;
 }
 
 .add-info-text {
@@ -49,68 +57,59 @@
 
 .real-name-view {
   width: 100%;
-  height: 68rpx;
+  line-height: 88rpx;
   font-family: PingFangSC-Regular;
   font-size: 30rpx;
   color: #333;
   letter-spacing: 0.64rpx;
 }
 
-.real-name-text {
-}
 
 .real-name-input {
   margin-left: 20rpx;
   width: auto;
   display: inline-block;
+  vertical-align: middle;
 }
 
 .real-phone-view {
   width: 100%;
-  height: 68rpx;
+  line-height: 88rpx;
   font-family: PingFangSC-Regular;
   font-size: 30rpx;
   color: #333;
   letter-spacing: 0.64rpx;
 }
-
-.real-phone-text {
-}
-
 .real-phone-input {
   margin-left: 20rpx;
   width: auto;
   display: inline-block;
+  vertical-align: middle;
 }
 
 .mem-count-view {
   width: 100%;
-  height: 68rpx;
+  line-height: 88rpx;
   font-family: PingFangSC-Regular;
   font-size: 30rpx;
   color: #333;
   letter-spacing: 0.64rpx;
-}
-
-.mem-count-text {
 }
 
 .mem-count-input {
   margin-left: 20rpx;
   width: auto;
   display: inline-block;
+  vertical-align: middle;
 }
 
 .cost-view {
   width: 100%;
-  height: 68rpx;
+  line-height: 88rpx;
   font-family: PingFangSC-Regular;
   font-size: 30rpx;
   color: #333;
   letter-spacing: 0.64rpx;
-}
-
-.cost-text {
 }
 
 .cost-input {
@@ -121,12 +120,23 @@
 
 .cost-way-view {
   width: calc(100% - 30rpx);
-  height: 68rpx;
+  line-height: 88rpx;
   margin-top: 20rpx;
   padding-left: 30rpx;
-  padding-top: 20rpx;
   background-color: white;
   font-size: 28rpx;
+}
+
+.pay-way-radio
+{
+  display: inline-block;
+  line-height: 68rpx;
+  font-size: 28rpx;
+}
+.pay-way-radio radio
+{
+  transform:scale(0.6);
+  margin-left: 30rpx;
 }
 
 .cost-way {
@@ -148,8 +158,7 @@
 .event-info-view view {
   padding-left: 30rpx;
   display: block;
-  height: 58rpx;
-  margin-top: 20rpx;
+  height: auto;
   font-family: PingFangSC-Regular;
   font-size: 30rpx;
   color: #333;
@@ -158,6 +167,7 @@
 
 .event-info-border-view {
   width: auto;
+  line-height: 88rpx;
   padding-top: 20rpx;
 }
 
@@ -175,10 +185,20 @@
   position: fixed;
   bottom: 0rpx;
   width: 100%;
-  height: 100rpx;
+  line-height: 100rpx;
   background-color: #e6b53c;
   color: white;
   font-family: PingFangSC-Semibold;
   font-size: 32rpx;
   letter-spacing: 1.54rpx;
+}
+.detail_address{
+  width: 20%;
+  display: inline-block;
+  float: left;
+}
+.detail_address1{
+  width: 78%;
+  display: inline-block;
+  vertical-align: top;
 }

@@ -46,9 +46,8 @@ class goods_model extends CI_Model
      */
     function getGoodDetail($goodId)
     {
-        $this->db->select("avatar, name, cost, id, amount, comment");
+        $this->db->select("avatar, name,pic, cost, id, amount, comment");
         $this->db->from("goods");
-        $this->db->where("state", 1);
         $this->db->where("isDeleted", 0);
         $this->db->where("id", $goodId);
         $query = $this->db->get();
@@ -91,6 +90,7 @@ class goods_model extends CI_Model
             $this->db->like('state', $searchState);
         }
         $this->db->where("isDeleted", 0);
+        $this->db->order_by("goods.add_time", "desc");
         $this->db->limit($page, $segment);
         $query = $this->db->get();
         return $query->result();
@@ -101,9 +101,9 @@ class goods_model extends CI_Model
      * @param array $goodsInfo : This is goodss updated information
      * @param number $goodsId : This is goods id
      */
-    function editgoods($goodsInfo, $goodsId)
+    function editgoods($goodsId, $goodsInfo)
     {
-        $this->db->where('goodsId', $goodsId);
+        $this->db->where('id', $goodsId);
         $this->db->update('goods', $goodsInfo);
 
         return TRUE;

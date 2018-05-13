@@ -30,70 +30,32 @@ Page({
           that.setData({
             favourite: fav_buf
           })
-          console.log(fav_buf)
         }
       }
     })
   },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-  
+  phone_call: function (res) {
+    var that = this
+    wx.makePhoneCall({
+      phoneNumber: that.data.favourite[res.currentTarget.id].phone,
+      complete: function () {
+        return
+      }
+    })
   },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-  
-  },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-  
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-  
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-  
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-  
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
   onShareAppMessage: function () {
   
   },
   btn_Clicked_Focus: function(event)
   {
     var that = this;
-    console.log(event.currentTarget);
     wx.navigateTo({
       url: '../../index/detail_gym/detail_gym?id=' + that.data.favourite[event.currentTarget.id].boss_id,
       success: function(res) {},
       fail: function(res) {},
       complete: function(res) {},
     })
+    var a=new Array();
   },
   on_cancel: function(event)
   {
@@ -105,18 +67,13 @@ Page({
       },
       method: 'POST',
       data:{
-        'boss_id': that.data.favourite[event.target.id].boss_id,
+        'boss_id': that.data.favourite[event.currentTarget.id].boss_id,
         'user_id': app.globalData.userInfo.user_id
       },
       success:function(res){
-        console.log(res);
-        if(res.data.status == true)
-        {
-          var fav_buf = that.data.favourite.pop(e.target.id);
-          that.setData({
-            favourite: fav_buf,
-          })
-        }
+        wx.redirectTo({
+          url: './my_focus'
+        })
       }
     })
   }
