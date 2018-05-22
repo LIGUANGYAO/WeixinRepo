@@ -114,7 +114,8 @@
                                     <td><?php echo ($record->reg_num * $record->cost); ?></td>
                                     <td><?php echo $record->event_name; ?></td>
                                     <td><?php echo $eventType[$record->type]; ?></td>
-                                    <td><?php echo current($creation_name)->creation_name; ?></td>
+                            	    <td><?php echo $this->user_model->getUsernameById($record->organizer_id)->name; ?></td>
+<!--                                    <td><?php echo current($creation_name)->creation_name; ?></td> -->
                                     <td><?php echo $bookingState[$record->state]; ?></td>
                                     <td><?php echo $record->submit_time; ?></td>
                                     <td class="text-center">

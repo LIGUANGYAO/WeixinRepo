@@ -37,17 +37,20 @@
     "pages/other/create_event/create_event",
     "pages/other/create_event/createfirst",
     "pages/profile/auth/auth-text/auth_text",
-    "pages/index/detail_event/detail_event1"
+    "pages/index/detail_event/detail_event1",
+    "pages/test/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#ffffff",
-    "navigationBarTitleText": "蜂体",
+    "navigationBarTitleText": "蜂去吧",
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
     "backgroundColor": "#FBFBFB",
     "borderStyle": "white",
+    "color": "#888888",
+    "selectedColor": "#472e00",
     "list": [
       {
         "pagePath": "pages/index/index",

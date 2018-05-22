@@ -9,7 +9,7 @@ class event_model extends CI_Model
      */
     function eventListingCount($searchStatus = null , $searchText = '', $searchType, $searchRole, $searchState)
     {
-        $query = "select event.id, event.name, event.type, event.state, event.reg_time,
+        $query = "select event.id, event.name, event.type, event.state, event.reg_time, event.agent_name, 
                     user.nickname, user.phone, user.role from event, `user` where event.organizer_id = user.no";
         if($searchRole != 10){
             $query = $query." and user.role = " . $searchRole ;
@@ -25,7 +25,7 @@ class event_model extends CI_Model
                 if ($searchStatus == '0') {
                     $query = $query." and (event.name LIKE '%" . $searchText . "%')";
                 } else if ($searchStatus == '1') {
-                    $query = $query." and (user.nickname LIKE '%" . $searchText . "%')";
+                    $query = $query." and (event.agent_name LIKE '%" . $searchText . "%')";
                 } else {
                     $query = $query." and (user.phone LIKE '%" . $searchText . "%')";
                 }
@@ -45,7 +45,7 @@ class event_model extends CI_Model
      */
     function eventListing($searchStatus = null, $searchText = '', $searchType, $searchRole, $searchState, $page, $segment)
     {
-        $query = "select event.id, event.name, event.type, event.state, event.reg_time,
+        $query = "select event.id, event.name, event.type, event.state, event.reg_time, event.agent_name, 
                     user.nickname, user.phone, user.role from event, `user` where event.organizer_id = user.no";
         if($searchRole != 10){
             $query = $query." and user.role = " . $searchRole ;
@@ -61,7 +61,7 @@ class event_model extends CI_Model
                 if ($searchStatus == '0') {
                     $query = $query." and (event.name LIKE '%" . $searchText . "%')";
                 } else if ($searchStatus == '1') {
-                    $query = $query." and (user.nickname LIKE '%" . $searchText . "%')";
+                    $query = $query." and (event.agent_name LIKE '%" . $searchText . "%')";
                 } else {
                     $query = $query." and (user.phone LIKE '%" . $searchText . "%')";
                 }

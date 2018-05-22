@@ -74,6 +74,7 @@ class login extends CI_Controller
                     );
 
                     $this->session->set_userdata($sessionArray);
+                    $this->session->set_userdata('search_infos',array());
                     if ($res->roleId == '1')
                         redirect('/usermanage');
                     else

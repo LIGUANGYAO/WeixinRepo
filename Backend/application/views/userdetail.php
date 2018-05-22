@@ -20,7 +20,7 @@
                 <label class="col-sm-4" id="nickname"><?php echo $userDetail[0]->nickname; ?></label>
             </div>
            <?php
-                if($userDetail[0]->role == 2  && $userDetail[0]->state == 2){
+                if($userDetail[0]->role == 2){
             ?>
             <div class="row custom-info-row">
                 <label class="col-sm-2">真实姓名:</label>
@@ -34,7 +34,7 @@
                 }
             ?>
            <?php
-                if($userDetail[0]->role == 1 && $userDetail[0]->state == 2){
+                if($userDetail[0]->role == 1){
             ?>
             <div class="row custom-info-row">
                 <label class="col-sm-2">场馆名称:</label>
@@ -135,7 +135,7 @@
                                 <td>创建活动</td>
                                 <td><?php echo $element->value;?></td>
                                 <td><?php echo $element->reg_time;?></td>
-                                <td><a href="<?php echo base_url().'eventDetail/'.$element->no;?>">查看后动</a></td>
+                                <td><a href="<?php echo base_url().'eventDetail/'.$element->no;?>">查看活动</a></td>
                             </tr>
                             <?php
                                     }

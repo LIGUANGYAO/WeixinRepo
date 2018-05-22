@@ -21,8 +21,20 @@ Page({
       score: 4.3,
       srcImage: '',
     }
+  }, 
+  onLoad: function (option) {
+    var that = this;
+    if (app.globalData.userInfo.user_id == 0) {
+      app.onLaunch();
+      setTimeout(function () {
+        that.onInitStart(option);
+      }, 4000);
+    } else {
+      that.onInitStart(option);
+    }
   },
-  onLoad: function (options) {
+  onInitStart: function (options) {
+
     this.setData({
       eventType: app.globalData.eventType,
       userRole: app.globalData.userRole,
@@ -142,5 +154,23 @@ Page({
       success: function (res) {
       }
     })
+  },
+  onShareAppMessage: function (res) {
+    console.log("SHARED")
+    if (res.from === 'button') {
+      console.log(res.target)
+    }
+    var that = this;
+    return {
+      title: that.data.site[0].site_name,// '../detail_gym/detail_gym?id='+ event.currentTarget.id,
+      path: '/pages/index/detail_gym/detail_gym?id=' + that.data.site[0].boss_id
+      + '&user_id=' + app.globalData.userInfo.user_id
+      + '&nickname=' + app.globalData.userInfo.nickname
+       + '&atype=1',
+      success: function (res) {
+      },
+      fail: function (res) {
+      }
+    }
   },
 })  

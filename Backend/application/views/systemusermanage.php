@@ -2,7 +2,7 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
         <h1>
-            用户列表
+            人员管理
         </h1>
     </section>
     <section class="content" style="min-height: 800px;">

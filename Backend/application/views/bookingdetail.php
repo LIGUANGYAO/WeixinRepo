@@ -48,7 +48,7 @@
             </div>
             <div class="row custom-info-row">
                 <label class="col-sm-2">真实姓名:</label>
-                <label class="col-sm-4" id="nickname"><?php echo $bookingDetail[0]->name; ?>人</label>
+                <label class="col-sm-4" id="nickname"><?php echo $bookingDetail[0]->userName; ?></label>
             </div>
             <div class="row custom-info-row">
                 <label class="col-sm-2">联系方式:</label>

@@ -26,7 +26,24 @@ class usermanage extends basecontroller
      */
     public function index()
     {
-        $this->userCollectListing(null, '');
+	$sData = $this->session->userdata('search_infos');
+	$searchType = null;
+	$searchName = '';
+	$searchRole = '10';
+	$searchState = '10';
+	$searchForbidden = '10';
+	$fromTime = '';
+	$toTime = '';
+	if ($sData) {
+	$searchType = $sData['searchType'];
+	$searchName = $sData['searchName'];
+	$searchRole = $sData['searchRole'];
+	$searchState = $sData['searchState'];
+	$searchForbidden = $sData['searchForbidden'];
+	$fromTime = $sData['fromTime'];
+	$toTime = $sData['toTime'];
+	}
+        $this->userCollectListing($searchType, $searchName, $searchRole, $searchState, $searchForbidden, $fromTime, $toTime);
     }
 
     /**
@@ -62,6 +79,15 @@ class usermanage extends basecontroller
         $searchForbidden = $this->input->post('searchForbidden');
         $fromTime = $this->input->post('fromTime');
         $toTime = $this->input->post('toTime');
+        $this->session->set_userdata('search_infos', array(
+        'searchType'=>$searchType,
+        'searchName'=>$searchName,
+        'searchRole'=>$searchRole,
+        'searchState'=>$searchState,
+        'searchForbidden'=>$searchForbidden,
+        'fromTime'=>$fromTime,
+        'toTime'=>$toTime
+        ));
         $this->userCollectListing($searchType, $searchName, $searchRole, $searchState, $searchForbidden, $fromTime, $toTime);
     }
 

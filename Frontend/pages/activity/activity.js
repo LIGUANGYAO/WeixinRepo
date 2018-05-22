@@ -31,7 +31,7 @@ Page({
   onLoad: function () {
   },
   onShow: function () {
-    var that = this;
+    var that = this; 
     that.data.active1 = "active"
     that.data.active2 = ""
     that.data.modal_active1 = "active"
@@ -154,7 +154,7 @@ Page({
   },
   click_detail_event: function (event) {
     wx.navigateTo({
-      url: '../index/detail_event/detail_event?id=' + event.currentTarget.id,
+      url: '../index/detail_event/detail_event?id=' + event.currentTarget.id
     })
   },
   click_cancel: function(){

@@ -65,6 +65,23 @@ Page({
     this.setData({
       nickname: app.globalData.userInfo.nickname,
     })
+    if (!app.globalData.userInfo.nickname) {
+      wx.showModal({
+        title: '获取用户信息失败',
+        content: '由于无法获取您的信息，所以您无法进行身份认证',
+        showCancel: false,
+        complete: function (res) {
+          wx.switchTab({
+            url: '../../profile/profile',
+            success: function () {
+              wx.showTabBar({
+              })
+            }
+          })
+        }
+      })
+      return;
+    }
     var _this = this
     if (method == null) {
       method = 'new'
@@ -298,6 +315,7 @@ Page({
           that.data.check_image = 1
           that.data.user.allow_pic = res.tempFilePaths[0];
           that.setData({ user: that.data.user })
+          console.log('########   UserId ################',app.globalData.userInfo.user_id);
           wx.uploadFile({
             url: app.globalData.mainURL + 'api/addAllowPic',
             filePath: res.tempFilePaths[0],
@@ -305,7 +323,8 @@ Page({
             formData: {
               'user_id': app.globalData.userInfo.user_id,
             },
-            success: function () {
+            success: function (res) {              
+              console.log(res);
             }
           })
         },

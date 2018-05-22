@@ -23,6 +23,23 @@ Page({
     })
     var id = param.id;
     this.setData({ btnstr: this.data.btnstrarray[1] })
+    if(!app.globalData.userInfo.user_id){
+      wx.showModal({
+        title: '获取用户信息失败',
+        content:'由于无法获取您的信息，所以您无法使用参加活动等功能',
+        showCancel: false,
+        complete: function (res) {
+          wx.switchTab({
+            url: '../../activity/activity',
+            success: function () {
+              wx.showTabBar({
+              })
+            }
+          })
+        }
+      })
+      return;
+    }
     wx.request({
       url: app.globalData.mainURL + 'api/getEventDetail',
       method: 'POST',
@@ -40,19 +57,17 @@ Page({
         event_buf.start_time = time[0] + ':' + time[1];
         time = event_buf.end_time.split(':');
         event_buf.end_time = time[0] + ':' + time[1];
-        if(res.data.result[0].current_member == null)
+        if (res.data.result[0].current_member == null)
           that.data.register_num = 0
         else
           that.data.register_num = res.data.result[0].current_member
-        if(event_buf.start_time == undefined)
-        {
+        if (event_buf.start_time == undefined) {
           event_buf.start_time = ""
         }
         if (event_buf.end_time == undefined) {
           event_buf.end_time = ""
         }
-        if (event_buf.province == "NaN" || event_buf.city == 'NaN' || event_buf.area == 'NaN' || event_buf.detail_address == 'NaN')
-        {
+        if (event_buf.province == "NaN" || event_buf.city == 'NaN' || event_buf.area == 'NaN' || event_buf.detail_address == 'NaN') {
           event_buf.province = ''
           event_buf.city = ' '
           event_buf.area = ' '
@@ -74,19 +89,17 @@ Page({
   },
   on_Input_Memcount: function (event) {
     this.setData({ memcount: event.detail.value });
-    var cost = ( 1 * event.detail.value) * (1 * this.data.event.cost)
-    if(cost == 0)
-    {
-      this.setData({total_cost: 0})
+    var cost = (1 * event.detail.value) * (1 * this.data.event.cost)
+    if (cost == 0) {
+      this.setData({ total_cost: 0 })
     }
-    else{
+    else {
       this.setData({ total_cost: cost.toFixed(2) })
     }
   },
   on_Btn_OK: function () {
     var x = 0
-    if (this.data.realname.length == 0)
-    {
+    if (this.data.realname.length == 0) {
       x++
       wx.showToast({
         title: '请填写真实姓名',
@@ -102,8 +115,7 @@ Page({
       })
       return
     }
-    if (this.data.phonenumber.length == 0)
-    {
+    if (this.data.phonenumber.length == 0) {
       x++
       wx.showToast({
         title: '请填写手机号码',
@@ -136,16 +148,15 @@ Page({
       return
     }
     if (this.data.isfirstbtn == 1) return;
-    else if (this.data.isfirstbtn == 0)
-    {
+    else if (this.data.isfirstbtn == 0) {
       this.data.isfirstbtn = 1
     }
     if (x == 0 && this.data.event.role != 2) {
       var that = this
-      if (that.data.pay_type == 1 && that.data.event.cost !=0) {
+      if (that.data.pay_type == 1 && that.data.event.cost != 0) {
         console.log(that.data.event.cost)
-        var ordercode = that.data.event.cost*1*that.data.memcount;
-        var out_trade_no = app.globalData.mch_id + Date.now()
+        var ordercode = that.data.event.cost * 1 * that.data.memcount;
+        var out_trade_no = app.globalData.mch_id + Date.now() + (10000 + Math.floor(Math.random() * 90000))
         console.log(ordercode)
         wx.login({
           success: function (res) {
@@ -189,8 +200,8 @@ Page({
                             name: that.data.realname,
                           },
                           success: function (res) {
-                            wx.navigateTo({
-                              url: '../../profile/final_cancel/final_cancel?type=2',
+                            wx.redirectTo({
+                              url: '../../profile/final_cancel/final_cancel?type=2'
                             })
                           }
                         })
@@ -227,7 +238,7 @@ Page({
             name: that.data.realname,
           },
           success: function (res) {
-            wx.navigateTo({
+            wx.redirectTo({
               url: '../../profile/final_cancel/final_cancel?type=2',
               success: function () {
                 that.data.isfirstbtn = 0
@@ -255,7 +266,7 @@ Page({
           pay_type: 0,
         },
         success: function (res) {
-          wx.navigateTo({
+          wx.redirectTo({
             url: '../../profile/final_cancel/final_cancel?type=2',
             success: function () {
               that.data.isfirstbtn = 0

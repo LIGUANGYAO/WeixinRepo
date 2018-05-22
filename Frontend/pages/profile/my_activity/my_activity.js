@@ -170,21 +170,23 @@ Page({
               event_id: that.data.events[index].id
             },
             success: function (res) {
-
               var event = that.data.events
               event[index].state = 2
               that.setData({
                 events: event
               })
+
+              wx.redirectTo({
+                url: '../final_cancel/final_cancel?type=1',
+                success: function (res) { 
+                  var ret = res;
+                },
+                fail: function (res) { },
+                complete: function (res) { },
+              })
             }
           })
 
-          wx.navigateTo({
-            url: '../final_cancel/final_cancel?type=1',
-            success: function (res) { },
-            fail: function (res) { },
-            complete: function (res) { },
-          })
         } else if (res.cancel) {
         }
       }

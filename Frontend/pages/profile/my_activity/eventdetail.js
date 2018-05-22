@@ -177,7 +177,7 @@ Page({
             success: function (res) {
             }
           })
-          wx.navigateTo({
+          wx.redirectTo({
             url: '../final_cancel/final_cancel?type=1',
             success: function (res) { },
             fail: function (res) { },

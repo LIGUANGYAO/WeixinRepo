@@ -94,7 +94,7 @@
                                 <tr>
                                     <td><?php echo $record->name; ?></td>
                                     <td><?php echo $eventType[($record->type)]; ?></td>
-                                    <td><?php echo $record->nickname; ?></td>
+                                    <td><?php echo $record->agent_name; ?></td>
                                     <td><?php echo $record->phone; ?></td>
                                     <td><?php echo $eventRole[$record->role]; ?></td>
                                     <td><?php echo $eventState[$record->state]; ?></td>

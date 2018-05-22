@@ -23,12 +23,22 @@ Page({
     btn_text:'立即参加',
     rating: 0,
     rating_amount: 0,
-  },
+  }, 
   onLoad: function (option) {
+    var that = this;
+    if (app.globalData.userInfo.user_id == 0) {
+      app.onLaunch();
+      setTimeout(function () {
+        that.onInitStart(option);
+      }, 4000);
+    } else {
+      that.onInitStart(option);
+    }
+  },
+  onInitStart: function (option) {
     wx.showLoading({
       title: '加载中',
     })
-
     setTimeout(function () {
       wx.hideLoading()
     }, 2000)
@@ -38,7 +48,7 @@ Page({
       userRole: app.globalData.userRole,
       eventState: app.globalData.eventState
     });
-    var id = option.id;
+    var id = option.id;    
     var that = this;
     wx.request({
       url: app.globalData.mainURL + 'api/getEventDetail',
@@ -82,7 +92,7 @@ Page({
           }
         }
         that.setData({
-          register_amount: registered_num
+          register_amount: registered_num,          
         })
         if(registered_num >= res.data.result[0].limit && that.data.btn_text == '立即参加')
         {
@@ -124,7 +134,16 @@ Page({
           event: event_buf,
           id: id
         });
-        
+        if (res.data.result[0].state != '0'){
+          that.setData({
+            is_disabled: true,
+            btn_text: '活动完成'
+          })
+        }
+        // wx.showToast({
+        //   title: that.data.event.agent_phone,
+        //   duration: 5000
+        // })
       }
     })
     //code for liseter paticipate
@@ -150,7 +169,7 @@ Page({
   },
 
   btn_Clicked_Personal_Input: function (event) {
-    wx.navigateTo({
+    wx.redirectTo({
       url: '../personal_input/personal_input?id='+event.currentTarget.id,
       success: function (res) { },
       fail: function (res) { },
@@ -202,14 +221,18 @@ Page({
     console.log("SHARED")
     if (res.from === 'button') {
       console.log(res.target)
-    }
+    }    
+    var that = this;
     return {
-      title: this.data.event.eventName,
-      path: '/pages/index/detail_event/detail_event1?id=' + this.data.event.id + '&atype=1',
+      title: that.data.event.eventName,
+      path: '/pages/index/detail_event/detail_event1?id=' + that.data.event.id
+      + '&user_id=' + app.globalData.userInfo.user_id
+      + '&nickname=' + app.globalData.userInfo.nickname
+          + '&atype=1',
       success: function (res) {
       },
       fail: function (res) {
       }
     }
-  },
+  }
 })

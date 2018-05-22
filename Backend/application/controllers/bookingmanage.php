@@ -19,7 +19,8 @@ class bookingmanage extends basecontroller
         parent::__construct();
         $this->load->model('booking_model');
         $this->load->model('event_model');
-        $this->load->model('rating_model');
+        $this->load->model('rating_model');
+        $this->load->model('user_model');
         $this->isLoggedIn();
     }
 

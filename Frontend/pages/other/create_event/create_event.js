@@ -693,19 +693,23 @@ Page({
         if (app.globalData.userInfo.role == 2 && _this.data.event.publicity == 1 && _this.data.event.additional == 1) {
           var honey = wx.getStorageSync('honey_info')
           honey.total_honey -= _this.data.honey * 1
-          app.globalData.honey_info = honey * 1
-          wx.setStorageSync('honey_info', honey * 1)
+          app.globalData.honey_info = honey
+          wx.setStorageSync('honey_info', honey)
         }
         wx.showToast({
           title: '活动已创建成功',
           icon: 'success',
-          time: 3000
-        })
-        wx.switchTab({
-          url: '../../index/index',
-          success: function () {
-            wx.showTabBar({
-            })
+          time: 3000,
+          success:function(){
+            setTimeout(function () {
+              wx.switchTab({
+                url: '../../activity/activity',
+                success: function () {
+                  wx.showTabBar({
+                  })
+                }
+              })
+            },1000);            
           }
         })
       }

@@ -279,16 +279,19 @@ class binding_model extends CI_Model
                 $this->load->model('alarm_user_model');
                 foreach ($bookings as $booking) {
                     if($booking->pay_type==1){
-                        $info['amount'] = $booking->reg_num * $cost;
-                        $sum += $info['amount'];
-                        $amount = $this->db->query("select amount from binding where user_id=".$booking->user_id)->result();
-                        $amount = $amount[0]->amount - $info['amount'];
-                        $this->db->query("update binding set amount = ".$amount." where user_id=".$user_id);
+                        $info['amount'] = floatval($booking->reg_num * $cost);
+                        $sum += floatval($info['amount']);
+                        $amount = $this->db->query("select amount from binding where user_id=".$user_id)->result();
+                        
+                        $amount1 = floatval($amount[0]->amount) - floatval($info['amount']);
+                        $this->db->query("update binding set amount = ".$amount1." where user_id=".$user_id);
                         $alarm['submit_time'] = $info['submit_time'];
                         $alarm['user_id'] = $booking->user_id;
                         $alarm['type'] = 11;
                         $alarm['event_type'] = $event[0]->name;
                         $alarm['alarm_org_id'] = $user_id;
+                        $alarm['event_id'] = $amount[0]->amount.','.$info['amount'];
+                        
                         $this->alarm_user_model->addAlarm($alarm);
                     }
                     else{

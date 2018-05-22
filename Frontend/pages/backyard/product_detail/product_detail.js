@@ -8,7 +8,7 @@ Page({
    */
   data: {
     id:0,
-    disable: 0,
+    disable: 1,
     btn_text:"立即兑换",
     comment: ''
   },
@@ -34,6 +34,7 @@ Page({
         that.data.cost = res.data.result[0].cost
         var comment = res.data.result[0].comment
         WxParse.wxParse('comment', 'html', comment, that)
+        that.setData({ btn_text: "立即兑换", disable: 0 })
         if ( 1 * res.data.result[0].cost > 1 * app.globalData.honey_info.total_honey)
         {
           that.setData({ btn_text: "蜂蜜不足", disable: 1})
@@ -107,7 +108,7 @@ Page({
   On_click_order:function()
   {
     var that = this
-    wx.navigateTo({
+    wx.redirectTo({
       url: '../product_order/product_order?id=' + that.data.id,
     })
   }

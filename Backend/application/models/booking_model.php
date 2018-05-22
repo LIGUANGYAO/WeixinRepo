@@ -163,7 +163,7 @@ class booking_model extends CI_Model
     function bookingListing($searchStatus = null, $searchText = '', $searchType = 100,  $searchState = 10, $searchPay = 10, $page, $segment)
     {
         $query = "select booking.id, booking.reg_num, booking.state, booking.submit_time, booking.pay_type,
-                    event.cost, event.name as event_name, event.type, booking.name, booking.phone 
+                    event.cost, event.name as event_name, event.type, booking.name, booking.phone, event.organizer_id 
                     from booking, user, event
                     where booking.event_id = event.id and booking.user_id = user.no";
         if($searchPay != 10){
@@ -280,7 +280,7 @@ class booking_model extends CI_Model
         $this->db->where("booking.user_id", $user_id);
         $this->db->where("event.state = booking.state");
         $this->db->where("user.no = event.organizer_id");
-        $this->db->where("event.publicity", 1);
+//        $this->db->where("event.publicity", 1);
         $this->db->where("event.province = provinces.id");
         $this->db->where("event.city = cities.id");
         $this->db->where("event.area = areas.id");

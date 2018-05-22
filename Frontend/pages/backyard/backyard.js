@@ -12,6 +12,7 @@ Page({
   onLoad(){
   },
   onShow: function () {
+    var that = this;
     wx.login({
       success: function (res) {
         wx.request({
@@ -32,33 +33,38 @@ Page({
                     scope: 'scope.werun',
                   })
                 }
+                console.log('preparing werun ------------------');
                 wx.getWeRunData({
                   success: function (res) {
                     var encryptedData = res.encryptedData;
+                    console.log("getWerunData",encryptedData);
                     var iv = res.iv;
                     var pc = new WXBizDataCrypt(that.data.appid, wx.getStorageSync('session_key'));
                     var data = pc.decryptData(encryptedData, iv)
                     app.globalData.step = data.stepInfoList.pop().step * 1
                     app.globalData.laststep = data.stepInfoList.pop().step * 1
+                    console.log(app.globalData);
                     var todayfirst = wx.getStorageSync("todayfirst")
                     var tempdate2 = new Date()
                     if (todayfirst != tempdate2.getDate()) {
                       var tempdate = new Date()
                       wx.setStorageSync("todayselected", [])
+                      wx.setStorageSync("daily_honey", [0,0])
+                      app.globalData.daily_honey = [0,0]
 
                       var stephoney = (1 * app.globalData.laststep) * (app.globalData.rule[3].value * 1)
                       stephoney = 1 * Math.floor(stephoney)
                       var iter
                       if (stephoney != 0) {
-                        if (stephoney >= 1000 * (app.globalData.userInfo.isVIP + 1)) {
-                          stephoney = (1000 * (app.globalData.userInfo.isVIP + 1))
+                        if (stephoney >= app.globalData.rule[6].value * (app.globalData.userInfo.isVIP + 1)) {
+                          stephoney = (app.globalData.rule[6].value * (app.globalData.userInfo.isVIP + 1))
                           app.globalData.honey_info.honeybox_array = []
                         }
                         else {
                           var temparray = app.globalData.honey_info.honeybox_array
                           var sum = stephoney
                           for (iter = temparray.length - 1; iter >= 0; iter--) {
-                            if (sum + temparray[iter] < (app.globalData.rule[6].value * app.globalData.userInfo.isVIP)) {
+                            if (sum + temparray[iter] < (app.globalData.rule[6].value * (app.globalData.userInfo.isVIP+1))) {
                               sum = sum + temparray[iter]
                             }
                             else {
@@ -88,9 +94,10 @@ Page({
                             break;
                           }
                         }
-
-                        tempdate = Date.parse(tempdate.getFullYear(), tempdate.getMonth(), tempdate.getDate()) + 25200000
+                                                
+                        tempdate = Date.parse(new Date(tempdate.getFullYear(), tempdate.getMonth(), tempdate.getDate())) + 25200000
                         app.globalData.honey_info.honeybox_array.push({ x: tempx, y: tempy, honey: stephoney, start_time: tempdate })
+                        
                         wx.setStorageSync("honey_info", app.globalData.honey_info)
                         tempdate = new Date()
                         wx.setStorageSync("todayfirst", tempdate.getDate())
@@ -106,7 +113,7 @@ Page({
         })
       }
     })
-    //app.checkDate()
+    app.checkDate()
     var honey_info = wx.getStorageSync('honey_info')
     this.setData({
       total: app.globalData.honey_info.total_honey,
@@ -170,7 +177,7 @@ Page({
         honey_info.honeybox_array.splice(selected, 1)
       }
       app.globalData.daily_honey[1] = app.globalData.daily_honey[1] * 1 + 1*honey
-      honey_info.total_honey = 1 * honey + honey_info.total_honey * 1
+      honey_info.total_honey = parseFloat(1 * honey) + parseFloat(honey_info.total_honey * 1);
       this.setData({
         honeybox_array:honey_info.honeybox_array
       })
@@ -187,7 +194,9 @@ Page({
           no: 0,
           amount: honey_info.total_honey,
           honey: honey,
-          user_id: app.globalData.userInfo.user_id
+          user_id: app.globalData.userInfo.user_id,
+          todayfirst:wx.getStorageSync('todayfirst'),
+          daily_honey:JSON.stringify(wx.getStorageSync('daily_honey'))
         },
         success: function (res) {
         }

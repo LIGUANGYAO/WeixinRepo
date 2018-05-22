@@ -51,7 +51,6 @@ Page({
     that.data.events = []
     that.data.currentid = 0
 
-    
     that.setData({
       show_array: that.data.show_array,
       currentkind: that.data.currentkind,
@@ -85,7 +84,7 @@ Page({
           },
           success: function (res) {
             if (!res.data.status) return;
-            console.log("honey" )
+            console.log("honey")
             console.log(res)
             wx.getSystemInfo({
               success: function (res2) {
@@ -122,34 +121,36 @@ Page({
                     }
                   }
                 }
-                    if (iter == res.data.honey.length) {
-                      wx.getSavedFileList({
-                        success: function (res) {
-                          if (res.fileList.length > 0) {
-                            wx.removeSavedFile({
-                              filePath: res.fileList[0].filePath,
-                              complete: function (res) {
-                                console.log(res)
-                              }
-                            })
+                if (iter == res.data.honey.length) {
+                  wx.getSavedFileList({
+                    success: function (res) {
+                      if (res.fileList.length > 0) {
+                        wx.removeSavedFile({
+                          filePath: res.fileList[0].filePath,
+                          complete: function (res) {
+                            console.log(res)
                           }
-                        }
-                      })
-                      var sites = res.data.site
-                      iter = 0
-                      var tempPath = []
-                      var temp = 0
-
-                      while(that.data.num< sites.length){
-                        if(temp==that.data.num){
-                          if (res.data.site[that.data.num].site_icon == null) {
-                            res.data.site[that.data.num].site_icon = "Business@2x.png"
-                          }
-                          that.download_icon(res.data.site[that.data.num].site_icon, that.data.num, sites)
-                          temp++
-                        }
+                        })
                       }
                     }
+                  })
+                  var sites = res.data.site
+                  iter = 0
+                  var tempPath = []
+                  app.globalData.map_idx = 0;
+                  var temp = 0;
+                  if (sites.length > 0) {
+                    wx.showLoading({
+                      title: '加载中',
+                    })
+                  }
+                  while (temp < sites.length) {
+                    that.download_icon(res.data.site[temp].site_icon, temp, sites)
+                    that.sleep(10);
+                    temp++;
+                  }
+                  console.log('----' + temp + '----- ' + sites.length);
+                }
               },
             })
           },
@@ -181,12 +182,20 @@ Page({
       },
     })
   },
-  download_honey:function(res,res2,iter,brandx,brandy)
-  {
-    setTimeout(function(){
+  sleep: function (milliseconds) {
+    var start = new Date().getTime();
+    for (var i = 0; i < 1e7; i++) {
+      if ((new Date().getTime() - start) > milliseconds) {
+        break;
+      }
+    }
+
+  },
+  download_honey: function (res, res2, iter, brandx, brandy) {
+    setTimeout(function () {
       console.log(iter)
     }, 1000)
-    
+
   },
   download_icon: function (map_icon, index, sites) {
     var iter = index
@@ -202,19 +211,18 @@ Page({
               success: function (res) {
                 that.data.marker.push({
                   iconPath: res.savedFilePath,
-                  id: 'o' + sites[that.data.num].boss_id,
-                  latitude: 1 * sites[that.data.num].latitude,
-                  longitude: 1 * sites[that.data.num].longitude,
+                  id: 'o' + sites[iter].boss_id,
+                  latitude: 1 * sites[iter].latitude,
+                  longitude: 1 * sites[iter].longitude,
                   width: (69 / 750) * res2.screenWidth,
                   height: (73 / 1344) * res2.screenHeight,
                   kind: "site",
                 })
-                if (that.data.num == sites.length - 1) {
+
+                if (app.globalData.map_idx == sites.length - 1) {
                   that.show_marker()
                 }
-                else{
-                  that.data.num++
-                }
+                app.globalData.map_idx++
               }
             })
           }
@@ -223,11 +231,12 @@ Page({
     })
   },
   show_marker: function (kind = 0, first = 1) {
+    wx.hideLoading()
     var tempmarker = new Array()
-    if(kind==0){
+    if (kind == 0) {
       this.setData({ markers: this.data.marker })
     }
-    else{
+    else {
       for (var iter = 0; iter < this.data.marker.length; iter++) {
         if (this.data.marker[iter].kind == "honey") {
           tempmarker.push(this.data.marker[iter])
@@ -258,20 +267,25 @@ Page({
           break;
         }
       }
-      var origin = this.data.marker.splice(iter, 1) //selected honey
+      var origin = [this.data.marker[iter]] //selected honey
 
       var str = origin[0].label.content
       str = 1 * str.slice(0, str.length - 2) //current honey amount
       var distancex = this.distance(origin[0].latitude, origin[0].longitude, this.data.current_latitude, this.data.current_longitude)
       var flag = 0
       var clickhoney = 0
-      var markersin = (app.globalData.step / 2 * vip)
+      if (wx.getStorageSync('user_step') == '') wx.setStorageSync('user_step', '0')
+      var step = parseInt(wx.getStorageSync('user_step'))
+      var markersin = (step / 2 * vip)
+      console.log('------markersin =  ------' + markersin);
+      if (app.globalData.daily_honey == '') {
+        app.globalData.daily_honey = [0, 0]
+      }
       if (distancex < markersin) { //less than markersin
-        var rand = Math.ceil(Math.random() * (app.globalData.rule[5].value * 1 - app.globalData.daily_honey[0])) //daily honey getting from map is less than 500
-        if (rand == 0) {
-          rand = 1
-        }
-        if (rand >= str) {
+        var rand = 1 + Math.ceil(Math.random() * (app.globalData.rule[5].value * 1 - app.globalData.daily_honey[0]) - 1)         //daily honey getting from map is less than 500
+        var rand1 = Math.ceil(parseInt(str) * (0.1 + Math.random() * 0.4));
+        if (rand1 < rand) rand = rand1;
+        if (rand < 3) {
           flag = 1
           clickhoney = str
         }
@@ -330,7 +344,7 @@ Page({
       var title = '成功收取' + clickhoney + 'ml蜂蜜'
       wx.showToast({
         title: title,
-        time: 2000,
+        duration: 2000,
         icon: 'none'
       })
       wx.request({

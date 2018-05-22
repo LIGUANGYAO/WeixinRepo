@@ -1,7 +1,6 @@
 //index.js
 //获取应用实例
 const app = getApp()
-
 Page({
   data: {
     event: {
@@ -25,6 +24,17 @@ Page({
     rating_amount: 0,
   },
   onLoad: function (option) {
+    var that = this;
+    if (app.globalData.userInfo.user_id == 0) {
+      app.onLaunch();
+      setTimeout(function () {
+        that.onInitStart(option);
+      }, 4000);
+    } else {
+      that.onInitStart(option);
+    }
+  },
+  onInitStart: function (option) {
     wx.showLoading({
       title: '加载中',
     })
@@ -55,7 +65,9 @@ Page({
         console.log(res.data.favor)
         var books = res.data.booking;
         var registered_num = 0;
-        that.setData({ favourite_num: 1 * res.data.result[0].favor_state })
+        that.setData({
+          favourite_num: 1 * res.data.result[0].favor_state
+        })
         for (var index = 0; index < books.length; index++) {
           console.log(books[index].nickname)
           if (books[index].nickname == app.globalData.userInfo.nickname && 1 * books[index].state == 0) {
@@ -114,6 +126,7 @@ Page({
         event_buf.start_time = time[0] + ':' + time[1];
         time = event_buf.end_time.split(':');
         event_buf.end_time = time[0] + ':' + time[1];
+        event_buf.agent_phone = res.data.result[0].agent_phone
         wx.setNavigationBarTitle({
           title: app.globalData.eventType[event_buf.type] + '活动'
         })
@@ -121,7 +134,17 @@ Page({
           event: event_buf,
           id: id
         });
-
+        if (res.data.result[0].state == '1') {
+          that.setData({
+            is_disabled: true,
+            btn_text: '活动已结束'
+          })
+        } else if (res.data.result[0].state == '2') {
+          that.setData({
+            is_disabled: true,
+            btn_text: '活动已取消'
+          })
+        }
       }
     })
     //code for liseter paticipate
@@ -193,4 +216,22 @@ Page({
       }
     })
   },
+  onShareAppMessage: function (res) {
+    console.log("SHARED")
+    if (res.from === 'button') {
+      console.log(res.target)
+    }
+    var that = this;
+    return {
+      title: that.data.event.eventName,
+      path: '/pages/index/detail_event/detail_event1?id=' + that.data.event.id
+      + '&user_id=' + app.globalData.userInfo.user_id
+      + '&nickname=' + app.globalData.userInfo.nickname
+      + '&atype=1',
+      success: function (res) {
+      },
+      fail: function (res) {
+      }
+    }
+  }
 })

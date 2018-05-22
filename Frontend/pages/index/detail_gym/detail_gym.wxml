@@ -36,14 +36,14 @@
     <view class='comment-gym-label'>
       <text style="font-weight: bold;">场馆介绍</text>
     </view>
-    <view style="padding-left: 30rpx;">
+    <view style="padding-left: 30rpx; padding-right:30rpx;">
       <text selectable = "true" class='comment-gym-text'>{{site.site_introduction!=null?site.site_introduction:''}}</text>
     </view>
   </view>
 
   <view class='comment-service'>
     <view class='comment-service-label' style="font-weight: bold;">服务介绍</view>
-    <view style="padding-left: 30rpx;">
+    <view style="padding-left: 30rpx; padding-right:30rpx;">
       <text class='comment-service-text' selectable='true'>{{site.site_service!=null?site.site_service:''}}</text>
     </view>
   </view>

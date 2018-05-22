@@ -41,6 +41,7 @@ Page({
             credit_no: res.data.result[0].credit_no,
             id_no: res.data.result[0].id_no
           })
+          if (res.data.result[0].id_no == null) return;
           var buff = res.data.result[0].id_no.slice(0, 4) + '********' + that.data.id_no.slice((that.data.id_no.length - 4), that.data.id_no.length);
           that.setData({
             id_no_hidden: buff,

@@ -206,5 +206,6 @@ $route['api/getNewAlarm'] = "api/datamanage/getNewAlarm";
 $route['api/getAlarm'] = "api/datamanage/getAlarm";
 $route['api/getAllBoss'] = "api/datamanage/getAllBoss";
 
+$route['api/test'] = "api/datamanage/test";
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

@@ -26,6 +26,7 @@ Page({
       },
       success: function (res) {
         if (!res.data.status) return;
+        console.log(res.data.result);
         that.setData({product_array: res.data.result})
       },
       fail: function () {

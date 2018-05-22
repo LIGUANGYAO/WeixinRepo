@@ -110,13 +110,13 @@ Page({
       success: function (res) {
         app.globalData.honey_info.total_honey -= 1 * that.data.cost
         wx.setStorageSync("honey_info", app.globalData.honey_info)
-        wx.navigateTo({
+        wx.redirectTo({
           url: '../ordercomplete/ordercomplete',
-          success:function()
-          {
+          success: function () {
             that.data.isfirstbtn = 0
           }
         })
+        
       },
       fail: function () {
       }

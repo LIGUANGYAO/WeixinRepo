@@ -104,14 +104,17 @@
 
 .input-info-name {
   margin-left: 30rpx;
+  display:inline-block;
+  position: relative;
 }
 
 .input-info-input {
   vertical-align: middle;
   margin-left: 30rpx;
   width: auto;
-  margin-right: 20rpx;
+  margin-right: 5rpx;
   display: inline-block;
+  position: relative;
 }
 
 .authnumber-btn {
